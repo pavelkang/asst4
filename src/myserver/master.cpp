@@ -31,8 +31,8 @@ typedef struct Work {
 
       if (cmd.compare("418wisdom") == 0) {
         // compute intensive
-        cpu_power = 1;
-        mem_power = 0;
+        cpu_pow = 1;
+        mem_pow = 0;
       }
       // else if (cmd.compare("bandwidth") == 0) {
       //   // bandwidth intensive
@@ -40,8 +40,8 @@ typedef struct Work {
       // }
       else if (cmd.compare("projectidea") == 0) {
         // has an L3-cache sized working set
-        cpu_power = 1;
-        mem_power = 1;
+        cpu_pow = 1;
+        mem_pow = 1;
       }
   };
 } Work;
@@ -176,7 +176,6 @@ void handle_new_worker_online(Worker_handle worker_handle, int tag) {
   if (mstate.server_ready == false) {
     server_init_complete();
     mstate.server_ready = true;
-    request_new_worker_node(NULL);
   }
 
   tag = tag;
