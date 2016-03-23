@@ -69,23 +69,38 @@ static struct Master_state {
   unordered_map<int, CPRequest *>cp_map;
 } mstate;
 
-Worker find_worker() {
-  for (auto worker : mstate.my_workers) {
-    if (worker.load < MAX_NUM_THREAD) { // good choice
-      return worker;
+Worker *find_worker() {
+  for (size_t i = 0; i < mstate.my_workers.size(); i++) {
+    if (mstate.my_workers[i].load < 50) {
+      return &mstate.my_workers[i];
     }
   }
-  assert(false);
+  return NULL;
 }
 
 void assign_work() {
   Work work = mstate.pending_work.front();
-  mstate.pending_work.pop();
+
   int tag = mstate.next_tag++;
   mstate.wait_table[tag] = work;
   Request_msg worker_req(tag, work.client_req);
-  Worker worker = find_worker();
-  send_request_to_worker(worker.handle, worker_req);
+  Worker *worker = find_worker();
+  if (worker == NULL) {
+    Request_msg req(0);
+    request_new_worker_node(req);
+    return ;
+  }
+  mstate.pending_work.pop();
+  send_request_to_worker(worker->handle, worker_req);
+}
+
+void remove_load(Worker_handle h) {
+  for (auto worker : mstate.my_workers) {
+    if (worker.handle == h) {
+      worker.load--;
+      return ;
+    }
+  }
 }
 
 void master_node_init(int max_workers, int& tick_period) {
@@ -109,7 +124,6 @@ void master_node_init(int max_workers, int& tick_period) {
   Request_msg req(tag);
   req.set_arg("name", "my worker 0");
   request_new_worker_node(req);
-
 }
 
 void handle_new_worker_online(Worker_handle worker_handle, int tag) {
@@ -167,6 +181,7 @@ void handle_worker_response(Worker_handle worker_handle, const Response_msg& res
     }
   }
   send_client_response(waiting_client, resp);
+  remove_load(worker_handle);
   mstate.num_pending_client_requests--;
   worker_handle = worker_handle;
   // Master node has received a response from one of its workers.
@@ -220,8 +235,12 @@ void handle_client_request(Client_handle client_handle, const Request_msg& clien
         create_computeprimes_req(r, cpreq->params[i]);
         Work work(client_handle, r);
         mstate.wait_table[tag] = work;
-        Worker worker = find_worker();
-        send_request_to_worker(worker.handle, r);
+        Worker *worker = find_worker();
+        if (worker == NULL) {
+          mstate.pending_work.push(work);
+        } else {
+          send_request_to_worker(worker->handle, r);
+        }
       }
     }
     if (cpreq->count == 4) { // all in cache
@@ -239,35 +258,6 @@ void handle_client_request(Client_handle client_handle, const Request_msg& clien
   Work w(client_handle, client_req);
   mstate.pending_work.push(w);
   assign_work();
-
-  // original
-  // // The provided starter code cannot handle multiple pending client
-  // // requests.  The server returns an error message, and the checker
-  // // will mark the response as "incorrect"
-  // if (mstate.num_pending_client_requests > 0) {
-  //   Response_msg resp(0);
-  //   resp.set_response("Oh no! This server cannot handle multiple outstanding requests!");
-  //   send_client_response(client_handle, resp);
-  //   return;
-  // }
-
-  // // Save off the handle to the client that is expecting a response.
-  // // The master needs to do this it can response to this client later
-  // // when 'handle_worker_response' is called.
-  // mstate.waiting_client = client_handle;
-  // mstate.num_pending_client_requests++;
-
-  // // Fire off the request to the worker.  Eventually the worker will
-  // // respond, and your 'handle_worker_response' event handler will be
-  // // called to forward the worker's response back to the server.
-  // int tag = mstate.next_tag++;
-  // Request_msg worker_req(tag, client_req);
-  // send_request_to_worker(mstate.my_worker, worker_req);
-
-  // // We're done!  This event handler now returns, and the master
-  // // process calls another one of your handlers when action is
-  // // required.
-
 }
 
 

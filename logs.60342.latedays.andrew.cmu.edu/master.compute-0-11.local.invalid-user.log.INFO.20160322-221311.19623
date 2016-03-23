@@ -1,0 +1,8 @@
+Log file created at: 2016/03/22 22:13:11
+Running on machine: compute-0-11.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0322 22:13:11.933192 19623 main_loop.cpp:73] Requesting worker name=my worker 0;tag=1804289383
+I0322 22:13:11.935214 19623 main_loop.cpp:73] Requesting worker name=my worker 0;tag=1804289383
+I0322 22:13:13.460454 19623 master.cpp:182] Received request: cmd=418wisdom;x=84443
+I0322 22:13:13.638797 19623 master.cpp:182] Received request: cmd=418wisdom;x=75796
+F0322 22:13:13.638811 19623 main_loop.cpp:106] Check failed: workers.find(worker_handle) != workers.end() Attempt to send work to invalid worker
