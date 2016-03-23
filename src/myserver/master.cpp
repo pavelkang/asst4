@@ -128,6 +128,7 @@ void handle_new_worker_online(Worker_handle worker_handle, int tag) {
   if (mstate.server_ready == false) {
     server_init_complete();
     mstate.server_ready = true;
+    request_new_worker_node(NULL);
   }
 
   tag = tag;
