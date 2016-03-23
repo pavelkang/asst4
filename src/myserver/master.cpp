@@ -15,16 +15,41 @@ using namespace std;
 #define MAX_INT 9999999
 #define MAX_NUM_THREAD 24
 
+#define MAX_CPU_POW 50
+#define MAX_MEM_POW 2
+
 typedef struct Work {
   Client_handle client_handle;
   Request_msg client_req;
+  int cpu_pow;
+  int mem_pow;
   Work() {};
-  Work(Client_handle ch, Request_msg cr) : client_handle(ch), client_req(cr) {};
+  Work(Client_handle ch, Request_msg cr) : client_handle(ch), client_req(cr) {
+      std::string cmd = cr.get_arg("cmd");
+      cpu_pow = 0;
+      mem_pow = 0;
+
+      if (cmd.compare("418wisdom") == 0) {
+        // compute intensive
+        cpu_power = 1;
+        mem_power = 0;
+      }
+      // else if (cmd.compare("bandwidth") == 0) {
+      //   // bandwidth intensive
+      //   high_bandwidth_job(req, resp);
+      // }
+      else if (cmd.compare("projectidea") == 0) {
+        // has an L3-cache sized working set
+        cpu_power = 1;
+        mem_power = 1;
+      }
+  };
 } Work;
 
 typedef struct Worker {
   Worker_handle handle;
   int load;
+  int mem_load;
   Worker() {};
   Worker(Worker_handle h) : handle(h), load(0) {};
 } Worker;
@@ -69,9 +94,10 @@ static struct Master_state {
   unordered_map<int, CPRequest *>cp_map;
 } mstate;
 
-Worker *find_worker() {
+Worker *find_worker(int required_cpu, int required_mem) {
   for (size_t i = 0; i < mstate.my_workers.size(); i++) {
-    if (mstate.my_workers[i].load < 50) {
+    if (((mstate.my_workers[i].load + required_cpu) < MAX_CPU_POW) &&
+        ((mstate.my_workers[i].mem_load + required_mem) < MAX_MEM_POW)){
       return &mstate.my_workers[i];
     }
   }
@@ -81,10 +107,17 @@ Worker *find_worker() {
 void assign_work() {
   Work work = mstate.pending_work.front();
 
+  Request_msg msg = work.client_req;
+  std::string cmd = msg.get_arg("cmd");
+
+  int cpu_power = work.cpu_pow;
+  int mem_power = work.mem_pow;
+
+
   int tag = mstate.next_tag++;
   mstate.wait_table[tag] = work;
   Request_msg worker_req(tag, work.client_req);
-  Worker *worker = find_worker();
+  Worker *worker = find_worker(cpu_power, mem_power);
   if (worker == NULL) {
     Request_msg req(0);
     request_new_worker_node(req);
@@ -94,10 +127,11 @@ void assign_work() {
   send_request_to_worker(worker->handle, worker_req);
 }
 
-void remove_load(Worker_handle h) {
+void remove_load(Worker_handle h, Work w) {
   for (auto worker : mstate.my_workers) {
     if (worker.handle == h) {
-      worker.load--;
+      worker.load -= w.cpu_pow;
+      worker.mem_load -= w.mem_pow;
       return ;
     }
   }
@@ -181,7 +215,7 @@ void handle_worker_response(Worker_handle worker_handle, const Response_msg& res
     }
   }
   send_client_response(waiting_client, resp);
-  remove_load(worker_handle);
+  remove_load(worker_handle, waiting_work);
   mstate.num_pending_client_requests--;
   worker_handle = worker_handle;
   // Master node has received a response from one of its workers.
@@ -235,7 +269,7 @@ void handle_client_request(Client_handle client_handle, const Request_msg& clien
         create_computeprimes_req(r, cpreq->params[i]);
         Work work(client_handle, r);
         mstate.wait_table[tag] = work;
-        Worker *worker = find_worker();
+        Worker *worker = find_worker(1, 0);
         if (worker == NULL) {
           mstate.pending_work.push(work);
         } else {
