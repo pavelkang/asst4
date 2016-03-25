@@ -160,6 +160,22 @@ int find_tag_by_work(Work *work) {
   assert(false);
 }
 
+void send_memjob() {
+  int free_mems = 0;
+  for (auto worker : mstate.my_workers) {
+    free_mems += MAX_MEM_POW - worker->mem_load;
+  }
+  while (free_mems > 0 && mstate.pending_bandwidth_work.size() > 0) {
+    free_mems--;
+    Work *mem_job = mstate.pending_bandwidth_work.front();
+    mstate.pending_bandwidth_work.pop();
+    Worker *worker = find_worker(1, 1);
+    int tag = find_tag_by_work(mem_job);
+    Request_msg req(tag, mem_job->client_req);
+    Send_Request_To_Worker(worker->handle, req);
+  }
+}
+
 void assign_work(Work *work) {
   int tag = mstate.next_tag++;
   mstate.wait_table[tag] = work;
@@ -170,24 +186,13 @@ void assign_work(Work *work) {
     Send_Request_To_Worker(mstate.my_workers[rand_worker]->handle, worker_req);
     return ;
   } else if (work->client_req.get_arg("cmd") == "projectidea") { // bandwidth job
-    // Worker *best_worker = find_worker(work.cpu_pow, work.mem_pow);
-    // if (best_worker == NULL) {
-    //   // no one can server it right now, push to pending_bandwidth_works
-    //   mstate.pending_bandwidth_work.push(work);
-    //   // be careful requestingnew worker
-    //   if (mstate.pending_bandwidth_work.size() > BANDWIDTH_TH &&
-    //       mstate.requesting_worker == false &&
-    //       mstate.my_workers.size() < (size_t) mstate.max_num_workers) {
-    //     Request_Worker();
-    //   }
-    //   return;
-    // } else { // found a worker who can serve a mem job
-    //   mstate.pending_bandwidth_work.push(work);
-    //   Work mem_job = mstate.pending_bandwidth_work.front();
-    //   Send_Request_To_Worker(best_worker->handle, mem_job.client_req, true); // PROBLEM HERE!!!
-    //   mstate.pending_bandwidth_work.pop();
-    //   return;
-    // }
+    mstate.pending_bandwidth_work.push(work);
+    send_memjob();
+    if (mstate.pending_bandwidth_work.size() > 3
+        && mstate.my_workers.size() < (size_t) mstate.max_num_workers
+        && mstate.requesting_worker == false) {
+      Request_Worker();
+    }
   } else { // schedule a normal cpu job
     Worker *best_worker = find_worker(work->cpu_pow, work->mem_pow);
     if (best_worker == NULL) {
@@ -422,7 +427,9 @@ void handle_client_request(Client_handle client_handle, const Request_msg& clien
 }
 
 
+
 void handle_tick() {
+  send_memjob();
   // // kill TODO
   if (mstate.my_workers.size() >= 2) {
     for (auto worker : mstate.my_workers) {

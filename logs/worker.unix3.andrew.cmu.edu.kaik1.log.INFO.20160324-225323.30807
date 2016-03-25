@@ -1,0 +1,9 @@
+Log file created at: 2016/03/24 22:53:23
+Running on machine: unix3.andrew.cmu.edu
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0324 22:53:23.297799 30807 main.cpp:49] Booting worker. Hostname: unix3.andrew.cmu.edu
+I0324 22:53:24.300890 30807 main.cpp:62] Connected to master unix3.andrew.cmu.edu:15419
+I0324 22:53:24.300943 30807 worker.cpp:46] **** Initializing worker:  ****
+I0324 22:53:24.795135 30807 worker.cpp:62] Worker got request: [0:cmd=projectidea;x=84443]
+I0324 22:53:26.796340 30807 worker.cpp:62] Worker got request: [1:cmd=projectidea;x=75796]
+I0324 22:53:30.589270 30807 main.cpp:103] Worker on unix3.andrew.cmu.edu is shutting down (master terminated connection)
