@@ -10,7 +10,7 @@
 #include "tools/cycle_timer.h"
 #include "tools/work_queue.h"
 
-#define MAX_NUM_THREADS 48
+#define MAX_NUM_THREADS 24
 WorkQueue<Request_msg> work_queue;
 WorkQueue<Request_msg> tellme_queue;
 using namespace std;
