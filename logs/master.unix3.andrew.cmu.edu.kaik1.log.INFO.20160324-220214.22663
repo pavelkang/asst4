@@ -1,0 +1,1807 @@
+Log file created at: 2016/03/24 22:02:14
+Running on machine: unix3.andrew.cmu.edu
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0324 22:02:14.821105 22663 master.cpp:136] Requesting a new worker
+I0324 22:02:14.823827 22663 main_loop.cpp:73] Requesting worker tag=0
+I0324 22:02:16.335804 22663 master.cpp:354] Received request: cmd=418wisdom;x=84443
+I0324 22:02:16.335829 22663 master.cpp:165] assign tag 0 to work 0x5b2c530
+I0324 22:02:16.335842 22663 master.cpp:144] Sending request 0to worker.
+I0324 22:02:16.337997 22663 master.cpp:354] Received request: cmd=418wisdom;x=75796
+I0324 22:02:16.338017 22663 master.cpp:165] assign tag 1 to work 0x5b2c730
+I0324 22:02:16.338024 22663 master.cpp:144] Sending request 1to worker.
+I0324 22:02:16.347992 22663 master.cpp:354] Received request: cmd=418wisdom;x=42057
+I0324 22:02:16.348006 22663 master.cpp:165] assign tag 2 to work 0x5b24c10
+I0324 22:02:16.348011 22663 master.cpp:144] Sending request 2to worker.
+I0324 22:02:16.358031 22663 master.cpp:354] Received request: cmd=418wisdom;x=25891
+I0324 22:02:16.358049 22663 master.cpp:165] assign tag 3 to work 0x5b24e70
+I0324 22:02:16.358060 22663 master.cpp:144] Sending request 3to worker.
+I0324 22:02:16.367992 22663 master.cpp:354] Received request: cmd=418wisdom;x=51127
+I0324 22:02:16.368010 22663 master.cpp:165] assign tag 4 to work 0x5b25110
+I0324 22:02:16.368019 22663 master.cpp:144] Sending request 4to worker.
+I0324 22:02:16.377971 22663 master.cpp:354] Received request: cmd=418wisdom;x=40493
+I0324 22:02:16.377988 22663 master.cpp:165] assign tag 5 to work 0x5b253b0
+I0324 22:02:16.378000 22663 master.cpp:144] Sending request 5to worker.
+I0324 22:02:16.388209 22663 master.cpp:354] Received request: cmd=418wisdom;x=78380
+I0324 22:02:16.388224 22663 master.cpp:165] assign tag 6 to work 0x5b25650
+I0324 22:02:16.388232 22663 master.cpp:144] Sending request 6to worker.
+I0324 22:02:16.398427 22663 master.cpp:354] Received request: cmd=418wisdom;x=30331
+I0324 22:02:16.398443 22663 master.cpp:165] assign tag 7 to work 0x5b258f0
+I0324 22:02:16.398450 22663 master.cpp:144] Sending request 7to worker.
+I0324 22:02:16.408074 22663 master.cpp:354] Received request: cmd=418wisdom;x=47660
+I0324 22:02:16.408088 22663 master.cpp:165] assign tag 8 to work 0x5b25b90
+I0324 22:02:16.408097 22663 master.cpp:144] Sending request 8to worker.
+I0324 22:02:16.418059 22663 master.cpp:354] Received request: cmd=418wisdom;x=58338
+I0324 22:02:16.418074 22663 master.cpp:165] assign tag 9 to work 0x5b25e30
+I0324 22:02:16.418081 22663 master.cpp:144] Sending request 9to worker.
+I0324 22:02:16.428201 22663 master.cpp:354] Received request: cmd=418wisdom;x=90812
+I0324 22:02:16.428215 22663 master.cpp:165] assign tag 10 to work 0x5b260d0
+I0324 22:02:16.428222 22663 master.cpp:144] Sending request 10to worker.
+I0324 22:02:16.438166 22663 master.cpp:354] Received request: cmd=418wisdom;x=50469
+I0324 22:02:16.438190 22663 master.cpp:165] assign tag 11 to work 0x5b26370
+I0324 22:02:16.438199 22663 master.cpp:144] Sending request 11to worker.
+I0324 22:02:16.448128 22663 master.cpp:354] Received request: cmd=418wisdom;x=28184
+I0324 22:02:16.448143 22663 master.cpp:165] assign tag 12 to work 0x5b26610
+I0324 22:02:16.448150 22663 master.cpp:144] Sending request 12to worker.
+I0324 22:02:16.458147 22663 master.cpp:354] Received request: cmd=418wisdom;x=75581
+I0324 22:02:16.458160 22663 master.cpp:165] assign tag 13 to work 0x5b268b0
+I0324 22:02:16.458168 22663 master.cpp:144] Sending request 13to worker.
+I0324 22:02:16.468499 22663 master.cpp:354] Received request: cmd=418wisdom;x=61837
+I0324 22:02:16.468514 22663 master.cpp:165] assign tag 14 to work 0x5b26b50
+I0324 22:02:16.468521 22663 master.cpp:144] Sending request 14to worker.
+I0324 22:02:16.478183 22663 master.cpp:354] Received request: cmd=418wisdom;x=25050
+I0324 22:02:16.478199 22663 master.cpp:165] assign tag 15 to work 0x5b26df0
+I0324 22:02:16.478205 22663 master.cpp:144] Sending request 15to worker.
+I0324 22:02:16.488137 22663 master.cpp:354] Received request: cmd=418wisdom;x=90975
+I0324 22:02:16.488150 22663 master.cpp:165] assign tag 16 to work 0x5b27090
+I0324 22:02:16.488158 22663 master.cpp:144] Sending request 16to worker.
+I0324 22:02:16.498168 22663 master.cpp:354] Received request: cmd=418wisdom;x=98279
+I0324 22:02:16.498191 22663 master.cpp:165] assign tag 17 to work 0x5b27330
+I0324 22:02:16.498278 22663 master.cpp:144] Sending request 17to worker.
+I0324 22:02:16.508463 22663 master.cpp:354] Received request: cmd=418wisdom;x=81022
+I0324 22:02:16.508478 22663 master.cpp:165] assign tag 18 to work 0x5b275d0
+I0324 22:02:16.508486 22663 master.cpp:144] Sending request 18to worker.
+I0324 22:02:16.518139 22663 master.cpp:354] Received request: cmd=418wisdom;x=90217
+I0324 22:02:16.518154 22663 master.cpp:165] assign tag 19 to work 0x5b27870
+I0324 22:02:16.518162 22663 master.cpp:144] Sending request 19to worker.
+I0324 22:02:16.528048 22663 master.cpp:354] Received request: cmd=418wisdom;x=31015
+I0324 22:02:16.528066 22663 master.cpp:165] assign tag 20 to work 0x5b27b10
+I0324 22:02:16.528079 22663 master.cpp:144] Sending request 20to worker.
+I0324 22:02:16.540485 22663 master.cpp:354] Received request: cmd=418wisdom;x=72983
+I0324 22:02:16.540503 22663 master.cpp:165] assign tag 21 to work 0x5b24560
+I0324 22:02:16.540514 22663 master.cpp:144] Sending request 21to worker.
+I0324 22:02:16.548148 22663 master.cpp:354] Received request: cmd=418wisdom;x=89884
+I0324 22:02:16.548166 22663 master.cpp:165] assign tag 22 to work 0x5b27e00
+I0324 22:02:16.548184 22663 master.cpp:144] Sending request 22to worker.
+I0324 22:02:16.558066 22663 master.cpp:354] Received request: cmd=418wisdom;x=68399
+I0324 22:02:16.558084 22663 master.cpp:165] assign tag 23 to work 0x5b281c0
+I0324 22:02:16.558094 22663 master.cpp:144] Sending request 23to worker.
+I0324 22:02:16.568035 22663 master.cpp:354] Received request: cmd=tellmenow;x=4249
+I0324 22:02:16.568054 22663 master.cpp:165] assign tag 24 to work 0x5b283f0
+I0324 22:02:16.568070 22663 master.cpp:144] Sending request 24to worker.
+I0324 22:02:16.568341 22663 master.cpp:311] Master received a response from a worker: [24:Re-watch the lecture on scaling a website]
+I0324 22:02:16.568356 22663 master.cpp:314] Found tag 24 work 0x5b283f0
+I0324 22:02:16.609259 22663 master.cpp:354] Received request: cmd=tellmenow;x=906
+I0324 22:02:16.609278 22663 master.cpp:165] assign tag 25 to work 0x5b2c4b0
+I0324 22:02:16.609289 22663 master.cpp:144] Sending request 25to worker.
+I0324 22:02:16.609377 22663 master.cpp:354] Received request: cmd=tellmenow;x=3907
+I0324 22:02:16.609392 22663 master.cpp:165] assign tag 26 to work 0x5b28740
+I0324 22:02:16.609402 22663 master.cpp:144] Sending request 26to worker.
+I0324 22:02:16.609447 22663 master.cpp:354] Received request: cmd=tellmenow;x=5498
+I0324 22:02:16.609462 22663 master.cpp:165] assign tag 27 to work 0x5b28970
+I0324 22:02:16.609470 22663 master.cpp:144] Sending request 27to worker.
+I0324 22:02:16.609505 22663 master.cpp:354] Received request: cmd=tellmenow;x=8218
+I0324 22:02:16.609519 22663 master.cpp:165] assign tag 28 to work 0x5b28a50
+I0324 22:02:16.609529 22663 master.cpp:144] Sending request 28to worker.
+I0324 22:02:16.613849 22663 master.cpp:354] Received request: cmd=tellmenow;x=8700
+I0324 22:02:16.613867 22663 master.cpp:165] assign tag 29 to work 0x5b28bf0
+I0324 22:02:16.613876 22663 master.cpp:144] Sending request 29to worker.
+I0324 22:02:16.626848 22663 master.cpp:354] Received request: cmd=tellmenow;x=4293
+I0324 22:02:16.626865 22663 master.cpp:165] assign tag 30 to work 0x5b28e30
+I0324 22:02:16.626875 22663 master.cpp:144] Sending request 30to worker.
+I0324 22:02:16.639842 22663 master.cpp:354] Received request: cmd=tellmenow;x=7788
+I0324 22:02:16.639858 22663 master.cpp:165] assign tag 31 to work 0x5b29060
+I0324 22:02:16.639868 22663 master.cpp:144] Sending request 31to worker.
+I0324 22:02:16.649420 22663 master.cpp:311] Master received a response from a worker: [25:There may be opportunities for caching in this assignment]
+I0324 22:02:16.649433 22663 master.cpp:314] Found tag 25 work 0x5b2c4b0
+I0324 22:02:16.649482 22663 master.cpp:311] Master received a response from a worker: [26:The best performance may come from a particular mixture of jobs on a worker node.]
+I0324 22:02:16.649494 22663 master.cpp:314] Found tag 26 work 0x5b28740
+I0324 22:02:16.649541 22663 master.cpp:311] Master received a response from a worker: [27:Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.]
+I0324 22:02:16.649619 22663 master.cpp:314] Found tag 27 work 0x5b28970
+I0324 22:02:16.649679 22663 master.cpp:311] Master received a response from a worker: [28:Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.]
+I0324 22:02:16.649690 22663 master.cpp:314] Found tag 28 work 0x5b28a50
+I0324 22:02:16.649737 22663 master.cpp:311] Master received a response from a worker: [29:We recommend getting full credit on grading_wisdom.txt first]
+I0324 22:02:16.649749 22663 master.cpp:314] Found tag 29 work 0x5b28bf0
+I0324 22:02:16.649834 22663 master.cpp:311] Master received a response from a worker: [30:The best performance may come from a particular mixture of jobs on a worker node.]
+I0324 22:02:16.649847 22663 master.cpp:314] Found tag 30 work 0x5b28e30
+I0324 22:02:16.649893 22663 master.cpp:311] Master received a response from a worker: [31:Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.]
+I0324 22:02:16.649905 22663 master.cpp:314] Found tag 31 work 0x5b29060
+I0324 22:02:16.657346 22663 master.cpp:354] Received request: cmd=tellmenow;x=2344
+I0324 22:02:16.657369 22663 master.cpp:165] assign tag 32 to work 0x5b291e0
+I0324 22:02:16.657382 22663 master.cpp:144] Sending request 32to worker.
+I0324 22:02:16.710254 22663 master.cpp:354] Received request: cmd=tellmenow;x=7246
+I0324 22:02:16.710273 22663 master.cpp:165] assign tag 33 to work 0x5b293c0
+I0324 22:02:16.710283 22663 master.cpp:144] Sending request 33to worker.
+I0324 22:02:16.710348 22663 master.cpp:354] Received request: cmd=tellmenow;x=4938
+I0324 22:02:16.710363 22663 master.cpp:165] assign tag 34 to work 0x5b29560
+I0324 22:02:16.710373 22663 master.cpp:144] Sending request 34to worker.
+I0324 22:02:16.710405 22663 master.cpp:354] Received request: cmd=tellmenow;x=126
+I0324 22:02:16.710419 22663 master.cpp:165] assign tag 35 to work 0x5b29700
+I0324 22:02:16.710430 22663 master.cpp:144] Sending request 35to worker.
+I0324 22:02:16.710459 22663 master.cpp:311] Master received a response from a worker: [32:There may be opportunities for caching in this assignment]
+I0324 22:02:16.710472 22663 master.cpp:314] Found tag 32 work 0x5b291e0
+I0324 22:02:16.710526 22663 master.cpp:311] Master received a response from a worker: [33:There may be opportunities for caching in this assignment]
+I0324 22:02:16.710539 22663 master.cpp:314] Found tag 33 work 0x5b293c0
+I0324 22:02:16.750255 22663 master.cpp:311] Master received a response from a worker: [34:Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.]
+I0324 22:02:16.750270 22663 master.cpp:314] Found tag 34 work 0x5b29560
+I0324 22:02:16.750324 22663 master.cpp:311] Master received a response from a worker: [35:There may be opportunities for caching in this assignment]
+I0324 22:02:16.750335 22663 master.cpp:314] Found tag 35 work 0x5b29700
+I0324 22:02:18.569805 22663 master.cpp:311] Master received a response from a worker: [1:Flatter your TAs with compliments]
+I0324 22:02:18.569818 22663 master.cpp:314] Found tag 1 work 0x5b2c730
+I0324 22:02:18.570658 22663 master.cpp:311] Master received a response from a worker: [4:Flatter your TAs with compliments]
+I0324 22:02:18.570669 22663 master.cpp:314] Found tag 4 work 0x5b25110
+I0324 22:02:18.570922 22663 master.cpp:311] Master received a response from a worker: [5:Come to lecture, there might be donuts!]
+I0324 22:02:18.570932 22663 master.cpp:314] Found tag 5 work 0x5b253b0
+I0324 22:02:18.576900 22663 master.cpp:311] Master received a response from a worker: [6:Write a great lecture comment on your favorite idea in the class]
+I0324 22:02:18.576911 22663 master.cpp:314] Found tag 6 work 0x5b25650
+I0324 22:02:18.586057 22663 master.cpp:311] Master received a response from a worker: [3:OMG, 418 is so gr8!]
+I0324 22:02:18.586068 22663 master.cpp:314] Found tag 3 work 0x5b24e70
+I0324 22:02:18.590826 22663 master.cpp:311] Master received a response from a worker: [8:You will perform amazingly on exam 2]
+I0324 22:02:18.590878 22663 master.cpp:314] Found tag 8 work 0x5b25b90
+I0324 22:02:18.591120 22663 master.cpp:311] Master received a response from a worker: [2:Worse is better. Keep it simple...]
+I0324 22:02:18.591130 22663 master.cpp:314] Found tag 2 work 0x5b24c10
+I0324 22:02:18.595805 22663 master.cpp:311] Master received a response from a worker: [0:Come to lecture, there might be donuts!]
+I0324 22:02:18.595816 22663 master.cpp:314] Found tag 0 work 0x5b2c530
+I0324 22:02:18.599709 22663 master.cpp:311] Master received a response from a worker: [9:You will perform amazingly on exam 2]
+I0324 22:02:18.599720 22663 master.cpp:314] Found tag 9 work 0x5b25e30
+I0324 22:02:18.610666 22663 master.cpp:311] Master received a response from a worker: [7:Do a great project, and it all works out in the end]
+I0324 22:02:18.610677 22663 master.cpp:314] Found tag 7 work 0x5b258f0
+I0324 22:02:18.619271 22663 master.cpp:311] Master received a response from a worker: [11:Be careful not to optimize prematurely]
+I0324 22:02:18.619280 22663 master.cpp:314] Found tag 11 work 0x5b26370
+I0324 22:02:18.628942 22663 master.cpp:311] Master received a response from a worker: [10:Worse is better. Keep it simple...]
+I0324 22:02:18.628952 22663 master.cpp:314] Found tag 10 work 0x5b260d0
+I0324 22:02:18.629389 22663 master.cpp:311] Master received a response from a worker: [12:You are going to do a great project]
+I0324 22:02:18.629398 22663 master.cpp:314] Found tag 12 work 0x5b26610
+I0324 22:02:18.634987 22663 master.cpp:311] Master received a response from a worker: [14:Worse is better. Keep it simple...]
+I0324 22:02:18.634996 22663 master.cpp:314] Found tag 14 work 0x5b26b50
+I0324 22:02:18.636327 22663 master.cpp:311] Master received a response from a worker: [15:Bring out all the stops in assignment 4.]
+I0324 22:02:18.636337 22663 master.cpp:314] Found tag 15 work 0x5b26df0
+I0324 22:02:18.659639 22663 master.cpp:311] Master received a response from a worker: [13:Exams are all just fun and games]
+I0324 22:02:18.659648 22663 master.cpp:314] Found tag 13 work 0x5b268b0
+I0324 22:02:18.660876 22663 master.cpp:311] Master received a response from a worker: [19:If all else fails... buy Kayvon donuts]
+I0324 22:02:18.660886 22663 master.cpp:314] Found tag 19 work 0x5b27870
+I0324 22:02:18.672875 22663 master.cpp:311] Master received a response from a worker: [17:You will perform amazingly on exam 2]
+I0324 22:02:18.672884 22663 master.cpp:314] Found tag 17 work 0x5b27330
+I0324 22:02:18.674682 22663 master.cpp:311] Master received a response from a worker: [16:Write a great lecture comment on your favorite idea in the class]
+I0324 22:02:18.674691 22663 master.cpp:314] Found tag 16 work 0x5b27090
+I0324 22:02:18.675246 22663 master.cpp:311] Master received a response from a worker: [18:Laugh at Kayvon's jokes]
+I0324 22:02:18.675254 22663 master.cpp:314] Found tag 18 work 0x5b275d0
+I0324 22:02:18.681733 22663 master.cpp:311] Master received a response from a worker: [22:OMG, 418 is so gr8!]
+I0324 22:02:18.681743 22663 master.cpp:314] Found tag 22 work 0x5b27e00
+I0324 22:02:18.702765 22663 master.cpp:311] Master received a response from a worker: [20:Flatter your TAs with compliments]
+I0324 22:02:18.702775 22663 master.cpp:314] Found tag 20 work 0x5b27b10
+I0324 22:02:18.702996 22663 master.cpp:311] Master received a response from a worker: [23:You will perform amazingly on exam 2]
+I0324 22:02:18.703003 22663 master.cpp:314] Found tag 23 work 0x5b281c0
+I0324 22:02:18.709626 22663 master.cpp:311] Master received a response from a worker: [21:Bring out all the stops in assignment 4.]
+I0324 22:02:18.709635 22663 master.cpp:314] Found tag 21 work 0x5b24560
+I0324 22:02:19.094491 22663 master.cpp:354] Received request: cmd=418wisdom;x=71971
+I0324 22:02:19.094506 22663 master.cpp:165] assign tag 36 to work 0x5b297a0
+I0324 22:02:19.094512 22663 master.cpp:144] Sending request 36to worker.
+I0324 22:02:19.101992 22663 master.cpp:354] Received request: cmd=418wisdom;x=39882
+I0324 22:02:19.102061 22663 master.cpp:165] assign tag 37 to work 0x5b29a50
+I0324 22:02:19.102069 22663 master.cpp:144] Sending request 37to worker.
+I0324 22:02:19.112043 22663 master.cpp:354] Received request: cmd=418wisdom;x=82485
+I0324 22:02:19.112058 22663 master.cpp:165] assign tag 38 to work 0x5b29bf0
+I0324 22:02:19.112066 22663 master.cpp:144] Sending request 38to worker.
+I0324 22:02:19.122046 22663 master.cpp:354] Received request: cmd=418wisdom;x=66815
+I0324 22:02:19.122061 22663 master.cpp:165] assign tag 39 to work 0x5b29d90
+I0324 22:02:19.122068 22663 master.cpp:144] Sending request 39to worker.
+I0324 22:02:19.132047 22663 master.cpp:354] Received request: cmd=418wisdom;x=114
+I0324 22:02:19.132062 22663 master.cpp:165] assign tag 40 to work 0x5b29f30
+I0324 22:02:19.132069 22663 master.cpp:144] Sending request 40to worker.
+I0324 22:02:19.142030 22663 master.cpp:354] Received request: cmd=418wisdom;x=49358
+I0324 22:02:19.142045 22663 master.cpp:165] assign tag 41 to work 0x5b2a0d0
+I0324 22:02:19.142052 22663 master.cpp:144] Sending request 41to worker.
+I0324 22:02:19.151994 22663 master.cpp:354] Received request: cmd=418wisdom;x=86761
+I0324 22:02:19.152009 22663 master.cpp:165] assign tag 42 to work 0x5b2a270
+I0324 22:02:19.152016 22663 master.cpp:144] Sending request 42to worker.
+I0324 22:02:19.161983 22663 master.cpp:354] Received request: cmd=418wisdom;x=24391
+I0324 22:02:19.161996 22663 master.cpp:165] assign tag 43 to work 0x5b2a410
+I0324 22:02:19.162003 22663 master.cpp:144] Sending request 43to worker.
+I0324 22:02:19.171982 22663 master.cpp:354] Received request: cmd=418wisdom;x=32520
+I0324 22:02:19.171996 22663 master.cpp:165] assign tag 44 to work 0x5b2a5b0
+I0324 22:02:19.172003 22663 master.cpp:144] Sending request 44to worker.
+I0324 22:02:19.181972 22663 master.cpp:354] Received request: cmd=418wisdom;x=87047
+I0324 22:02:19.181987 22663 master.cpp:165] assign tag 45 to work 0x5b2a750
+I0324 22:02:19.181993 22663 master.cpp:144] Sending request 45to worker.
+I0324 22:02:19.192004 22663 master.cpp:354] Received request: cmd=418wisdom;x=19106
+I0324 22:02:19.192018 22663 master.cpp:165] assign tag 46 to work 0x5b2a8f0
+I0324 22:02:19.192025 22663 master.cpp:144] Sending request 46to worker.
+I0324 22:02:19.202461 22663 master.cpp:354] Received request: cmd=418wisdom;x=56751
+I0324 22:02:19.202476 22663 master.cpp:165] assign tag 47 to work 0x5b2aa90
+I0324 22:02:19.202483 22663 master.cpp:144] Sending request 47to worker.
+I0324 22:02:19.212020 22663 master.cpp:354] Received request: cmd=418wisdom;x=23861
+I0324 22:02:19.212034 22663 master.cpp:165] assign tag 48 to work 0x5b2ac30
+I0324 22:02:19.212041 22663 master.cpp:144] Sending request 48to worker.
+I0324 22:02:19.221940 22663 master.cpp:354] Received request: cmd=418wisdom;x=96754
+I0324 22:02:19.221954 22663 master.cpp:165] assign tag 49 to work 0x5b2add0
+I0324 22:02:19.221961 22663 master.cpp:144] Sending request 49to worker.
+I0324 22:02:19.232221 22663 master.cpp:354] Received request: cmd=418wisdom;x=80318
+I0324 22:02:19.232236 22663 master.cpp:165] assign tag 50 to work 0x5b2af70
+I0324 22:02:19.232244 22663 master.cpp:144] Sending request 50to worker.
+I0324 22:02:19.241992 22663 master.cpp:354] Received request: cmd=418wisdom;x=44797
+I0324 22:02:19.242012 22663 master.cpp:165] assign tag 51 to work 0x5b2b110
+I0324 22:02:19.242022 22663 master.cpp:144] Sending request 51to worker.
+I0324 22:02:19.251997 22663 master.cpp:354] Received request: cmd=418wisdom;x=8044
+I0324 22:02:19.252014 22663 master.cpp:165] assign tag 52 to work 0x5b2b2b0
+I0324 22:02:19.252025 22663 master.cpp:144] Sending request 52to worker.
+I0324 22:02:19.261915 22663 master.cpp:354] Received request: cmd=418wisdom;x=32005
+I0324 22:02:19.261935 22663 master.cpp:165] assign tag 53 to work 0x5b2b450
+I0324 22:02:19.261946 22663 master.cpp:144] Sending request 53to worker.
+I0324 22:02:19.273676 22663 master.cpp:354] Received request: cmd=418wisdom;x=50794
+I0324 22:02:19.273711 22663 master.cpp:165] assign tag 54 to work 0x5b2b4f0
+I0324 22:02:19.273725 22663 master.cpp:144] Sending request 54to worker.
+I0324 22:02:19.281898 22663 master.cpp:354] Received request: cmd=418wisdom;x=93284
+I0324 22:02:19.281918 22663 master.cpp:165] assign tag 55 to work 0x5b2b6e0
+I0324 22:02:19.281929 22663 master.cpp:144] Sending request 55to worker.
+I0324 22:02:19.291859 22663 master.cpp:354] Received request: cmd=418wisdom;x=10905
+I0324 22:02:19.291877 22663 master.cpp:165] assign tag 56 to work 0x5b2caf0
+I0324 22:02:19.291887 22663 master.cpp:144] Sending request 56to worker.
+I0324 22:02:19.301842 22663 master.cpp:354] Received request: cmd=418wisdom;x=55127
+I0324 22:02:19.301861 22663 master.cpp:165] assign tag 57 to work 0x5b2cc50
+I0324 22:02:19.301872 22663 master.cpp:144] Sending request 57to worker.
+I0324 22:02:19.311892 22663 master.cpp:354] Received request: cmd=418wisdom;x=70656
+I0324 22:02:19.311909 22663 master.cpp:165] assign tag 58 to work 0x5b2cdf0
+I0324 22:02:19.311920 22663 master.cpp:144] Sending request 58to worker.
+I0324 22:02:19.321894 22663 master.cpp:354] Received request: cmd=418wisdom;x=54744
+I0324 22:02:19.321913 22663 master.cpp:165] assign tag 59 to work 0x5b2cf90
+I0324 22:02:19.321923 22663 master.cpp:144] Sending request 59to worker.
+I0324 22:02:19.344316 22663 master.cpp:354] Received request: cmd=tellmenow;x=7331
+I0324 22:02:19.344332 22663 master.cpp:165] assign tag 60 to work 0x5b2d130
+I0324 22:02:19.344342 22663 master.cpp:144] Sending request 60to worker.
+I0324 22:02:19.344589 22663 master.cpp:311] Master received a response from a worker: [60:Re-watch the lecture on scaling a website]
+I0324 22:02:19.344602 22663 master.cpp:314] Found tag 60 work 0x5b2d130
+I0324 22:02:19.386262 22663 master.cpp:354] Received request: cmd=tellmenow;x=4863
+I0324 22:02:19.386281 22663 master.cpp:165] assign tag 61 to work 0x5b2d250
+I0324 22:02:19.386291 22663 master.cpp:144] Sending request 61to worker.
+I0324 22:02:19.386358 22663 master.cpp:354] Received request: cmd=tellmenow;x=8675
+I0324 22:02:19.386373 22663 master.cpp:165] assign tag 62 to work 0x5b2d490
+I0324 22:02:19.386381 22663 master.cpp:144] Sending request 62to worker.
+I0324 22:02:19.416262 22663 master.cpp:354] Received request: cmd=tellmenow;x=5429
+I0324 22:02:19.416278 22663 master.cpp:165] assign tag 63 to work 0x5b2d630
+I0324 22:02:19.416287 22663 master.cpp:144] Sending request 63to worker.
+I0324 22:02:19.416327 22663 master.cpp:354] Received request: cmd=tellmenow;x=5289
+I0324 22:02:19.416339 22663 master.cpp:165] assign tag 64 to work 0x5b2d7d0
+I0324 22:02:19.416348 22663 master.cpp:144] Sending request 64to worker.
+I0324 22:02:19.442265 22663 master.cpp:354] Received request: cmd=tellmenow;x=4005
+I0324 22:02:19.442279 22663 master.cpp:165] assign tag 65 to work 0x5b2d970
+I0324 22:02:19.442291 22663 master.cpp:144] Sending request 65to worker.
+I0324 22:02:19.455260 22663 master.cpp:354] Received request: cmd=tellmenow;x=5367
+I0324 22:02:19.455281 22663 master.cpp:165] assign tag 66 to work 0x5b2db10
+I0324 22:02:19.455291 22663 master.cpp:144] Sending request 66to worker.
+I0324 22:02:19.455327 22663 master.cpp:311] Master received a response from a worker: [61:The best performance may come from a particular mixture of jobs on a worker node.]
+I0324 22:02:19.455338 22663 master.cpp:314] Found tag 61 work 0x5b2d250
+I0324 22:02:19.455396 22663 master.cpp:354] Received request: cmd=tellmenow;x=3464
+I0324 22:02:19.455411 22663 master.cpp:165] assign tag 67 to work 0x5b2dcd0
+I0324 22:02:19.455420 22663 master.cpp:144] Sending request 67to worker.
+I0324 22:02:19.455469 22663 master.cpp:311] Master received a response from a worker: [62:Figure out a way to understand the workload characteristics in each trace.]
+I0324 22:02:19.455482 22663 master.cpp:314] Found tag 62 work 0x5b2d490
+I0324 22:02:19.455538 22663 master.cpp:354] Received request: cmd=tellmenow;x=5181
+I0324 22:02:19.455554 22663 master.cpp:165] assign tag 68 to work 0x5b2df20
+I0324 22:02:19.455564 22663 master.cpp:144] Sending request 68to worker.
+I0324 22:02:19.455588 22663 master.cpp:311] Master received a response from a worker: [63:Re-watch the lecture on scaling a website]
+I0324 22:02:19.455670 22663 master.cpp:314] Found tag 63 work 0x5b2d630
+I0324 22:02:19.455729 22663 master.cpp:311] Master received a response from a worker: [64:Re-watch the lecture on scaling a website]
+I0324 22:02:19.455742 22663 master.cpp:314] Found tag 64 work 0x5b2d7d0
+I0324 22:02:19.461674 22663 master.cpp:354] Received request: cmd=tellmenow;x=2613
+I0324 22:02:19.461694 22663 master.cpp:165] assign tag 69 to work 0x5b2e040
+I0324 22:02:19.461704 22663 master.cpp:144] Sending request 69to worker.
+I0324 22:02:19.513259 22663 master.cpp:354] Received request: cmd=tellmenow;x=1704
+I0324 22:02:19.513278 22663 master.cpp:165] assign tag 70 to work 0x5b2e280
+I0324 22:02:19.513288 22663 master.cpp:144] Sending request 70to worker.
+I0324 22:02:19.513383 22663 master.cpp:311] Master received a response from a worker: [65:Figure out a way to understand the workload characteristics in each trace.]
+I0324 22:02:19.513397 22663 master.cpp:314] Found tag 65 work 0x5b2d970
+I0324 22:02:19.513458 22663 master.cpp:354] Received request: cmd=tellmenow;x=1680
+I0324 22:02:19.513475 22663 master.cpp:165] assign tag 71 to work 0x5b2e360
+I0324 22:02:19.513485 22663 master.cpp:144] Sending request 71to worker.
+I0324 22:02:19.513537 22663 master.cpp:311] Master received a response from a worker: [66:The best performance may come from a particular mixture of jobs on a worker node.]
+I0324 22:02:19.513550 22663 master.cpp:314] Found tag 66 work 0x5b2db10
+I0324 22:02:19.513597 22663 master.cpp:311] Master received a response from a worker: [67:There may be opportunities for caching in this assignment]
+I0324 22:02:19.513610 22663 master.cpp:314] Found tag 67 work 0x5b2dcd0
+I0324 22:02:19.513662 22663 master.cpp:311] Master received a response from a worker: [68:Re-watch the lecture on scaling a website]
+I0324 22:02:19.513675 22663 master.cpp:314] Found tag 68 work 0x5b2df20
+I0324 22:02:19.513722 22663 master.cpp:311] Master received a response from a worker: [69:The best performance may come from a particular mixture of jobs on a worker node.]
+I0324 22:02:19.513733 22663 master.cpp:314] Found tag 69 work 0x5b2e040
+I0324 22:02:19.513782 22663 master.cpp:311] Master received a response from a worker: [70:There may be opportunities for caching in this assignment]
+I0324 22:02:19.513794 22663 master.cpp:314] Found tag 70 work 0x5b2e280
+I0324 22:02:19.553273 22663 master.cpp:311] Master received a response from a worker: [71:We recommend getting full credit on grading_wisdom.txt first]
+I0324 22:02:19.553289 22663 master.cpp:314] Found tag 71 work 0x5b2e360
+I0324 22:02:21.256930 22663 master.cpp:311] Master received a response from a worker: [37:Flatter your TAs with compliments]
+I0324 22:02:21.256944 22663 master.cpp:314] Found tag 37 work 0x5b29a50
+I0324 22:02:21.258086 22663 master.cpp:311] Master received a response from a worker: [36:Come to lecture, there might be donuts!]
+I0324 22:02:21.258096 22663 master.cpp:314] Found tag 36 work 0x5b297a0
+I0324 22:02:21.262783 22663 master.cpp:311] Master received a response from a worker: [40:Bring out all the stops in assignment 4.]
+I0324 22:02:21.262794 22663 master.cpp:314] Found tag 40 work 0x5b29f30
+I0324 22:02:21.264793 22663 master.cpp:311] Master received a response from a worker: [38:Come to lecture, there might be donuts!]
+I0324 22:02:21.264804 22663 master.cpp:314] Found tag 38 work 0x5b29bf0
+I0324 22:02:21.268060 22663 master.cpp:311] Master received a response from a worker: [41:Ask questions. Ask questions. Ask questions]
+I0324 22:02:21.268070 22663 master.cpp:314] Found tag 41 work 0x5b2a0d0
+I0324 22:02:21.277081 22663 master.cpp:311] Master received a response from a worker: [39:Laugh at Kayvon's jokes]
+I0324 22:02:21.277092 22663 master.cpp:314] Found tag 39 work 0x5b29d90
+I0324 22:02:21.281064 22663 master.cpp:311] Master received a response from a worker: [43:Do a great project, and it all works out in the end]
+I0324 22:02:21.281075 22663 master.cpp:314] Found tag 43 work 0x5b2a410
+I0324 22:02:21.285467 22663 master.cpp:311] Master received a response from a worker: [42:Do a great project, and it all works out in the end]
+I0324 22:02:21.285527 22663 master.cpp:314] Found tag 42 work 0x5b2a270
+I0324 22:02:21.286495 22663 master.cpp:311] Master received a response from a worker: [44:If all else fails... buy Kayvon donuts]
+I0324 22:02:21.286506 22663 master.cpp:314] Found tag 44 work 0x5b2a5b0
+I0324 22:02:21.295773 22663 master.cpp:311] Master received a response from a worker: [45:You will perform amazingly on exam 2]
+I0324 22:02:21.295783 22663 master.cpp:314] Found tag 45 work 0x5b2a750
+I0324 22:02:21.302175 22663 master.cpp:311] Master received a response from a worker: [46:Ask questions. Ask questions. Ask questions]
+I0324 22:02:21.302191 22663 master.cpp:314] Found tag 46 work 0x5b2a8f0
+I0324 22:02:21.313380 22663 master.cpp:311] Master received a response from a worker: [47:Do a great project, and it all works out in the end]
+I0324 22:02:21.313390 22663 master.cpp:314] Found tag 47 work 0x5b2aa90
+I0324 22:02:21.316851 22663 master.cpp:311] Master received a response from a worker: [48:Do a great project, and it all works out in the end]
+I0324 22:02:21.316860 22663 master.cpp:314] Found tag 48 work 0x5b2ac30
+I0324 22:02:21.328788 22663 master.cpp:311] Master received a response from a worker: [51:Do a great project, and it all works out in the end]
+I0324 22:02:21.328797 22663 master.cpp:314] Found tag 51 work 0x5b2b110
+I0324 22:02:21.329768 22663 master.cpp:311] Master received a response from a worker: [49:Ask questions. Ask questions. Ask questions]
+I0324 22:02:21.329778 22663 master.cpp:314] Found tag 49 work 0x5b2add0
+I0324 22:02:21.337430 22663 master.cpp:311] Master received a response from a worker: [53:Flatter your TAs with compliments]
+I0324 22:02:21.337438 22663 master.cpp:314] Found tag 53 work 0x5b2b450
+I0324 22:02:21.341389 22663 master.cpp:311] Master received a response from a worker: [50:Worse is better. Keep it simple...]
+I0324 22:02:21.341398 22663 master.cpp:314] Found tag 50 work 0x5b2af70
+I0324 22:02:21.344041 22663 master.cpp:311] Master received a response from a worker: [52:Exams are all just fun and games]
+I0324 22:02:21.344050 22663 master.cpp:314] Found tag 52 work 0x5b2b2b0
+I0324 22:02:21.348327 22663 master.cpp:311] Master received a response from a worker: [54:OMG, 418 is so gr8!]
+I0324 22:02:21.348336 22663 master.cpp:314] Found tag 54 work 0x5b2b4f0
+I0324 22:02:21.362758 22663 master.cpp:311] Master received a response from a worker: [56:You will perform amazingly on exam 2]
+I0324 22:02:21.362766 22663 master.cpp:314] Found tag 56 work 0x5b2caf0
+I0324 22:02:21.362807 22663 master.cpp:311] Master received a response from a worker: [57:Be careful not to optimize prematurely]
+I0324 22:02:21.362812 22663 master.cpp:314] Found tag 57 work 0x5b2cc50
+I0324 22:02:21.364310 22663 master.cpp:311] Master received a response from a worker: [55:If all else fails... buy Kayvon donuts]
+I0324 22:02:21.364320 22663 master.cpp:314] Found tag 55 work 0x5b2b6e0
+I0324 22:02:21.365473 22663 master.cpp:311] Master received a response from a worker: [58:Write a great lecture comment on your favorite idea in the class]
+I0324 22:02:21.365484 22663 master.cpp:314] Found tag 58 work 0x5b2cdf0
+I0324 22:02:21.379885 22663 master.cpp:311] Master received a response from a worker: [59:Laugh at Kayvon's jokes]
+I0324 22:02:21.379899 22663 master.cpp:314] Found tag 59 work 0x5b2cf90
+I0324 22:02:21.858484 22663 master.cpp:354] Received request: cmd=418wisdom;x=61277
+I0324 22:02:21.858500 22663 master.cpp:165] assign tag 72 to work 0x5b2e510
+I0324 22:02:21.858507 22663 master.cpp:144] Sending request 72to worker.
+I0324 22:02:21.866047 22663 master.cpp:354] Received request: cmd=418wisdom;x=65666
+I0324 22:02:21.866061 22663 master.cpp:165] assign tag 73 to work 0x5b2e7a0
+I0324 22:02:21.866068 22663 master.cpp:144] Sending request 73to worker.
+I0324 22:02:21.876037 22663 master.cpp:354] Received request: cmd=418wisdom;x=47653
+I0324 22:02:21.876052 22663 master.cpp:165] assign tag 74 to work 0x5b2e940
+I0324 22:02:21.876058 22663 master.cpp:144] Sending request 74to worker.
+I0324 22:02:21.886023 22663 master.cpp:354] Received request: cmd=418wisdom;x=8982
+I0324 22:02:21.886099 22663 master.cpp:165] assign tag 75 to work 0x5b2eae0
+I0324 22:02:21.886108 22663 master.cpp:144] Sending request 75to worker.
+I0324 22:02:21.896072 22663 master.cpp:354] Received request: cmd=418wisdom;x=75761
+I0324 22:02:21.896086 22663 master.cpp:165] assign tag 76 to work 0x5b2ec80
+I0324 22:02:21.896093 22663 master.cpp:144] Sending request 76to worker.
+I0324 22:02:21.905974 22663 master.cpp:354] Received request: cmd=418wisdom;x=87677
+I0324 22:02:21.905988 22663 master.cpp:165] assign tag 77 to work 0x5b2ee20
+I0324 22:02:21.905995 22663 master.cpp:144] Sending request 77to worker.
+I0324 22:02:21.915982 22663 master.cpp:354] Received request: cmd=418wisdom;x=92339
+I0324 22:02:21.915997 22663 master.cpp:165] assign tag 78 to work 0x5b2efc0
+I0324 22:02:21.916004 22663 master.cpp:144] Sending request 78to worker.
+I0324 22:02:21.925928 22663 master.cpp:354] Received request: cmd=418wisdom;x=84246
+I0324 22:02:21.925942 22663 master.cpp:165] assign tag 79 to work 0x5b2f160
+I0324 22:02:21.925950 22663 master.cpp:144] Sending request 79to worker.
+I0324 22:02:21.935974 22663 master.cpp:354] Received request: cmd=418wisdom;x=89818
+I0324 22:02:21.935988 22663 master.cpp:165] assign tag 80 to work 0x5b2f300
+I0324 22:02:21.935995 22663 master.cpp:144] Sending request 80to worker.
+I0324 22:02:21.945972 22663 master.cpp:354] Received request: cmd=418wisdom;x=92309
+I0324 22:02:21.945986 22663 master.cpp:165] assign tag 81 to work 0x5b2f4a0
+I0324 22:02:21.945992 22663 master.cpp:144] Sending request 81to worker.
+I0324 22:02:21.955976 22663 master.cpp:354] Received request: cmd=418wisdom;x=54060
+I0324 22:02:21.955989 22663 master.cpp:165] assign tag 82 to work 0x5b2f640
+I0324 22:02:21.955996 22663 master.cpp:144] Sending request 82to worker.
+I0324 22:02:21.966344 22663 master.cpp:354] Received request: cmd=418wisdom;x=39129
+I0324 22:02:21.966358 22663 master.cpp:165] assign tag 83 to work 0x5b2f7e0
+I0324 22:02:21.966366 22663 master.cpp:144] Sending request 83to worker.
+I0324 22:02:21.975951 22663 master.cpp:354] Received request: cmd=418wisdom;x=70529
+I0324 22:02:21.975965 22663 master.cpp:165] assign tag 84 to work 0x5b2f980
+I0324 22:02:21.975972 22663 master.cpp:144] Sending request 84to worker.
+I0324 22:02:21.985949 22663 master.cpp:354] Received request: cmd=418wisdom;x=27563
+I0324 22:02:21.985963 22663 master.cpp:165] assign tag 85 to work 0x5b2fb20
+I0324 22:02:21.985970 22663 master.cpp:144] Sending request 85to worker.
+I0324 22:02:21.996006 22663 master.cpp:354] Received request: cmd=418wisdom;x=81163
+I0324 22:02:21.996021 22663 master.cpp:165] assign tag 86 to work 0x5b2fcc0
+I0324 22:02:21.996027 22663 master.cpp:144] Sending request 86to worker.
+I0324 22:02:22.005980 22663 master.cpp:354] Received request: cmd=418wisdom;x=84949
+I0324 22:02:22.005993 22663 master.cpp:165] assign tag 87 to work 0x5b2fe60
+I0324 22:02:22.006000 22663 master.cpp:144] Sending request 87to worker.
+I0324 22:02:22.015981 22663 master.cpp:354] Received request: cmd=418wisdom;x=89504
+I0324 22:02:22.015998 22663 master.cpp:165] assign tag 88 to work 0x5b30000
+I0324 22:02:22.016008 22663 master.cpp:144] Sending request 88to worker.
+I0324 22:02:22.025967 22663 master.cpp:354] Received request: cmd=418wisdom;x=58980
+I0324 22:02:22.025981 22663 master.cpp:165] assign tag 89 to work 0x5b301a0
+I0324 22:02:22.025988 22663 master.cpp:144] Sending request 89to worker.
+I0324 22:02:22.046845 22663 master.cpp:354] Received request: cmd=418wisdom;x=94977
+I0324 22:02:22.046864 22663 master.cpp:165] assign tag 90 to work 0x5b30340
+I0324 22:02:22.046875 22663 master.cpp:144] Sending request 90to worker.
+I0324 22:02:22.047087 22663 master.cpp:354] Received request: cmd=418wisdom;x=57970
+I0324 22:02:22.047103 22663 master.cpp:165] assign tag 91 to work 0x5b304e0
+I0324 22:02:22.047113 22663 master.cpp:144] Sending request 91to worker.
+I0324 22:02:22.058621 22663 master.cpp:354] Received request: cmd=418wisdom;x=45056
+I0324 22:02:22.058639 22663 master.cpp:165] assign tag 92 to work 0x5b30680
+I0324 22:02:22.058650 22663 master.cpp:144] Sending request 92to worker.
+I0324 22:02:22.066238 22663 master.cpp:354] Received request: cmd=418wisdom;x=66025
+I0324 22:02:22.066267 22663 master.cpp:165] assign tag 93 to work 0x5b30820
+I0324 22:02:22.066277 22663 master.cpp:144] Sending request 93to worker.
+I0324 22:02:22.076037 22663 master.cpp:354] Received request: cmd=418wisdom;x=99626
+I0324 22:02:22.076064 22663 master.cpp:165] assign tag 94 to work 0x5b309c0
+I0324 22:02:22.076076 22663 master.cpp:144] Sending request 94to worker.
+I0324 22:02:22.085981 22663 master.cpp:354] Received request: cmd=418wisdom;x=91695
+I0324 22:02:22.085999 22663 master.cpp:165] assign tag 95 to work 0x5b30b60
+I0324 22:02:22.086010 22663 master.cpp:144] Sending request 95to worker.
+I0324 22:02:22.108721 22663 master.cpp:354] Received request: cmd=tellmenow;x=7140
+I0324 22:02:22.108739 22663 master.cpp:165] assign tag 96 to work 0x5b30d00
+I0324 22:02:22.108750 22663 master.cpp:144] Sending request 96to worker.
+I0324 22:02:22.109216 22663 master.cpp:311] Master received a response from a worker: [96:We recommend getting full credit on grading_wisdom.txt first]
+I0324 22:02:22.109230 22663 master.cpp:314] Found tag 96 work 0x5b30d00
+I0324 22:02:22.161263 22663 master.cpp:354] Received request: cmd=tellmenow;x=741
+I0324 22:02:22.161283 22663 master.cpp:165] assign tag 97 to work 0x5b30e80
+I0324 22:02:22.161294 22663 master.cpp:144] Sending request 97to worker.
+I0324 22:02:22.174255 22663 master.cpp:354] Received request: cmd=tellmenow;x=5515
+I0324 22:02:22.174271 22663 master.cpp:165] assign tag 98 to work 0x5b30de0
+I0324 22:02:22.174281 22663 master.cpp:144] Sending request 98to worker.
+I0324 22:02:22.174314 22663 master.cpp:354] Received request: cmd=tellmenow;x=4378
+I0324 22:02:22.174326 22663 master.cpp:165] assign tag 99 to work 0x5b310f0
+I0324 22:02:22.174335 22663 master.cpp:144] Sending request 99to worker.
+I0324 22:02:22.174372 22663 master.cpp:354] Received request: cmd=tellmenow;x=5671
+I0324 22:02:22.174384 22663 master.cpp:165] assign tag 100 to work 0x5b312a0
+I0324 22:02:22.174394 22663 master.cpp:144] Sending request 100to worker.
+I0324 22:02:22.175671 22663 master.cpp:354] Received request: cmd=tellmenow;x=7606
+I0324 22:02:22.175691 22663 master.cpp:165] assign tag 101 to work 0x5b31450
+I0324 22:02:22.175703 22663 master.cpp:144] Sending request 101to worker.
+I0324 22:02:22.196342 22663 master.cpp:354] Received request: cmd=tellmenow;x=2187
+I0324 22:02:22.196362 22663 master.cpp:165] assign tag 102 to work 0x5b31600
+I0324 22:02:22.196372 22663 master.cpp:144] Sending request 102to worker.
+I0324 22:02:22.197670 22663 master.cpp:354] Received request: cmd=tellmenow;x=6584
+I0324 22:02:22.197687 22663 master.cpp:165] assign tag 103 to work 0x5b317b0
+I0324 22:02:22.197697 22663 master.cpp:144] Sending request 103to worker.
+I0324 22:02:22.201429 22663 master.cpp:311] Master received a response from a worker: [97:Re-watch the lecture on scaling a website]
+I0324 22:02:22.201443 22663 master.cpp:314] Found tag 97 work 0x5b30e80
+I0324 22:02:22.201503 22663 master.cpp:311] Master received a response from a worker: [98:Figure out a way to understand the workload characteristics in each trace.]
+I0324 22:02:22.201517 22663 master.cpp:314] Found tag 98 work 0x5b30de0
+I0324 22:02:22.201596 22663 master.cpp:311] Master received a response from a worker: [99:Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.]
+I0324 22:02:22.201608 22663 master.cpp:314] Found tag 99 work 0x5b310f0
+I0324 22:02:22.201658 22663 master.cpp:311] Master received a response from a worker: [100:Re-watch the lecture on scaling a website]
+I0324 22:02:22.201670 22663 master.cpp:314] Found tag 100 work 0x5b312a0
+I0324 22:02:22.201717 22663 master.cpp:311] Master received a response from a worker: [101:There may be opportunities for caching in this assignment]
+I0324 22:02:22.201728 22663 master.cpp:314] Found tag 101 work 0x5b31450
+I0324 22:02:22.201815 22663 master.cpp:311] Master received a response from a worker: [102:The best performance may come from a particular mixture of jobs on a worker node.]
+I0324 22:02:22.201894 22663 master.cpp:314] Found tag 102 work 0x5b31600
+I0324 22:02:22.201952 22663 master.cpp:311] Master received a response from a worker: [103:There may be opportunities for caching in this assignment]
+I0324 22:02:22.201964 22663 master.cpp:314] Found tag 103 work 0x5b317b0
+I0324 22:02:22.255269 22663 master.cpp:354] Received request: cmd=tellmenow;x=1054
+I0324 22:02:22.255288 22663 master.cpp:165] assign tag 104 to work 0x5b31960
+I0324 22:02:22.255300 22663 master.cpp:144] Sending request 104to worker.
+I0324 22:02:22.272256 22663 master.cpp:354] Received request: cmd=tellmenow;x=1984
+I0324 22:02:22.272274 22663 master.cpp:165] assign tag 105 to work 0x5b31c40
+I0324 22:02:22.272284 22663 master.cpp:144] Sending request 105to worker.
+I0324 22:02:22.272323 22663 master.cpp:354] Received request: cmd=tellmenow;x=7152
+I0324 22:02:22.272336 22663 master.cpp:165] assign tag 106 to work 0x5b31de0
+I0324 22:02:22.272344 22663 master.cpp:144] Sending request 106to worker.
+I0324 22:02:22.294265 22663 master.cpp:354] Received request: cmd=tellmenow;x=2993
+I0324 22:02:22.294283 22663 master.cpp:165] assign tag 107 to work 0x5b31f80
+I0324 22:02:22.294294 22663 master.cpp:144] Sending request 107to worker.
+I0324 22:02:22.295363 22663 master.cpp:311] Master received a response from a worker: [104:There may be opportunities for caching in this assignment]
+I0324 22:02:22.295377 22663 master.cpp:314] Found tag 104 work 0x5b31960
+I0324 22:02:22.295466 22663 master.cpp:311] Master received a response from a worker: [105:There may be opportunities for caching in this assignment]
+I0324 22:02:22.295480 22663 master.cpp:314] Found tag 105 work 0x5b31c40
+I0324 22:02:22.295526 22663 master.cpp:311] Master received a response from a worker: [106:Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.]
+I0324 22:02:22.295537 22663 master.cpp:314] Found tag 106 work 0x5b31de0
+I0324 22:02:22.295583 22663 master.cpp:311] Master received a response from a worker: [107:The best performance may come from a particular mixture of jobs on a worker node.]
+I0324 22:02:22.295594 22663 master.cpp:314] Found tag 107 work 0x5b31f80
+I0324 22:02:24.083839 22663 master.cpp:311] Master received a response from a worker: [72:Do a great project, and it all works out in the end]
+I0324 22:02:24.083866 22663 master.cpp:314] Found tag 72 work 0x5b2e510
+I0324 22:02:24.088932 22663 master.cpp:311] Master received a response from a worker: [73:OMG, 418 is so gr8!]
+I0324 22:02:24.088953 22663 master.cpp:314] Found tag 73 work 0x5b2e7a0
+I0324 22:02:24.100208 22663 master.cpp:311] Master received a response from a worker: [75:You will perform amazingly on exam 2]
+I0324 22:02:24.100217 22663 master.cpp:314] Found tag 75 work 0x5b2eae0
+I0324 22:02:24.107656 22663 master.cpp:311] Master received a response from a worker: [74:You will PWN your classmates in the parallelism competition]
+I0324 22:02:24.107666 22663 master.cpp:314] Found tag 74 work 0x5b2e940
+I0324 22:02:24.111207 22663 master.cpp:311] Master received a response from a worker: [79:Ask questions. Ask questions. Ask questions]
+I0324 22:02:24.111217 22663 master.cpp:314] Found tag 79 work 0x5b2f160
+I0324 22:02:24.119357 22663 master.cpp:311] Master received a response from a worker: [77:Do as best as you can and just have fun!]
+I0324 22:02:24.119367 22663 master.cpp:314] Found tag 77 work 0x5b2ee20
+I0324 22:02:24.120893 22663 master.cpp:311] Master received a response from a worker: [81:You will PWN your classmates in the parallelism competition]
+I0324 22:02:24.120901 22663 master.cpp:314] Found tag 81 work 0x5b2f4a0
+I0324 22:02:24.123529 22663 master.cpp:311] Master received a response from a worker: [78:Ask questions. Ask questions. Ask questions]
+I0324 22:02:24.123538 22663 master.cpp:314] Found tag 78 work 0x5b2efc0
+I0324 22:02:24.142673 22663 master.cpp:311] Master received a response from a worker: [85:If all else fails... buy Kayvon donuts]
+I0324 22:02:24.142684 22663 master.cpp:314] Found tag 85 work 0x5b2fb20
+I0324 22:02:24.144482 22663 master.cpp:311] Master received a response from a worker: [80:Laugh at Kayvon's jokes]
+I0324 22:02:24.144492 22663 master.cpp:314] Found tag 80 work 0x5b2f300
+I0324 22:02:24.162477 22663 master.cpp:311] Master received a response from a worker: [87:Come to lecture, there might be donuts!]
+I0324 22:02:24.162492 22663 master.cpp:314] Found tag 87 work 0x5b2fe60
+I0324 22:02:24.180297 22663 master.cpp:311] Master received a response from a worker: [84:Come to lecture, there might be donuts!]
+I0324 22:02:24.180312 22663 master.cpp:314] Found tag 84 work 0x5b2f980
+I0324 22:02:24.181644 22663 master.cpp:311] Master received a response from a worker: [83:Worse is better. Keep it simple...]
+I0324 22:02:24.181653 22663 master.cpp:314] Found tag 83 work 0x5b2f7e0
+I0324 22:02:24.182032 22663 master.cpp:311] Master received a response from a worker: [91:Ask questions. Ask questions. Ask questions]
+I0324 22:02:24.182041 22663 master.cpp:314] Found tag 91 work 0x5b304e0
+I0324 22:02:24.183336 22663 master.cpp:311] Master received a response from a worker: [88:You will perform amazingly on exam 2]
+I0324 22:02:24.183346 22663 master.cpp:314] Found tag 88 work 0x5b30000
+I0324 22:02:24.201956 22663 master.cpp:311] Master received a response from a worker: [90:Flatter your TAs with compliments]
+I0324 22:02:24.201967 22663 master.cpp:314] Found tag 90 work 0x5b30340
+I0324 22:02:24.205138 22663 master.cpp:311] Master received a response from a worker: [76:You are going to do a great project]
+I0324 22:02:24.205147 22663 master.cpp:314] Found tag 76 work 0x5b2ec80
+I0324 22:02:24.205974 22663 master.cpp:311] Master received a response from a worker: [95:You will perform amazingly on exam 2]
+I0324 22:02:24.205983 22663 master.cpp:314] Found tag 95 work 0x5b30b60
+I0324 22:02:24.206353 22663 master.cpp:311] Master received a response from a worker: [82:Be careful not to optimize prematurely]
+I0324 22:02:24.206364 22663 master.cpp:314] Found tag 82 work 0x5b2f640
+I0324 22:02:24.207666 22663 master.cpp:311] Master received a response from a worker: [89:If all else fails... buy Kayvon donuts]
+I0324 22:02:24.207677 22663 master.cpp:314] Found tag 89 work 0x5b301a0
+I0324 22:02:24.221492 22663 master.cpp:311] Master received a response from a worker: [92:Bring out all the stops in assignment 4.]
+I0324 22:02:24.221503 22663 master.cpp:314] Found tag 92 work 0x5b30680
+I0324 22:02:24.230142 22663 master.cpp:311] Master received a response from a worker: [93:Worse is better. Keep it simple...]
+I0324 22:02:24.230151 22663 master.cpp:314] Found tag 93 work 0x5b30820
+I0324 22:02:24.316068 22663 master.cpp:311] Master received a response from a worker: [86:You will perform amazingly on exam 2]
+I0324 22:02:24.316089 22663 master.cpp:314] Found tag 86 work 0x5b2fcc0
+I0324 22:02:24.335433 22663 master.cpp:311] Master received a response from a worker: [94:You are going to do a great project]
+I0324 22:02:24.335450 22663 master.cpp:314] Found tag 94 work 0x5b309c0
+I0324 22:02:24.622481 22663 master.cpp:354] Received request: cmd=418wisdom;x=81592
+I0324 22:02:24.622506 22663 master.cpp:165] assign tag 108 to work 0x5b320a0
+I0324 22:02:24.622514 22663 master.cpp:144] Sending request 108to worker.
+I0324 22:02:24.629854 22663 master.cpp:354] Received request: cmd=418wisdom;x=10060
+I0324 22:02:24.629868 22663 master.cpp:165] assign tag 109 to work 0x5b322e0
+I0324 22:02:24.629875 22663 master.cpp:144] Sending request 109to worker.
+I0324 22:02:24.639834 22663 master.cpp:354] Received request: cmd=418wisdom;x=14635
+I0324 22:02:24.639852 22663 master.cpp:165] assign tag 110 to work 0x5b32480
+I0324 22:02:24.639859 22663 master.cpp:144] Sending request 110to worker.
+I0324 22:02:24.649842 22663 master.cpp:354] Received request: cmd=418wisdom;x=69767
+I0324 22:02:24.649859 22663 master.cpp:165] assign tag 111 to work 0x5b32620
+I0324 22:02:24.649868 22663 master.cpp:144] Sending request 111to worker.
+I0324 22:02:24.659840 22663 master.cpp:354] Received request: cmd=418wisdom;x=4523
+I0324 22:02:24.659854 22663 master.cpp:165] assign tag 112 to work 0x5b327c0
+I0324 22:02:24.659931 22663 master.cpp:144] Sending request 112to worker.
+I0324 22:02:24.669951 22663 master.cpp:354] Received request: cmd=418wisdom;x=57387
+I0324 22:02:24.669965 22663 master.cpp:165] assign tag 113 to work 0x5b32960
+I0324 22:02:24.669972 22663 master.cpp:144] Sending request 113to worker.
+I0324 22:02:24.679955 22663 master.cpp:354] Received request: cmd=418wisdom;x=91002
+I0324 22:02:24.679970 22663 master.cpp:165] assign tag 114 to work 0x5b32b00
+I0324 22:02:24.679976 22663 master.cpp:144] Sending request 114to worker.
+I0324 22:02:24.689959 22663 master.cpp:354] Received request: cmd=418wisdom;x=53420
+I0324 22:02:24.689972 22663 master.cpp:165] assign tag 115 to work 0x5b32ca0
+I0324 22:02:24.689980 22663 master.cpp:144] Sending request 115to worker.
+I0324 22:02:24.699952 22663 master.cpp:354] Received request: cmd=418wisdom;x=68059
+I0324 22:02:24.699966 22663 master.cpp:165] assign tag 116 to work 0x5b32e40
+I0324 22:02:24.699973 22663 master.cpp:144] Sending request 116to worker.
+I0324 22:02:24.709936 22663 master.cpp:354] Received request: cmd=418wisdom;x=2669
+I0324 22:02:24.709951 22663 master.cpp:165] assign tag 117 to work 0x5b32fe0
+I0324 22:02:24.709957 22663 master.cpp:144] Sending request 117to worker.
+I0324 22:02:24.719897 22663 master.cpp:354] Received request: cmd=418wisdom;x=63500
+I0324 22:02:24.719910 22663 master.cpp:165] assign tag 118 to work 0x5b33180
+I0324 22:02:24.719918 22663 master.cpp:144] Sending request 118to worker.
+I0324 22:02:24.730402 22663 master.cpp:354] Received request: cmd=418wisdom;x=60634
+I0324 22:02:24.730417 22663 master.cpp:165] assign tag 119 to work 0x5b33320
+I0324 22:02:24.730423 22663 master.cpp:144] Sending request 119to worker.
+I0324 22:02:24.739990 22663 master.cpp:354] Received request: cmd=418wisdom;x=57595
+I0324 22:02:24.740005 22663 master.cpp:165] assign tag 120 to work 0x5b334c0
+I0324 22:02:24.740011 22663 master.cpp:144] Sending request 120to worker.
+I0324 22:02:24.749969 22663 master.cpp:354] Received request: cmd=418wisdom;x=39121
+I0324 22:02:24.749987 22663 master.cpp:165] assign tag 121 to work 0x5b33660
+I0324 22:02:24.749999 22663 master.cpp:144] Sending request 121to worker.
+I0324 22:02:24.759857 22663 master.cpp:354] Received request: cmd=418wisdom;x=37014
+I0324 22:02:24.759881 22663 master.cpp:165] assign tag 122 to work 0x5b33800
+I0324 22:02:24.759891 22663 master.cpp:144] Sending request 122to worker.
+I0324 22:02:24.769845 22663 master.cpp:354] Received request: cmd=418wisdom;x=98052
+I0324 22:02:24.769862 22663 master.cpp:165] assign tag 123 to work 0x5b339a0
+I0324 22:02:24.769872 22663 master.cpp:144] Sending request 123to worker.
+I0324 22:02:24.779912 22663 master.cpp:354] Received request: cmd=418wisdom;x=3639
+I0324 22:02:24.779932 22663 master.cpp:165] assign tag 124 to work 0x5b33b40
+I0324 22:02:24.779942 22663 master.cpp:144] Sending request 124to worker.
+I0324 22:02:24.790357 22663 master.cpp:354] Received request: cmd=418wisdom;x=2163
+I0324 22:02:24.790383 22663 master.cpp:165] assign tag 125 to work 0x5b33ce0
+I0324 22:02:24.790395 22663 master.cpp:144] Sending request 125to worker.
+I0324 22:02:24.802914 22663 master.cpp:354] Received request: cmd=418wisdom;x=96104
+I0324 22:02:24.802932 22663 master.cpp:165] assign tag 126 to work 0x5b33e80
+I0324 22:02:24.802942 22663 master.cpp:144] Sending request 126to worker.
+I0324 22:02:24.815840 22663 master.cpp:354] Received request: cmd=418wisdom;x=18497
+I0324 22:02:24.815860 22663 master.cpp:165] assign tag 127 to work 0x5b34020
+I0324 22:02:24.815871 22663 master.cpp:144] Sending request 127to worker.
+I0324 22:02:24.819933 22663 master.cpp:354] Received request: cmd=418wisdom;x=12389
+I0324 22:02:24.819952 22663 master.cpp:165] assign tag 128 to work 0x5b341c0
+I0324 22:02:24.819964 22663 master.cpp:144] Sending request 128to worker.
+I0324 22:02:24.829882 22663 master.cpp:354] Received request: cmd=418wisdom;x=21057
+I0324 22:02:24.829900 22663 master.cpp:165] assign tag 129 to work 0x5b34360
+I0324 22:02:24.829910 22663 master.cpp:144] Sending request 129to worker.
+I0324 22:02:24.839927 22663 master.cpp:354] Received request: cmd=418wisdom;x=80075
+I0324 22:02:24.839946 22663 master.cpp:165] assign tag 130 to work 0x5b34500
+I0324 22:02:24.839956 22663 master.cpp:144] Sending request 130to worker.
+I0324 22:02:24.849880 22663 master.cpp:354] Received request: cmd=418wisdom;x=93697
+I0324 22:02:24.849898 22663 master.cpp:165] assign tag 131 to work 0x5b346a0
+I0324 22:02:24.849908 22663 master.cpp:144] Sending request 131to worker.
+I0324 22:02:24.880327 22663 master.cpp:354] Received request: cmd=tellmenow;x=205
+I0324 22:02:24.880350 22663 master.cpp:165] assign tag 132 to work 0x5b34840
+I0324 22:02:24.880362 22663 master.cpp:144] Sending request 132to worker.
+I0324 22:02:24.880583 22663 master.cpp:311] Master received a response from a worker: [132:Figure out a way to understand the workload characteristics in each trace.]
+I0324 22:02:24.880596 22663 master.cpp:314] Found tag 132 work 0x5b34840
+I0324 22:02:24.922265 22663 master.cpp:354] Received request: cmd=tellmenow;x=3830
+I0324 22:02:24.922284 22663 master.cpp:165] assign tag 133 to work 0x5b34a00
+I0324 22:02:24.922297 22663 master.cpp:144] Sending request 133to worker.
+I0324 22:02:24.935264 22663 master.cpp:354] Received request: cmd=tellmenow;x=913
+I0324 22:02:24.935281 22663 master.cpp:165] assign tag 134 to work 0x5b34ba0
+I0324 22:02:24.935292 22663 master.cpp:144] Sending request 134to worker.
+I0324 22:02:24.948256 22663 master.cpp:354] Received request: cmd=tellmenow;x=2339
+I0324 22:02:24.948271 22663 master.cpp:165] assign tag 135 to work 0x5b34d40
+I0324 22:02:24.948282 22663 master.cpp:144] Sending request 135to worker.
+I0324 22:02:24.961261 22663 master.cpp:354] Received request: cmd=tellmenow;x=1987
+I0324 22:02:24.961275 22663 master.cpp:165] assign tag 136 to work 0x5b34ee0
+I0324 22:02:24.961285 22663 master.cpp:144] Sending request 136to worker.
+I0324 22:02:24.974261 22663 master.cpp:354] Received request: cmd=tellmenow;x=5822
+I0324 22:02:24.974280 22663 master.cpp:165] assign tag 137 to work 0x5b35080
+I0324 22:02:24.974292 22663 master.cpp:144] Sending request 137to worker.
+I0324 22:02:24.974349 22663 master.cpp:354] Received request: cmd=tellmenow;x=3152
+I0324 22:02:24.974364 22663 master.cpp:165] assign tag 138 to work 0x5b35220
+I0324 22:02:24.974373 22663 master.cpp:144] Sending request 138to worker.
+I0324 22:02:24.974402 22663 master.cpp:311] Master received a response from a worker: [133:We recommend getting full credit on grading_wisdom.txt first]
+I0324 22:02:24.974412 22663 master.cpp:314] Found tag 133 work 0x5b34a00
+I0324 22:02:24.977321 22663 master.cpp:354] Received request: cmd=tellmenow;x=1623
+I0324 22:02:24.977339 22663 master.cpp:165] assign tag 139 to work 0x5b353a0
+I0324 22:02:24.977349 22663 master.cpp:144] Sending request 139to worker.
+I0324 22:02:24.977378 22663 master.cpp:311] Master received a response from a worker: [134:The best performance may come from a particular mixture of jobs on a worker node.]
+I0324 22:02:24.977390 22663 master.cpp:314] Found tag 134 work 0x5b34ba0
+I0324 22:02:24.977439 22663 master.cpp:311] Master received a response from a worker: [135:Re-watch the lecture on scaling a website]
+I0324 22:02:24.977452 22663 master.cpp:314] Found tag 135 work 0x5b34d40
+I0324 22:02:24.977499 22663 master.cpp:311] Master received a response from a worker: [136:The best performance may come from a particular mixture of jobs on a worker node.]
+I0324 22:02:24.977510 22663 master.cpp:314] Found tag 136 work 0x5b34ee0
+I0324 22:02:25.025267 22663 master.cpp:354] Received request: cmd=tellmenow;x=4533
+I0324 22:02:25.025287 22663 master.cpp:165] assign tag 140 to work 0x5b354c0
+I0324 22:02:25.025298 22663 master.cpp:144] Sending request 140to worker.
+I0324 22:02:25.038257 22663 master.cpp:354] Received request: cmd=tellmenow;x=354
+I0324 22:02:25.038276 22663 master.cpp:165] assign tag 141 to work 0x5b35760
+I0324 22:02:25.038286 22663 master.cpp:144] Sending request 141to worker.
+I0324 22:02:25.038350 22663 master.cpp:354] Received request: cmd=tellmenow;x=908
+I0324 22:02:25.038365 22663 master.cpp:165] assign tag 142 to work 0x5b35900
+I0324 22:02:25.038439 22663 master.cpp:144] Sending request 142to worker.
+I0324 22:02:25.038491 22663 master.cpp:311] Master received a response from a worker: [137:Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.]
+I0324 22:02:25.038503 22663 master.cpp:314] Found tag 137 work 0x5b35080
+I0324 22:02:25.038558 22663 master.cpp:354] Received request: cmd=tellmenow;x=8895
+I0324 22:02:25.038573 22663 master.cpp:165] assign tag 143 to work 0x5b35a70
+I0324 22:02:25.038581 22663 master.cpp:144] Sending request 143to worker.
+I0324 22:02:25.038638 22663 master.cpp:311] Master received a response from a worker: [138:Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.]
+I0324 22:02:25.038650 22663 master.cpp:314] Found tag 138 work 0x5b35220
+I0324 22:02:25.038696 22663 master.cpp:311] Master received a response from a worker: [139:The best performance may come from a particular mixture of jobs on a worker node.]
+I0324 22:02:25.038707 22663 master.cpp:314] Found tag 139 work 0x5b353a0
+I0324 22:02:25.038754 22663 master.cpp:311] Master received a response from a worker: [140:The best performance may come from a particular mixture of jobs on a worker node.]
+I0324 22:02:25.038769 22663 master.cpp:314] Found tag 140 work 0x5b354c0
+I0324 22:02:25.038822 22663 master.cpp:311] Master received a response from a worker: [141:There may be opportunities for caching in this assignment]
+I0324 22:02:25.038837 22663 master.cpp:314] Found tag 141 work 0x5b35760
+I0324 22:02:25.038897 22663 master.cpp:311] Master received a response from a worker: [142:Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.]
+I0324 22:02:25.038910 22663 master.cpp:314] Found tag 142 work 0x5b35900
+I0324 22:02:25.078243 22663 master.cpp:311] Master received a response from a worker: [143:Figure out a way to understand the workload characteristics in each trace.]
+I0324 22:02:25.078258 22663 master.cpp:314] Found tag 143 work 0x5b35a70
+I0324 22:02:26.778759 22663 master.cpp:311] Master received a response from a worker: [108:You will PWN your classmates in the parallelism competition]
+I0324 22:02:26.778784 22663 master.cpp:314] Found tag 108 work 0x5b320a0
+I0324 22:02:26.785971 22663 master.cpp:311] Master received a response from a worker: [110:You will perform amazingly on exam 2]
+I0324 22:02:26.785984 22663 master.cpp:314] Found tag 110 work 0x5b32480
+I0324 22:02:26.791337 22663 master.cpp:311] Master received a response from a worker: [109:OMG, 418 is so gr8!]
+I0324 22:02:26.791348 22663 master.cpp:314] Found tag 109 work 0x5b322e0
+I0324 22:02:26.793560 22663 master.cpp:311] Master received a response from a worker: [114:Do a great project, and it all works out in the end]
+I0324 22:02:26.793570 22663 master.cpp:314] Found tag 114 work 0x5b32b00
+I0324 22:02:26.800956 22663 master.cpp:311] Master received a response from a worker: [113:You will PWN your classmates in the parallelism competition]
+I0324 22:02:26.800976 22663 master.cpp:314] Found tag 113 work 0x5b32960
+I0324 22:02:26.809172 22663 master.cpp:311] Master received a response from a worker: [116:OMG, 418 is so gr8!]
+I0324 22:02:26.809190 22663 master.cpp:314] Found tag 116 work 0x5b32e40
+I0324 22:02:26.819344 22663 master.cpp:311] Master received a response from a worker: [118:Laugh at Kayvon's jokes]
+I0324 22:02:26.819358 22663 master.cpp:314] Found tag 118 work 0x5b33180
+I0324 22:02:26.828830 22663 master.cpp:311] Master received a response from a worker: [117:If all else fails... buy Kayvon donuts]
+I0324 22:02:26.828842 22663 master.cpp:314] Found tag 117 work 0x5b32fe0
+I0324 22:02:26.836591 22663 master.cpp:311] Master received a response from a worker: [121:If all else fails... buy Kayvon donuts]
+I0324 22:02:26.836601 22663 master.cpp:314] Found tag 121 work 0x5b33660
+I0324 22:02:26.837442 22663 master.cpp:311] Master received a response from a worker: [122:Laugh at Kayvon's jokes]
+I0324 22:02:26.837453 22663 master.cpp:314] Found tag 122 work 0x5b33800
+I0324 22:02:26.845265 22663 master.cpp:311] Master received a response from a worker: [120:You will perform amazingly on exam 2]
+I0324 22:02:26.845275 22663 master.cpp:314] Found tag 120 work 0x5b334c0
+I0324 22:02:26.855942 22663 master.cpp:311] Master received a response from a worker: [123:Come to lecture, there might be donuts!]
+I0324 22:02:26.855952 22663 master.cpp:314] Found tag 123 work 0x5b339a0
+I0324 22:02:26.856114 22663 master.cpp:311] Master received a response from a worker: [124:Do a great project, and it all works out in the end]
+I0324 22:02:26.856123 22663 master.cpp:314] Found tag 124 work 0x5b33b40
+I0324 22:02:26.867548 22663 master.cpp:311] Master received a response from a worker: [125:Come to lecture, there might be donuts!]
+I0324 22:02:26.867559 22663 master.cpp:314] Found tag 125 work 0x5b33ce0
+I0324 22:02:26.869168 22663 master.cpp:311] Master received a response from a worker: [111:You will perform amazingly on exam 2]
+I0324 22:02:26.869189 22663 master.cpp:314] Found tag 111 work 0x5b32620
+I0324 22:02:26.872186 22663 master.cpp:311] Master received a response from a worker: [127:Ask questions. Ask questions. Ask questions]
+I0324 22:02:26.872195 22663 master.cpp:314] Found tag 127 work 0x5b34020
+I0324 22:02:26.874778 22663 master.cpp:311] Master received a response from a worker: [128:Laugh at Kayvon's jokes]
+I0324 22:02:26.874788 22663 master.cpp:314] Found tag 128 work 0x5b341c0
+I0324 22:02:26.879025 22663 master.cpp:311] Master received a response from a worker: [115:You will PWN your classmates in the parallelism competition]
+I0324 22:02:26.879035 22663 master.cpp:314] Found tag 115 work 0x5b32ca0
+I0324 22:02:26.882128 22663 master.cpp:311] Master received a response from a worker: [119:You are going to do a great project]
+I0324 22:02:26.882136 22663 master.cpp:314] Found tag 119 work 0x5b33320
+I0324 22:02:26.882346 22663 master.cpp:311] Master received a response from a worker: [129:Come to lecture, there might be donuts!]
+I0324 22:02:26.882355 22663 master.cpp:314] Found tag 129 work 0x5b34360
+I0324 22:02:26.890363 22663 master.cpp:311] Master received a response from a worker: [130:Write a great lecture comment on your favorite idea in the class]
+I0324 22:02:26.890372 22663 master.cpp:314] Found tag 130 work 0x5b34500
+I0324 22:02:26.898103 22663 master.cpp:311] Master received a response from a worker: [112:Exams are all just fun and games]
+I0324 22:02:26.898113 22663 master.cpp:314] Found tag 112 work 0x5b327c0
+I0324 22:02:27.006348 22663 master.cpp:311] Master received a response from a worker: [126:Flatter your TAs with compliments]
+I0324 22:02:27.006373 22663 master.cpp:314] Found tag 126 work 0x5b33e80
+I0324 22:02:27.065763 22663 master.cpp:311] Master received a response from a worker: [131:Laugh at Kayvon's jokes]
+I0324 22:02:27.065786 22663 master.cpp:314] Found tag 131 work 0x5b346a0
+I0324 22:02:27.386490 22663 master.cpp:354] Received request: cmd=418wisdom;x=19935
+I0324 22:02:27.386513 22663 master.cpp:165] assign tag 144 to work 0x5b35b50
+I0324 22:02:27.386521 22663 master.cpp:144] Sending request 144to worker.
+I0324 22:02:27.393910 22663 master.cpp:354] Received request: cmd=418wisdom;x=35855
+I0324 22:02:27.393928 22663 master.cpp:165] assign tag 145 to work 0x5b35e10
+I0324 22:02:27.393934 22663 master.cpp:144] Sending request 145to worker.
+I0324 22:02:27.403998 22663 master.cpp:354] Received request: cmd=418wisdom;x=73160
+I0324 22:02:27.404008 22663 master.cpp:165] assign tag 146 to work 0x5b35fb0
+I0324 22:02:27.404013 22663 master.cpp:144] Sending request 146to worker.
+I0324 22:02:27.413978 22663 master.cpp:354] Received request: cmd=418wisdom;x=83833
+I0324 22:02:27.413993 22663 master.cpp:165] assign tag 147 to work 0x5b36150
+I0324 22:02:27.414000 22663 master.cpp:144] Sending request 147to worker.
+I0324 22:02:27.423924 22663 master.cpp:354] Received request: cmd=418wisdom;x=91849
+I0324 22:02:27.423938 22663 master.cpp:165] assign tag 148 to work 0x5b362f0
+I0324 22:02:27.423943 22663 master.cpp:144] Sending request 148to worker.
+I0324 22:02:27.433966 22663 master.cpp:354] Received request: cmd=418wisdom;x=16942
+I0324 22:02:27.434077 22663 master.cpp:165] assign tag 149 to work 0x5b36490
+I0324 22:02:27.434084 22663 master.cpp:144] Sending request 149to worker.
+I0324 22:02:27.443894 22663 master.cpp:354] Received request: cmd=418wisdom;x=67264
+I0324 22:02:27.443905 22663 master.cpp:165] assign tag 150 to work 0x5b36630
+I0324 22:02:27.443909 22663 master.cpp:144] Sending request 150to worker.
+I0324 22:02:27.453891 22663 master.cpp:354] Received request: cmd=418wisdom;x=96655
+I0324 22:02:27.453902 22663 master.cpp:165] assign tag 151 to work 0x5b367d0
+I0324 22:02:27.453907 22663 master.cpp:144] Sending request 151to worker.
+I0324 22:02:27.463896 22663 master.cpp:354] Received request: cmd=418wisdom;x=5805
+I0324 22:02:27.463910 22663 master.cpp:165] assign tag 152 to work 0x5b36970
+I0324 22:02:27.463917 22663 master.cpp:144] Sending request 152to worker.
+I0324 22:02:27.473987 22663 master.cpp:354] Received request: cmd=418wisdom;x=67620
+I0324 22:02:27.474001 22663 master.cpp:165] assign tag 153 to work 0x5b36b10
+I0324 22:02:27.474007 22663 master.cpp:144] Sending request 153to worker.
+I0324 22:02:27.484714 22663 master.cpp:354] Received request: cmd=418wisdom;x=84543
+I0324 22:02:27.484738 22663 master.cpp:165] assign tag 154 to work 0x5b36cb0
+I0324 22:02:27.484750 22663 master.cpp:144] Sending request 154to worker.
+I0324 22:02:27.494211 22663 master.cpp:354] Received request: cmd=418wisdom;x=34231
+I0324 22:02:27.494231 22663 master.cpp:165] assign tag 155 to work 0x5b36e50
+I0324 22:02:27.494242 22663 master.cpp:144] Sending request 155to worker.
+I0324 22:02:27.504187 22663 master.cpp:354] Received request: cmd=418wisdom;x=25068
+I0324 22:02:27.504206 22663 master.cpp:165] assign tag 156 to work 0x5b36ff0
+I0324 22:02:27.504217 22663 master.cpp:144] Sending request 156to worker.
+I0324 22:02:27.514329 22663 master.cpp:354] Received request: cmd=418wisdom;x=59679
+I0324 22:02:27.514349 22663 master.cpp:165] assign tag 157 to work 0x5b37190
+I0324 22:02:27.514359 22663 master.cpp:144] Sending request 157to worker.
+I0324 22:02:27.524099 22663 master.cpp:354] Received request: cmd=418wisdom;x=44231
+I0324 22:02:27.524121 22663 master.cpp:165] assign tag 158 to work 0x5b37330
+I0324 22:02:27.524130 22663 master.cpp:144] Sending request 158to worker.
+I0324 22:02:27.552508 22663 master.cpp:354] Received request: cmd=418wisdom;x=17482
+I0324 22:02:27.552536 22663 master.cpp:165] assign tag 159 to work 0x5b374d0
+I0324 22:02:27.552548 22663 master.cpp:144] Sending request 159to worker.
+I0324 22:02:27.552629 22663 master.cpp:354] Received request: cmd=418wisdom;x=47163
+I0324 22:02:27.552646 22663 master.cpp:165] assign tag 160 to work 0x5b37670
+I0324 22:02:27.552659 22663 master.cpp:144] Sending request 160to worker.
+I0324 22:02:27.558444 22663 master.cpp:354] Received request: cmd=418wisdom;x=40990
+I0324 22:02:27.558473 22663 master.cpp:165] assign tag 161 to work 0x5b37810
+I0324 22:02:27.558486 22663 master.cpp:144] Sending request 161to worker.
+I0324 22:02:27.571617 22663 master.cpp:354] Received request: cmd=418wisdom;x=56911
+I0324 22:02:27.571645 22663 master.cpp:165] assign tag 162 to work 0x5b379b0
+I0324 22:02:27.571657 22663 master.cpp:144] Sending request 162to worker.
+I0324 22:02:27.573945 22663 master.cpp:354] Received request: cmd=418wisdom;x=50860
+I0324 22:02:27.573963 22663 master.cpp:165] assign tag 163 to work 0x5b37b50
+I0324 22:02:27.573973 22663 master.cpp:144] Sending request 163to worker.
+I0324 22:02:27.619891 22663 master.cpp:354] Received request: cmd=418wisdom;x=31144
+I0324 22:02:27.619921 22663 master.cpp:165] assign tag 164 to work 0x5b37cf0
+I0324 22:02:27.619935 22663 master.cpp:144] Sending request 164to worker.
+I0324 22:02:27.620383 22663 master.cpp:354] Received request: cmd=418wisdom;x=35715
+I0324 22:02:27.620404 22663 master.cpp:165] assign tag 165 to work 0x5b37e90
+I0324 22:02:27.620414 22663 master.cpp:144] Sending request 165to worker.
+I0324 22:02:27.624806 22663 master.cpp:354] Received request: cmd=418wisdom;x=83766
+I0324 22:02:27.624825 22663 master.cpp:165] assign tag 166 to work 0x5b38030
+I0324 22:02:27.624940 22663 master.cpp:144] Sending request 166to worker.
+I0324 22:02:27.628958 22663 master.cpp:354] Received request: cmd=418wisdom;x=25093
+I0324 22:02:27.628978 22663 master.cpp:165] assign tag 167 to work 0x5b381d0
+I0324 22:02:27.628989 22663 master.cpp:144] Sending request 167to worker.
+I0324 22:02:27.641937 22663 master.cpp:354] Received request: cmd=tellmenow;x=5045
+I0324 22:02:27.641963 22663 master.cpp:165] assign tag 168 to work 0x5b38370
+I0324 22:02:27.641975 22663 master.cpp:144] Sending request 168to worker.
+I0324 22:02:27.642284 22663 master.cpp:311] Master received a response from a worker: [168:Figure out a way to understand the workload characteristics in each trace.]
+I0324 22:02:27.642300 22663 master.cpp:314] Found tag 168 work 0x5b38370
+I0324 22:02:27.697398 22663 master.cpp:354] Received request: cmd=tellmenow;x=111
+I0324 22:02:27.697429 22663 master.cpp:165] assign tag 169 to work 0x5b38530
+I0324 22:02:27.697441 22663 master.cpp:144] Sending request 169to worker.
+I0324 22:02:27.704269 22663 master.cpp:354] Received request: cmd=tellmenow;x=6674
+I0324 22:02:27.704289 22663 master.cpp:165] assign tag 170 to work 0x5b386d0
+I0324 22:02:27.704300 22663 master.cpp:144] Sending request 170to worker.
+I0324 22:02:27.717278 22663 master.cpp:354] Received request: cmd=tellmenow;x=3023
+I0324 22:02:27.717305 22663 master.cpp:165] assign tag 171 to work 0x5b38870
+I0324 22:02:27.717316 22663 master.cpp:144] Sending request 171to worker.
+I0324 22:02:27.730288 22663 master.cpp:354] Received request: cmd=tellmenow;x=411
+I0324 22:02:27.730315 22663 master.cpp:165] assign tag 172 to work 0x5b38a10
+I0324 22:02:27.730327 22663 master.cpp:144] Sending request 172to worker.
+I0324 22:02:27.730379 22663 master.cpp:354] Received request: cmd=tellmenow;x=2528
+I0324 22:02:27.730392 22663 master.cpp:165] assign tag 173 to work 0x5b38bb0
+I0324 22:02:27.730401 22663 master.cpp:144] Sending request 173to worker.
+I0324 22:02:27.730432 22663 master.cpp:354] Received request: cmd=tellmenow;x=2161
+I0324 22:02:27.730444 22663 master.cpp:165] assign tag 174 to work 0x5b38d50
+I0324 22:02:27.730453 22663 master.cpp:144] Sending request 174to worker.
+I0324 22:02:27.730484 22663 master.cpp:354] Received request: cmd=tellmenow;x=8579
+I0324 22:02:27.730495 22663 master.cpp:165] assign tag 175 to work 0x5b38ef0
+I0324 22:02:27.730504 22663 master.cpp:144] Sending request 175to worker.
+I0324 22:02:27.730535 22663 master.cpp:354] Received request: cmd=tellmenow;x=3170
+I0324 22:02:27.730546 22663 master.cpp:165] assign tag 176 to work 0x5b39090
+I0324 22:02:27.730556 22663 master.cpp:144] Sending request 176to worker.
+I0324 22:02:27.737489 22663 master.cpp:311] Master received a response from a worker: [169:Re-watch the lecture on scaling a website]
+I0324 22:02:27.737505 22663 master.cpp:314] Found tag 169 work 0x5b38530
+I0324 22:02:27.737560 22663 master.cpp:311] Master received a response from a worker: [170:There may be opportunities for caching in this assignment]
+I0324 22:02:27.737573 22663 master.cpp:314] Found tag 170 work 0x5b386d0
+I0324 22:02:27.737746 22663 master.cpp:311] Master received a response from a worker: [171:The best performance may come from a particular mixture of jobs on a worker node.]
+I0324 22:02:27.737762 22663 master.cpp:314] Found tag 171 work 0x5b38870
+I0324 22:02:27.737825 22663 master.cpp:311] Master received a response from a worker: [172:Re-watch the lecture on scaling a website]
+I0324 22:02:27.737838 22663 master.cpp:314] Found tag 172 work 0x5b38a10
+I0324 22:02:27.737926 22663 master.cpp:311] Master received a response from a worker: [173:Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.]
+I0324 22:02:27.737941 22663 master.cpp:314] Found tag 173 work 0x5b38bb0
+I0324 22:02:27.737999 22663 master.cpp:311] Master received a response from a worker: [174:Re-watch the lecture on scaling a website]
+I0324 22:02:27.738013 22663 master.cpp:314] Found tag 174 work 0x5b38d50
+I0324 22:02:27.738071 22663 master.cpp:311] Master received a response from a worker: [175:Re-watch the lecture on scaling a website]
+I0324 22:02:27.738194 22663 master.cpp:314] Found tag 175 work 0x5b38ef0
+I0324 22:02:27.738294 22663 master.cpp:311] Master received a response from a worker: [176:We recommend getting full credit on grading_wisdom.txt first]
+I0324 22:02:27.738306 22663 master.cpp:314] Found tag 176 work 0x5b39090
+I0324 22:02:27.741734 22663 master.cpp:354] Received request: cmd=tellmenow;x=2591
+I0324 22:02:27.741753 22663 master.cpp:165] assign tag 177 to work 0x5b39130
+I0324 22:02:27.741765 22663 master.cpp:144] Sending request 177to worker.
+I0324 22:02:27.783309 22663 master.cpp:354] Received request: cmd=tellmenow;x=3233
+I0324 22:02:27.783339 22663 master.cpp:165] assign tag 178 to work 0x5b39480
+I0324 22:02:27.783352 22663 master.cpp:144] Sending request 178to worker.
+I0324 22:02:27.813272 22663 master.cpp:354] Received request: cmd=tellmenow;x=8523
+I0324 22:02:27.813293 22663 master.cpp:165] assign tag 179 to work 0x5b39620
+I0324 22:02:27.813304 22663 master.cpp:144] Sending request 179to worker.
+I0324 22:02:27.813352 22663 master.cpp:311] Master received a response from a worker: [177:Re-watch the lecture on scaling a website]
+I0324 22:02:27.813364 22663 master.cpp:314] Found tag 177 work 0x5b39130
+I0324 22:02:27.813424 22663 master.cpp:311] Master received a response from a worker: [178:The best performance may come from a particular mixture of jobs on a worker node.]
+I0324 22:02:27.813436 22663 master.cpp:314] Found tag 178 work 0x5b39480
+I0324 22:02:27.853272 22663 master.cpp:311] Master received a response from a worker: [179:The best performance may come from a particular mixture of jobs on a worker node.]
+I0324 22:02:27.853302 22663 master.cpp:314] Found tag 179 work 0x5b39620
+I0324 22:02:29.624430 22663 master.cpp:311] Master received a response from a worker: [146:Ask questions. Ask questions. Ask questions]
+I0324 22:02:29.624454 22663 master.cpp:314] Found tag 146 work 0x5b35fb0
+I0324 22:02:29.671598 22663 master.cpp:311] Master received a response from a worker: [147:You will perform amazingly on exam 2]
+I0324 22:02:29.671612 22663 master.cpp:314] Found tag 147 work 0x5b36150
+I0324 22:02:29.686467 22663 master.cpp:311] Master received a response from a worker: [159:You are going to do a great project]
+I0324 22:02:29.686478 22663 master.cpp:314] Found tag 159 work 0x5b374d0
+I0324 22:02:29.712386 22663 master.cpp:311] Master received a response from a worker: [163:Come to lecture, there might be donuts!]
+I0324 22:02:29.712410 22663 master.cpp:314] Found tag 163 work 0x5b37b50
+I0324 22:02:29.737336 22663 master.cpp:311] Master received a response from a worker: [144:Write a great lecture comment on your favorite idea in the class]
+I0324 22:02:29.737347 22663 master.cpp:314] Found tag 144 work 0x5b35b50
+I0324 22:02:29.751426 22663 master.cpp:311] Master received a response from a worker: [148:Do a great project, and it all works out in the end]
+I0324 22:02:29.751438 22663 master.cpp:314] Found tag 148 work 0x5b362f0
+I0324 22:02:29.763473 22663 master.cpp:311] Master received a response from a worker: [145:Do as best as you can and just have fun!]
+I0324 22:02:29.763484 22663 master.cpp:314] Found tag 145 work 0x5b35e10
+I0324 22:02:29.778877 22663 master.cpp:311] Master received a response from a worker: [150:Flatter your TAs with compliments]
+I0324 22:02:29.778887 22663 master.cpp:314] Found tag 150 work 0x5b36630
+I0324 22:02:29.782374 22663 master.cpp:311] Master received a response from a worker: [158:You will PWN your classmates in the parallelism competition]
+I0324 22:02:29.782384 22663 master.cpp:314] Found tag 158 work 0x5b37330
+I0324 22:02:29.783479 22663 master.cpp:311] Master received a response from a worker: [156:Flatter your TAs with compliments]
+I0324 22:02:29.783489 22663 master.cpp:314] Found tag 156 work 0x5b36ff0
+I0324 22:02:29.790112 22663 master.cpp:311] Master received a response from a worker: [164:Do as best as you can and just have fun!]
+I0324 22:02:29.790122 22663 master.cpp:314] Found tag 164 work 0x5b37cf0
+I0324 22:02:29.810073 22663 master.cpp:311] Master received a response from a worker: [151:Write a great lecture comment on your favorite idea in the class]
+I0324 22:02:29.810170 22663 master.cpp:314] Found tag 151 work 0x5b367d0
+I0324 22:02:29.827436 22663 master.cpp:311] Master received a response from a worker: [157:Flatter your TAs with compliments]
+I0324 22:02:29.827446 22663 master.cpp:314] Found tag 157 work 0x5b37190
+I0324 22:02:29.827960 22663 master.cpp:311] Master received a response from a worker: [153:You are going to do a great project]
+I0324 22:02:29.827968 22663 master.cpp:314] Found tag 153 work 0x5b36b10
+I0324 22:02:29.828999 22663 master.cpp:311] Master received a response from a worker: [165:Ask questions. Ask questions. Ask questions]
+I0324 22:02:29.829008 22663 master.cpp:314] Found tag 165 work 0x5b37e90
+I0324 22:02:29.924077 22663 master.cpp:311] Master received a response from a worker: [149:Bring out all the stops in assignment 4.]
+I0324 22:02:29.924088 22663 master.cpp:314] Found tag 149 work 0x5b36490
+I0324 22:02:29.940305 22663 master.cpp:311] Master received a response from a worker: [160:Bring out all the stops in assignment 4.]
+I0324 22:02:29.940315 22663 master.cpp:314] Found tag 160 work 0x5b37670
+I0324 22:02:29.972164 22663 master.cpp:311] Master received a response from a worker: [154:Ask questions. Ask questions. Ask questions]
+I0324 22:02:29.972185 22663 master.cpp:314] Found tag 154 work 0x5b36cb0
+I0324 22:02:29.996875 22663 master.cpp:311] Master received a response from a worker: [166:You will perform amazingly on exam 2]
+I0324 22:02:29.996887 22663 master.cpp:314] Found tag 166 work 0x5b38030
+I0324 22:02:30.150053 22663 master.cpp:354] Received request: cmd=418wisdom;x=63375
+I0324 22:02:30.150074 22663 master.cpp:165] assign tag 180 to work 0x5b39700
+I0324 22:02:30.150082 22663 master.cpp:144] Sending request 180to worker.
+I0324 22:02:30.157925 22663 master.cpp:354] Received request: cmd=418wisdom;x=62108
+I0324 22:02:30.157938 22663 master.cpp:165] assign tag 181 to work 0x5b39970
+I0324 22:02:30.157943 22663 master.cpp:144] Sending request 181to worker.
+I0324 22:02:30.167979 22663 master.cpp:354] Received request: cmd=418wisdom;x=71562
+I0324 22:02:30.167990 22663 master.cpp:165] assign tag 182 to work 0x5b39b10
+I0324 22:02:30.167996 22663 master.cpp:144] Sending request 182to worker.
+I0324 22:02:30.210320 22663 master.cpp:311] Master received a response from a worker: [162:OMG, 418 is so gr8!]
+I0324 22:02:30.210335 22663 master.cpp:314] Found tag 162 work 0x5b379b0
+I0324 22:02:30.210382 22663 master.cpp:311] Master received a response from a worker: [167:You will perform amazingly on exam 2]
+I0324 22:02:30.210391 22663 master.cpp:314] Found tag 167 work 0x5b381d0
+I0324 22:02:30.210434 22663 master.cpp:354] Received request: cmd=418wisdom;x=38802
+I0324 22:02:30.210445 22663 master.cpp:165] assign tag 183 to work 0x5b39c30
+I0324 22:02:30.210451 22663 master.cpp:144] Sending request 183to worker.
+I0324 22:02:30.210491 22663 master.cpp:354] Received request: cmd=418wisdom;x=41442
+I0324 22:02:30.210500 22663 master.cpp:165] assign tag 184 to work 0x5b39e70
+I0324 22:02:30.210506 22663 master.cpp:144] Sending request 184to worker.
+I0324 22:02:30.210526 22663 master.cpp:354] Received request: cmd=418wisdom;x=65083
+I0324 22:02:30.210533 22663 master.cpp:165] assign tag 185 to work 0x5b3a010
+I0324 22:02:30.210539 22663 master.cpp:144] Sending request 185to worker.
+I0324 22:02:30.210557 22663 master.cpp:354] Received request: cmd=418wisdom;x=152
+I0324 22:02:30.210566 22663 master.cpp:165] assign tag 186 to work 0x5b3a1b0
+I0324 22:02:30.210571 22663 master.cpp:144] Sending request 186to worker.
+I0324 22:02:30.210588 22663 master.cpp:311] Master received a response from a worker: [161:Come to lecture, there might be donuts!]
+I0324 22:02:30.210595 22663 master.cpp:314] Found tag 161 work 0x5b37810
+I0324 22:02:30.217931 22663 master.cpp:354] Received request: cmd=418wisdom;x=19231
+I0324 22:02:30.217944 22663 master.cpp:165] assign tag 187 to work 0x5b3a2d0
+I0324 22:02:30.217952 22663 master.cpp:144] Sending request 187to worker.
+I0324 22:02:30.228240 22663 master.cpp:354] Received request: cmd=418wisdom;x=33440
+I0324 22:02:30.228255 22663 master.cpp:165] assign tag 188 to work 0x5b3a520
+I0324 22:02:30.228261 22663 master.cpp:144] Sending request 188to worker.
+I0324 22:02:30.237953 22663 master.cpp:354] Received request: cmd=418wisdom;x=23941
+I0324 22:02:30.237967 22663 master.cpp:165] assign tag 189 to work 0x5b3a6c0
+I0324 22:02:30.237973 22663 master.cpp:144] Sending request 189to worker.
+I0324 22:02:30.247997 22663 master.cpp:354] Received request: cmd=418wisdom;x=63740
+I0324 22:02:30.248021 22663 master.cpp:165] assign tag 190 to work 0x5b3a860
+I0324 22:02:30.248035 22663 master.cpp:144] Sending request 190to worker.
+I0324 22:02:30.257863 22663 master.cpp:354] Received request: cmd=418wisdom;x=37865
+I0324 22:02:30.257881 22663 master.cpp:165] assign tag 191 to work 0x5b3aa00
+I0324 22:02:30.257892 22663 master.cpp:144] Sending request 191to worker.
+I0324 22:02:30.267762 22663 master.cpp:354] Received request: cmd=418wisdom;x=87543
+I0324 22:02:30.267778 22663 master.cpp:165] assign tag 192 to work 0x5b3aba0
+I0324 22:02:30.267788 22663 master.cpp:144] Sending request 192to worker.
+I0324 22:02:30.277796 22663 master.cpp:354] Received request: cmd=418wisdom;x=56815
+I0324 22:02:30.277812 22663 master.cpp:165] assign tag 193 to work 0x5b3ad40
+I0324 22:02:30.277822 22663 master.cpp:144] Sending request 193to worker.
+I0324 22:02:30.287834 22663 master.cpp:354] Received request: cmd=418wisdom;x=41441
+I0324 22:02:30.287850 22663 master.cpp:165] assign tag 194 to work 0x5b3aee0
+I0324 22:02:30.287861 22663 master.cpp:144] Sending request 194to worker.
+I0324 22:02:30.297852 22663 master.cpp:354] Received request: cmd=418wisdom;x=40227
+I0324 22:02:30.297871 22663 master.cpp:165] assign tag 195 to work 0x5b3b080
+I0324 22:02:30.297883 22663 master.cpp:144] Sending request 195to worker.
+I0324 22:02:30.307842 22663 master.cpp:354] Received request: cmd=418wisdom;x=70183
+I0324 22:02:30.307862 22663 master.cpp:165] assign tag 196 to work 0x5b3b220
+I0324 22:02:30.307871 22663 master.cpp:144] Sending request 196to worker.
+I0324 22:02:30.317879 22663 master.cpp:354] Received request: cmd=418wisdom;x=41823
+I0324 22:02:30.317896 22663 master.cpp:165] assign tag 197 to work 0x5b3b3c0
+I0324 22:02:30.317908 22663 master.cpp:144] Sending request 197to worker.
+I0324 22:02:30.327826 22663 master.cpp:354] Received request: cmd=418wisdom;x=66220
+I0324 22:02:30.327843 22663 master.cpp:165] assign tag 198 to work 0x5b3b560
+I0324 22:02:30.327853 22663 master.cpp:144] Sending request 198to worker.
+I0324 22:02:30.337862 22663 master.cpp:354] Received request: cmd=418wisdom;x=4678
+I0324 22:02:30.337879 22663 master.cpp:165] assign tag 199 to work 0x5b3b700
+I0324 22:02:30.337889 22663 master.cpp:144] Sending request 199to worker.
+I0324 22:02:30.381255 22663 master.cpp:311] Master received a response from a worker: [155:Be careful not to optimize prematurely]
+I0324 22:02:30.381285 22663 master.cpp:314] Found tag 155 work 0x5b36e50
+I0324 22:02:30.381374 22663 master.cpp:311] Master received a response from a worker: [152:You will perform amazingly on exam 2]
+I0324 22:02:30.381387 22663 master.cpp:314] Found tag 152 work 0x5b36970
+I0324 22:02:30.381451 22663 master.cpp:354] Received request: cmd=418wisdom;x=44535
+I0324 22:02:30.381467 22663 master.cpp:165] assign tag 200 to work 0x5b3b820
+I0324 22:02:30.381479 22663 master.cpp:144] Sending request 200to worker.
+I0324 22:02:30.381533 22663 master.cpp:354] Received request: cmd=418wisdom;x=25922
+I0324 22:02:30.381547 22663 master.cpp:165] assign tag 201 to work 0x5b3ba70
+I0324 22:02:30.381557 22663 master.cpp:144] Sending request 201to worker.
+I0324 22:02:30.381589 22663 master.cpp:354] Received request: cmd=418wisdom;x=15768
+I0324 22:02:30.381600 22663 master.cpp:165] assign tag 202 to work 0x5b3bc10
+I0324 22:02:30.381610 22663 master.cpp:144] Sending request 202to worker.
+I0324 22:02:30.417269 22663 master.cpp:354] Received request: cmd=418wisdom;x=52757
+I0324 22:02:30.417290 22663 master.cpp:165] assign tag 203 to work 0x5b3bdb0
+I0324 22:02:30.417379 22663 master.cpp:144] Sending request 203to worker.
+I0324 22:02:30.417436 22663 master.cpp:354] Received request: cmd=tellmenow;x=4385
+I0324 22:02:30.417450 22663 master.cpp:165] assign tag 204 to work 0x5b3bf50
+I0324 22:02:30.417460 22663 master.cpp:144] Sending request 204to worker.
+I0324 22:02:30.417491 22663 master.cpp:354] Received request: cmd=tellmenow;x=5053
+I0324 22:02:30.417505 22663 master.cpp:165] assign tag 205 to work 0x5b3c0f0
+I0324 22:02:30.417513 22663 master.cpp:144] Sending request 205to worker.
+I0324 22:02:30.417543 22663 master.cpp:354] Received request: cmd=tellmenow;x=6800
+I0324 22:02:30.417556 22663 master.cpp:165] assign tag 206 to work 0x5b3c290
+I0324 22:02:30.417565 22663 master.cpp:144] Sending request 206to worker.
+I0324 22:02:30.417594 22663 master.cpp:354] Received request: cmd=tellmenow;x=7955
+I0324 22:02:30.417606 22663 master.cpp:165] assign tag 207 to work 0x5b3c430
+I0324 22:02:30.417615 22663 master.cpp:144] Sending request 207to worker.
+I0324 22:02:30.435268 22663 master.cpp:354] Received request: cmd=tellmenow;x=4451
+I0324 22:02:30.435286 22663 master.cpp:165] assign tag 208 to work 0x5b3c5d0
+I0324 22:02:30.435295 22663 master.cpp:144] Sending request 208to worker.
+I0324 22:02:30.437259 22663 master.cpp:354] Received request: cmd=tellmenow;x=2808
+I0324 22:02:30.437276 22663 master.cpp:165] assign tag 209 to work 0x5b3c770
+I0324 22:02:30.437286 22663 master.cpp:144] Sending request 209to worker.
+I0324 22:02:30.439277 22663 master.cpp:354] Received request: cmd=tellmenow;x=4202
+I0324 22:02:30.439294 22663 master.cpp:165] assign tag 210 to work 0x5b3c910
+I0324 22:02:30.439304 22663 master.cpp:144] Sending request 210to worker.
+I0324 22:02:30.441261 22663 master.cpp:354] Received request: cmd=tellmenow;x=7282
+I0324 22:02:30.441277 22663 master.cpp:165] assign tag 211 to work 0x5b3cab0
+I0324 22:02:30.441287 22663 master.cpp:144] Sending request 211to worker.
+I0324 22:02:30.443264 22663 master.cpp:354] Received request: cmd=tellmenow;x=7876
+I0324 22:02:30.443280 22663 master.cpp:165] assign tag 212 to work 0x5b3cc50
+I0324 22:02:30.443290 22663 master.cpp:144] Sending request 212to worker.
+I0324 22:02:30.443366 22663 master.cpp:311] Master received a response from a worker: [204:Figure out a way to understand the workload characteristics in each trace.]
+I0324 22:02:30.443378 22663 master.cpp:314] Found tag 204 work 0x5b3bf50
+I0324 22:02:30.443435 22663 master.cpp:354] Received request: cmd=tellmenow;x=7312
+I0324 22:02:30.443449 22663 master.cpp:165] assign tag 213 to work 0x5b3b7a0
+I0324 22:02:30.443459 22663 master.cpp:144] Sending request 213to worker.
+I0324 22:02:30.443495 22663 master.cpp:311] Master received a response from a worker: [205:The best performance may come from a particular mixture of jobs on a worker node.]
+I0324 22:02:30.443505 22663 master.cpp:314] Found tag 205 work 0x5b3c0f0
+I0324 22:02:30.443560 22663 master.cpp:354] Received request: cmd=tellmenow;x=1692
+I0324 22:02:30.443574 22663 master.cpp:165] assign tag 214 to work 0x5b3d180
+I0324 22:02:30.443584 22663 master.cpp:144] Sending request 214to worker.
+I0324 22:02:30.443610 22663 master.cpp:311] Master received a response from a worker: [206:We recommend getting full credit on grading_wisdom.txt first]
+I0324 22:02:30.443620 22663 master.cpp:314] Found tag 206 work 0x5b3c290
+I0324 22:02:30.443673 22663 master.cpp:354] Received request: cmd=tellmenow;x=8995
+I0324 22:02:30.443688 22663 master.cpp:165] assign tag 215 to work 0x5b3d300
+I0324 22:02:30.443698 22663 master.cpp:144] Sending request 215to worker.
+I0324 22:02:30.443724 22663 master.cpp:311] Master received a response from a worker: [207:Figure out a way to understand the workload characteristics in each trace.]
+I0324 22:02:30.443734 22663 master.cpp:314] Found tag 207 work 0x5b3c430
+I0324 22:02:30.443780 22663 master.cpp:311] Master received a response from a worker: [208:Re-watch the lecture on scaling a website]
+I0324 22:02:30.443791 22663 master.cpp:314] Found tag 208 work 0x5b3c5d0
+I0324 22:02:30.443837 22663 master.cpp:311] Master received a response from a worker: [209:Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.]
+I0324 22:02:30.443909 22663 master.cpp:314] Found tag 209 work 0x5b3c770
+I0324 22:02:30.443966 22663 master.cpp:311] Master received a response from a worker: [210:Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.]
+I0324 22:02:30.443979 22663 master.cpp:314] Found tag 210 work 0x5b3c910
+I0324 22:02:30.445683 22663 master.cpp:311] Master received a response from a worker: [211:Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.]
+I0324 22:02:30.445698 22663 master.cpp:314] Found tag 211 work 0x5b3cab0
+I0324 22:02:30.485266 22663 master.cpp:311] Master received a response from a worker: [212:There may be opportunities for caching in this assignment]
+I0324 22:02:30.485296 22663 master.cpp:314] Found tag 212 work 0x5b3cc50
+I0324 22:02:30.485357 22663 master.cpp:311] Master received a response from a worker: [213:Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.]
+I0324 22:02:30.485368 22663 master.cpp:314] Found tag 213 work 0x5b3b7a0
+I0324 22:02:30.485417 22663 master.cpp:311] Master received a response from a worker: [214:Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.]
+I0324 22:02:30.485430 22663 master.cpp:314] Found tag 214 work 0x5b3d180
+I0324 22:02:30.485477 22663 master.cpp:311] Master received a response from a worker: [215:Figure out a way to understand the workload characteristics in each trace.]
+I0324 22:02:30.485488 22663 master.cpp:314] Found tag 215 work 0x5b3d300
+I0324 22:02:32.318512 22663 master.cpp:311] Master received a response from a worker: [185:OMG, 418 is so gr8!]
+I0324 22:02:32.318536 22663 master.cpp:314] Found tag 185 work 0x5b3a010
+I0324 22:02:32.418442 22663 master.cpp:311] Master received a response from a worker: [181:Worse is better. Keep it simple...]
+I0324 22:02:32.418465 22663 master.cpp:314] Found tag 181 work 0x5b39970
+I0324 22:02:32.440227 22663 master.cpp:311] Master received a response from a worker: [180:If all else fails... buy Kayvon donuts]
+I0324 22:02:32.440248 22663 master.cpp:314] Found tag 180 work 0x5b39700
+I0324 22:02:32.468055 22663 master.cpp:311] Master received a response from a worker: [196:Bring out all the stops in assignment 4.]
+I0324 22:02:32.468078 22663 master.cpp:314] Found tag 196 work 0x5b3b220
+I0324 22:02:32.480787 22663 master.cpp:311] Master received a response from a worker: [183:Exams are all just fun and games]
+I0324 22:02:32.480809 22663 master.cpp:314] Found tag 183 work 0x5b39c30
+I0324 22:02:32.502169 22663 master.cpp:311] Master received a response from a worker: [189:You will perform amazingly on exam 2]
+I0324 22:02:32.502199 22663 master.cpp:314] Found tag 189 work 0x5b3a6c0
+I0324 22:02:32.505074 22663 master.cpp:311] Master received a response from a worker: [191:Do a great project, and it all works out in the end]
+I0324 22:02:32.505086 22663 master.cpp:314] Found tag 191 work 0x5b3aa00
+I0324 22:02:32.517132 22663 master.cpp:311] Master received a response from a worker: [187:You are going to do a great project]
+I0324 22:02:32.517153 22663 master.cpp:314] Found tag 187 work 0x5b3a2d0
+I0324 22:02:32.518332 22663 master.cpp:311] Master received a response from a worker: [186:You will perform amazingly on exam 2]
+I0324 22:02:32.518343 22663 master.cpp:314] Found tag 186 work 0x5b3a1b0
+I0324 22:02:32.520308 22663 master.cpp:311] Master received a response from a worker: [195:You will PWN your classmates in the parallelism competition]
+I0324 22:02:32.520323 22663 master.cpp:314] Found tag 195 work 0x5b3b080
+I0324 22:02:32.534891 22663 master.cpp:311] Master received a response from a worker: [188:Flatter your TAs with compliments]
+I0324 22:02:32.534917 22663 master.cpp:314] Found tag 188 work 0x5b3a520
+I0324 22:02:32.535008 22663 master.cpp:311] Master received a response from a worker: [184:Flatter your TAs with compliments]
+I0324 22:02:32.535105 22663 master.cpp:314] Found tag 184 work 0x5b39e70
+I0324 22:02:32.535980 22663 master.cpp:311] Master received a response from a worker: [193:Worse is better. Keep it simple...]
+I0324 22:02:32.535992 22663 master.cpp:314] Found tag 193 work 0x5b3ad40
+I0324 22:02:32.540568 22663 master.cpp:311] Master received a response from a worker: [192:Write a great lecture comment on your favorite idea in the class]
+I0324 22:02:32.540590 22663 master.cpp:314] Found tag 192 work 0x5b3aba0
+I0324 22:02:32.553258 22663 master.cpp:311] Master received a response from a worker: [202:Come to lecture, there might be donuts!]
+I0324 22:02:32.553284 22663 master.cpp:314] Found tag 202 work 0x5b3bc10
+I0324 22:02:32.562844 22663 master.cpp:311] Master received a response from a worker: [182:Write a great lecture comment on your favorite idea in the class]
+I0324 22:02:32.562870 22663 master.cpp:314] Found tag 182 work 0x5b39b10
+I0324 22:02:32.596979 22663 master.cpp:311] Master received a response from a worker: [199:Write a great lecture comment on your favorite idea in the class]
+I0324 22:02:32.597004 22663 master.cpp:314] Found tag 199 work 0x5b3b700
+I0324 22:02:32.602107 22663 master.cpp:311] Master received a response from a worker: [190:Do a great project, and it all works out in the end]
+I0324 22:02:32.602129 22663 master.cpp:314] Found tag 190 work 0x5b3a860
+I0324 22:02:32.608598 22663 master.cpp:311] Master received a response from a worker: [197:You will perform amazingly on exam 2]
+I0324 22:02:32.608621 22663 master.cpp:314] Found tag 197 work 0x5b3b3c0
+I0324 22:02:32.626992 22663 master.cpp:311] Master received a response from a worker: [201:Laugh at Kayvon's jokes]
+I0324 22:02:32.627017 22663 master.cpp:314] Found tag 201 work 0x5b3ba70
+I0324 22:02:32.675068 22663 master.cpp:311] Master received a response from a worker: [200:You are going to do a great project]
+I0324 22:02:32.675094 22663 master.cpp:314] Found tag 200 work 0x5b3b820
+I0324 22:02:32.677841 22663 master.cpp:311] Master received a response from a worker: [203:You will perform amazingly on exam 2]
+I0324 22:02:32.677856 22663 master.cpp:314] Found tag 203 work 0x5b3bdb0
+I0324 22:02:32.689860 22663 master.cpp:311] Master received a response from a worker: [194:Laugh at Kayvon's jokes]
+I0324 22:02:32.689885 22663 master.cpp:314] Found tag 194 work 0x5b3aee0
+I0324 22:02:32.723695 22663 master.cpp:311] Master received a response from a worker: [198:Laugh at Kayvon's jokes]
+I0324 22:02:32.723717 22663 master.cpp:314] Found tag 198 work 0x5b3b560
+I0324 22:02:32.914434 22663 master.cpp:354] Received request: cmd=418wisdom;x=63309
+I0324 22:02:32.914455 22663 master.cpp:165] assign tag 216 to work 0x5b3d420
+I0324 22:02:32.914460 22663 master.cpp:144] Sending request 216to worker.
+I0324 22:02:32.921713 22663 master.cpp:354] Received request: cmd=418wisdom;x=8346
+I0324 22:02:32.921725 22663 master.cpp:165] assign tag 217 to work 0x5b3d6b0
+I0324 22:02:32.921731 22663 master.cpp:144] Sending request 217to worker.
+I0324 22:02:32.931722 22663 master.cpp:354] Received request: cmd=418wisdom;x=72556
+I0324 22:02:32.931738 22663 master.cpp:165] assign tag 218 to work 0x5b3d850
+I0324 22:02:32.931742 22663 master.cpp:144] Sending request 218to worker.
+I0324 22:02:32.941704 22663 master.cpp:354] Received request: cmd=418wisdom;x=98683
+I0324 22:02:32.941715 22663 master.cpp:165] assign tag 219 to work 0x5b3d9f0
+I0324 22:02:32.941722 22663 master.cpp:144] Sending request 219to worker.
+I0324 22:02:32.951730 22663 master.cpp:354] Received request: cmd=418wisdom;x=40182
+I0324 22:02:32.951741 22663 master.cpp:165] assign tag 220 to work 0x5b3db90
+I0324 22:02:32.951745 22663 master.cpp:144] Sending request 220to worker.
+I0324 22:02:32.962007 22663 master.cpp:354] Received request: cmd=418wisdom;x=67852
+I0324 22:02:32.962021 22663 master.cpp:165] assign tag 221 to work 0x5b3dd30
+I0324 22:02:32.962028 22663 master.cpp:144] Sending request 221to worker.
+I0324 22:02:32.971949 22663 master.cpp:354] Received request: cmd=418wisdom;x=31618
+I0324 22:02:32.971963 22663 master.cpp:165] assign tag 222 to work 0x5b3ded0
+I0324 22:02:32.972075 22663 master.cpp:144] Sending request 222to worker.
+I0324 22:02:32.981956 22663 master.cpp:354] Received request: cmd=418wisdom;x=21352
+I0324 22:02:32.981969 22663 master.cpp:165] assign tag 223 to work 0x5b3e070
+I0324 22:02:32.981976 22663 master.cpp:144] Sending request 223to worker.
+I0324 22:02:32.992147 22663 master.cpp:354] Received request: cmd=418wisdom;x=71733
+I0324 22:02:32.992174 22663 master.cpp:165] assign tag 224 to work 0x5b3e210
+I0324 22:02:32.992197 22663 master.cpp:144] Sending request 224to worker.
+I0324 22:02:33.001929 22663 master.cpp:354] Received request: cmd=418wisdom;x=235
+I0324 22:02:33.001945 22663 master.cpp:165] assign tag 225 to work 0x5b3e3b0
+I0324 22:02:33.001951 22663 master.cpp:144] Sending request 225to worker.
+I0324 22:02:33.012125 22663 master.cpp:354] Received request: cmd=418wisdom;x=82273
+I0324 22:02:33.012153 22663 master.cpp:165] assign tag 226 to work 0x5b3e550
+I0324 22:02:33.012166 22663 master.cpp:144] Sending request 226to worker.
+I0324 22:02:33.022275 22663 master.cpp:354] Received request: cmd=418wisdom;x=52835
+I0324 22:02:33.022295 22663 master.cpp:165] assign tag 227 to work 0x5b3e6f0
+I0324 22:02:33.022306 22663 master.cpp:144] Sending request 227to worker.
+I0324 22:02:33.031812 22663 master.cpp:354] Received request: cmd=418wisdom;x=9778
+I0324 22:02:33.031836 22663 master.cpp:165] assign tag 228 to work 0x5b3e890
+I0324 22:02:33.031847 22663 master.cpp:144] Sending request 228to worker.
+I0324 22:02:33.041808 22663 master.cpp:354] Received request: cmd=418wisdom;x=11890
+I0324 22:02:33.041826 22663 master.cpp:165] assign tag 229 to work 0x5b3ea30
+I0324 22:02:33.041837 22663 master.cpp:144] Sending request 229to worker.
+I0324 22:02:33.051862 22663 master.cpp:354] Received request: cmd=418wisdom;x=64927
+I0324 22:02:33.051879 22663 master.cpp:165] assign tag 230 to work 0x5b3ebd0
+I0324 22:02:33.051889 22663 master.cpp:144] Sending request 230to worker.
+I0324 22:02:33.062091 22663 master.cpp:354] Received request: cmd=418wisdom;x=87366
+I0324 22:02:33.062109 22663 master.cpp:165] assign tag 231 to work 0x5b3ed70
+I0324 22:02:33.062120 22663 master.cpp:144] Sending request 231to worker.
+I0324 22:02:33.071790 22663 master.cpp:354] Received request: cmd=418wisdom;x=27998
+I0324 22:02:33.071808 22663 master.cpp:165] assign tag 232 to work 0x5b3ef10
+I0324 22:02:33.071818 22663 master.cpp:144] Sending request 232to worker.
+I0324 22:02:33.082231 22663 master.cpp:354] Received request: cmd=418wisdom;x=97852
+I0324 22:02:33.082248 22663 master.cpp:165] assign tag 233 to work 0x5b3f0b0
+I0324 22:02:33.082259 22663 master.cpp:144] Sending request 233to worker.
+I0324 22:02:33.091787 22663 master.cpp:354] Received request: cmd=418wisdom;x=10018
+I0324 22:02:33.091805 22663 master.cpp:165] assign tag 234 to work 0x5b3f250
+I0324 22:02:33.091816 22663 master.cpp:144] Sending request 234to worker.
+I0324 22:02:33.101860 22663 master.cpp:354] Received request: cmd=418wisdom;x=85394
+I0324 22:02:33.101876 22663 master.cpp:165] assign tag 235 to work 0x5b3f3f0
+I0324 22:02:33.101886 22663 master.cpp:144] Sending request 235to worker.
+I0324 22:02:33.111857 22663 master.cpp:354] Received request: cmd=418wisdom;x=39670
+I0324 22:02:33.111874 22663 master.cpp:165] assign tag 236 to work 0x5b3f590
+I0324 22:02:33.111884 22663 master.cpp:144] Sending request 236to worker.
+I0324 22:02:33.135141 22663 master.cpp:354] Received request: cmd=418wisdom;x=8134
+I0324 22:02:33.135159 22663 master.cpp:165] assign tag 237 to work 0x5b3f730
+I0324 22:02:33.135170 22663 master.cpp:144] Sending request 237to worker.
+I0324 22:02:33.147677 22663 master.cpp:354] Received request: cmd=418wisdom;x=27471
+I0324 22:02:33.147693 22663 master.cpp:165] assign tag 238 to work 0x5b3f8d0
+I0324 22:02:33.147703 22663 master.cpp:144] Sending request 238to worker.
+I0324 22:02:33.164664 22663 master.cpp:354] Received request: cmd=418wisdom;x=45298
+I0324 22:02:33.164680 22663 master.cpp:165] assign tag 239 to work 0x5b3fa70
+I0324 22:02:33.164690 22663 master.cpp:144] Sending request 239to worker.
+I0324 22:02:33.177686 22663 master.cpp:354] Received request: cmd=tellmenow;x=7131
+I0324 22:02:33.177702 22663 master.cpp:165] assign tag 240 to work 0x5b3fc10
+I0324 22:02:33.177713 22663 master.cpp:144] Sending request 240to worker.
+I0324 22:02:33.177975 22663 master.cpp:311] Master received a response from a worker: [240:Re-watch the lecture on scaling a website]
+I0324 22:02:33.177989 22663 master.cpp:314] Found tag 240 work 0x5b3fc10
+I0324 22:02:33.227288 22663 master.cpp:354] Received request: cmd=tellmenow;x=7753
+I0324 22:02:33.227316 22663 master.cpp:165] assign tag 241 to work 0x5b3fd30
+I0324 22:02:33.227329 22663 master.cpp:144] Sending request 241to worker.
+I0324 22:02:33.227406 22663 master.cpp:354] Received request: cmd=tellmenow;x=1200
+I0324 22:02:33.227421 22663 master.cpp:165] assign tag 242 to work 0x5b3ff70
+I0324 22:02:33.227429 22663 master.cpp:144] Sending request 242to worker.
+I0324 22:02:33.227461 22663 master.cpp:354] Received request: cmd=tellmenow;x=4688
+I0324 22:02:33.227473 22663 master.cpp:165] assign tag 243 to work 0x5b40110
+I0324 22:02:33.227483 22663 master.cpp:144] Sending request 243to worker.
+I0324 22:02:33.227512 22663 master.cpp:354] Received request: cmd=tellmenow;x=5857
+I0324 22:02:33.227524 22663 master.cpp:165] assign tag 244 to work 0x5b402b0
+I0324 22:02:33.227533 22663 master.cpp:144] Sending request 244to worker.
+I0324 22:02:33.233687 22663 master.cpp:354] Received request: cmd=tellmenow;x=3123
+I0324 22:02:33.233703 22663 master.cpp:165] assign tag 245 to work 0x5b40450
+I0324 22:02:33.233713 22663 master.cpp:144] Sending request 245to worker.
+I0324 22:02:33.246665 22663 master.cpp:354] Received request: cmd=tellmenow;x=7847
+I0324 22:02:33.246686 22663 master.cpp:165] assign tag 246 to work 0x5b405f0
+I0324 22:02:33.246696 22663 master.cpp:144] Sending request 246to worker.
+I0324 22:02:33.299280 22663 master.cpp:354] Received request: cmd=tellmenow;x=2505
+I0324 22:02:33.299298 22663 master.cpp:165] assign tag 247 to work 0x5b40790
+I0324 22:02:33.299309 22663 master.cpp:144] Sending request 247to worker.
+I0324 22:02:33.299373 22663 master.cpp:311] Master received a response from a worker: [241:The best performance may come from a particular mixture of jobs on a worker node.]
+I0324 22:02:33.299386 22663 master.cpp:314] Found tag 241 work 0x5b3fd30
+I0324 22:02:33.312273 22663 master.cpp:354] Received request: cmd=tellmenow;x=167
+I0324 22:02:33.312290 22663 master.cpp:165] assign tag 248 to work 0x5b40950
+I0324 22:02:33.312301 22663 master.cpp:144] Sending request 248to worker.
+I0324 22:02:33.332270 22663 master.cpp:354] Received request: cmd=tellmenow;x=366
+I0324 22:02:33.332290 22663 master.cpp:165] assign tag 249 to work 0x5b40af0
+I0324 22:02:33.332303 22663 master.cpp:144] Sending request 249to worker.
+I0324 22:02:33.332371 22663 master.cpp:311] Master received a response from a worker: [242:We recommend getting full credit on grading_wisdom.txt first]
+I0324 22:02:33.332384 22663 master.cpp:314] Found tag 242 work 0x5b3ff70
+I0324 22:02:33.345265 22663 master.cpp:354] Received request: cmd=tellmenow;x=6129
+I0324 22:02:33.345284 22663 master.cpp:165] assign tag 250 to work 0x5b40c70
+I0324 22:02:33.345295 22663 master.cpp:144] Sending request 250to worker.
+I0324 22:02:33.345355 22663 master.cpp:354] Received request: cmd=tellmenow;x=5025
+I0324 22:02:33.345369 22663 master.cpp:165] assign tag 251 to work 0x5b40bd0
+I0324 22:02:33.345378 22663 master.cpp:144] Sending request 251to worker.
+I0324 22:02:33.345408 22663 master.cpp:311] Master received a response from a worker: [243:Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.]
+I0324 22:02:33.345418 22663 master.cpp:314] Found tag 243 work 0x5b40110
+I0324 22:02:33.345471 22663 master.cpp:311] Master received a response from a worker: [244:The best performance may come from a particular mixture of jobs on a worker node.]
+I0324 22:02:33.345484 22663 master.cpp:314] Found tag 244 work 0x5b402b0
+I0324 22:02:33.345532 22663 master.cpp:311] Master received a response from a worker: [245:The best performance may come from a particular mixture of jobs on a worker node.]
+I0324 22:02:33.345649 22663 master.cpp:314] Found tag 245 work 0x5b40450
+I0324 22:02:33.345705 22663 master.cpp:311] Master received a response from a worker: [246:The best performance may come from a particular mixture of jobs on a worker node.]
+I0324 22:02:33.345718 22663 master.cpp:314] Found tag 246 work 0x5b405f0
+I0324 22:02:33.345765 22663 master.cpp:311] Master received a response from a worker: [247:Figure out a way to understand the workload characteristics in each trace.]
+I0324 22:02:33.345777 22663 master.cpp:314] Found tag 247 work 0x5b40790
+I0324 22:02:33.345824 22663 master.cpp:311] Master received a response from a worker: [248:The best performance may come from a particular mixture of jobs on a worker node.]
+I0324 22:02:33.345836 22663 master.cpp:314] Found tag 248 work 0x5b40950
+I0324 22:02:33.345882 22663 master.cpp:311] Master received a response from a worker: [249:There may be opportunities for caching in this assignment]
+I0324 22:02:33.345895 22663 master.cpp:314] Found tag 249 work 0x5b40af0
+I0324 22:02:33.385237 22663 master.cpp:311] Master received a response from a worker: [250:Re-watch the lecture on scaling a website]
+I0324 22:02:33.385257 22663 master.cpp:314] Found tag 250 work 0x5b40c70
+I0324 22:02:33.385327 22663 master.cpp:311] Master received a response from a worker: [251:Figure out a way to understand the workload characteristics in each trace.]
+I0324 22:02:33.385340 22663 master.cpp:314] Found tag 251 work 0x5b40bd0
+I0324 22:02:35.130352 22663 master.cpp:311] Master received a response from a worker: [218:You will PWN your classmates in the parallelism competition]
+I0324 22:02:35.130374 22663 master.cpp:314] Found tag 218 work 0x5b3d850
+I0324 22:02:35.152649 22663 master.cpp:311] Master received a response from a worker: [236:Ask questions. Ask questions. Ask questions]
+I0324 22:02:35.152668 22663 master.cpp:314] Found tag 236 work 0x5b3f590
+I0324 22:02:35.159317 22663 master.cpp:311] Master received a response from a worker: [233:If all else fails... buy Kayvon donuts]
+I0324 22:02:35.159327 22663 master.cpp:314] Found tag 233 work 0x5b3f0b0
+I0324 22:02:35.160953 22663 master.cpp:311] Master received a response from a worker: [221:You will PWN your classmates in the parallelism competition]
+I0324 22:02:35.160961 22663 master.cpp:314] Found tag 221 work 0x5b3dd30
+I0324 22:02:35.176930 22663 master.cpp:311] Master received a response from a worker: [229:You are going to do a great project]
+I0324 22:02:35.176940 22663 master.cpp:314] Found tag 229 work 0x5b3ea30
+I0324 22:02:35.187319 22663 master.cpp:311] Master received a response from a worker: [225:Flatter your TAs with compliments]
+I0324 22:02:35.187330 22663 master.cpp:314] Found tag 225 work 0x5b3e3b0
+I0324 22:02:35.233490 22663 master.cpp:311] Master received a response from a worker: [230:You will perform amazingly on exam 2]
+I0324 22:02:35.233500 22663 master.cpp:314] Found tag 230 work 0x5b3ebd0
+I0324 22:02:35.254617 22663 master.cpp:311] Master received a response from a worker: [220:Do as best as you can and just have fun!]
+I0324 22:02:35.254627 22663 master.cpp:314] Found tag 220 work 0x5b3db90
+I0324 22:02:35.266546 22663 master.cpp:311] Master received a response from a worker: [222:Laugh at Kayvon's jokes]
+I0324 22:02:35.266556 22663 master.cpp:314] Found tag 222 work 0x5b3ded0
+I0324 22:02:35.267473 22663 master.cpp:311] Master received a response from a worker: [235:Do as best as you can and just have fun!]
+I0324 22:02:35.267483 22663 master.cpp:314] Found tag 235 work 0x5b3f3f0
+I0324 22:02:35.270071 22663 master.cpp:311] Master received a response from a worker: [228:Ask questions. Ask questions. Ask questions]
+I0324 22:02:35.270081 22663 master.cpp:314] Found tag 228 work 0x5b3e890
+I0324 22:02:35.287600 22663 master.cpp:311] Master received a response from a worker: [223:Do as best as you can and just have fun!]
+I0324 22:02:35.287609 22663 master.cpp:314] Found tag 223 work 0x5b3e070
+I0324 22:02:35.291564 22663 master.cpp:311] Master received a response from a worker: [231:Ask questions. Ask questions. Ask questions]
+I0324 22:02:35.291632 22663 master.cpp:314] Found tag 231 work 0x5b3ed70
+I0324 22:02:35.291960 22663 master.cpp:311] Master received a response from a worker: [239:Exams are all just fun and games]
+I0324 22:02:35.291968 22663 master.cpp:314] Found tag 239 work 0x5b3fa70
+I0324 22:02:35.322144 22663 master.cpp:311] Master received a response from a worker: [232:Exams are all just fun and games]
+I0324 22:02:35.322154 22663 master.cpp:314] Found tag 232 work 0x5b3ef10
+I0324 22:02:35.322813 22663 master.cpp:311] Master received a response from a worker: [226:Ask questions. Ask questions. Ask questions]
+I0324 22:02:35.322821 22663 master.cpp:314] Found tag 226 work 0x5b3e550
+I0324 22:02:35.325389 22663 master.cpp:311] Master received a response from a worker: [217:Flatter your TAs with compliments]
+I0324 22:02:35.325398 22663 master.cpp:314] Found tag 217 work 0x5b3d6b0
+I0324 22:02:35.364228 22663 master.cpp:311] Master received a response from a worker: [234:Ask questions. Ask questions. Ask questions]
+I0324 22:02:35.364238 22663 master.cpp:314] Found tag 234 work 0x5b3f250
+I0324 22:02:35.373116 22663 master.cpp:311] Master received a response from a worker: [216:Do as best as you can and just have fun!]
+I0324 22:02:35.373124 22663 master.cpp:314] Found tag 216 work 0x5b3d420
+I0324 22:02:35.403044 22663 master.cpp:311] Master received a response from a worker: [219:Bring out all the stops in assignment 4.]
+I0324 22:02:35.403053 22663 master.cpp:314] Found tag 219 work 0x5b3d9f0
+I0324 22:02:35.482904 22663 master.cpp:311] Master received a response from a worker: [227:Flatter your TAs with compliments]
+I0324 22:02:35.482918 22663 master.cpp:314] Found tag 227 work 0x5b3e6f0
+I0324 22:02:35.502063 22663 master.cpp:311] Master received a response from a worker: [238:Ask questions. Ask questions. Ask questions]
+I0324 22:02:35.502075 22663 master.cpp:314] Found tag 238 work 0x5b3f8d0
+I0324 22:02:35.533722 22663 master.cpp:311] Master received a response from a worker: [237:Do as best as you can and just have fun!]
+I0324 22:02:35.533735 22663 master.cpp:314] Found tag 237 work 0x5b3f730
+I0324 22:02:35.566998 22663 master.cpp:311] Master received a response from a worker: [224:OMG, 418 is so gr8!]
+I0324 22:02:35.567010 22663 master.cpp:314] Found tag 224 work 0x5b3e210
+I0324 22:02:35.678490 22663 master.cpp:354] Received request: cmd=418wisdom;x=94651
+I0324 22:02:35.678508 22663 master.cpp:165] assign tag 252 to work 0x5b40ee0
+I0324 22:02:35.678516 22663 master.cpp:144] Sending request 252to worker.
+I0324 22:02:35.686072 22663 master.cpp:354] Received request: cmd=418wisdom;x=93844
+I0324 22:02:35.686086 22663 master.cpp:165] assign tag 253 to work 0x5b41090
+I0324 22:02:35.686094 22663 master.cpp:144] Sending request 253to worker.
+I0324 22:02:35.696084 22663 master.cpp:354] Received request: cmd=418wisdom;x=90986
+I0324 22:02:35.696097 22663 master.cpp:165] assign tag 254 to work 0x5b41240
+I0324 22:02:35.696105 22663 master.cpp:144] Sending request 254to worker.
+I0324 22:02:35.706048 22663 master.cpp:354] Received request: cmd=418wisdom;x=4200
+I0324 22:02:35.706063 22663 master.cpp:165] assign tag 255 to work 0x5b413f0
+I0324 22:02:35.706069 22663 master.cpp:144] Sending request 255to worker.
+I0324 22:02:35.716076 22663 master.cpp:354] Received request: cmd=418wisdom;x=74914
+I0324 22:02:35.716092 22663 master.cpp:165] assign tag 256 to work 0x5b415a0
+I0324 22:02:35.716100 22663 master.cpp:144] Sending request 256to worker.
+I0324 22:02:35.726068 22663 master.cpp:354] Received request: cmd=418wisdom;x=70133
+I0324 22:02:35.726088 22663 master.cpp:165] assign tag 257 to work 0x5b41750
+I0324 22:02:35.726095 22663 master.cpp:144] Sending request 257to worker.
+I0324 22:02:35.736003 22663 master.cpp:354] Received request: cmd=418wisdom;x=65536
+I0324 22:02:35.736017 22663 master.cpp:165] assign tag 258 to work 0x5b41900
+I0324 22:02:35.736024 22663 master.cpp:144] Sending request 258to worker.
+I0324 22:02:35.745918 22663 master.cpp:354] Received request: cmd=418wisdom;x=71236
+I0324 22:02:35.745988 22663 master.cpp:165] assign tag 259 to work 0x5b41ab0
+I0324 22:02:35.745998 22663 master.cpp:144] Sending request 259to worker.
+I0324 22:02:35.755980 22663 master.cpp:354] Received request: cmd=418wisdom;x=90271
+I0324 22:02:35.755993 22663 master.cpp:165] assign tag 260 to work 0x5b41c60
+I0324 22:02:35.756000 22663 master.cpp:144] Sending request 260to worker.
+I0324 22:02:35.765908 22663 master.cpp:354] Received request: cmd=418wisdom;x=64014
+I0324 22:02:35.765921 22663 master.cpp:165] assign tag 261 to work 0x5b41e10
+I0324 22:02:35.765928 22663 master.cpp:144] Sending request 261to worker.
+I0324 22:02:35.775915 22663 master.cpp:354] Received request: cmd=418wisdom;x=37245
+I0324 22:02:35.775933 22663 master.cpp:165] assign tag 262 to work 0x5b41fc0
+I0324 22:02:35.775941 22663 master.cpp:144] Sending request 262to worker.
+I0324 22:02:35.785778 22663 master.cpp:354] Received request: cmd=418wisdom;x=53793
+I0324 22:02:35.785792 22663 master.cpp:165] assign tag 263 to work 0x5b42170
+I0324 22:02:35.785801 22663 master.cpp:144] Sending request 263to worker.
+I0324 22:02:35.795821 22663 master.cpp:354] Received request: cmd=418wisdom;x=20784
+I0324 22:02:35.795836 22663 master.cpp:165] assign tag 264 to work 0x5b42320
+I0324 22:02:35.795845 22663 master.cpp:144] Sending request 264to worker.
+I0324 22:02:35.805881 22663 master.cpp:354] Received request: cmd=418wisdom;x=58713
+I0324 22:02:35.805896 22663 master.cpp:165] assign tag 265 to work 0x5b424d0
+I0324 22:02:35.805903 22663 master.cpp:144] Sending request 265to worker.
+I0324 22:02:35.816087 22663 master.cpp:354] Received request: cmd=418wisdom;x=889
+I0324 22:02:35.816102 22663 master.cpp:165] assign tag 266 to work 0x5b42680
+I0324 22:02:35.816112 22663 master.cpp:144] Sending request 266to worker.
+I0324 22:02:35.825839 22663 master.cpp:354] Received request: cmd=418wisdom;x=15102
+I0324 22:02:35.825853 22663 master.cpp:165] assign tag 267 to work 0x5b42830
+I0324 22:02:35.825861 22663 master.cpp:144] Sending request 267to worker.
+I0324 22:02:35.836248 22663 master.cpp:354] Received request: cmd=418wisdom;x=33341
+I0324 22:02:35.836262 22663 master.cpp:165] assign tag 268 to work 0x5b429e0
+I0324 22:02:35.836272 22663 master.cpp:144] Sending request 268to worker.
+I0324 22:02:35.845870 22663 master.cpp:354] Received request: cmd=418wisdom;x=78963
+I0324 22:02:35.845885 22663 master.cpp:165] assign tag 269 to work 0x5b42b90
+I0324 22:02:35.845893 22663 master.cpp:144] Sending request 269to worker.
+I0324 22:02:35.855893 22663 master.cpp:354] Received request: cmd=418wisdom;x=71850
+I0324 22:02:35.855913 22663 master.cpp:165] assign tag 270 to work 0x5b42d40
+I0324 22:02:35.855924 22663 master.cpp:144] Sending request 270to worker.
+I0324 22:02:35.865869 22663 master.cpp:354] Received request: cmd=418wisdom;x=33825
+I0324 22:02:35.865887 22663 master.cpp:165] assign tag 271 to work 0x5b42ef0
+I0324 22:02:35.865898 22663 master.cpp:144] Sending request 271to worker.
+I0324 22:02:35.875931 22663 master.cpp:354] Received request: cmd=418wisdom;x=62054
+I0324 22:02:35.875948 22663 master.cpp:165] assign tag 272 to work 0x5b430a0
+I0324 22:02:35.875959 22663 master.cpp:144] Sending request 272to worker.
+I0324 22:02:35.885869 22663 master.cpp:354] Received request: cmd=418wisdom;x=4120
+I0324 22:02:35.885887 22663 master.cpp:165] assign tag 273 to work 0x5b43250
+I0324 22:02:35.885897 22663 master.cpp:144] Sending request 273to worker.
+I0324 22:02:35.895900 22663 master.cpp:354] Received request: cmd=418wisdom;x=16386
+I0324 22:02:35.895916 22663 master.cpp:165] assign tag 274 to work 0x5b43400
+I0324 22:02:35.895927 22663 master.cpp:144] Sending request 274to worker.
+I0324 22:02:35.922694 22663 master.cpp:354] Received request: cmd=418wisdom;x=98192
+I0324 22:02:35.922711 22663 master.cpp:165] assign tag 275 to work 0x5b435b0
+I0324 22:02:35.922722 22663 master.cpp:144] Sending request 275to worker.
+I0324 22:02:35.935675 22663 master.cpp:354] Received request: cmd=tellmenow;x=2606
+I0324 22:02:35.935698 22663 master.cpp:165] assign tag 276 to work 0x5b43760
+I0324 22:02:35.935808 22663 master.cpp:144] Sending request 276to worker.
+I0324 22:02:35.936046 22663 master.cpp:311] Master received a response from a worker: [276:There may be opportunities for caching in this assignment]
+I0324 22:02:35.936060 22663 master.cpp:314] Found tag 276 work 0x5b43760
+I0324 22:02:35.988241 22663 master.cpp:354] Received request: cmd=tellmenow;x=3553
+I0324 22:02:35.988255 22663 master.cpp:165] assign tag 277 to work 0x5b43950
+I0324 22:02:35.988261 22663 master.cpp:144] Sending request 277to worker.
+I0324 22:02:35.988306 22663 master.cpp:354] Received request: cmd=tellmenow;x=4936
+I0324 22:02:35.988317 22663 master.cpp:165] assign tag 278 to work 0x5b43a30
+I0324 22:02:35.988322 22663 master.cpp:144] Sending request 278to worker.
+I0324 22:02:35.988343 22663 master.cpp:354] Received request: cmd=tellmenow;x=2640
+I0324 22:02:35.988349 22663 master.cpp:165] assign tag 279 to work 0x5b43c70
+I0324 22:02:35.988355 22663 master.cpp:144] Sending request 279to worker.
+I0324 22:02:35.988914 22663 master.cpp:354] Received request: cmd=tellmenow;x=4303
+I0324 22:02:35.988924 22663 master.cpp:165] assign tag 280 to work 0x5b43e20
+I0324 22:02:35.988930 22663 master.cpp:144] Sending request 280to worker.
+I0324 22:02:36.001531 22663 master.cpp:354] Received request: cmd=tellmenow;x=2157
+I0324 22:02:36.001541 22663 master.cpp:165] assign tag 281 to work 0x5b43fd0
+I0324 22:02:36.001548 22663 master.cpp:144] Sending request 281to worker.
+I0324 22:02:36.054230 22663 master.cpp:354] Received request: cmd=tellmenow;x=434
+I0324 22:02:36.054241 22663 master.cpp:165] assign tag 282 to work 0x5b44180
+I0324 22:02:36.054247 22663 master.cpp:144] Sending request 282to worker.
+I0324 22:02:36.067227 22663 master.cpp:354] Received request: cmd=tellmenow;x=1616
+I0324 22:02:36.067239 22663 master.cpp:165] assign tag 283 to work 0x5b44330
+I0324 22:02:36.067245 22663 master.cpp:144] Sending request 283to worker.
+I0324 22:02:36.067276 22663 master.cpp:311] Master received a response from a worker: [277:The best performance may come from a particular mixture of jobs on a worker node.]
+I0324 22:02:36.067284 22663 master.cpp:314] Found tag 277 work 0x5b43950
+I0324 22:02:36.067318 22663 master.cpp:354] Received request: cmd=tellmenow;x=4707
+I0324 22:02:36.067328 22663 master.cpp:165] assign tag 284 to work 0x5b44520
+I0324 22:02:36.067334 22663 master.cpp:144] Sending request 284to worker.
+I0324 22:02:36.067354 22663 master.cpp:354] Received request: cmd=tellmenow;x=637
+I0324 22:02:36.067363 22663 master.cpp:165] assign tag 285 to work 0x5b44640
+I0324 22:02:36.067368 22663 master.cpp:144] Sending request 285to worker.
+I0324 22:02:36.067399 22663 master.cpp:311] Master received a response from a worker: [278:There may be opportunities for caching in this assignment]
+I0324 22:02:36.067406 22663 master.cpp:314] Found tag 278 work 0x5b43a30
+I0324 22:02:36.067445 22663 master.cpp:354] Received request: cmd=tellmenow;x=3628
+I0324 22:02:36.067454 22663 master.cpp:165] assign tag 286 to work 0x5b44970
+I0324 22:02:36.067461 22663 master.cpp:144] Sending request 286to worker.
+I0324 22:02:36.067494 22663 master.cpp:311] Master received a response from a worker: [279:We recommend getting full credit on grading_wisdom.txt first]
+I0324 22:02:36.067502 22663 master.cpp:314] Found tag 279 work 0x5b43c70
+I0324 22:02:36.067533 22663 master.cpp:311] Master received a response from a worker: [280:The best performance may come from a particular mixture of jobs on a worker node.]
+I0324 22:02:36.067540 22663 master.cpp:314] Found tag 280 work 0x5b43e20
+I0324 22:02:36.067570 22663 master.cpp:311] Master received a response from a worker: [281:The best performance may come from a particular mixture of jobs on a worker node.]
+I0324 22:02:36.067577 22663 master.cpp:314] Found tag 281 work 0x5b43fd0
+I0324 22:02:36.067607 22663 master.cpp:311] Master received a response from a worker: [282:There may be opportunities for caching in this assignment]
+I0324 22:02:36.067615 22663 master.cpp:314] Found tag 282 work 0x5b44180
+I0324 22:02:36.067644 22663 master.cpp:311] Master received a response from a worker: [283:There may be opportunities for caching in this assignment]
+I0324 22:02:36.067724 22663 master.cpp:314] Found tag 283 work 0x5b44330
+I0324 22:02:36.067764 22663 master.cpp:311] Master received a response from a worker: [284:The best performance may come from a particular mixture of jobs on a worker node.]
+I0324 22:02:36.067771 22663 master.cpp:314] Found tag 284 work 0x5b44520
+I0324 22:02:36.067801 22663 master.cpp:311] Master received a response from a worker: [285:The best performance may come from a particular mixture of jobs on a worker node.]
+I0324 22:02:36.067809 22663 master.cpp:314] Found tag 285 work 0x5b44640
+I0324 22:02:36.107254 22663 master.cpp:311] Master received a response from a worker: [286:Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.]
+I0324 22:02:36.107270 22663 master.cpp:314] Found tag 286 work 0x5b44970
+I0324 22:02:36.107341 22663 master.cpp:354] Received request: cmd=tellmenow;x=2957
+I0324 22:02:36.107355 22663 master.cpp:165] assign tag 287 to work 0x5b44b00
+I0324 22:02:36.107365 22663 master.cpp:144] Sending request 287to worker.
+I0324 22:02:36.187281 22663 master.cpp:311] Master received a response from a worker: [287:The best performance may come from a particular mixture of jobs on a worker node.]
+I0324 22:02:36.187296 22663 master.cpp:314] Found tag 287 work 0x5b44b00
+I0324 22:02:37.460259 22663 master.cpp:311] Master received a response from a worker: [261:Flatter your TAs with compliments]
+I0324 22:02:37.460283 22663 master.cpp:314] Found tag 261 work 0x5b41e10
+I0324 22:02:37.528049 22663 master.cpp:311] Master received a response from a worker: [262:Be careful not to optimize prematurely]
+I0324 22:02:37.528061 22663 master.cpp:314] Found tag 262 work 0x5b41fc0
+I0324 22:02:37.621600 22663 master.cpp:311] Master received a response from a worker: [259:You will PWN your classmates in the parallelism competition]
+I0324 22:02:37.621613 22663 master.cpp:314] Found tag 259 work 0x5b41ab0
+I0324 22:02:37.638732 22663 master.cpp:311] Master received a response from a worker: [257:You are going to do a great project]
+I0324 22:02:37.638743 22663 master.cpp:314] Found tag 257 work 0x5b41750
+I0324 22:02:37.658718 22663 master.cpp:311] Master received a response from a worker: [260:Be careful not to optimize prematurely]
+I0324 22:02:37.658730 22663 master.cpp:314] Found tag 260 work 0x5b41c60
+I0324 22:02:37.689306 22663 master.cpp:311] Master received a response from a worker: [256:Laugh at Kayvon's jokes]
+I0324 22:02:37.689316 22663 master.cpp:314] Found tag 256 work 0x5b415a0
+I0324 22:02:37.694859 22663 master.cpp:311] Master received a response from a worker: [266:Do a great project, and it all works out in the end]
+I0324 22:02:37.694867 22663 master.cpp:314] Found tag 266 work 0x5b42680
+I0324 22:02:37.703124 22663 master.cpp:311] Master received a response from a worker: [267:Laugh at Kayvon's jokes]
+I0324 22:02:37.703135 22663 master.cpp:314] Found tag 267 work 0x5b42830
+I0324 22:02:37.734577 22663 master.cpp:311] Master received a response from a worker: [273:Laugh at Kayvon's jokes]
+I0324 22:02:37.734588 22663 master.cpp:314] Found tag 273 work 0x5b43250
+I0324 22:02:37.736750 22663 master.cpp:311] Master received a response from a worker: [272:Laugh at Kayvon's jokes]
+I0324 22:02:37.736759 22663 master.cpp:314] Found tag 272 work 0x5b430a0
+I0324 22:02:37.863564 22663 master.cpp:311] Master received a response from a worker: [264:You are going to do a great project]
+I0324 22:02:37.863584 22663 master.cpp:314] Found tag 264 work 0x5b42320
+I0324 22:02:37.867156 22663 master.cpp:311] Master received a response from a worker: [255:You will perform amazingly on exam 2]
+I0324 22:02:37.867167 22663 master.cpp:314] Found tag 255 work 0x5b413f0
+I0324 22:02:37.910470 22663 master.cpp:311] Master received a response from a worker: [258:Worse is better. Keep it simple...]
+I0324 22:02:37.910482 22663 master.cpp:314] Found tag 258 work 0x5b41900
+I0324 22:02:37.968119 22663 master.cpp:311] Master received a response from a worker: [253:OMG, 418 is so gr8!]
+I0324 22:02:37.968224 22663 master.cpp:314] Found tag 253 work 0x5b41090
+I0324 22:02:37.971420 22663 master.cpp:311] Master received a response from a worker: [271:Flatter your TAs with compliments]
+I0324 22:02:37.971432 22663 master.cpp:314] Found tag 271 work 0x5b42ef0
+I0324 22:02:38.003911 22663 master.cpp:311] Master received a response from a worker: [269:OMG, 418 is so gr8!]
+I0324 22:02:38.003928 22663 master.cpp:314] Found tag 269 work 0x5b42b90
+I0324 22:02:38.008977 22663 master.cpp:311] Master received a response from a worker: [263:If all else fails... buy Kayvon donuts]
+I0324 22:02:38.008991 22663 master.cpp:314] Found tag 263 work 0x5b42170
+I0324 22:02:38.016326 22663 master.cpp:311] Master received a response from a worker: [270:Worse is better. Keep it simple...]
+I0324 22:02:38.016340 22663 master.cpp:314] Found tag 270 work 0x5b42d40
+I0324 22:02:38.074328 22663 master.cpp:311] Master received a response from a worker: [268:Do a great project, and it all works out in the end]
+I0324 22:02:38.074352 22663 master.cpp:314] Found tag 268 work 0x5b429e0
+I0324 22:02:38.095327 22663 master.cpp:311] Master received a response from a worker: [275:Do as best as you can and just have fun!]
+I0324 22:02:38.095345 22663 master.cpp:314] Found tag 275 work 0x5b435b0
+I0324 22:02:38.108703 22663 master.cpp:311] Master received a response from a worker: [252:Write a great lecture comment on your favorite idea in the class]
+I0324 22:02:38.108724 22663 master.cpp:314] Found tag 252 work 0x5b40ee0
+I0324 22:02:38.131031 22663 master.cpp:311] Master received a response from a worker: [254:Exams are all just fun and games]
+I0324 22:02:38.131045 22663 master.cpp:314] Found tag 254 work 0x5b41240
+I0324 22:02:38.410661 22663 master.cpp:311] Master received a response from a worker: [265:Ask questions. Ask questions. Ask questions]
+I0324 22:02:38.410677 22663 master.cpp:314] Found tag 265 work 0x5b424d0
+I0324 22:02:38.441956 22663 master.cpp:354] Received request: cmd=418wisdom;x=41472
+I0324 22:02:38.441973 22663 master.cpp:165] assign tag 288 to work 0x5b44c20
+I0324 22:02:38.441979 22663 master.cpp:144] Sending request 288to worker.
+I0324 22:02:38.449867 22663 master.cpp:354] Received request: cmd=418wisdom;x=9940
+I0324 22:02:38.449882 22663 master.cpp:165] assign tag 289 to work 0x5b44ef0
+I0324 22:02:38.449889 22663 master.cpp:144] Sending request 289to worker.
+I0324 22:02:38.459820 22663 master.cpp:354] Received request: cmd=418wisdom;x=90866
+I0324 22:02:38.459830 22663 master.cpp:165] assign tag 290 to work 0x5b45050
+I0324 22:02:38.459833 22663 master.cpp:144] Sending request 290to worker.
+I0324 22:02:38.469785 22663 master.cpp:354] Received request: cmd=418wisdom;x=47400
+I0324 22:02:38.469795 22663 master.cpp:165] assign tag 291 to work 0x5b451f0
+I0324 22:02:38.469800 22663 master.cpp:144] Sending request 291to worker.
+I0324 22:02:38.479800 22663 master.cpp:354] Received request: cmd=418wisdom;x=84085
+I0324 22:02:38.479810 22663 master.cpp:165] assign tag 292 to work 0x5b45390
+I0324 22:02:38.479815 22663 master.cpp:144] Sending request 292to worker.
+I0324 22:02:38.489981 22663 master.cpp:354] Received request: cmd=418wisdom;x=97623
+I0324 22:02:38.489996 22663 master.cpp:165] assign tag 293 to work 0x5b45530
+I0324 22:02:38.490003 22663 master.cpp:144] Sending request 293to worker.
+I0324 22:02:38.499817 22663 master.cpp:354] Received request: cmd=418wisdom;x=34365
+I0324 22:02:38.499831 22663 master.cpp:165] assign tag 294 to work 0x5b456d0
+I0324 22:02:38.499838 22663 master.cpp:144] Sending request 294to worker.
+I0324 22:02:38.509899 22663 master.cpp:354] Received request: cmd=418wisdom;x=47909
+I0324 22:02:38.509918 22663 master.cpp:165] assign tag 295 to work 0x5b45870
+I0324 22:02:38.509927 22663 master.cpp:144] Sending request 295to worker.
+I0324 22:02:38.519901 22663 master.cpp:354] Received request: cmd=418wisdom;x=69960
+I0324 22:02:38.519915 22663 master.cpp:165] assign tag 296 to work 0x5b45a10
+I0324 22:02:38.519922 22663 master.cpp:144] Sending request 296to worker.
+I0324 22:02:38.529896 22663 master.cpp:354] Received request: cmd=418wisdom;x=42653
+I0324 22:02:38.529973 22663 master.cpp:165] assign tag 297 to work 0x5b45bb0
+I0324 22:02:38.529983 22663 master.cpp:144] Sending request 297to worker.
+I0324 22:02:38.540050 22663 master.cpp:354] Received request: cmd=418wisdom;x=30190
+I0324 22:02:38.540063 22663 master.cpp:165] assign tag 298 to work 0x5b45d50
+I0324 22:02:38.540071 22663 master.cpp:144] Sending request 298to worker.
+I0324 22:02:38.588259 22663 master.cpp:311] Master received a response from a worker: [274:OMG, 418 is so gr8!]
+I0324 22:02:38.588275 22663 master.cpp:314] Found tag 274 work 0x5b43400
+I0324 22:02:38.588343 22663 master.cpp:354] Received request: cmd=418wisdom;x=73475
+I0324 22:02:38.588357 22663 master.cpp:165] assign tag 299 to work 0x5b45df0
+I0324 22:02:38.588366 22663 master.cpp:144] Sending request 299to worker.
+I0324 22:02:38.588416 22663 master.cpp:354] Received request: cmd=418wisdom;x=89440
+I0324 22:02:38.588428 22663 master.cpp:165] assign tag 300 to work 0x5b460b0
+I0324 22:02:38.588436 22663 master.cpp:144] Sending request 300to worker.
+I0324 22:02:38.588462 22663 master.cpp:354] Received request: cmd=418wisdom;x=91969
+I0324 22:02:38.588472 22663 master.cpp:165] assign tag 301 to work 0x5b46250
+I0324 22:02:38.588480 22663 master.cpp:144] Sending request 301to worker.
+I0324 22:02:38.588506 22663 master.cpp:354] Received request: cmd=418wisdom;x=62674
+I0324 22:02:38.588516 22663 master.cpp:165] assign tag 302 to work 0x5b463f0
+I0324 22:02:38.588524 22663 master.cpp:144] Sending request 302to worker.
+I0324 22:02:38.589792 22663 master.cpp:354] Received request: cmd=418wisdom;x=37557
+I0324 22:02:38.589807 22663 master.cpp:165] assign tag 303 to work 0x5b46590
+I0324 22:02:38.589817 22663 master.cpp:144] Sending request 303to worker.
+I0324 22:02:38.599767 22663 master.cpp:354] Received request: cmd=418wisdom;x=97457
+I0324 22:02:38.599781 22663 master.cpp:165] assign tag 304 to work 0x5b46730
+I0324 22:02:38.599791 22663 master.cpp:144] Sending request 304to worker.
+I0324 22:02:38.610208 22663 master.cpp:354] Received request: cmd=418wisdom;x=63888
+I0324 22:02:38.610222 22663 master.cpp:165] assign tag 305 to work 0x5b468d0
+I0324 22:02:38.610229 22663 master.cpp:144] Sending request 305to worker.
+I0324 22:02:38.619889 22663 master.cpp:354] Received request: cmd=418wisdom;x=6583
+I0324 22:02:38.619901 22663 master.cpp:165] assign tag 306 to work 0x5b46a70
+I0324 22:02:38.619907 22663 master.cpp:144] Sending request 306to worker.
+I0324 22:02:38.633777 22663 master.cpp:354] Received request: cmd=418wisdom;x=8467
+I0324 22:02:38.633796 22663 master.cpp:165] assign tag 307 to work 0x5b46c10
+I0324 22:02:38.633806 22663 master.cpp:144] Sending request 307to worker.
+I0324 22:02:38.639730 22663 master.cpp:354] Received request: cmd=418wisdom;x=74987
+I0324 22:02:38.639746 22663 master.cpp:165] assign tag 308 to work 0x5b46db0
+I0324 22:02:38.639755 22663 master.cpp:144] Sending request 308to worker.
+I0324 22:02:38.649858 22663 master.cpp:354] Received request: cmd=418wisdom;x=6115
+I0324 22:02:38.649878 22663 master.cpp:165] assign tag 309 to work 0x5b46f50
+I0324 22:02:38.649889 22663 master.cpp:144] Sending request 309to worker.
+I0324 22:02:38.672556 22663 master.cpp:354] Received request: cmd=418wisdom;x=785
+I0324 22:02:38.672574 22663 master.cpp:165] assign tag 310 to work 0x5b470f0
+I0324 22:02:38.672583 22663 master.cpp:144] Sending request 310to worker.
+I0324 22:02:38.713363 22663 master.cpp:354] Received request: cmd=418wisdom;x=39381
+I0324 22:02:38.713379 22663 master.cpp:165] assign tag 311 to work 0x5b47290
+I0324 22:02:38.713389 22663 master.cpp:144] Sending request 311to worker.
+I0324 22:02:38.718636 22663 master.cpp:354] Received request: cmd=tellmenow;x=4671
+I0324 22:02:38.718652 22663 master.cpp:165] assign tag 312 to work 0x5b47430
+I0324 22:02:38.718662 22663 master.cpp:144] Sending request 312to worker.
+I0324 22:02:38.758244 22663 master.cpp:311] Master received a response from a worker: [312:Re-watch the lecture on scaling a website]
+I0324 22:02:38.758260 22663 master.cpp:314] Found tag 312 work 0x5b47430
+I0324 22:02:38.758410 22663 master.cpp:354] Received request: cmd=tellmenow;x=4037
+I0324 22:02:38.758426 22663 master.cpp:165] assign tag 313 to work 0x5b47550
+I0324 22:02:38.758437 22663 master.cpp:144] Sending request 313to worker.
+I0324 22:02:38.758494 22663 master.cpp:354] Received request: cmd=tellmenow;x=4398
+I0324 22:02:38.758507 22663 master.cpp:165] assign tag 314 to work 0x5b47790
+I0324 22:02:38.758517 22663 master.cpp:144] Sending request 314to worker.
+I0324 22:02:38.796275 22663 master.cpp:354] Received request: cmd=tellmenow;x=5264
+I0324 22:02:38.796295 22663 master.cpp:165] assign tag 315 to work 0x5b47930
+I0324 22:02:38.796308 22663 master.cpp:144] Sending request 315to worker.
+I0324 22:02:38.796357 22663 master.cpp:354] Received request: cmd=tellmenow;x=6114
+I0324 22:02:38.796373 22663 master.cpp:165] assign tag 316 to work 0x5b47ad0
+I0324 22:02:38.796385 22663 master.cpp:144] Sending request 316to worker.
+I0324 22:02:38.823259 22663 master.cpp:354] Received request: cmd=tellmenow;x=3807
+I0324 22:02:38.823277 22663 master.cpp:165] assign tag 317 to work 0x5b47c70
+I0324 22:02:38.823287 22663 master.cpp:144] Sending request 317to worker.
+I0324 22:02:38.836258 22663 master.cpp:354] Received request: cmd=tellmenow;x=3315
+I0324 22:02:38.836277 22663 master.cpp:165] assign tag 318 to work 0x5b47e10
+I0324 22:02:38.836287 22663 master.cpp:144] Sending request 318to worker.
+I0324 22:02:38.836335 22663 master.cpp:311] Master received a response from a worker: [313:The best performance may come from a particular mixture of jobs on a worker node.]
+I0324 22:02:38.836346 22663 master.cpp:314] Found tag 313 work 0x5b47550
+I0324 22:02:38.849259 22663 master.cpp:354] Received request: cmd=tellmenow;x=8897
+I0324 22:02:38.849278 22663 master.cpp:165] assign tag 319 to work 0x5b47fd0
+I0324 22:02:38.849288 22663 master.cpp:144] Sending request 319to worker.
+I0324 22:02:38.849347 22663 master.cpp:354] Received request: cmd=tellmenow;x=2348
+I0324 22:02:38.849361 22663 master.cpp:165] assign tag 320 to work 0x5b48170
+I0324 22:02:38.849371 22663 master.cpp:144] Sending request 320to worker.
+I0324 22:02:38.849401 22663 master.cpp:311] Master received a response from a worker: [314:Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.]
+I0324 22:02:38.849411 22663 master.cpp:314] Found tag 314 work 0x5b47790
+I0324 22:02:38.849468 22663 master.cpp:354] Received request: cmd=tellmenow;x=6994
+I0324 22:02:38.849483 22663 master.cpp:165] assign tag 321 to work 0x5b482f0
+I0324 22:02:38.849491 22663 master.cpp:144] Sending request 321to worker.
+I0324 22:02:38.849545 22663 master.cpp:354] Received request: cmd=tellmenow;x=3881
+I0324 22:02:38.849560 22663 master.cpp:165] assign tag 322 to work 0x5b484d0
+I0324 22:02:38.849568 22663 master.cpp:144] Sending request 322to worker.
+I0324 22:02:38.849597 22663 master.cpp:311] Master received a response from a worker: [315:There may be opportunities for caching in this assignment]
+I0324 22:02:38.849607 22663 master.cpp:314] Found tag 315 work 0x5b47930
+I0324 22:02:38.849653 22663 master.cpp:311] Master received a response from a worker: [316:There may be opportunities for caching in this assignment]
+I0324 22:02:38.849665 22663 master.cpp:314] Found tag 316 work 0x5b47ad0
+I0324 22:02:38.849711 22663 master.cpp:311] Master received a response from a worker: [317:The best performance may come from a particular mixture of jobs on a worker node.]
+I0324 22:02:38.849723 22663 master.cpp:314] Found tag 317 work 0x5b47c70
+I0324 22:02:38.849772 22663 master.cpp:311] Master received a response from a worker: [318:Figure out a way to understand the workload characteristics in each trace.]
+I0324 22:02:38.849786 22663 master.cpp:314] Found tag 318 work 0x5b47e10
+I0324 22:02:38.849843 22663 master.cpp:311] Master received a response from a worker: [319:The best performance may come from a particular mixture of jobs on a worker node.]
+I0324 22:02:38.849858 22663 master.cpp:314] Found tag 319 work 0x5b47fd0
+I0324 22:02:38.849920 22663 master.cpp:311] Master received a response from a worker: [320:Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.]
+I0324 22:02:38.850003 22663 master.cpp:314] Found tag 320 work 0x5b48170
+I0324 22:02:38.889230 22663 master.cpp:311] Master received a response from a worker: [321:There may be opportunities for caching in this assignment]
+I0324 22:02:38.889246 22663 master.cpp:314] Found tag 321 work 0x5b482f0
+I0324 22:02:38.889313 22663 master.cpp:311] Master received a response from a worker: [322:Re-watch the lecture on scaling a website]
+I0324 22:02:38.889327 22663 master.cpp:314] Found tag 322 work 0x5b484d0
+I0324 22:02:38.889379 22663 master.cpp:354] Received request: cmd=tellmenow;x=3227
+I0324 22:02:38.889394 22663 master.cpp:165] assign tag 323 to work 0x5b485b0
+I0324 22:02:38.889405 22663 master.cpp:144] Sending request 323to worker.
+I0324 22:02:38.969251 22663 master.cpp:311] Master received a response from a worker: [323:The best performance may come from a particular mixture of jobs on a worker node.]
+I0324 22:02:38.969267 22663 master.cpp:314] Found tag 323 work 0x5b485b0
+I0324 22:02:40.356355 22663 master.cpp:311] Master received a response from a worker: [290:You are going to do a great project]
+I0324 22:02:40.356371 22663 master.cpp:314] Found tag 290 work 0x5b45050
+I0324 22:02:40.367960 22663 master.cpp:311] Master received a response from a worker: [298:You will PWN your classmates in the parallelism competition]
+I0324 22:02:40.367971 22663 master.cpp:314] Found tag 298 work 0x5b45d50
+I0324 22:02:40.485165 22663 master.cpp:311] Master received a response from a worker: [303:Ask questions. Ask questions. Ask questions]
+I0324 22:02:40.485183 22663 master.cpp:314] Found tag 303 work 0x5b46590
+I0324 22:02:40.491909 22663 master.cpp:311] Master received a response from a worker: [288:Be careful not to optimize prematurely]
+I0324 22:02:40.491919 22663 master.cpp:314] Found tag 288 work 0x5b44c20
+I0324 22:02:40.545122 22663 master.cpp:311] Master received a response from a worker: [308:Be careful not to optimize prematurely]
+I0324 22:02:40.545133 22663 master.cpp:314] Found tag 308 work 0x5b46db0
+I0324 22:02:40.549618 22663 master.cpp:311] Master received a response from a worker: [291:Do a great project, and it all works out in the end]
+I0324 22:02:40.549628 22663 master.cpp:314] Found tag 291 work 0x5b451f0
+I0324 22:02:40.609783 22663 master.cpp:311] Master received a response from a worker: [300:You will PWN your classmates in the parallelism competition]
+I0324 22:02:40.609794 22663 master.cpp:314] Found tag 300 work 0x5b460b0
+I0324 22:02:40.614414 22663 master.cpp:311] Master received a response from a worker: [289:Ask questions. Ask questions. Ask questions]
+I0324 22:02:40.614425 22663 master.cpp:314] Found tag 289 work 0x5b44ef0
+I0324 22:02:40.663231 22663 master.cpp:311] Master received a response from a worker: [293:Worse is better. Keep it simple...]
+I0324 22:02:40.663244 22663 master.cpp:314] Found tag 293 work 0x5b45530
+I0324 22:02:40.673523 22663 master.cpp:311] Master received a response from a worker: [294:Do a great project, and it all works out in the end]
+I0324 22:02:40.673533 22663 master.cpp:314] Found tag 294 work 0x5b456d0
+I0324 22:02:40.687896 22663 master.cpp:311] Master received a response from a worker: [296:Flatter your TAs with compliments]
+I0324 22:02:40.687907 22663 master.cpp:314] Found tag 296 work 0x5b45a10
+I0324 22:02:40.702353 22663 master.cpp:311] Master received a response from a worker: [297:Write a great lecture comment on your favorite idea in the class]
+I0324 22:02:40.702365 22663 master.cpp:314] Found tag 297 work 0x5b45bb0
+I0324 22:02:40.707175 22663 master.cpp:311] Master received a response from a worker: [292:Flatter your TAs with compliments]
+I0324 22:02:40.707190 22663 master.cpp:314] Found tag 292 work 0x5b45390
+I0324 22:02:40.708690 22663 master.cpp:311] Master received a response from a worker: [304:You are going to do a great project]
+I0324 22:02:40.708700 22663 master.cpp:314] Found tag 304 work 0x5b46730
+I0324 22:02:40.735872 22663 master.cpp:311] Master received a response from a worker: [310:Do a great project, and it all works out in the end]
+I0324 22:02:40.735929 22663 master.cpp:314] Found tag 310 work 0x5b470f0
+I0324 22:02:40.745677 22663 master.cpp:311] Master received a response from a worker: [301:Laugh at Kayvon's jokes]
+I0324 22:02:40.745687 22663 master.cpp:314] Found tag 301 work 0x5b46250
+I0324 22:02:40.757560 22663 master.cpp:311] Master received a response from a worker: [305:If all else fails... buy Kayvon donuts]
+I0324 22:02:40.757568 22663 master.cpp:314] Found tag 305 work 0x5b468d0
+I0324 22:02:40.758074 22663 master.cpp:311] Master received a response from a worker: [299:OMG, 418 is so gr8!]
+I0324 22:02:40.758082 22663 master.cpp:314] Found tag 299 work 0x5b45df0
+I0324 22:02:40.761775 22663 master.cpp:311] Master received a response from a worker: [306:Laugh at Kayvon's jokes]
+I0324 22:02:40.761783 22663 master.cpp:314] Found tag 306 work 0x5b46a70
+I0324 22:02:40.765234 22663 master.cpp:311] Master received a response from a worker: [309:Laugh at Kayvon's jokes]
+I0324 22:02:40.765244 22663 master.cpp:314] Found tag 309 work 0x5b46f50
+I0324 22:02:40.771983 22663 master.cpp:311] Master received a response from a worker: [302:Laugh at Kayvon's jokes]
+I0324 22:02:40.771992 22663 master.cpp:314] Found tag 302 work 0x5b463f0
+I0324 22:02:40.781752 22663 master.cpp:311] Master received a response from a worker: [307:Exams are all just fun and games]
+I0324 22:02:40.781761 22663 master.cpp:314] Found tag 307 work 0x5b46c10
+I0324 22:02:40.817577 22663 master.cpp:311] Master received a response from a worker: [311:You are going to do a great project]
+I0324 22:02:40.817589 22663 master.cpp:314] Found tag 311 work 0x5b47290
+I0324 22:02:40.821619 22663 master.cpp:311] Master received a response from a worker: [295:Do a great project, and it all works out in the end]
+I0324 22:02:40.821629 22663 master.cpp:314] Found tag 295 work 0x5b45870
+I0324 22:02:41.206300 22663 master.cpp:354] Received request: cmd=418wisdom;x=6385
+I0324 22:02:41.206324 22663 master.cpp:165] assign tag 324 to work 0x5b48750
+I0324 22:02:41.206332 22663 master.cpp:144] Sending request 324to worker.
+I0324 22:02:41.215658 22663 master.cpp:354] Received request: cmd=418wisdom;x=86358
+I0324 22:02:41.215673 22663 master.cpp:165] assign tag 325 to work 0x5b489c0
+I0324 22:02:41.215680 22663 master.cpp:144] Sending request 325to worker.
+I0324 22:02:41.223836 22663 master.cpp:354] Received request: cmd=418wisdom;x=70201
+I0324 22:02:41.223852 22663 master.cpp:165] assign tag 326 to work 0x5b48b60
+I0324 22:02:41.223860 22663 master.cpp:144] Sending request 326to worker.
+I0324 22:02:41.233796 22663 master.cpp:354] Received request: cmd=418wisdom;x=90301
+I0324 22:02:41.233810 22663 master.cpp:165] assign tag 327 to work 0x5b48d00
+I0324 22:02:41.233817 22663 master.cpp:144] Sending request 327to worker.
+I0324 22:02:41.243819 22663 master.cpp:354] Received request: cmd=418wisdom;x=45161
+I0324 22:02:41.243839 22663 master.cpp:165] assign tag 328 to work 0x5b48ea0
+I0324 22:02:41.243850 22663 master.cpp:144] Sending request 328to worker.
+I0324 22:02:41.253826 22663 master.cpp:354] Received request: cmd=418wisdom;x=67692
+I0324 22:02:41.253840 22663 master.cpp:165] assign tag 329 to work 0x5b49040
+I0324 22:02:41.253846 22663 master.cpp:144] Sending request 329to worker.
+I0324 22:02:41.263895 22663 master.cpp:354] Received request: cmd=418wisdom;x=11891
+I0324 22:02:41.263908 22663 master.cpp:165] assign tag 330 to work 0x5b491e0
+I0324 22:02:41.263916 22663 master.cpp:144] Sending request 330to worker.
+I0324 22:02:41.274026 22663 master.cpp:354] Received request: cmd=418wisdom;x=39795
+I0324 22:02:41.274039 22663 master.cpp:165] assign tag 331 to work 0x5b49380
+I0324 22:02:41.274045 22663 master.cpp:144] Sending request 331to worker.
+I0324 22:02:41.283998 22663 master.cpp:354] Received request: cmd=418wisdom;x=20723
+I0324 22:02:41.284010 22663 master.cpp:165] assign tag 332 to work 0x5b49520
+I0324 22:02:41.284016 22663 master.cpp:144] Sending request 332to worker.
+I0324 22:02:41.293879 22663 master.cpp:354] Received request: cmd=418wisdom;x=4210
+I0324 22:02:41.293968 22663 master.cpp:165] assign tag 333 to work 0x5b496c0
+I0324 22:02:41.293977 22663 master.cpp:144] Sending request 333to worker.
+I0324 22:02:41.304193 22663 master.cpp:354] Received request: cmd=418wisdom;x=94797
+I0324 22:02:41.304213 22663 master.cpp:165] assign tag 334 to work 0x5b49860
+I0324 22:02:41.304220 22663 master.cpp:144] Sending request 334to worker.
+I0324 22:02:41.313851 22663 master.cpp:354] Received request: cmd=418wisdom;x=21589
+I0324 22:02:41.313865 22663 master.cpp:165] assign tag 335 to work 0x5b49a00
+I0324 22:02:41.313873 22663 master.cpp:144] Sending request 335to worker.
+I0324 22:02:41.323961 22663 master.cpp:354] Received request: cmd=418wisdom;x=14635
+I0324 22:02:41.323974 22663 master.cpp:165] assign tag 336 to work 0x5b49ba0
+I0324 22:02:41.323982 22663 master.cpp:144] Sending request 336to worker.
+I0324 22:02:41.333864 22663 master.cpp:354] Received request: cmd=418wisdom;x=19797
+I0324 22:02:41.333878 22663 master.cpp:165] assign tag 337 to work 0x5b49d40
+I0324 22:02:41.333885 22663 master.cpp:144] Sending request 337to worker.
+I0324 22:02:41.343802 22663 master.cpp:354] Received request: cmd=418wisdom;x=37803
+I0324 22:02:41.343821 22663 master.cpp:165] assign tag 338 to work 0x5b49ee0
+I0324 22:02:41.343832 22663 master.cpp:144] Sending request 338to worker.
+I0324 22:02:41.353700 22663 master.cpp:354] Received request: cmd=418wisdom;x=54639
+I0324 22:02:41.353752 22663 master.cpp:165] assign tag 339 to work 0x5b4a080
+I0324 22:02:41.353763 22663 master.cpp:144] Sending request 339to worker.
+I0324 22:02:41.364056 22663 master.cpp:354] Received request: cmd=418wisdom;x=15133
+I0324 22:02:41.364073 22663 master.cpp:165] assign tag 340 to work 0x5b4a220
+I0324 22:02:41.364084 22663 master.cpp:144] Sending request 340to worker.
+I0324 22:02:41.373726 22663 master.cpp:354] Received request: cmd=418wisdom;x=98869
+I0324 22:02:41.373744 22663 master.cpp:165] assign tag 341 to work 0x5b4a3c0
+I0324 22:02:41.373754 22663 master.cpp:144] Sending request 341to worker.
+I0324 22:02:41.383715 22663 master.cpp:354] Received request: cmd=418wisdom;x=98299
+I0324 22:02:41.383733 22663 master.cpp:165] assign tag 342 to work 0x5b4a560
+I0324 22:02:41.383743 22663 master.cpp:144] Sending request 342to worker.
+I0324 22:02:41.393760 22663 master.cpp:354] Received request: cmd=418wisdom;x=14840
+I0324 22:02:41.393779 22663 master.cpp:165] assign tag 343 to work 0x5b4a700
+I0324 22:02:41.393790 22663 master.cpp:144] Sending request 343to worker.
+I0324 22:02:41.403801 22663 master.cpp:354] Received request: cmd=418wisdom;x=40591
+I0324 22:02:41.403821 22663 master.cpp:165] assign tag 344 to work 0x5b4a8a0
+I0324 22:02:41.403833 22663 master.cpp:144] Sending request 344to worker.
+I0324 22:02:41.414207 22663 master.cpp:354] Received request: cmd=418wisdom;x=67993
+I0324 22:02:41.414227 22663 master.cpp:165] assign tag 345 to work 0x5b4aa40
+I0324 22:02:41.414237 22663 master.cpp:144] Sending request 345to worker.
+I0324 22:02:41.424685 22663 master.cpp:354] Received request: cmd=418wisdom;x=87766
+I0324 22:02:41.424703 22663 master.cpp:165] assign tag 346 to work 0x5b4abe0
+I0324 22:02:41.424715 22663 master.cpp:144] Sending request 346to worker.
+I0324 22:02:41.438544 22663 master.cpp:354] Received request: cmd=418wisdom;x=49541
+I0324 22:02:41.438563 22663 master.cpp:165] assign tag 347 to work 0x5b4ad80
+I0324 22:02:41.438575 22663 master.cpp:144] Sending request 347to worker.
+I0324 22:02:41.464397 22663 master.cpp:354] Received request: cmd=tellmenow;x=8254
+I0324 22:02:41.464417 22663 master.cpp:165] assign tag 348 to work 0x5b4af20
+I0324 22:02:41.464429 22663 master.cpp:144] Sending request 348to worker.
+I0324 22:02:41.464700 22663 master.cpp:311] Master received a response from a worker: [348:There may be opportunities for caching in this assignment]
+I0324 22:02:41.464716 22663 master.cpp:314] Found tag 348 work 0x5b4af20
+I0324 22:02:41.505272 22663 master.cpp:354] Received request: cmd=tellmenow;x=2902
+I0324 22:02:41.505290 22663 master.cpp:165] assign tag 349 to work 0x5b4b0a0
+I0324 22:02:41.505381 22663 master.cpp:144] Sending request 349to worker.
+I0324 22:02:41.505456 22663 master.cpp:354] Received request: cmd=tellmenow;x=4486
+I0324 22:02:41.505471 22663 master.cpp:165] assign tag 350 to work 0x5b4b000
+I0324 22:02:41.505481 22663 master.cpp:144] Sending request 350to worker.
+I0324 22:02:41.505513 22663 master.cpp:354] Received request: cmd=tellmenow;x=4488
+I0324 22:02:41.505525 22663 master.cpp:165] assign tag 351 to work 0x5b4b310
+I0324 22:02:41.505534 22663 master.cpp:144] Sending request 351to worker.
+I0324 22:02:41.512465 22663 master.cpp:354] Received request: cmd=tellmenow;x=6031
+I0324 22:02:41.512482 22663 master.cpp:165] assign tag 352 to work 0x5b4b4c0
+I0324 22:02:41.512495 22663 master.cpp:144] Sending request 352to worker.
+I0324 22:02:41.552255 22663 master.cpp:354] Received request: cmd=tellmenow;x=1818
+I0324 22:02:41.552275 22663 master.cpp:165] assign tag 353 to work 0x5b4b670
+I0324 22:02:41.552285 22663 master.cpp:144] Sending request 353to worker.
+I0324 22:02:41.562306 22663 master.cpp:354] Received request: cmd=tellmenow;x=5488
+I0324 22:02:41.562325 22663 master.cpp:165] assign tag 354 to work 0x5b4b820
+I0324 22:02:41.562335 22663 master.cpp:144] Sending request 354to worker.
+I0324 22:02:41.562367 22663 master.cpp:354] Received request: cmd=tellmenow;x=1969
+I0324 22:02:41.562379 22663 master.cpp:165] assign tag 355 to work 0x5b4b9d0
+I0324 22:02:41.562388 22663 master.cpp:144] Sending request 355to worker.
+I0324 22:02:41.562412 22663 master.cpp:311] Master received a response from a worker: [349:Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.]
+I0324 22:02:41.562420 22663 master.cpp:314] Found tag 349 work 0x5b4b0a0
+I0324 22:02:41.562472 22663 master.cpp:311] Master received a response from a worker: [350:There may be opportunities for caching in this assignment]
+I0324 22:02:41.562484 22663 master.cpp:314] Found tag 350 work 0x5b4b000
+I0324 22:02:41.595299 22663 master.cpp:354] Received request: cmd=tellmenow;x=3062
+I0324 22:02:41.595316 22663 master.cpp:165] assign tag 356 to work 0x5b4bb80
+I0324 22:02:41.595327 22663 master.cpp:144] Sending request 356to worker.
+I0324 22:02:41.595381 22663 master.cpp:311] Master received a response from a worker: [351:Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.]
+I0324 22:02:41.595393 22663 master.cpp:314] Found tag 351 work 0x5b4b310
+I0324 22:02:41.595450 22663 master.cpp:354] Received request: cmd=tellmenow;x=8664
+I0324 22:02:41.595468 22663 master.cpp:165] assign tag 357 to work 0x5b4be30
+I0324 22:02:41.595479 22663 master.cpp:144] Sending request 357to worker.
+I0324 22:02:41.628294 22663 master.cpp:354] Received request: cmd=tellmenow;x=8091
+I0324 22:02:41.628314 22663 master.cpp:165] assign tag 358 to work 0x5b4c010
+I0324 22:02:41.628324 22663 master.cpp:144] Sending request 358to worker.
+I0324 22:02:41.628516 22663 master.cpp:311] Master received a response from a worker: [352:Re-watch the lecture on scaling a website]
+I0324 22:02:41.628528 22663 master.cpp:314] Found tag 352 work 0x5b4b4c0
+I0324 22:02:41.628659 22663 master.cpp:354] Received request: cmd=tellmenow;x=7363
+I0324 22:02:41.628674 22663 master.cpp:165] assign tag 359 to work 0x5b4c130
+I0324 22:02:41.628684 22663 master.cpp:144] Sending request 359to worker.
+I0324 22:02:41.628749 22663 master.cpp:311] Master received a response from a worker: [353:Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.]
+I0324 22:02:41.628759 22663 master.cpp:314] Found tag 353 work 0x5b4b670
+I0324 22:02:41.628964 22663 master.cpp:311] Master received a response from a worker: [354:Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.]
+I0324 22:02:41.628976 22663 master.cpp:314] Found tag 354 work 0x5b4b820
+I0324 22:02:41.629102 22663 master.cpp:311] Master received a response from a worker: [355:Re-watch the lecture on scaling a website]
+I0324 22:02:41.629114 22663 master.cpp:314] Found tag 355 work 0x5b4b9d0
+I0324 22:02:41.629318 22663 master.cpp:311] Master received a response from a worker: [356:Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.]
+I0324 22:02:41.629333 22663 master.cpp:314] Found tag 356 work 0x5b4bb80
+I0324 22:02:41.629458 22663 master.cpp:311] Master received a response from a worker: [357:There may be opportunities for caching in this assignment]
+I0324 22:02:41.629470 22663 master.cpp:314] Found tag 357 work 0x5b4be30
+I0324 22:02:41.708245 22663 master.cpp:311] Master received a response from a worker: [358:Re-watch the lecture on scaling a website]
+I0324 22:02:41.708261 22663 master.cpp:314] Found tag 358 work 0x5b4c010
+I0324 22:02:41.708314 22663 master.cpp:311] Master received a response from a worker: [359:The best performance may come from a particular mixture of jobs on a worker node.]
+I0324 22:02:41.708328 22663 master.cpp:314] Found tag 359 work 0x5b4c130
+I0324 22:02:41.979579 22663 master.cpp:354] Received request: cmd=lastrequest
+I0324 22:02:43.201309 22663 master.cpp:311] Master received a response from a worker: [327:Exams are all just fun and games]
+I0324 22:02:43.201331 22663 master.cpp:314] Found tag 327 work 0x5b48d00
+I0324 22:02:43.262079 22663 master.cpp:311] Master received a response from a worker: [326:Do a great project, and it all works out in the end]
+I0324 22:02:43.262095 22663 master.cpp:314] Found tag 326 work 0x5b48b60
+I0324 22:02:43.306763 22663 master.cpp:311] Master received a response from a worker: [332:Laugh at Kayvon's jokes]
+I0324 22:02:43.306774 22663 master.cpp:314] Found tag 332 work 0x5b49520
+I0324 22:02:43.360203 22663 master.cpp:311] Master received a response from a worker: [328:Laugh at Kayvon's jokes]
+I0324 22:02:43.360216 22663 master.cpp:314] Found tag 328 work 0x5b48ea0
+I0324 22:02:43.366056 22663 master.cpp:311] Master received a response from a worker: [333:Ask questions. Ask questions. Ask questions]
+I0324 22:02:43.366065 22663 master.cpp:314] Found tag 333 work 0x5b496c0
+I0324 22:02:43.378559 22663 master.cpp:311] Master received a response from a worker: [334:You will PWN your classmates in the parallelism competition]
+I0324 22:02:43.378579 22663 master.cpp:314] Found tag 334 work 0x5b49860
+I0324 22:02:43.380141 22663 master.cpp:311] Master received a response from a worker: [335:You will perform amazingly on exam 2]
+I0324 22:02:43.380152 22663 master.cpp:314] Found tag 335 work 0x5b49a00
+I0324 22:02:43.394451 22663 master.cpp:311] Master received a response from a worker: [337:Be careful not to optimize prematurely]
+I0324 22:02:43.394464 22663 master.cpp:314] Found tag 337 work 0x5b49d40
+I0324 22:02:43.398043 22663 master.cpp:311] Master received a response from a worker: [336:You will perform amazingly on exam 2]
+I0324 22:02:43.398054 22663 master.cpp:314] Found tag 336 work 0x5b49ba0
+I0324 22:02:43.398797 22663 master.cpp:311] Master received a response from a worker: [338:Exams are all just fun and games]
+I0324 22:02:43.398808 22663 master.cpp:314] Found tag 338 work 0x5b49ee0
+I0324 22:02:43.400528 22663 master.cpp:311] Master received a response from a worker: [331:Do a great project, and it all works out in the end]
+I0324 22:02:43.400539 22663 master.cpp:314] Found tag 331 work 0x5b49380
+I0324 22:02:43.409720 22663 master.cpp:311] Master received a response from a worker: [330:Laugh at Kayvon's jokes]
+I0324 22:02:43.409731 22663 master.cpp:314] Found tag 330 work 0x5b491e0
+I0324 22:02:43.417837 22663 master.cpp:311] Master received a response from a worker: [339:Write a great lecture comment on your favorite idea in the class]
+I0324 22:02:43.417848 22663 master.cpp:314] Found tag 339 work 0x5b4a080
+I0324 22:02:43.421849 22663 master.cpp:311] Master received a response from a worker: [342:You are going to do a great project]
+I0324 22:02:43.421857 22663 master.cpp:314] Found tag 342 work 0x5b4a560
+I0324 22:02:43.425947 22663 master.cpp:311] Master received a response from a worker: [325:OMG, 418 is so gr8!]
+I0324 22:02:43.425956 22663 master.cpp:314] Found tag 325 work 0x5b489c0
+I0324 22:02:43.426364 22663 master.cpp:311] Master received a response from a worker: [343:You will PWN your classmates in the parallelism competition]
+I0324 22:02:43.426373 22663 master.cpp:314] Found tag 343 work 0x5b4a700
+I0324 22:02:43.427973 22663 master.cpp:311] Master received a response from a worker: [340:Exams are all just fun and games]
+I0324 22:02:43.427986 22663 master.cpp:314] Found tag 340 work 0x5b4a220
+I0324 22:02:43.434407 22663 master.cpp:311] Master received a response from a worker: [344:Ask questions. Ask questions. Ask questions]
+I0324 22:02:43.434417 22663 master.cpp:314] Found tag 344 work 0x5b4a8a0
+I0324 22:02:43.494693 22663 master.cpp:311] Master received a response from a worker: [346:OMG, 418 is so gr8!]
+I0324 22:02:43.494706 22663 master.cpp:314] Found tag 346 work 0x5b4abe0
+I0324 22:02:43.545332 22663 master.cpp:311] Master received a response from a worker: [324:OMG, 418 is so gr8!]
+I0324 22:02:43.545346 22663 master.cpp:314] Found tag 324 work 0x5b48750
+I0324 22:02:43.704231 22663 master.cpp:311] Master received a response from a worker: [329:Laugh at Kayvon's jokes]
+I0324 22:02:43.704247 22663 master.cpp:314] Found tag 329 work 0x5b49040
+I0324 22:02:43.717875 22663 master.cpp:311] Master received a response from a worker: [345:Flatter your TAs with compliments]
+I0324 22:02:43.717888 22663 master.cpp:314] Found tag 345 work 0x5b4aa40
+I0324 22:02:43.818008 22663 master.cpp:311] Master received a response from a worker: [341:You will perform amazingly on exam 2]
+I0324 22:02:43.818030 22663 master.cpp:314] Found tag 341 work 0x5b4a3c0
+I0324 22:02:43.981704 22663 master.cpp:311] Master received a response from a worker: [347:Come to lecture, there might be donuts!]
+I0324 22:02:43.981721 22663 master.cpp:314] Found tag 347 work 0x5b4ad80
+I0324 22:02:44.007323 22663 main_loop.cpp:138] Shutting down

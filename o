@@ -1,0 +1,754 @@
+Waiting for server to initialize...
+Server ready, beginning trace...
+Request 24: req: "cmd=tellmenow;x=4249", resp: "Re-watch the lecture on scaling a website", latency: 0 ms
+Request 27: req: "cmd=tellmenow;x=5498", resp: "Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.", latency: 63 ms
+Request 30: req: "cmd=tellmenow;x=4293", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 23 ms
+ Request 31: req: "cmd=tellmenow;x=7788", resp: "Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.", latency: 10 msRequest 29: req: "cmd=tellmenow;x=8700", resp: "We recommend getting full credit on grading_wisdom.txt first", latency: 36 ms
+
+Request 26: req: "cmd=tellmenow;x=3907", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 78 ms
+Request 28: req: "cmd=tellmenow;x=8218", resp: "Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.", latency: 50 ms
+Request 25: req: "cmd=tellmenow;x=906", resp: "There may be opportunities for caching in this assignment", latency: 119 ms
+Request 32: req: "cmd=tellmenow;x=2344", resp: "There may be opportunities for caching in this assignment", latency: 99 ms
+Request 33: req: "cmd=tellmenow;x=7246", resp: "There may be opportunities for caching in this assignment", latency: 80 ms
+Request 34: req: "cmd=tellmenow;x=4938", resp: "Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.", latency: 107 ms
+Request 35: req: "cmd=tellmenow;x=126", resp: "There may be opportunities for caching in this assignment", latency: 94 ms
+Request 1: req: "cmd=418wisdom;x=75796", resp: "Flatter your TAs with compliments", latency: 2232 ms
+Request 4: req: "cmd=418wisdom;x=51127", resp: "Flatter your TAs with compliments", latency: 2202 ms
+Request 5: req: "cmd=418wisdom;x=40493", resp: "Come to lecture, there might be donuts!", latency: 2193 ms
+Request 6: req: "cmd=418wisdom;x=78380", resp: "Write a great lecture comment on your favorite idea in the class", latency: 2189 ms
+Request 3: req: "cmd=418wisdom;x=25891", resp: "OMG, 418 is so gr8!", latency: 2228 ms
+Request 8: req: "cmd=418wisdom;x=47660", resp: "You will perform amazingly on exam 2", latency: 2183 ms
+Request 2: req: "cmd=418wisdom;x=42057", resp: "Worse is better. Keep it simple...", latency: 2243 ms
+Request 0: req: "cmd=418wisdom;x=84443", resp: "Come to lecture, there might be donuts!", latency: 2260 ms
+Request 9: req: "cmd=418wisdom;x=58338", resp: "You will perform amazingly on exam 2", latency: 2181 ms
+Request 7: req: "cmd=418wisdom;x=30331", resp: "Do a great project, and it all works out in the end", latency: 2212 ms
+Request 11: req: "cmd=418wisdom;x=50469", resp: "Be careful not to optimize prematurely", latency: 2181 ms
+Request 10: req: "cmd=418wisdom;x=90812", resp: "Worse is better. Keep it simple...", latency: 2201 ms
+Request 12: req: "cmd=418wisdom;x=28184", resp: "You are going to do a great project", latency: 2181 ms
+Request 14: req: "cmd=418wisdom;x=61837", resp: "Worse is better. Keep it simple...", latency: 2166 ms
+Request 15: req: "cmd=418wisdom;x=25050", resp: "Bring out all the stops in assignment 4.", latency: 2158 ms
+Request 13: req: "cmd=418wisdom;x=75581", resp: "Exams are all just fun and games", latency: 2201 ms
+Request 19: req: "cmd=418wisdom;x=90217", resp: "If all else fails... buy Kayvon donuts", latency: 2143 ms
+Request 17: req: "cmd=418wisdom;x=98279", resp: "You will perform amazingly on exam 2", latency: 2175 ms
+Request 16: req: "cmd=418wisdom;x=90975", resp: "Write a great lecture comment on your favorite idea in the class", latency: 2186 ms
+Request 18: req: "cmd=418wisdom;x=81022", resp: "Laugh at Kayvon's jokes", latency: 2167 ms
+Request 22: req: "cmd=418wisdom;x=89884", resp: "OMG, 418 is so gr8!", latency: 2133 ms
+Request 20: req: "cmd=418wisdom;x=31015", resp: "Flatter your TAs with compliments", latency: 2175 ms
+Request 23: req: "cmd=418wisdom;x=68399", resp: "You will perform amazingly on exam 2", latency: 2145 ms
+Request 21: req: "cmd=418wisdom;x=72983", resp: "Bring out all the stops in assignment 4.", latency: 2169 ms
+Request 60: req: "cmd=tellmenow;x=7331", resp: "Re-watch the lecture on scaling a website", latency: 13 ms
+Request 62: req: "cmd=tellmenow;x=8675", resp: "Figure out a way to understand the workload characteristics in each trace.", latency: 96 ms
+Request 63: req: "cmd=tellmenow;x=5429", resp: "Re-watch the lecture on scaling a website", latency: 79 ms
+Request 64: req: "cmd=tellmenow;x=5289", resp: "Re-watch the lecture on scaling a website", latency: 67 ms
+Request 61: req: "cmd=tellmenow;x=4863", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 148 ms
+Request 65: req: "cmd=tellmenow;x=4005", resp: "Figure out a way to understand the workload characteristics in each trace.", latency: 111 ms
+Request 66: req: "cmd=tellmenow;x=5367", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 99 ms
+Request 67: req: "cmd=tellmenow;x=3464", resp: "There may be opportunities for caching in this assignment", latency: 86 ms
+Request 68: req: "cmd=tellmenow;x=5181", resp: "Re-watch the lecture on scaling a website", latency: 73 ms
+Request 69: req: "cmd=tellmenow;x=2613", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 92 ms
+Request 70: req: "cmd=tellmenow;x=1704", resp: "There may be opportunities for caching in this assignment", latency: 80 ms
+Request 71: req: "cmd=tellmenow;x=1680", resp: "We recommend getting full credit on grading_wisdom.txt first", latency: 106 ms
+Request 37: req: "cmd=418wisdom;x=39882", resp: "Flatter your TAs with compliments", latency: 2155 ms
+Request 36: req: "cmd=418wisdom;x=71971", resp: "Come to lecture, there might be donuts!", latency: 2164 ms
+Request 40: req: "cmd=418wisdom;x=114", resp: "Bring out all the stops in assignment 4.", latency: 2131 ms
+Request 38: req: "cmd=418wisdom;x=82485", resp: "Come to lecture, there might be donuts!", latency: 2153 ms
+Request 41: req: "cmd=418wisdom;x=49358", resp: "Ask questions. Ask questions. Ask questions", latency: 2126 ms
+Request 39: req: "cmd=418wisdom;x=66815", resp: "Laugh at Kayvon's jokes", latency: 2155 ms
+Request 43: req: "cmd=418wisdom;x=24391", resp: "Do a great project, and it all works out in the end", latency: 2119 ms
+Request 42: req: "cmd=418wisdom;x=86761", resp: "Do a great project, and it all works out in the end", latency: 2134 ms
+Request 44: req: "cmd=418wisdom;x=32520", resp: "If all else fails... buy Kayvon donuts", latency: 2114 ms
+Request 45: req: "cmd=418wisdom;x=87047", resp: "You will perform amazingly on exam 2", latency: 2114 ms
+Request 46: req: "cmd=418wisdom;x=19106", resp: "Ask questions. Ask questions. Ask questions", latency: 2110 ms
+Request 47: req: "cmd=418wisdom;x=56751", resp: "Do a great project, and it all works out in the end", latency: 2111 ms
+Request 48: req: "cmd=418wisdom;x=23861", resp: "Do a great project, and it all works out in the end", latency: 2105 ms
+Request 51: req: "cmd=418wisdom;x=44797", resp: "Do a great project, and it all works out in the end", latency: 2087 ms
+Request 49: req: "cmd=418wisdom;x=96754", resp: "Ask questions. Ask questions. Ask questions", latency: 2108 ms
+Request 53: req: "cmd=418wisdom;x=32005", resp: "Flatter your TAs with compliments", latency: 2076 ms
+Request 50: req: "cmd=418wisdom;x=80318", resp: "Worse is better. Keep it simple...", latency: 2109 ms
+Request 52: req: "cmd=418wisdom;x=8044", resp: "Exams are all just fun and games", latency: 2092 ms
+Request 54: req: "cmd=418wisdom;x=50794", resp: "OMG, 418 is so gr8!", latency: 2075 ms
+Request 56: req: "cmd=418wisdom;x=10905", resp: "You will perform amazingly on exam 2", latency: 2071 ms
+Request 57: req: "cmd=418wisdom;x=55127", resp: "Be careful not to optimize prematurely", latency: 2061 ms
+Request 55: req: "cmd=418wisdom;x=93284", resp: "If all else fails... buy Kayvon donuts", latency: 2082 ms
+Request 58: req: "cmd=418wisdom;x=70656", resp: "Write a great lecture comment on your favorite idea in the class", latency: 2054 ms
+Request 59: req: "cmd=418wisdom;x=54744", resp: "Laugh at Kayvon's jokes", latency: 2058 ms
+Request 96: req: "cmd=tellmenow;x=7140", resp: "We recommend getting full credit on grading_wisdom.txt first", latency: 1 ms
+Request 99: req: "cmd=tellmenow;x=4378", resp: "Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.", latency: 54 ms
+Request 100: req: "cmd=tellmenow;x=5671", resp: "Re-watch the lecture on scaling a website", latency: 40 ms
+Request 101: req: "cmd=tellmenow;x=7606", resp: "There may be opportunities for caching in this assignment", latency: 26 ms
+ Request 103: req: "cmd=tellmenow;x=6584", resp: "There may be opportunities for caching in this assignment", latency: 4 ms
+Request 102: req: "cmd=tellmenow;x=2187", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 18 ms
+Request 98: req: "cmd=tellmenow;x=5515", resp: "Figure out a way to understand the workload characteristics in each trace.", latency: 68 ms
+Request 97: req: "cmd=tellmenow;x=741", resp: "Re-watch the lecture on scaling a website", latency: 119 ms
+Request 107: req: "cmd=tellmenow;x=2993", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 41 ms
+Request 106: req: "cmd=tellmenow;x=7152", resp: "Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.", latency: 90 ms
+Request 104: req: "cmd=tellmenow;x=1054", resp: "There may be opportunities for caching in this assignment", latency: 120 ms
+ Request 105: req: "cmd=tellmenow;x=1984", resp: "There may be opportunities for caching in this assignment", latency: 103 ms
+Request 72: req: "cmd=418wisdom;x=61277", resp: "Do a great project, and it all works out in the end", latency: 2225 ms
+Request 73: req: "cmd=418wisdom;x=65666", resp: "OMG, 418 is so gr8!", latency: 2223 ms
+Request 75: req: "cmd=418wisdom;x=8982", resp: "You will perform amazingly on exam 2", latency: 2214 ms
+Request 74: req: "cmd=418wisdom;x=47653", resp: "You will PWN your classmates in the parallelism competition", latency: 2232 ms
+Request 79: req: "cmd=418wisdom;x=84246", resp: "Ask questions. Ask questions. Ask questions", latency: 2185 ms
+Request 77: req: "cmd=418wisdom;x=87677", resp: "Do as best as you can and just have fun!", latency: 2213 ms
+Request 81: req: "cmd=418wisdom;x=92309", resp: "You will PWN your classmates in the parallelism competition", latency: 2175 ms
+Request 78: req: "cmd=418wisdom;x=92339", resp: "Ask questions. Ask questions. Ask questions", latency: 2208 ms
+Request 85: req: "cmd=418wisdom;x=27563", resp: "If all else fails... buy Kayvon donuts", latency: 2157 ms
+Request 80: req: "cmd=418wisdom;x=89818", resp: "Laugh at Kayvon's jokes", latency: 2209 ms
+Request 87: req: "cmd=418wisdom;x=84949", resp: "Come to lecture, there might be donuts!", latency: 2156 ms
+Request 84: req: "cmd=418wisdom;x=70529", resp: "Come to lecture, there might be donuts!", latency: 2204 ms
+Request 83: req: "cmd=418wisdom;x=39129", resp: "Worse is better. Keep it simple...", latency: 2215 ms
+Request 91: req: "cmd=418wisdom;x=57970", resp: "Ask questions. Ask questions. Ask questions", latency: 2135 ms
+Request 88: req: "cmd=418wisdom;x=89504", resp: "You will perform amazingly on exam 2", latency: 2167 ms
+Request 90: req: "cmd=418wisdom;x=94977", resp: "Flatter your TAs with compliments", latency: 2155 ms
+Request 76: req: "cmd=418wisdom;x=75761", resp: "You are going to do a great project", latency: 2309 ms
+Request 95: req: "cmd=418wisdom;x=91695", resp: "You will perform amazingly on exam 2", latency: 2120 ms
+Request 82: req: "cmd=418wisdom;x=54060", resp: "Be careful not to optimize prematurely", latency: 2250 ms
+Request 89: req: "cmd=418wisdom;x=58980", resp: "If all else fails... buy Kayvon donuts", latency: 2182 ms
+Request 92: req: "cmd=418wisdom;x=45056", resp: "Bring out all the stops in assignment 4.", latency: 2163 ms
+Request 93: req: "cmd=418wisdom;x=66025", resp: "Worse is better. Keep it simple...", latency: 2164 ms
+Request 86: req: "cmd=418wisdom;x=81163", resp: "You will perform amazingly on exam 2", latency: 2320 ms
+Request 94: req: "cmd=418wisdom;x=99626", resp: "You are going to do a great project", latency: 2260 ms
+Request 132: req: "cmd=tellmenow;x=205", resp: "Figure out a way to understand the workload characteristics in each trace.", latency: 11 ms
+Request 134: req: "cmd=tellmenow;x=913", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 82 ms
+Request 135: req: "cmd=tellmenow;x=2339", resp: "Re-watch the lecture on scaling a website", latency: 69 ms
+Request 136: req: "cmd=tellmenow;x=1987", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 56 ms
+Request 133: req: "cmd=tellmenow;x=3830", resp: "We recommend getting full credit on grading_wisdom.txt first", latency: 131 ms
+Request 139: req: "cmd=tellmenow;x=1623", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 70 ms
+Request 138: req: "cmd=tellmenow;x=3152", resp: "Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.", latency: 83 ms
+Request 137: req: "cmd=tellmenow;x=5822", resp: "Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.", latency: 104 ms
+Request 140: req: "cmd=tellmenow;x=4533", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 93 ms
+ Request 141: req: "cmd=tellmenow;x=354", resp: "There may be opportunities for caching in this assignment", latency: 80 ms
+Request 142: req: "cmd=tellmenow;x=908", resp: "Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.", latency: 67 ms
+Request 143: req: "cmd=tellmenow;x=8895", resp: "Figure out a way to understand the workload characteristics in each trace.", latency: 94 ms
+Request 108: req: "cmd=418wisdom;x=81592", resp: "You will PWN your classmates in the parallelism competition", latency: 2156 ms
+Request 110: req: "cmd=418wisdom;x=14635", resp: "You will perform amazingly on exam 2", latency: 2146 ms
+Request 109: req: "cmd=418wisdom;x=10060", resp: "OMG, 418 is so gr8!", latency: 2161 ms
+Request 114: req: "cmd=418wisdom;x=91002", resp: "Do a great project, and it all works out in the end", latency: 2114 ms
+Request 113: req: "cmd=418wisdom;x=57387", resp: "You will PWN your classmates in the parallelism competition", latency: 2131 ms
+Request 116: req: "cmd=418wisdom;x=68059", resp: "OMG, 418 is so gr8!", latency: 2109 ms
+Request 118: req: "cmd=418wisdom;x=63500", resp: "Laugh at Kayvon's jokes", latency: 2099 ms
+Request 117: req: "cmd=418wisdom;x=2669", resp: "If all else fails... buy Kayvon donuts", latency: 2119 ms
+Request 121: req: "cmd=418wisdom;x=39121", resp: "If all else fails... buy Kayvon donuts", latency: 2087 ms
+Request 122: req: "cmd=418wisdom;x=37014", resp: "Laugh at Kayvon's jokes", latency: 2078 ms
+Request 120: req: "cmd=418wisdom;x=57595", resp: "You will perform amazingly on exam 2", latency: 2105 ms
+Request 123: req: "cmd=418wisdom;x=98052", resp: "Come to lecture, there might be donuts!", latency: 2086 ms
+Request 124: req: "cmd=418wisdom;x=3639", resp: "Do a great project, and it all works out in the end", latency: 2076 ms
+Request 125: req: "cmd=418wisdom;x=2163", resp: "Come to lecture, there might be donuts!", latency: 2077 ms
+Request 111: req: "cmd=418wisdom;x=69767", resp: "You will perform amazingly on exam 2", latency: 2219 ms
+Request 127: req: "cmd=418wisdom;x=18497", resp: "Ask questions. Ask questions. Ask questions", latency: 2056 ms
+Request 128: req: "cmd=418wisdom;x=12389", resp: "Laugh at Kayvon's jokes", latency: 2055 ms
+Request 115: req: "cmd=418wisdom;x=53420", resp: "You will PWN your classmates in the parallelism competition", latency: 2189 ms
+Request 119: req: "cmd=418wisdom;x=60634", resp: "You are going to do a great project", latency: 2152 ms
+Request 129: req: "cmd=418wisdom;x=21057", resp: "Come to lecture, there might be donuts!", latency: 2052 ms
+Request 130: req: "cmd=418wisdom;x=80075", resp: "Write a great lecture comment on your favorite idea in the class", latency: 2050 ms
+Request 112: req: "cmd=418wisdom;x=4523", resp: "Exams are all just fun and games", latency: 2238 ms
+Request 126: req: "cmd=418wisdom;x=96104", resp: "Flatter your TAs with compliments", latency: 2203 ms
+Request 131: req: "cmd=418wisdom;x=93697", resp: "Laugh at Kayvon's jokes", latency: 2216 ms
+Request 168: req: "cmd=tellmenow;x=5045", resp: "Figure out a way to understand the workload characteristics in each trace.", latency: 0 ms
+Request 170: req: "cmd=tellmenow;x=6674", resp: "There may be opportunities for caching in this assignment", latency: 73 ms
+Request 173: req: "cmd=tellmenow;x=2528", resp: "Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.", latency: 30 ms
+Request 176: req: "cmd=tellmenow;x=3170", resp: "We recommend getting full credit on grading_wisdom.txt first", latency: 15 ms
+ Request 172: req: "cmd=tellmenow;x=411", resp: "Re-watch the lecture on scaling a website", latency: 48 msRequest 171: req: "cmd=tellmenow;x=3023", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 61 ms
+
+Request 174: req: "cmd=tellmenow;x=2161", resp: "Re-watch the lecture on scaling a website", latency: 30 ms
+Request 175: req: "cmd=tellmenow;x=8579", resp: "Re-watch the lecture on scaling a website", latency: 37 ms
+Request 169: req: "cmd=tellmenow;x=111", resp: "Re-watch the lecture on scaling a website", latency: 119 ms
+Request 177: req: "cmd=tellmenow;x=2591", resp: "Re-watch the lecture on scaling a website", latency: 72 ms
+Request 178: req: "cmd=tellmenow;x=3233", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 110 ms
+Request 179: req: "cmd=tellmenow;x=8523", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 131 ms
+Request 146: req: "cmd=418wisdom;x=73160", resp: "Ask questions. Ask questions. Ask questions", latency: 2220 ms
+Request 147: req: "cmd=418wisdom;x=83833", resp: "You will perform amazingly on exam 2", latency: 2258 ms
+Request 159: req: "cmd=418wisdom;x=17482", resp: "You are going to do a great project", latency: 2140 ms
+Request 163: req: "cmd=418wisdom;x=50860", resp: "Come to lecture, there might be donuts!", latency: 2138 ms
+Request 144: req: "cmd=418wisdom;x=19935", resp: "Write a great lecture comment on your favorite idea in the class", latency: 2351 ms
+Request 148: req: "cmd=418wisdom;x=91849", resp: "Do a great project, and it all works out in the end", latency: 2327 ms
+Request 145: req: "cmd=418wisdom;x=35855", resp: "Do as best as you can and just have fun!", latency: 2369 ms
+Request 150: req: "cmd=418wisdom;x=67264", resp: "Flatter your TAs with compliments", latency: 2335 ms
+Request 158: req: "cmd=418wisdom;x=44231", resp: "You will PWN your classmates in the parallelism competition", latency: 2258 ms
+Request 156: req: "cmd=418wisdom;x=25068", resp: "Flatter your TAs with compliments", latency: 2279 ms
+Request 164: req: "cmd=418wisdom;x=31144", resp: "Do as best as you can and just have fun!", latency: 2171 ms
+Request 151: req: "cmd=418wisdom;x=96655", resp: "Write a great lecture comment on your favorite idea in the class", latency: 2356 ms
+Request 157: req: "cmd=418wisdom;x=59679", resp: "Flatter your TAs with compliments", latency: 2313 ms
+Request 153: req: "cmd=418wisdom;x=67620", resp: "You are going to do a great project", latency: 2354 ms
+Request 165: req: "cmd=418wisdom;x=35715", resp: "Ask questions. Ask questions. Ask questions", latency: 2209 ms
+Request 149: req: "cmd=418wisdom;x=16942", resp: "Bring out all the stops in assignment 4.", latency: 2490 ms
+Request 160: req: "cmd=418wisdom;x=47163", resp: "Bring out all the stops in assignment 4.", latency: 2393 ms
+Request 154: req: "cmd=418wisdom;x=84543", resp: "Ask questions. Ask questions. Ask questions", latency: 2488 ms
+Request 166: req: "cmd=418wisdom;x=83766", resp: "You will perform amazingly on exam 2", latency: 2372 ms
+Request 167: req: "cmd=418wisdom;x=25093", resp: "You will perform amazingly on exam 2", latency: 2581 ms
+Request 162: req: "cmd=418wisdom;x=56911", resp: "OMG, 418 is so gr8!", latency: 2643 ms
+Request 161: req: "cmd=418wisdom;x=40990", resp: "Come to lecture, there might be donuts!", latency: 2656 ms
+Request 155: req: "cmd=418wisdom;x=34231", resp: "Be careful not to optimize prematurely", latency: 2887 ms
+Request 152: req: "cmd=418wisdom;x=5805", resp: "You will perform amazingly on exam 2", latency: 2917 ms
+Request 206: req: "cmd=tellmenow;x=6800", resp: "We recommend getting full credit on grading_wisdom.txt first", latency: 52 ms
+Request 207: req: "cmd=tellmenow;x=7955", resp: "Figure out a way to understand the workload characteristics in each trace.", latency: 50 ms
+Request 208: req: "cmd=tellmenow;x=4451", resp: "Re-watch the lecture on scaling a website", latency: 48 ms
+Request 209: req: "cmd=tellmenow;x=2808", resp: "Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.", latency: 47 ms
+Request 210: req: "cmd=tellmenow;x=4202", resp: "Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.", latency: 45 ms
+Request 211: req: "cmd=tellmenow;x=7282", resp: "Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.", latency: 44 ms
+Request 205: req: "cmd=tellmenow;x=5053", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 93 ms
+Request 204: req: "cmd=tellmenow;x=4385", resp: "Figure out a way to understand the workload characteristics in each trace.", latency: 95 ms
+Request 212: req: "cmd=tellmenow;x=7876", resp: "There may be opportunities for caching in this assignment", latency: 81 ms
+Request 213: req: "cmd=tellmenow;x=7312", resp: "Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.", latency: 79 ms
+Request 214: req: "cmd=tellmenow;x=1692", resp: "Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.", latency: 78 ms
+Request 215: req: "cmd=tellmenow;x=8995", resp: "Figure out a way to understand the workload characteristics in each trace.", latency: 76 ms
+Request 185: req: "cmd=418wisdom;x=65083", resp: "OMG, 418 is so gr8!", latency: 2121 ms
+Request 181: req: "cmd=418wisdom;x=62108", resp: "Worse is better. Keep it simple...", latency: 2261 ms
+Request 180: req: "cmd=418wisdom;x=63375", resp: "If all else fails... buy Kayvon donuts", latency: 2290 ms
+Request 196: req: "cmd=418wisdom;x=70183", resp: "Bring out all the stops in assignment 4.", latency: 2160 ms
+Request 183: req: "cmd=418wisdom;x=38802", resp: "Exams are all just fun and games", latency: 2303 ms
+Request 191: req: "cmd=418wisdom;x=37865", resp: "Do a great project, and it all works out in the end", latency: 2247 ms
+Request 186: req: "cmd=418wisdom;x=152", resp: "You will perform amazingly on exam 2", latency: 2310 ms
+Request 195: req: "cmd=418wisdom;x=40227", resp: "You will PWN your classmates in the parallelism competition", latency: 2222 ms
+Request 184: req: "cmd=418wisdom;x=41442", resp: "Flatter your TAs with compliments", latency: 2347 ms
+Request 193: req: "cmd=418wisdom;x=56815", resp: "Worse is better. Keep it simple...", latency: 2258 ms
+Request 192: req: "cmd=418wisdom;x=87543", resp: "Write a great lecture comment on your favorite idea in the class", latency: 2273 ms
+Request 189: req: "cmd=418wisdom;x=23941", resp: "You will perform amazingly on exam 2", latency: 2304 ms
+Request 202: req: "cmd=418wisdom;x=15768", resp: "Come to lecture, there might be donuts!", latency: 2185 ms
+Request 187: req: "cmd=418wisdom;x=19231", resp: "You are going to do a great project", latency: 2338 ms
+Request 182: req: "cmd=418wisdom;x=71562", resp: "Write a great lecture comment on your favorite idea in the class", latency: 2395 ms
+Request 188: req: "cmd=418wisdom;x=33440", resp: "Flatter your TAs with compliments", latency: 2346 ms
+Request 199: req: "cmd=418wisdom;x=4678", resp: "Write a great lecture comment on your favorite idea in the class", latency: 2259 ms
+Request 190: req: "cmd=418wisdom;x=63740", resp: "Do a great project, and it all works out in the end", latency: 2354 ms
+Request 197: req: "cmd=418wisdom;x=41823", resp: "You will perform amazingly on exam 2", latency: 2291 ms
+Request 201: req: "cmd=418wisdom;x=25922", resp: "Laugh at Kayvon's jokes", latency: 2269 ms
+Request 200: req: "cmd=418wisdom;x=44535", resp: "You are going to do a great project", latency: 2327 ms
+Request 203: req: "cmd=418wisdom;x=52757", resp: "You will perform amazingly on exam 2", latency: 2300 ms
+Request 194: req: "cmd=418wisdom;x=41441", resp: "Laugh at Kayvon's jokes", latency: 2402 ms
+Request 198: req: "cmd=418wisdom;x=66220", resp: "Laugh at Kayvon's jokes", latency: 2396 ms
+Request 240: req: "cmd=tellmenow;x=7131", resp: "Re-watch the lecture on scaling a website", latency: 0 ms
+Request 242: req: "cmd=tellmenow;x=1200", resp: "We recommend getting full credit on grading_wisdom.txt first", latency: 134 ms
+Request 241: req: "cmd=tellmenow;x=7753", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 151 ms
+Request 243: req: "cmd=tellmenow;x=4688", resp: "Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.", latency: 138 ms
+ Request 244: req: "cmd=tellmenow;x=5857", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 125 ms
+Request 249: req: "cmd=tellmenow;x=366", resp: "There may be opportunities for caching in this assignment", latency: 53 ms
+Request 248: req: "cmd=tellmenow;x=167", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 74 ms
+Request 247: req: "cmd=tellmenow;x=2505", resp: "Figure out a way to understand the workload characteristics in each trace.", latency: 87 ms
+Request 245: req: "cmd=tellmenow;x=3123", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 113 ms
+ Request 246: req: "cmd=tellmenow;x=7847", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 100 ms
+Request 250: req: "cmd=tellmenow;x=6129", resp: "Re-watch the lecture on scaling a website", latency: 80 ms
+ Request 251: req: "cmd=tellmenow;x=5025", resp: "Figure out a way to understand the workload characteristics in each trace.", latency: 67 ms
+Request 218: req: "cmd=418wisdom;x=72556", resp: "You will PWN your classmates in the parallelism competition", latency: 2199 ms
+Request 236: req: "cmd=418wisdom;x=39670", resp: "Ask questions. Ask questions. Ask questions", latency: 2041 ms
+Request 233: req: "cmd=418wisdom;x=97852", resp: "If all else fails... buy Kayvon donuts", latency: 2077 ms
+Request 221: req: "cmd=418wisdom;x=67852", resp: "You will PWN your classmates in the parallelism competition", latency: 2199 ms
+Request 229: req: "cmd=418wisdom;x=11890", resp: "You are going to do a great project", latency: 2135 ms
+Request 225: req: "cmd=418wisdom;x=235", resp: "Flatter your TAs with compliments", latency: 2185 ms
+Request 230: req: "cmd=418wisdom;x=64927", resp: "You will perform amazingly on exam 2", latency: 2181 ms
+Request 220: req: "cmd=418wisdom;x=40182", resp: "Do as best as you can and just have fun!", latency: 2303 ms
+Request 222: req: "cmd=418wisdom;x=31618", resp: "Laugh at Kayvon's jokes", latency: 2295 ms
+Request 235: req: "cmd=418wisdom;x=85394", resp: "Do as best as you can and just have fun!", latency: 2165 ms
+Request 228: req: "cmd=418wisdom;x=9778", resp: "Ask questions. Ask questions. Ask questions", latency: 2238 ms
+Request 223: req: "cmd=418wisdom;x=21352", resp: "Do as best as you can and just have fun!", latency: 2306 ms
+Request 231: req: "cmd=418wisdom;x=87366", resp: "Ask questions. Ask questions. Ask questions", latency: 2230 ms
+Request 239: req: "cmd=418wisdom;x=45298", resp: "Exams are all just fun and games", latency: 2127 ms
+Request 232: req: "cmd=418wisdom;x=27998", resp: "Exams are all just fun and games", latency: 2250 ms
+Request 226: req: "cmd=418wisdom;x=82273", resp: "Ask questions. Ask questions. Ask questions", latency: 2311 ms
+Request 217: req: "cmd=418wisdom;x=8346", resp: "Flatter your TAs with compliments", latency: 2404 ms
+Request 234: req: "cmd=418wisdom;x=10018", resp: "Ask questions. Ask questions. Ask questions", latency: 2272 ms
+Request 216: req: "cmd=418wisdom;x=63309", resp: "Do as best as you can and just have fun!", latency: 2459 ms
+Request 219: req: "cmd=418wisdom;x=98683", resp: "Bring out all the stops in assignment 4.", latency: 2461 ms
+Request 227: req: "cmd=418wisdom;x=52835", resp: "Flatter your TAs with compliments", latency: 2461 ms
+Request 238: req: "cmd=418wisdom;x=27471", resp: "Ask questions. Ask questions. Ask questions", latency: 2355 ms
+Request 237: req: "cmd=418wisdom;x=8134", resp: "Do as best as you can and just have fun!", latency: 2399 ms
+Request 224: req: "cmd=418wisdom;x=71733", resp: "OMG, 418 is so gr8!", latency: 2575 ms
+Request 276: req: "cmd=tellmenow;x=2606", resp: "There may be opportunities for caching in this assignment", latency: 0 ms
+Request 278: req: "cmd=tellmenow;x=4936", resp: "There may be opportunities for caching in this assignment", latency: 106 ms
+Request 280: req: "cmd=tellmenow;x=4303", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 78 ms
+Request 281: req: "cmd=tellmenow;x=2157", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 66 ms
+Request 282: req: "cmd=tellmenow;x=434", resp: "There may be opportunities for caching in this assignment", latency: 53 ms
+Request 283: req: "cmd=tellmenow;x=1616", resp: "There may be opportunities for caching in this assignment", latency: 40 ms
+Request 284: req: "cmd=tellmenow;x=4707", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 27 ms
+Request 285: req: "cmd=tellmenow;x=637", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 15 ms
+Request 279: req: "cmd=tellmenow;x=2640", resp: "We recommend getting full credit on grading_wisdom.txt first", latency: 93 ms
+Request 277: req: "cmd=tellmenow;x=3553", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 158 ms
+Request 286: req: "cmd=tellmenow;x=3628", resp: "Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.", latency: 41 ms
+Request 287: req: "cmd=tellmenow;x=2957", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 147 ms
+Request 261: req: "cmd=418wisdom;x=64014", resp: "Flatter your TAs with compliments", latency: 1694 ms
+Request 262: req: "cmd=418wisdom;x=37245", resp: "Be careful not to optimize prematurely", latency: 1752 ms
+Request 259: req: "cmd=418wisdom;x=71236", resp: "You will PWN your classmates in the parallelism competition", latency: 1876 ms
+Request 257: req: "cmd=418wisdom;x=70133", resp: "You are going to do a great project", latency: 1913 ms
+Request 260: req: "cmd=418wisdom;x=90271", resp: "Be careful not to optimize prematurely", latency: 1903 ms
+Request 256: req: "cmd=418wisdom;x=74914", resp: "Laugh at Kayvon's jokes", latency: 1973 ms
+Request 266: req: "cmd=418wisdom;x=889", resp: "Do a great project, and it all works out in the end", latency: 1879 ms
+Request 267: req: "cmd=418wisdom;x=15102", resp: "Laugh at Kayvon's jokes", latency: 1877 ms
+Request 273: req: "cmd=418wisdom;x=4120", resp: "Laugh at Kayvon's jokes", latency: 1849 ms
+Request 272: req: "cmd=418wisdom;x=62054", resp: "Laugh at Kayvon's jokes", latency: 1861 ms
+Request 264: req: "cmd=418wisdom;x=20784", resp: "You are going to do a great project", latency: 2068 ms
+Request 255: req: "cmd=418wisdom;x=4200", resp: "You will perform amazingly on exam 2", latency: 2161 ms
+Request 258: req: "cmd=418wisdom;x=65536", resp: "Worse is better. Keep it simple...", latency: 2175 ms
+Request 253: req: "cmd=418wisdom;x=93844", resp: "OMG, 418 is so gr8!", latency: 2282 ms
+Request 271: req: "cmd=418wisdom;x=33825", resp: "Flatter your TAs with compliments", latency: 2106 ms
+Request 269: req: "cmd=418wisdom;x=78963", resp: "OMG, 418 is so gr8!", latency: 2158 ms
+Request 263: req: "cmd=418wisdom;x=53793", resp: "If all else fails... buy Kayvon donuts", latency: 2223 ms
+Request 270: req: "cmd=418wisdom;x=71850", resp: "Worse is better. Keep it simple...", latency: 2160 ms
+Request 268: req: "cmd=418wisdom;x=33341", resp: "Do a great project, and it all works out in the end", latency: 2238 ms
+Request 275: req: "cmd=418wisdom;x=98192", resp: "Do as best as you can and just have fun!", latency: 2173 ms
+Request 252: req: "cmd=418wisdom;x=94651", resp: "Write a great lecture comment on your favorite idea in the class", latency: 2430 ms
+Request 254: req: "cmd=418wisdom;x=90986", resp: "Exams are all just fun and games", latency: 2435 ms
+Request 265: req: "cmd=418wisdom;x=58713", resp: "Ask questions. Ask questions. Ask questions", latency: 2605 ms
+Request 274: req: "cmd=418wisdom;x=16386", resp: "OMG, 418 is so gr8!", latency: 2693 ms
+Request 312: req: "cmd=tellmenow;x=4671", resp: "Re-watch the lecture on scaling a website", latency: 40 ms
+Request 313: req: "cmd=tellmenow;x=4037", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 105 ms
+Request 317: req: "cmd=tellmenow;x=3807", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 66 ms
+Request 318: req: "cmd=tellmenow;x=3315", resp: "Figure out a way to understand the workload characteristics in each trace.", latency: 53 ms
+Request 315: req: "cmd=tellmenow;x=5264", resp: "There may be opportunities for caching in this assignment", latency: 94 ms
+Request 320: req: "cmd=tellmenow;x=2348", resp: "Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.", latency: 28 ms
+Request 319: req: "cmd=tellmenow;x=8897", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 41 ms
+Request 314: req: "cmd=tellmenow;x=4398", resp: "Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.", latency: 106 ms
+Request 316: req: "cmd=tellmenow;x=6114", resp: "There may be opportunities for caching in this assignment", latency: 120 ms
+Request 321: req: "cmd=tellmenow;x=6994", resp: "There may be opportunities for caching in this assignment", latency: 54 ms
+Request 322: req: "cmd=tellmenow;x=3881", resp: "Re-watch the lecture on scaling a website", latency: 81 ms
+Request 323: req: "cmd=tellmenow;x=3227", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 146 ms
+Request 290: req: "cmd=418wisdom;x=90866", resp: "You are going to do a great project", latency: 1896 ms
+Request 298: req: "cmd=418wisdom;x=30190", resp: "You will PWN your classmates in the parallelism competition", latency: 1828 ms
+Request 303: req: "cmd=418wisdom;x=37557", resp: "Ask questions. Ask questions. Ask questions", latency: 1935 ms
+Request 288: req: "cmd=418wisdom;x=41472", resp: "Be careful not to optimize prematurely", latency: 2089 ms
+Request 308: req: "cmd=418wisdom;x=74987", resp: "Be careful not to optimize prematurely", latency: 1905 ms
+Request 291: req: "cmd=418wisdom;x=47400", resp: "Do a great project, and it all works out in the end", latency: 2080 ms
+Request 300: req: "cmd=418wisdom;x=89440", resp: "You will PWN your classmates in the parallelism competition", latency: 2050 ms
+Request 289: req: "cmd=418wisdom;x=9940", resp: "Ask questions. Ask questions. Ask questions", latency: 2164 ms
+Request 293: req: "cmd=418wisdom;x=97623", resp: "Worse is better. Keep it simple...", latency: 2173 ms
+Request 294: req: "cmd=418wisdom;x=34365", resp: "Do a great project, and it all works out in the end", latency: 2174 ms
+Request 296: req: "cmd=418wisdom;x=69960", resp: "Flatter your TAs with compliments", latency: 2168 ms
+Request 297: req: "cmd=418wisdom;x=42653", resp: "Write a great lecture comment on your favorite idea in the class", latency: 2172 ms
+Request 292: req: "cmd=418wisdom;x=84085", resp: "Flatter your TAs with compliments", latency: 2227 ms
+Request 304: req: "cmd=418wisdom;x=97457", resp: "You are going to do a great project", latency: 2109 ms
+Request 310: req: "cmd=418wisdom;x=785", resp: "Do a great project, and it all works out in the end", latency: 2063 ms
+Request 301: req: "cmd=418wisdom;x=91969", resp: "Laugh at Kayvon's jokes", latency: 2176 ms
+Request 305: req: "cmd=418wisdom;x=63888", resp: "If all else fails... buy Kayvon donuts", latency: 2147 ms
+Request 299: req: "cmd=418wisdom;x=73475", resp: "OMG, 418 is so gr8!", latency: 2208 ms
+Request 306: req: "cmd=418wisdom;x=6583", resp: "Laugh at Kayvon's jokes", latency: 2142 ms
+Request 309: req: "cmd=418wisdom;x=6115", resp: "Laugh at Kayvon's jokes", latency: 2115 ms
+Request 302: req: "cmd=418wisdom;x=62674", resp: "Laugh at Kayvon's jokes", latency: 2192 ms
+Request 307: req: "cmd=418wisdom;x=8467", resp: "Exams are all just fun and games", latency: 2148 ms
+Request 311: req: "cmd=418wisdom;x=39381", resp: "You are going to do a great project", latency: 2104 ms
+Request 295: req: "cmd=418wisdom;x=47909", resp: "Do a great project, and it all works out in the end", latency: 2312 ms
+Request 348: req: "cmd=tellmenow;x=8254", resp: "There may be opportunities for caching in this assignment", latency: 11 ms
+Request 350: req: "cmd=tellmenow;x=4486", resp: "There may be opportunities for caching in this assignment", latency: 85 ms
+Request 351: req: "cmd=tellmenow;x=4488", resp: "Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.", latency: 104 ms
+Request 349: req: "cmd=tellmenow;x=2902", resp: "Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.", latency: 137 ms
+Request 353: req: "cmd=tellmenow;x=1818", resp: "Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.", latency: 116 ms
+Request 355: req: "cmd=tellmenow;x=1969", resp: "Re-watch the lecture on scaling a website", latency: 87 ms
+Request 356: req: "cmd=tellmenow;x=3062", resp: "Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.", latency: 74 ms
+Request 352: req: "cmd=tellmenow;x=6031", resp: "Re-watch the lecture on scaling a website", latency: 130 ms
+Request 354: req: "cmd=tellmenow;x=5488", resp: "Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.", latency: 107 ms
+Request 357: req: "cmd=tellmenow;x=8664", resp: "There may be opportunities for caching in this assignment", latency: 93 ms
+Request 358: req: "cmd=tellmenow;x=8091", resp: "Re-watch the lecture on scaling a website", latency: 120 ms
+Request 359: req: "cmd=tellmenow;x=7363", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 146 ms
+Request 360: req: "cmd=lastrequest", resp: "ack", latency: 0 ms
+Request 327: req: "cmd=418wisdom;x=90301", resp: "Exams are all just fun and games", latency: 1967 ms
+Request 326: req: "cmd=418wisdom;x=70201", resp: "Do a great project, and it all works out in the end", latency: 2038 ms
+Request 332: req: "cmd=418wisdom;x=20723", resp: "Laugh at Kayvon's jokes", latency: 2023 ms
+Request 328: req: "cmd=418wisdom;x=45161", resp: "Laugh at Kayvon's jokes", latency: 2116 ms
+Request 333: req: "cmd=418wisdom;x=4210", resp: "Ask questions. Ask questions. Ask questions", latency: 2072 ms
+Request 334: req: "cmd=418wisdom;x=94797", resp: "You will PWN your classmates in the parallelism competition", latency: 2074 ms
+Request 335: req: "cmd=418wisdom;x=21589", resp: "You will perform amazingly on exam 2", latency: 2066 ms
+Request 337: req: "cmd=418wisdom;x=19797", resp: "Be careful not to optimize prematurely", latency: 2060 ms
+Request 336: req: "cmd=418wisdom;x=14635", resp: "You will perform amazingly on exam 2", latency: 2074 ms
+Request 338: req: "cmd=418wisdom;x=37803", resp: "Exams are all just fun and games", latency: 2055 ms
+Request 331: req: "cmd=418wisdom;x=39795", resp: "Do a great project, and it all works out in the end", latency: 2126 ms
+Request 330: req: "cmd=418wisdom;x=11891", resp: "Laugh at Kayvon's jokes", latency: 2146 ms
+Request 339: req: "cmd=418wisdom;x=54639", resp: "Write a great lecture comment on your favorite idea in the class", latency: 2064 ms
+Request 342: req: "cmd=418wisdom;x=98299", resp: "You are going to do a great project", latency: 2038 ms
+Request 325: req: "cmd=418wisdom;x=86358", resp: "OMG, 418 is so gr8!", latency: 2210 ms
+Request 343: req: "cmd=418wisdom;x=14840", resp: "You will PWN your classmates in the parallelism competition", latency: 2033 ms
+Request 340: req: "cmd=418wisdom;x=15133", resp: "Exams are all just fun and games", latency: 2064 ms
+Request 344: req: "cmd=418wisdom;x=40591", resp: "Ask questions. Ask questions. Ask questions", latency: 2031 ms
+Request 346: req: "cmd=418wisdom;x=87766", resp: "OMG, 418 is so gr8!", latency: 2070 ms
+Request 324: req: "cmd=418wisdom;x=6385", resp: "OMG, 418 is so gr8!", latency: 2339 ms
+Request 329: req: "cmd=418wisdom;x=67692", resp: "Laugh at Kayvon's jokes", latency: 2450 ms
+Request 345: req: "cmd=418wisdom;x=67993", resp: "Flatter your TAs with compliments", latency: 2304 ms
+Request 341: req: "cmd=418wisdom;x=98869", resp: "You will perform amazingly on exam 2", latency: 2444 ms
+Request 347: req: "cmd=418wisdom;x=49541", resp: "Come to lecture, there might be donuts!", latency: 2543 ms
+
+--- Results Summary ---
+
+[0] Request: cmd=418wisdom;x=84443, success: YES, latency: 2260
+[1] Request: cmd=418wisdom;x=75796, success: YES, latency: 2232
+[2] Request: cmd=418wisdom;x=42057, success: YES, latency: 2243
+[3] Request: cmd=418wisdom;x=25891, success: YES, latency: 2228
+[4] Request: cmd=418wisdom;x=51127, success: YES, latency: 2202
+[5] Request: cmd=418wisdom;x=40493, success: YES, latency: 2193
+[6] Request: cmd=418wisdom;x=78380, success: YES, latency: 2189
+[7] Request: cmd=418wisdom;x=30331, success: YES, latency: 2212
+[8] Request: cmd=418wisdom;x=47660, success: YES, latency: 2183
+[9] Request: cmd=418wisdom;x=58338, success: YES, latency: 2181
+[10] Request: cmd=418wisdom;x=90812, success: YES, latency: 2201
+[11] Request: cmd=418wisdom;x=50469, success: YES, latency: 2181
+[12] Request: cmd=418wisdom;x=28184, success: YES, latency: 2181
+[13] Request: cmd=418wisdom;x=75581, success: YES, latency: 2201
+[14] Request: cmd=418wisdom;x=61837, success: YES, latency: 2166
+[15] Request: cmd=418wisdom;x=25050, success: YES, latency: 2158
+[16] Request: cmd=418wisdom;x=90975, success: YES, latency: 2186
+[17] Request: cmd=418wisdom;x=98279, success: YES, latency: 2175
+[18] Request: cmd=418wisdom;x=81022, success: YES, latency: 2167
+[19] Request: cmd=418wisdom;x=90217, success: YES, latency: 2143
+[20] Request: cmd=418wisdom;x=31015, success: YES, latency: 2175
+[21] Request: cmd=418wisdom;x=72983, success: YES, latency: 2169
+[22] Request: cmd=418wisdom;x=89884, success: YES, latency: 2133
+[23] Request: cmd=418wisdom;x=68399, success: YES, latency: 2145
+[24] Request: cmd=tellmenow;x=4249, success: YES, latency: 0
+[25] Request: cmd=tellmenow;x=906, success: YES, latency: 119
+[26] Request: cmd=tellmenow;x=3907, success: YES, latency: 78
+[27] Request: cmd=tellmenow;x=5498, success: YES, latency: 63
+[28] Request: cmd=tellmenow;x=8218, success: YES, latency: 50
+[29] Request: cmd=tellmenow;x=8700, success: YES, latency: 36
+[30] Request: cmd=tellmenow;x=4293, success: YES, latency: 23
+[31] Request: cmd=tellmenow;x=7788, success: YES, latency: 10
+[32] Request: cmd=tellmenow;x=2344, success: YES, latency: 99
+[33] Request: cmd=tellmenow;x=7246, success: YES, latency: 80
+[34] Request: cmd=tellmenow;x=4938, success: YES, latency: 107
+[35] Request: cmd=tellmenow;x=126, success: YES, latency: 94
+[36] Request: cmd=418wisdom;x=71971, success: YES, latency: 2164
+[37] Request: cmd=418wisdom;x=39882, success: YES, latency: 2155
+[38] Request: cmd=418wisdom;x=82485, success: YES, latency: 2153
+[39] Request: cmd=418wisdom;x=66815, success: YES, latency: 2155
+[40] Request: cmd=418wisdom;x=114, success: YES, latency: 2131
+[41] Request: cmd=418wisdom;x=49358, success: YES, latency: 2126
+[42] Request: cmd=418wisdom;x=86761, success: YES, latency: 2134
+[43] Request: cmd=418wisdom;x=24391, success: YES, latency: 2119
+[44] Request: cmd=418wisdom;x=32520, success: YES, latency: 2114
+[45] Request: cmd=418wisdom;x=87047, success: YES, latency: 2114
+[46] Request: cmd=418wisdom;x=19106, success: YES, latency: 2110
+[47] Request: cmd=418wisdom;x=56751, success: YES, latency: 2111
+[48] Request: cmd=418wisdom;x=23861, success: YES, latency: 2105
+[49] Request: cmd=418wisdom;x=96754, success: YES, latency: 2108
+[50] Request: cmd=418wisdom;x=80318, success: YES, latency: 2109
+[51] Request: cmd=418wisdom;x=44797, success: YES, latency: 2087
+[52] Request: cmd=418wisdom;x=8044, success: YES, latency: 2092
+[53] Request: cmd=418wisdom;x=32005, success: YES, latency: 2076
+[54] Request: cmd=418wisdom;x=50794, success: YES, latency: 2075
+[55] Request: cmd=418wisdom;x=93284, success: YES, latency: 2082
+[56] Request: cmd=418wisdom;x=10905, success: YES, latency: 2071
+[57] Request: cmd=418wisdom;x=55127, success: YES, latency: 2061
+[58] Request: cmd=418wisdom;x=70656, success: YES, latency: 2054
+[59] Request: cmd=418wisdom;x=54744, success: YES, latency: 2058
+[60] Request: cmd=tellmenow;x=7331, success: YES, latency: 13
+[61] Request: cmd=tellmenow;x=4863, success: YES, latency: 148
+[62] Request: cmd=tellmenow;x=8675, success: YES, latency: 96
+[63] Request: cmd=tellmenow;x=5429, success: YES, latency: 79
+[64] Request: cmd=tellmenow;x=5289, success: YES, latency: 67
+[65] Request: cmd=tellmenow;x=4005, success: YES, latency: 111
+[66] Request: cmd=tellmenow;x=5367, success: YES, latency: 99
+[67] Request: cmd=tellmenow;x=3464, success: YES, latency: 86
+[68] Request: cmd=tellmenow;x=5181, success: YES, latency: 73
+[69] Request: cmd=tellmenow;x=2613, success: YES, latency: 92
+[70] Request: cmd=tellmenow;x=1704, success: YES, latency: 80
+[71] Request: cmd=tellmenow;x=1680, success: YES, latency: 106
+[72] Request: cmd=418wisdom;x=61277, success: YES, latency: 2225
+[73] Request: cmd=418wisdom;x=65666, success: YES, latency: 2223
+[74] Request: cmd=418wisdom;x=47653, success: YES, latency: 2232
+[75] Request: cmd=418wisdom;x=8982, success: YES, latency: 2214
+[76] Request: cmd=418wisdom;x=75761, success: YES, latency: 2309
+[77] Request: cmd=418wisdom;x=87677, success: YES, latency: 2213
+[78] Request: cmd=418wisdom;x=92339, success: YES, latency: 2208
+[79] Request: cmd=418wisdom;x=84246, success: YES, latency: 2185
+[80] Request: cmd=418wisdom;x=89818, success: YES, latency: 2209
+[81] Request: cmd=418wisdom;x=92309, success: YES, latency: 2175
+[82] Request: cmd=418wisdom;x=54060, success: YES, latency: 2250
+[83] Request: cmd=418wisdom;x=39129, success: YES, latency: 2215
+[84] Request: cmd=418wisdom;x=70529, success: YES, latency: 2204
+[85] Request: cmd=418wisdom;x=27563, success: YES, latency: 2157
+[86] Request: cmd=418wisdom;x=81163, success: YES, latency: 2320
+[87] Request: cmd=418wisdom;x=84949, success: YES, latency: 2156
+[88] Request: cmd=418wisdom;x=89504, success: YES, latency: 2167
+[89] Request: cmd=418wisdom;x=58980, success: YES, latency: 2182
+[90] Request: cmd=418wisdom;x=94977, success: YES, latency: 2155
+[91] Request: cmd=418wisdom;x=57970, success: YES, latency: 2135
+[92] Request: cmd=418wisdom;x=45056, success: YES, latency: 2163
+[93] Request: cmd=418wisdom;x=66025, success: YES, latency: 2164
+[94] Request: cmd=418wisdom;x=99626, success: YES, latency: 2260
+[95] Request: cmd=418wisdom;x=91695, success: YES, latency: 2120
+[96] Request: cmd=tellmenow;x=7140, success: YES, latency: 1
+[97] Request: cmd=tellmenow;x=741, success: YES, latency: 119
+[98] Request: cmd=tellmenow;x=5515, success: YES, latency: 68
+[99] Request: cmd=tellmenow;x=4378, success: YES, latency: 54
+[100] Request: cmd=tellmenow;x=5671, success: YES, latency: 40
+[101] Request: cmd=tellmenow;x=7606, success: YES, latency: 26
+[102] Request: cmd=tellmenow;x=2187, success: YES, latency: 18
+[103] Request: cmd=tellmenow;x=6584, success: YES, latency: 4
+[104] Request: cmd=tellmenow;x=1054, success: YES, latency: 120
+[105] Request: cmd=tellmenow;x=1984, success: YES, latency: 103
+[106] Request: cmd=tellmenow;x=7152, success: YES, latency: 90
+[107] Request: cmd=tellmenow;x=2993, success: YES, latency: 41
+[108] Request: cmd=418wisdom;x=81592, success: YES, latency: 2156
+[109] Request: cmd=418wisdom;x=10060, success: YES, latency: 2161
+[110] Request: cmd=418wisdom;x=14635, success: YES, latency: 2146
+[111] Request: cmd=418wisdom;x=69767, success: YES, latency: 2219
+[112] Request: cmd=418wisdom;x=4523, success: YES, latency: 2238
+[113] Request: cmd=418wisdom;x=57387, success: YES, latency: 2131
+[114] Request: cmd=418wisdom;x=91002, success: YES, latency: 2114
+[115] Request: cmd=418wisdom;x=53420, success: YES, latency: 2189
+[116] Request: cmd=418wisdom;x=68059, success: YES, latency: 2109
+[117] Request: cmd=418wisdom;x=2669, success: YES, latency: 2119
+[118] Request: cmd=418wisdom;x=63500, success: YES, latency: 2099
+[119] Request: cmd=418wisdom;x=60634, success: YES, latency: 2152
+[120] Request: cmd=418wisdom;x=57595, success: YES, latency: 2105
+[121] Request: cmd=418wisdom;x=39121, success: YES, latency: 2087
+[122] Request: cmd=418wisdom;x=37014, success: YES, latency: 2078
+[123] Request: cmd=418wisdom;x=98052, success: YES, latency: 2086
+[124] Request: cmd=418wisdom;x=3639, success: YES, latency: 2076
+[125] Request: cmd=418wisdom;x=2163, success: YES, latency: 2077
+[126] Request: cmd=418wisdom;x=96104, success: YES, latency: 2203
+[127] Request: cmd=418wisdom;x=18497, success: YES, latency: 2056
+[128] Request: cmd=418wisdom;x=12389, success: YES, latency: 2055
+[129] Request: cmd=418wisdom;x=21057, success: YES, latency: 2052
+[130] Request: cmd=418wisdom;x=80075, success: YES, latency: 2050
+[131] Request: cmd=418wisdom;x=93697, success: YES, latency: 2216
+[132] Request: cmd=tellmenow;x=205, success: YES, latency: 11
+[133] Request: cmd=tellmenow;x=3830, success: YES, latency: 131
+[134] Request: cmd=tellmenow;x=913, success: YES, latency: 82
+[135] Request: cmd=tellmenow;x=2339, success: YES, latency: 69
+[136] Request: cmd=tellmenow;x=1987, success: YES, latency: 56
+[137] Request: cmd=tellmenow;x=5822, success: YES, latency: 104
+[138] Request: cmd=tellmenow;x=3152, success: YES, latency: 83
+[139] Request: cmd=tellmenow;x=1623, success: YES, latency: 70
+[140] Request: cmd=tellmenow;x=4533, success: YES, latency: 93
+[141] Request: cmd=tellmenow;x=354, success: YES, latency: 80
+[142] Request: cmd=tellmenow;x=908, success: YES, latency: 67
+[143] Request: cmd=tellmenow;x=8895, success: YES, latency: 94
+[144] Request: cmd=418wisdom;x=19935, success: YES, latency: 2351
+[145] Request: cmd=418wisdom;x=35855, success: YES, latency: 2369
+[146] Request: cmd=418wisdom;x=73160, success: YES, latency: 2220
+[147] Request: cmd=418wisdom;x=83833, success: YES, latency: 2258
+[148] Request: cmd=418wisdom;x=91849, success: YES, latency: 2327
+[149] Request: cmd=418wisdom;x=16942, success: YES, latency: 2490
+[150] Request: cmd=418wisdom;x=67264, success: YES, latency: 2335
+[151] Request: cmd=418wisdom;x=96655, success: YES, latency: 2356
+[152] Request: cmd=418wisdom;x=5805, success: YES, latency: 2917
+[153] Request: cmd=418wisdom;x=67620, success: YES, latency: 2354
+[154] Request: cmd=418wisdom;x=84543, success: YES, latency: 2488
+[155] Request: cmd=418wisdom;x=34231, success: YES, latency: 2887
+[156] Request: cmd=418wisdom;x=25068, success: YES, latency: 2279
+[157] Request: cmd=418wisdom;x=59679, success: YES, latency: 2313
+[158] Request: cmd=418wisdom;x=44231, success: YES, latency: 2258
+[159] Request: cmd=418wisdom;x=17482, success: YES, latency: 2140
+[160] Request: cmd=418wisdom;x=47163, success: YES, latency: 2393
+[161] Request: cmd=418wisdom;x=40990, success: YES, latency: 2656
+[162] Request: cmd=418wisdom;x=56911, success: YES, latency: 2643
+[163] Request: cmd=418wisdom;x=50860, success: YES, latency: 2138
+[164] Request: cmd=418wisdom;x=31144, success: YES, latency: 2171
+[165] Request: cmd=418wisdom;x=35715, success: YES, latency: 2209
+[166] Request: cmd=418wisdom;x=83766, success: YES, latency: 2372
+[167] Request: cmd=418wisdom;x=25093, success: YES, latency: 2581
+[168] Request: cmd=tellmenow;x=5045, success: YES, latency: 0
+[169] Request: cmd=tellmenow;x=111, success: YES, latency: 119
+[170] Request: cmd=tellmenow;x=6674, success: YES, latency: 73
+[171] Request: cmd=tellmenow;x=3023, success: YES, latency: 61
+[172] Request: cmd=tellmenow;x=411, success: YES, latency: 48
+[173] Request: cmd=tellmenow;x=2528, success: YES, latency: 30
+[174] Request: cmd=tellmenow;x=2161, success: YES, latency: 30
+[175] Request: cmd=tellmenow;x=8579, success: YES, latency: 37
+[176] Request: cmd=tellmenow;x=3170, success: YES, latency: 15
+[177] Request: cmd=tellmenow;x=2591, success: YES, latency: 72
+[178] Request: cmd=tellmenow;x=3233, success: YES, latency: 110
+[179] Request: cmd=tellmenow;x=8523, success: YES, latency: 131
+[180] Request: cmd=418wisdom;x=63375, success: YES, latency: 2290
+[181] Request: cmd=418wisdom;x=62108, success: YES, latency: 2261
+[182] Request: cmd=418wisdom;x=71562, success: YES, latency: 2395
+[183] Request: cmd=418wisdom;x=38802, success: YES, latency: 2303
+[184] Request: cmd=418wisdom;x=41442, success: YES, latency: 2347
+[185] Request: cmd=418wisdom;x=65083, success: YES, latency: 2121
+[186] Request: cmd=418wisdom;x=152, success: YES, latency: 2310
+[187] Request: cmd=418wisdom;x=19231, success: YES, latency: 2338
+[188] Request: cmd=418wisdom;x=33440, success: YES, latency: 2346
+[189] Request: cmd=418wisdom;x=23941, success: YES, latency: 2304
+[190] Request: cmd=418wisdom;x=63740, success: YES, latency: 2354
+[191] Request: cmd=418wisdom;x=37865, success: YES, latency: 2247
+[192] Request: cmd=418wisdom;x=87543, success: YES, latency: 2273
+[193] Request: cmd=418wisdom;x=56815, success: YES, latency: 2258
+[194] Request: cmd=418wisdom;x=41441, success: YES, latency: 2402
+[195] Request: cmd=418wisdom;x=40227, success: YES, latency: 2222
+[196] Request: cmd=418wisdom;x=70183, success: YES, latency: 2160
+[197] Request: cmd=418wisdom;x=41823, success: YES, latency: 2291
+[198] Request: cmd=418wisdom;x=66220, success: YES, latency: 2396
+[199] Request: cmd=418wisdom;x=4678, success: YES, latency: 2259
+[200] Request: cmd=418wisdom;x=44535, success: YES, latency: 2327
+[201] Request: cmd=418wisdom;x=25922, success: YES, latency: 2269
+[202] Request: cmd=418wisdom;x=15768, success: YES, latency: 2185
+[203] Request: cmd=418wisdom;x=52757, success: YES, latency: 2300
+[204] Request: cmd=tellmenow;x=4385, success: YES, latency: 95
+[205] Request: cmd=tellmenow;x=5053, success: YES, latency: 93
+[206] Request: cmd=tellmenow;x=6800, success: YES, latency: 52
+[207] Request: cmd=tellmenow;x=7955, success: YES, latency: 50
+[208] Request: cmd=tellmenow;x=4451, success: YES, latency: 48
+[209] Request: cmd=tellmenow;x=2808, success: YES, latency: 47
+[210] Request: cmd=tellmenow;x=4202, success: YES, latency: 45
+[211] Request: cmd=tellmenow;x=7282, success: YES, latency: 44
+[212] Request: cmd=tellmenow;x=7876, success: YES, latency: 81
+[213] Request: cmd=tellmenow;x=7312, success: YES, latency: 79
+[214] Request: cmd=tellmenow;x=1692, success: YES, latency: 78
+[215] Request: cmd=tellmenow;x=8995, success: YES, latency: 76
+[216] Request: cmd=418wisdom;x=63309, success: YES, latency: 2459
+[217] Request: cmd=418wisdom;x=8346, success: YES, latency: 2404
+[218] Request: cmd=418wisdom;x=72556, success: YES, latency: 2199
+[219] Request: cmd=418wisdom;x=98683, success: YES, latency: 2461
+[220] Request: cmd=418wisdom;x=40182, success: YES, latency: 2303
+[221] Request: cmd=418wisdom;x=67852, success: YES, latency: 2199
+[222] Request: cmd=418wisdom;x=31618, success: YES, latency: 2295
+[223] Request: cmd=418wisdom;x=21352, success: YES, latency: 2306
+[224] Request: cmd=418wisdom;x=71733, success: YES, latency: 2575
+[225] Request: cmd=418wisdom;x=235, success: YES, latency: 2185
+[226] Request: cmd=418wisdom;x=82273, success: YES, latency: 2311
+[227] Request: cmd=418wisdom;x=52835, success: YES, latency: 2461
+[228] Request: cmd=418wisdom;x=9778, success: YES, latency: 2238
+[229] Request: cmd=418wisdom;x=11890, success: YES, latency: 2135
+[230] Request: cmd=418wisdom;x=64927, success: YES, latency: 2181
+[231] Request: cmd=418wisdom;x=87366, success: YES, latency: 2230
+[232] Request: cmd=418wisdom;x=27998, success: YES, latency: 2250
+[233] Request: cmd=418wisdom;x=97852, success: YES, latency: 2077
+[234] Request: cmd=418wisdom;x=10018, success: YES, latency: 2272
+[235] Request: cmd=418wisdom;x=85394, success: YES, latency: 2165
+[236] Request: cmd=418wisdom;x=39670, success: YES, latency: 2041
+[237] Request: cmd=418wisdom;x=8134, success: YES, latency: 2399
+[238] Request: cmd=418wisdom;x=27471, success: YES, latency: 2355
+[239] Request: cmd=418wisdom;x=45298, success: YES, latency: 2127
+[240] Request: cmd=tellmenow;x=7131, success: YES, latency: 0
+[241] Request: cmd=tellmenow;x=7753, success: YES, latency: 151
+[242] Request: cmd=tellmenow;x=1200, success: YES, latency: 134
+[243] Request: cmd=tellmenow;x=4688, success: YES, latency: 138
+[244] Request: cmd=tellmenow;x=5857, success: YES, latency: 125
+[245] Request: cmd=tellmenow;x=3123, success: YES, latency: 113
+[246] Request: cmd=tellmenow;x=7847, success: YES, latency: 100
+[247] Request: cmd=tellmenow;x=2505, success: YES, latency: 87
+[248] Request: cmd=tellmenow;x=167, success: YES, latency: 74
+[249] Request: cmd=tellmenow;x=366, success: YES, latency: 53
+[250] Request: cmd=tellmenow;x=6129, success: YES, latency: 80
+[251] Request: cmd=tellmenow;x=5025, success: YES, latency: 67
+[252] Request: cmd=418wisdom;x=94651, success: YES, latency: 2430
+[253] Request: cmd=418wisdom;x=93844, success: YES, latency: 2282
+[254] Request: cmd=418wisdom;x=90986, success: YES, latency: 2435
+[255] Request: cmd=418wisdom;x=4200, success: YES, latency: 2161
+[256] Request: cmd=418wisdom;x=74914, success: YES, latency: 1973
+[257] Request: cmd=418wisdom;x=70133, success: YES, latency: 1913
+[258] Request: cmd=418wisdom;x=65536, success: YES, latency: 2175
+[259] Request: cmd=418wisdom;x=71236, success: YES, latency: 1876
+[260] Request: cmd=418wisdom;x=90271, success: YES, latency: 1903
+[261] Request: cmd=418wisdom;x=64014, success: YES, latency: 1694
+[262] Request: cmd=418wisdom;x=37245, success: YES, latency: 1752
+[263] Request: cmd=418wisdom;x=53793, success: YES, latency: 2223
+[264] Request: cmd=418wisdom;x=20784, success: YES, latency: 2068
+[265] Request: cmd=418wisdom;x=58713, success: YES, latency: 2605
+[266] Request: cmd=418wisdom;x=889, success: YES, latency: 1879
+[267] Request: cmd=418wisdom;x=15102, success: YES, latency: 1877
+[268] Request: cmd=418wisdom;x=33341, success: YES, latency: 2238
+[269] Request: cmd=418wisdom;x=78963, success: YES, latency: 2158
+[270] Request: cmd=418wisdom;x=71850, success: YES, latency: 2160
+[271] Request: cmd=418wisdom;x=33825, success: YES, latency: 2106
+[272] Request: cmd=418wisdom;x=62054, success: YES, latency: 1861
+[273] Request: cmd=418wisdom;x=4120, success: YES, latency: 1849
+[274] Request: cmd=418wisdom;x=16386, success: YES, latency: 2693
+[275] Request: cmd=418wisdom;x=98192, success: YES, latency: 2173
+[276] Request: cmd=tellmenow;x=2606, success: YES, latency: 0
+[277] Request: cmd=tellmenow;x=3553, success: YES, latency: 158
+[278] Request: cmd=tellmenow;x=4936, success: YES, latency: 106
+[279] Request: cmd=tellmenow;x=2640, success: YES, latency: 93
+[280] Request: cmd=tellmenow;x=4303, success: YES, latency: 78
+[281] Request: cmd=tellmenow;x=2157, success: YES, latency: 66
+[282] Request: cmd=tellmenow;x=434, success: YES, latency: 53
+[283] Request: cmd=tellmenow;x=1616, success: YES, latency: 40
+[284] Request: cmd=tellmenow;x=4707, success: YES, latency: 27
+[285] Request: cmd=tellmenow;x=637, success: YES, latency: 15
+[286] Request: cmd=tellmenow;x=3628, success: YES, latency: 41
+[287] Request: cmd=tellmenow;x=2957, success: YES, latency: 147
+[288] Request: cmd=418wisdom;x=41472, success: YES, latency: 2089
+[289] Request: cmd=418wisdom;x=9940, success: YES, latency: 2164
+[290] Request: cmd=418wisdom;x=90866, success: YES, latency: 1896
+[291] Request: cmd=418wisdom;x=47400, success: YES, latency: 2080
+[292] Request: cmd=418wisdom;x=84085, success: YES, latency: 2227
+[293] Request: cmd=418wisdom;x=97623, success: YES, latency: 2173
+[294] Request: cmd=418wisdom;x=34365, success: YES, latency: 2174
+[295] Request: cmd=418wisdom;x=47909, success: YES, latency: 2312
+[296] Request: cmd=418wisdom;x=69960, success: YES, latency: 2168
+[297] Request: cmd=418wisdom;x=42653, success: YES, latency: 2172
+[298] Request: cmd=418wisdom;x=30190, success: YES, latency: 1828
+[299] Request: cmd=418wisdom;x=73475, success: YES, latency: 2208
+[300] Request: cmd=418wisdom;x=89440, success: YES, latency: 2050
+[301] Request: cmd=418wisdom;x=91969, success: YES, latency: 2176
+[302] Request: cmd=418wisdom;x=62674, success: YES, latency: 2192
+[303] Request: cmd=418wisdom;x=37557, success: YES, latency: 1935
+[304] Request: cmd=418wisdom;x=97457, success: YES, latency: 2109
+[305] Request: cmd=418wisdom;x=63888, success: YES, latency: 2147
+[306] Request: cmd=418wisdom;x=6583, success: YES, latency: 2142
+[307] Request: cmd=418wisdom;x=8467, success: YES, latency: 2148
+[308] Request: cmd=418wisdom;x=74987, success: YES, latency: 1905
+[309] Request: cmd=418wisdom;x=6115, success: YES, latency: 2115
+[310] Request: cmd=418wisdom;x=785, success: YES, latency: 2063
+[311] Request: cmd=418wisdom;x=39381, success: YES, latency: 2104
+[312] Request: cmd=tellmenow;x=4671, success: YES, latency: 40
+[313] Request: cmd=tellmenow;x=4037, success: YES, latency: 105
+[314] Request: cmd=tellmenow;x=4398, success: YES, latency: 106
+[315] Request: cmd=tellmenow;x=5264, success: YES, latency: 94
+[316] Request: cmd=tellmenow;x=6114, success: YES, latency: 120
+[317] Request: cmd=tellmenow;x=3807, success: YES, latency: 66
+[318] Request: cmd=tellmenow;x=3315, success: YES, latency: 53
+[319] Request: cmd=tellmenow;x=8897, success: YES, latency: 41
+[320] Request: cmd=tellmenow;x=2348, success: YES, latency: 28
+[321] Request: cmd=tellmenow;x=6994, success: YES, latency: 54
+[322] Request: cmd=tellmenow;x=3881, success: YES, latency: 81
+[323] Request: cmd=tellmenow;x=3227, success: YES, latency: 146
+[324] Request: cmd=418wisdom;x=6385, success: YES, latency: 2339
+[325] Request: cmd=418wisdom;x=86358, success: YES, latency: 2210
+[326] Request: cmd=418wisdom;x=70201, success: YES, latency: 2038
+[327] Request: cmd=418wisdom;x=90301, success: YES, latency: 1967
+[328] Request: cmd=418wisdom;x=45161, success: YES, latency: 2116
+[329] Request: cmd=418wisdom;x=67692, success: YES, latency: 2450
+[330] Request: cmd=418wisdom;x=11891, success: YES, latency: 2146
+[331] Request: cmd=418wisdom;x=39795, success: YES, latency: 2126
+[332] Request: cmd=418wisdom;x=20723, success: YES, latency: 2023
+[333] Request: cmd=418wisdom;x=4210, success: YES, latency: 2072
+[334] Request: cmd=418wisdom;x=94797, success: YES, latency: 2074
+[335] Request: cmd=418wisdom;x=21589, success: YES, latency: 2066
+[336] Request: cmd=418wisdom;x=14635, success: YES, latency: 2074
+[337] Request: cmd=418wisdom;x=19797, success: YES, latency: 2060
+[338] Request: cmd=418wisdom;x=37803, success: YES, latency: 2055
+[339] Request: cmd=418wisdom;x=54639, success: YES, latency: 2064
+[340] Request: cmd=418wisdom;x=15133, success: YES, latency: 2064
+[341] Request: cmd=418wisdom;x=98869, success: YES, latency: 2444
+[342] Request: cmd=418wisdom;x=98299, success: YES, latency: 2038
+[343] Request: cmd=418wisdom;x=14840, success: YES, latency: 2033
+[344] Request: cmd=418wisdom;x=40591, success: YES, latency: 2031
+[345] Request: cmd=418wisdom;x=67993, success: YES, latency: 2304
+[346] Request: cmd=418wisdom;x=87766, success: YES, latency: 2070
+[347] Request: cmd=418wisdom;x=49541, success: YES, latency: 2543
+[348] Request: cmd=tellmenow;x=8254, success: YES, latency: 11
+[349] Request: cmd=tellmenow;x=2902, success: YES, latency: 137
+[350] Request: cmd=tellmenow;x=4486, success: YES, latency: 85
+[351] Request: cmd=tellmenow;x=4488, success: YES, latency: 104
+[352] Request: cmd=tellmenow;x=6031, success: YES, latency: 130
+[353] Request: cmd=tellmenow;x=1818, success: YES, latency: 116
+[354] Request: cmd=tellmenow;x=5488, success: YES, latency: 107
+[355] Request: cmd=tellmenow;x=1969, success: YES, latency: 87
+[356] Request: cmd=tellmenow;x=3062, success: YES, latency: 74
+[357] Request: cmd=tellmenow;x=8664, success: YES, latency: 93
+[358] Request: cmd=tellmenow;x=8091, success: YES, latency: 120
+[359] Request: cmd=tellmenow;x=7363, success: YES, latency: 146
+
+*** The results are correct! ***
+
+Avg request latency:  1487.95 ms
+Total test time:      27.65 sec
+Workers booted:       1
+Compute used:         28.08 sec
+
+----------------------------------------------------------------
+Grade: 12 of 12 points
+         + 2 points for correctness
+         + 10 points for perf
+         - 0 points for worker usage
+
+         98.3% of tellmenow requests met the 150 ms latency requirement
+         96.2% of all other requests met the 2500 ms latency requirement
+----------------------------------------------------------------
+
+Grading Details:
+  Perf:  * You get 5 credits per tellmenow response under 150 ms.
+         * You get 1 credit for all other responses under 2500 ms.
+         * Perf points are: 10 * (num_credits / max_credits) / 0.9
+              (the 0.9 is for slop: only 90\% of reponses must meet threshold)
+
+  Usage: * No resource penalty up to 28 CPU-seconds.
+         * Linear falloff to minus 50% of perf points at 52 sec
+
+

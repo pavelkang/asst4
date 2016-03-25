@@ -1,0 +1,4 @@
+Log file created at: 2016/03/24 22:02:07
+Running on machine: unix3.andrew.cmu.edu
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0324 22:02:07.034521 22620 master.cpp:136] Requesting a new worker

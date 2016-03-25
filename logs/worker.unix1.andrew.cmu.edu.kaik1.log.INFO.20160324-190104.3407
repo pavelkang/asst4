@@ -1,0 +1,5 @@
+Log file created at: 2016/03/24 19:01:04
+Running on machine: unix1.andrew.cmu.edu
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0324 19:01:04.645568  3407 main.cpp:49] Booting worker. Hostname: unix1.andrew.cmu.edu
+F0324 19:01:05.648541  3407 main.cpp:61] Check failed: master_fd >= 0 (-1 vs. 0) Worker could not connect to masterunix1.andrew.cmu.edu:15419

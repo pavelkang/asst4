@@ -1,0 +1,6 @@
+Log file created at: 2016/03/24 22:00:53
+Running on machine: unix3.andrew.cmu.edu
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0324 22:00:53.597349 20246 master.cpp:136] Requesting a new worker
+I0324 22:00:53.609946 20246 main_loop.cpp:73] Requesting worker tag=0
+I0324 22:00:54.630086 20246 main_loop.cpp:138] Shutting down

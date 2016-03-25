@@ -1,0 +1,949 @@
+Log file created at: 2016/03/24 19:12:22
+Running on machine: unix3.andrew.cmu.edu
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0324 19:12:22.439790 18607 master.cpp:121] Requesting a new worker
+I0324 19:12:22.442450 18607 main_loop.cpp:73] Requesting worker tag=0
+I0324 19:12:23.962729 18607 master.cpp:297] Received request: cmd=countprimes;n=848393
+I0324 19:12:23.962756 18607 master.cpp:149] assign tag 0 to work 0x6e43530
+I0324 19:12:23.962769 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:23.962772 18607 master.cpp:97] worker has load 0, mem_load 0
+I0324 19:12:23.962777 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:23.962781 18607 master.cpp:193] let you go first
+I0324 19:12:23.962786 18607 master.cpp:129] Sending request 0to worker.
+I0324 19:12:24.046856 18607 master.cpp:297] Received request: cmd=countprimes;n=779069
+I0324 19:12:24.046875 18607 master.cpp:149] assign tag 1 to work 0x6e3b9e0
+I0324 19:12:24.046881 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:24.046886 18607 master.cpp:97] worker has load 1, mem_load 0
+I0324 19:12:24.046890 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:24.046895 18607 master.cpp:193] let you go first
+I0324 19:12:24.046900 18607 master.cpp:129] Sending request 1to worker.
+I0324 19:12:24.147110 18607 master.cpp:297] Received request: cmd=countprimes;n=1000011
+I0324 19:12:24.147133 18607 master.cpp:149] assign tag 2 to work 0x6e3bc30
+I0324 19:12:24.147140 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:24.147145 18607 master.cpp:97] worker has load 2, mem_load 0
+I0324 19:12:24.147150 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:24.147155 18607 master.cpp:193] let you go first
+I0324 19:12:24.147159 18607 master.cpp:129] Sending request 2to worker.
+I0324 19:12:24.246891 18607 master.cpp:297] Received request: cmd=countprimes;n=834567
+I0324 19:12:24.246907 18607 master.cpp:149] assign tag 3 to work 0x6e3bed0
+I0324 19:12:24.246914 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:24.246919 18607 master.cpp:97] worker has load 3, mem_load 0
+I0324 19:12:24.246923 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:24.246927 18607 master.cpp:193] let you go first
+I0324 19:12:24.246932 18607 master.cpp:129] Sending request 3to worker.
+I0324 19:12:24.346778 18607 master.cpp:297] Received request: cmd=countprimes;n=780123
+I0324 19:12:24.346793 18607 master.cpp:149] assign tag 4 to work 0x6e3c120
+I0324 19:12:24.346801 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:24.346806 18607 master.cpp:97] worker has load 4, mem_load 0
+I0324 19:12:24.346809 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:24.346813 18607 master.cpp:193] let you go first
+I0324 19:12:24.346818 18607 master.cpp:129] Sending request 4to worker.
+I0324 19:12:24.446822 18607 master.cpp:297] Received request: cmd=countprimes;n=990611
+I0324 19:12:24.446838 18607 master.cpp:149] assign tag 5 to work 0x6e3c370
+I0324 19:12:24.446846 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:24.446849 18607 master.cpp:97] worker has load 5, mem_load 0
+I0324 19:12:24.446854 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:24.446858 18607 master.cpp:193] let you go first
+I0324 19:12:24.446863 18607 master.cpp:129] Sending request 5to worker.
+I0324 19:12:24.547224 18607 master.cpp:297] Received request: cmd=countprimes;n=830237
+I0324 19:12:24.547240 18607 master.cpp:149] assign tag 6 to work 0x6e3c590
+I0324 19:12:24.547246 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:24.547250 18607 master.cpp:97] worker has load 6, mem_load 0
+I0324 19:12:24.547255 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:24.547260 18607 master.cpp:193] let you go first
+I0324 19:12:24.547265 18607 master.cpp:129] Sending request 6to worker.
+I0324 19:12:24.646999 18607 master.cpp:297] Received request: cmd=countprimes;n=950923
+I0324 19:12:24.647017 18607 master.cpp:149] assign tag 7 to work 0x6e3c830
+I0324 19:12:24.647023 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:24.647089 18607 master.cpp:97] worker has load 7, mem_load 0
+I0324 19:12:24.647096 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:24.647101 18607 master.cpp:193] let you go first
+I0324 19:12:24.647106 18607 master.cpp:129] Sending request 7to worker.
+I0324 19:12:24.746954 18607 master.cpp:297] Received request: cmd=countprimes;n=929777
+I0324 19:12:24.746970 18607 master.cpp:149] assign tag 8 to work 0x6e3ca80
+I0324 19:12:24.746978 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:24.746983 18607 master.cpp:97] worker has load 8, mem_load 0
+I0324 19:12:24.746986 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:24.746990 18607 master.cpp:193] let you go first
+I0324 19:12:24.746995 18607 master.cpp:129] Sending request 8to worker.
+I0324 19:12:24.846889 18607 master.cpp:297] Received request: cmd=countprimes;n=709907
+I0324 19:12:24.846904 18607 master.cpp:149] assign tag 9 to work 0x6e3c630
+I0324 19:12:24.846911 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:24.846916 18607 master.cpp:97] worker has load 9, mem_load 0
+I0324 19:12:24.846920 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:24.846925 18607 master.cpp:193] let you go first
+I0324 19:12:24.846930 18607 master.cpp:129] Sending request 9to worker.
+I0324 19:12:24.946892 18607 master.cpp:297] Received request: cmd=countprimes;n=848393
+I0324 19:12:24.946908 18607 master.cpp:149] assign tag 10 to work 0x6e3cee0
+I0324 19:12:24.946915 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:24.946919 18607 master.cpp:97] worker has load 10, mem_load 0
+I0324 19:12:24.946924 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:24.946928 18607 master.cpp:193] let you go first
+I0324 19:12:24.946933 18607 master.cpp:129] Sending request 10to worker.
+I0324 19:12:24.996605 18607 master.cpp:297] Received request: cmd=countprimes;n=953327
+I0324 19:12:24.996618 18607 master.cpp:149] assign tag 11 to work 0x6e3d130
+I0324 19:12:24.996625 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:24.996628 18607 master.cpp:97] worker has load 11, mem_load 0
+I0324 19:12:24.996631 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:24.996634 18607 master.cpp:193] let you go first
+I0324 19:12:24.996636 18607 master.cpp:129] Sending request 11to worker.
+I0324 19:12:25.046553 18607 master.cpp:297] Received request: cmd=countprimes;n=779069
+I0324 19:12:25.046566 18607 master.cpp:149] assign tag 12 to work 0x6e3d380
+I0324 19:12:25.046572 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:25.046576 18607 master.cpp:97] worker has load 12, mem_load 0
+I0324 19:12:25.046578 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:25.046581 18607 master.cpp:193] let you go first
+I0324 19:12:25.046584 18607 master.cpp:129] Sending request 12to worker.
+I0324 19:12:25.096978 18607 master.cpp:297] Received request: cmd=countprimes;n=927387
+I0324 19:12:25.096989 18607 master.cpp:149] assign tag 13 to work 0x6e3d5d0
+I0324 19:12:25.096993 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:25.096997 18607 master.cpp:97] worker has load 13, mem_load 0
+I0324 19:12:25.096999 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:25.097002 18607 master.cpp:193] let you go first
+I0324 19:12:25.097005 18607 master.cpp:129] Sending request 13to worker.
+I0324 19:12:25.146580 18607 master.cpp:297] Received request: cmd=countprimes;n=1000011
+I0324 19:12:25.146594 18607 master.cpp:149] assign tag 14 to work 0x6e3d820
+I0324 19:12:25.146600 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:25.146602 18607 master.cpp:97] worker has load 14, mem_load 0
+I0324 19:12:25.146605 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:25.146607 18607 master.cpp:193] let you go first
+I0324 19:12:25.146610 18607 master.cpp:129] Sending request 14to worker.
+I0324 19:12:25.196580 18607 master.cpp:297] Received request: cmd=countprimes;n=826171
+I0324 19:12:25.196661 18607 master.cpp:149] assign tag 15 to work 0x6e3da70
+I0324 19:12:25.196671 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:25.196676 18607 master.cpp:97] worker has load 15, mem_load 0
+I0324 19:12:25.196681 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:25.196686 18607 master.cpp:193] let you go first
+I0324 19:12:25.196691 18607 master.cpp:129] Sending request 15to worker.
+I0324 19:12:25.246688 18607 master.cpp:297] Received request: cmd=countprimes;n=834567
+I0324 19:12:25.246704 18607 master.cpp:149] assign tag 16 to work 0x6e3dcc0
+I0324 19:12:25.246711 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:25.246716 18607 master.cpp:97] worker has load 16, mem_load 0
+I0324 19:12:25.246721 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:25.246726 18607 master.cpp:193] let you go first
+I0324 19:12:25.246731 18607 master.cpp:129] Sending request 16to worker.
+I0324 19:12:25.296617 18607 master.cpp:297] Received request: cmd=countprimes;n=777675
+I0324 19:12:25.296633 18607 master.cpp:149] assign tag 17 to work 0x6e3df10
+I0324 19:12:25.296639 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:25.296644 18607 master.cpp:97] worker has load 17, mem_load 0
+I0324 19:12:25.296649 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:25.296654 18607 master.cpp:193] let you go first
+I0324 19:12:25.296659 18607 master.cpp:129] Sending request 17to worker.
+I0324 19:12:25.346518 18607 master.cpp:297] Received request: cmd=countprimes;n=780123
+I0324 19:12:25.346530 18607 master.cpp:149] assign tag 18 to work 0x6e3e160
+I0324 19:12:25.346537 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:25.346541 18607 master.cpp:97] worker has load 18, mem_load 0
+I0324 19:12:25.346547 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:25.346551 18607 master.cpp:193] let you go first
+I0324 19:12:25.346556 18607 master.cpp:129] Sending request 18to worker.
+I0324 19:12:25.397586 18607 master.cpp:297] Received request: cmd=countprimes;n=853382
+I0324 19:12:25.397598 18607 master.cpp:149] assign tag 19 to work 0x6e3e3b0
+I0324 19:12:25.397601 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:25.397604 18607 master.cpp:97] worker has load 19, mem_load 0
+I0324 19:12:25.397608 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:25.397609 18607 master.cpp:193] let you go first
+I0324 19:12:25.397613 18607 master.cpp:129] Sending request 19to worker.
+I0324 19:12:25.446900 18607 master.cpp:297] Received request: cmd=countprimes;n=990611
+I0324 19:12:25.446914 18607 master.cpp:149] assign tag 20 to work 0x6e3e600
+I0324 19:12:25.446923 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:25.446926 18607 master.cpp:97] worker has load 20, mem_load 0
+I0324 19:12:25.446933 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:25.446936 18607 master.cpp:193] let you go first
+I0324 19:12:25.446941 18607 master.cpp:129] Sending request 20to worker.
+I0324 19:12:25.496594 18607 master.cpp:297] Received request: cmd=countprimes;n=821480
+I0324 19:12:25.496610 18607 master.cpp:149] assign tag 21 to work 0x6e3e770
+I0324 19:12:25.496618 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:25.496623 18607 master.cpp:97] worker has load 21, mem_load 0
+I0324 19:12:25.496628 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:25.496631 18607 master.cpp:193] let you go first
+I0324 19:12:25.496637 18607 master.cpp:129] Sending request 21to worker.
+I0324 19:12:25.546551 18607 master.cpp:297] Received request: cmd=countprimes;n=830237
+I0324 19:12:25.546566 18607 master.cpp:149] assign tag 22 to work 0x6e3ebc0
+I0324 19:12:25.546573 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:25.546578 18607 master.cpp:97] worker has load 22, mem_load 0
+I0324 19:12:25.546645 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:25.546653 18607 master.cpp:193] let you go first
+I0324 19:12:25.546658 18607 master.cpp:129] Sending request 22to worker.
+I0324 19:12:25.596565 18607 master.cpp:297] Received request: cmd=countprimes;n=935140
+I0324 19:12:25.596578 18607 master.cpp:149] assign tag 23 to work 0x6e3ee10
+I0324 19:12:25.596585 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:25.596590 18607 master.cpp:97] worker has load 23, mem_load 0
+I0324 19:12:25.596595 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:25.596599 18607 master.cpp:193] let you go first
+I0324 19:12:25.596604 18607 master.cpp:129] Sending request 23to worker.
+I0324 19:12:25.660555 18607 master.cpp:297] Received request: cmd=countprimes;n=950923
+I0324 19:12:25.660569 18607 master.cpp:149] assign tag 24 to work 0x6e3f060
+I0324 19:12:25.660576 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:25.660580 18607 master.cpp:97] worker has load 24, mem_load 0
+I0324 19:12:25.660585 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:25.660590 18607 master.cpp:193] let you go first
+I0324 19:12:25.660595 18607 master.cpp:129] Sending request 24to worker.
+I0324 19:12:25.708559 18607 master.cpp:297] Received request: cmd=countprimes;n=790994
+I0324 19:12:25.708572 18607 master.cpp:149] assign tag 25 to work 0x6e3f2b0
+I0324 19:12:25.708580 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:25.708585 18607 master.cpp:97] worker has load 25, mem_load 0
+I0324 19:12:25.708590 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:25.708593 18607 master.cpp:193] let you go first
+I0324 19:12:25.708598 18607 master.cpp:129] Sending request 25to worker.
+I0324 19:12:25.764518 18607 master.cpp:297] Received request: cmd=countprimes;n=929777
+I0324 19:12:25.764531 18607 master.cpp:149] assign tag 26 to work 0x6e3f500
+I0324 19:12:25.764539 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:25.764544 18607 master.cpp:97] worker has load 26, mem_load 0
+I0324 19:12:25.764549 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:25.764552 18607 master.cpp:193] let you go first
+I0324 19:12:25.764557 18607 master.cpp:129] Sending request 26to worker.
+I0324 19:12:25.815587 18607 master.cpp:297] Received request: cmd=countprimes;n=842979
+I0324 19:12:25.815600 18607 master.cpp:149] assign tag 27 to work 0x6e3f750
+I0324 19:12:25.815608 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:25.815611 18607 master.cpp:97] worker has load 27, mem_load 0
+I0324 19:12:25.815616 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:25.815621 18607 master.cpp:193] let you go first
+I0324 19:12:25.815626 18607 master.cpp:129] Sending request 27to worker.
+I0324 19:12:25.864465 18607 master.cpp:297] Received request: cmd=countprimes;n=709907
+I0324 19:12:25.864478 18607 master.cpp:149] assign tag 28 to work 0x6e3f9a0
+I0324 19:12:25.864485 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:25.864490 18607 master.cpp:97] worker has load 28, mem_load 0
+I0324 19:12:25.864495 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:25.864500 18607 master.cpp:193] let you go first
+I0324 19:12:25.864505 18607 master.cpp:129] Sending request 28to worker.
+I0324 19:12:25.908566 18607 master.cpp:297] Received request: cmd=countprimes;n=875015
+I0324 19:12:25.908579 18607 master.cpp:149] assign tag 29 to work 0x6e3fbf0
+I0324 19:12:25.908586 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:25.908591 18607 master.cpp:97] worker has load 29, mem_load 0
+I0324 19:12:25.908596 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:25.908601 18607 master.cpp:193] let you go first
+I0324 19:12:25.908606 18607 master.cpp:129] Sending request 29to worker.
+I0324 19:12:25.959604 18607 master.cpp:297] Received request: cmd=countprimes;n=848393
+I0324 19:12:25.959661 18607 master.cpp:149] assign tag 30 to work 0x6e3fe40
+I0324 19:12:25.959671 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:25.959676 18607 master.cpp:97] worker has load 30, mem_load 0
+I0324 19:12:25.959681 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:25.959686 18607 master.cpp:193] let you go first
+I0324 19:12:25.959691 18607 master.cpp:129] Sending request 30to worker.
+I0324 19:12:26.008635 18607 master.cpp:297] Received request: cmd=countprimes;n=972434
+I0324 19:12:26.008651 18607 master.cpp:149] assign tag 31 to work 0x6e40090
+I0324 19:12:26.008659 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:26.008664 18607 master.cpp:97] worker has load 31, mem_load 0
+I0324 19:12:26.008669 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:26.008674 18607 master.cpp:193] let you go first
+I0324 19:12:26.008680 18607 master.cpp:129] Sending request 31to worker.
+I0324 19:12:26.036607 18607 master.cpp:249] Master received a response from a worker: [1:62402]
+I0324 19:12:26.036619 18607 master.cpp:252] Found tag 1 work 0x6e3b9e0
+I0324 19:12:26.036659 18607 master.cpp:293] Master received a response from a worker: [1:62402]
+I0324 19:12:26.063391 18607 master.cpp:297] Received request: cmd=countprimes;n=779069
+I0324 19:12:26.156246 18607 master.cpp:297] Received request: cmd=countprimes;n=851406
+I0324 19:12:26.156261 18607 master.cpp:149] assign tag 32 to work 0x6e401e0
+I0324 19:12:26.156268 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:26.156273 18607 master.cpp:97] worker has load 31, mem_load 0
+I0324 19:12:26.156280 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:26.156283 18607 master.cpp:193] let you go first
+I0324 19:12:26.156289 18607 master.cpp:129] Sending request 32to worker.
+I0324 19:12:26.158591 18607 master.cpp:297] Received request: cmd=countprimes;n=1000011
+I0324 19:12:26.158604 18607 master.cpp:149] assign tag 33 to work 0x6e403a0
+I0324 19:12:26.158612 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:26.158617 18607 master.cpp:97] worker has load 32, mem_load 0
+I0324 19:12:26.158622 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:26.158627 18607 master.cpp:193] let you go first
+I0324 19:12:26.158632 18607 master.cpp:129] Sending request 33to worker.
+I0324 19:12:26.209455 18607 master.cpp:297] Received request: cmd=countprimes;n=784551
+I0324 19:12:26.209468 18607 master.cpp:149] assign tag 34 to work 0x6e40170
+I0324 19:12:26.209475 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:26.209481 18607 master.cpp:97] worker has load 33, mem_load 0
+I0324 19:12:26.209486 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:26.209491 18607 master.cpp:193] let you go first
+I0324 19:12:26.209496 18607 master.cpp:129] Sending request 34to worker.
+I0324 19:12:26.261478 18607 master.cpp:297] Received request: cmd=countprimes;n=834567
+I0324 19:12:26.261498 18607 master.cpp:149] assign tag 35 to work 0x6e40850
+I0324 19:12:26.261505 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:26.261512 18607 master.cpp:97] worker has load 34, mem_load 0
+I0324 19:12:26.261517 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:26.261521 18607 master.cpp:193] let you go first
+I0324 19:12:26.261528 18607 master.cpp:129] Sending request 35to worker.
+I0324 19:12:26.318645 18607 master.cpp:297] Received request: cmd=countprimes;n=926742
+I0324 19:12:26.318660 18607 master.cpp:149] assign tag 36 to work 0x6e40af0
+I0324 19:12:26.318668 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:26.318673 18607 master.cpp:97] worker has load 35, mem_load 0
+I0324 19:12:26.318678 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:26.318683 18607 master.cpp:193] let you go first
+I0324 19:12:26.318688 18607 master.cpp:129] Sending request 36to worker.
+I0324 19:12:26.323395 18607 master.cpp:249] Master received a response from a worker: [0:67497]
+I0324 19:12:26.323407 18607 master.cpp:252] Found tag 0 work 0x6e43530
+I0324 19:12:26.323441 18607 master.cpp:293] Master received a response from a worker: [0:67497]
+I0324 19:12:26.361474 18607 master.cpp:297] Received request: cmd=countprimes;n=780123
+I0324 19:12:26.361487 18607 master.cpp:149] assign tag 37 to work 0x6e40cb0
+I0324 19:12:26.361495 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:26.361500 18607 master.cpp:97] worker has load 35, mem_load 0
+I0324 19:12:26.361505 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:26.361510 18607 master.cpp:193] let you go first
+I0324 19:12:26.361515 18607 master.cpp:129] Sending request 37to worker.
+I0324 19:12:26.408650 18607 master.cpp:297] Received request: cmd=countprimes;n=885511
+I0324 19:12:26.408664 18607 master.cpp:149] assign tag 38 to work 0x6e40f60
+I0324 19:12:26.408673 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:26.408677 18607 master.cpp:97] worker has load 36, mem_load 0
+I0324 19:12:26.408682 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:26.408687 18607 master.cpp:193] let you go first
+I0324 19:12:26.408692 18607 master.cpp:129] Sending request 38to worker.
+I0324 19:12:26.485225 18607 master.cpp:249] Master received a response from a worker: [4:62475]
+I0324 19:12:26.485237 18607 master.cpp:252] Found tag 4 work 0x6e3c120
+I0324 19:12:26.485270 18607 master.cpp:293] Master received a response from a worker: [4:62475]
+I0324 19:12:26.485285 18607 master.cpp:249] Master received a response from a worker: [3:66499]
+I0324 19:12:26.485292 18607 master.cpp:252] Found tag 3 work 0x6e3bed0
+I0324 19:12:26.485321 18607 master.cpp:293] Master received a response from a worker: [3:66499]
+I0324 19:12:26.485352 18607 master.cpp:297] Received request: cmd=countprimes;n=990611
+I0324 19:12:26.485363 18607 master.cpp:149] assign tag 39 to work 0x6e41200
+I0324 19:12:26.485369 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:26.485373 18607 master.cpp:97] worker has load 35, mem_load 0
+I0324 19:12:26.485378 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:26.485383 18607 master.cpp:193] let you go first
+I0324 19:12:26.485388 18607 master.cpp:129] Sending request 39to worker.
+I0324 19:12:26.512451 18607 master.cpp:297] Received request: cmd=countprimes;n=775152
+I0324 19:12:26.512465 18607 master.cpp:149] assign tag 40 to work 0x6e413d0
+I0324 19:12:26.512471 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:26.512476 18607 master.cpp:97] worker has load 36, mem_load 0
+I0324 19:12:26.512481 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:26.512486 18607 master.cpp:193] let you go first
+I0324 19:12:26.512491 18607 master.cpp:129] Sending request 40to worker.
+I0324 19:12:26.564419 18607 master.cpp:297] Received request: cmd=countprimes;n=830237
+I0324 19:12:26.564431 18607 master.cpp:149] assign tag 41 to work 0x6e41580
+I0324 19:12:26.564438 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:26.564442 18607 master.cpp:97] worker has load 37, mem_load 0
+I0324 19:12:26.564447 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:26.564451 18607 master.cpp:193] let you go first
+I0324 19:12:26.564456 18607 master.cpp:129] Sending request 41to worker.
+I0324 19:12:26.608584 18607 master.cpp:297] Received request: cmd=countprimes;n=972924
+I0324 19:12:26.608597 18607 master.cpp:149] assign tag 42 to work 0x6e41830
+I0324 19:12:26.608603 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:26.608608 18607 master.cpp:97] worker has load 38, mem_load 0
+I0324 19:12:26.608613 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:26.608618 18607 master.cpp:193] let you go first
+I0324 19:12:26.608623 18607 master.cpp:129] Sending request 42to worker.
+I0324 19:12:26.658807 18607 master.cpp:297] Received request: cmd=countprimes;n=950923
+I0324 19:12:26.658881 18607 master.cpp:149] assign tag 43 to work 0x6e41aa0
+I0324 19:12:26.658890 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:26.658895 18607 master.cpp:97] worker has load 39, mem_load 0
+I0324 19:12:26.658900 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:26.658905 18607 master.cpp:193] let you go first
+I0324 19:12:26.658911 18607 master.cpp:129] Sending request 43to worker.
+I0324 19:12:26.708583 18607 master.cpp:297] Received request: cmd=countprimes;n=994836
+I0324 19:12:26.708597 18607 master.cpp:149] assign tag 44 to work 0x6e41d10
+I0324 19:12:26.708603 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:26.708608 18607 master.cpp:97] worker has load 40, mem_load 0
+I0324 19:12:26.708613 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:26.708618 18607 master.cpp:193] let you go first
+I0324 19:12:26.708623 18607 master.cpp:129] Sending request 44to worker.
+I0324 19:12:26.759590 18607 master.cpp:297] Received request: cmd=countprimes;n=929777
+I0324 19:12:26.759603 18607 master.cpp:149] assign tag 45 to work 0x6e41f80
+I0324 19:12:26.759610 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:26.759615 18607 master.cpp:97] worker has load 41, mem_load 0
+I0324 19:12:26.759620 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:26.759624 18607 master.cpp:193] let you go first
+I0324 19:12:26.759629 18607 master.cpp:129] Sending request 45to worker.
+I0324 19:12:26.813580 18607 master.cpp:297] Received request: cmd=countprimes;n=943065
+I0324 19:12:26.813593 18607 master.cpp:149] assign tag 46 to work 0x6e421f0
+I0324 19:12:26.813601 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:26.813606 18607 master.cpp:97] worker has load 42, mem_load 0
+I0324 19:12:26.813609 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:26.813614 18607 master.cpp:193] let you go first
+I0324 19:12:26.813619 18607 master.cpp:129] Sending request 46to worker.
+I0324 19:12:26.858573 18607 master.cpp:297] Received request: cmd=countprimes;n=709907
+I0324 19:12:26.858587 18607 master.cpp:149] assign tag 47 to work 0x6e42460
+I0324 19:12:26.858594 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:26.858598 18607 master.cpp:97] worker has load 43, mem_load 0
+I0324 19:12:26.858603 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:26.858608 18607 master.cpp:193] let you go first
+I0324 19:12:26.858613 18607 master.cpp:129] Sending request 47to worker.
+I0324 19:12:26.908607 18607 master.cpp:297] Received request: cmd=countprimes;n=970650
+I0324 19:12:26.908622 18607 master.cpp:149] assign tag 48 to work 0x6e42680
+I0324 19:12:26.908627 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:26.908632 18607 master.cpp:97] worker has load 44, mem_load 0
+I0324 19:12:26.908638 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:26.908641 18607 master.cpp:193] let you go first
+I0324 19:12:26.908646 18607 master.cpp:129] Sending request 48to worker.
+I0324 19:12:26.959566 18607 master.cpp:297] Received request: cmd=countprimes;n=848393
+I0324 19:12:27.026226 18607 master.cpp:249] Master received a response from a worker: [6:66175]
+I0324 19:12:27.026237 18607 master.cpp:252] Found tag 6 work 0x6e3c590
+I0324 19:12:27.026268 18607 master.cpp:293] Master received a response from a worker: [6:66175]
+I0324 19:12:27.051230 18607 master.cpp:297] Received request: cmd=countprimes;n=793044
+I0324 19:12:27.051244 18607 master.cpp:149] assign tag 49 to work 0x6e43ad0
+I0324 19:12:27.051249 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:27.051254 18607 master.cpp:97] worker has load 44, mem_load 0
+I0324 19:12:27.051259 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:27.051264 18607 master.cpp:193] let you go first
+I0324 19:12:27.051268 18607 master.cpp:129] Sending request 49to worker.
+I0324 19:12:27.061422 18607 master.cpp:297] Received request: cmd=countprimes;n=779069
+I0324 19:12:27.130234 18607 master.cpp:249] Master received a response from a worker: [9:57297]
+I0324 19:12:27.130249 18607 master.cpp:252] Found tag 9 work 0x6e3c630
+I0324 19:12:27.130282 18607 master.cpp:293] Master received a response from a worker: [9:57297]
+I0324 19:12:27.154243 18607 master.cpp:297] Received request: cmd=countprimes;n=918950
+I0324 19:12:27.154258 18607 master.cpp:149] assign tag 50 to work 0x6e43c70
+I0324 19:12:27.154263 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:27.154268 18607 master.cpp:97] worker has load 44, mem_load 0
+I0324 19:12:27.154273 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:27.154278 18607 master.cpp:193] let you go first
+I0324 19:12:27.154283 18607 master.cpp:129] Sending request 50to worker.
+I0324 19:12:27.158426 18607 master.cpp:297] Received request: cmd=countprimes;n=1000011
+I0324 19:12:27.158440 18607 master.cpp:149] assign tag 51 to work 0x6e43e50
+I0324 19:12:27.158447 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:27.158452 18607 master.cpp:97] worker has load 45, mem_load 0
+I0324 19:12:27.158457 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:27.158460 18607 master.cpp:193] let you go first
+I0324 19:12:27.158465 18607 master.cpp:129] Sending request 51to worker.
+I0324 19:12:27.208591 18607 master.cpp:297] Received request: cmd=countprimes;n=969652
+I0324 19:12:27.208605 18607 master.cpp:149] assign tag 52 to work 0x6e44100
+I0324 19:12:27.208611 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:27.208616 18607 master.cpp:97] worker has load 46, mem_load 0
+I0324 19:12:27.208621 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:27.208626 18607 master.cpp:193] let you go first
+I0324 19:12:27.208631 18607 master.cpp:129] Sending request 52to worker.
+I0324 19:12:27.262567 18607 master.cpp:297] Received request: cmd=countprimes;n=834567
+I0324 19:12:27.348232 18607 master.cpp:297] Received request: cmd=countprimes;n=905195
+I0324 19:12:27.348245 18607 master.cpp:149] assign tag 53 to work 0x6e443f0
+I0324 19:12:27.348251 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:27.348256 18607 master.cpp:97] worker has load 47, mem_load 0
+I0324 19:12:27.348261 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:27.348265 18607 master.cpp:193] let you go first
+I0324 19:12:27.348270 18607 master.cpp:129] Sending request 53to worker.
+I0324 19:12:27.361587 18607 master.cpp:297] Received request: cmd=countprimes;n=780123
+I0324 19:12:27.448235 18607 master.cpp:297] Received request: cmd=countprimes;n=841643
+I0324 19:12:27.448248 18607 master.cpp:149] assign tag 54 to work 0x6e44650
+I0324 19:12:27.448256 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:27.448261 18607 master.cpp:97] worker has load 48, mem_load 0
+I0324 19:12:27.448264 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:27.448269 18607 master.cpp:176] cannot find best worker
+I0324 19:12:27.448273 18607 master.cpp:184] Not requesting because <= CPU_TH
+I0324 19:12:27.458423 18607 master.cpp:380] ticker sending request
+I0324 19:12:27.458432 18607 master.cpp:129] Sending request 55to worker.
+I0324 19:12:27.458570 18607 master.cpp:297] Received request: cmd=countprimes;n=990611
+I0324 19:12:27.458585 18607 master.cpp:149] assign tag 56 to work 0x6e448e0
+I0324 19:12:27.458590 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:27.458595 18607 master.cpp:97] worker has load 49, mem_load 0
+I0324 19:12:27.458600 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:27.458605 18607 master.cpp:176] cannot find best worker
+I0324 19:12:27.458609 18607 master.cpp:184] Not requesting because <= CPU_TH
+I0324 19:12:27.508594 18607 master.cpp:297] Received request: cmd=countprimes;n=730210
+I0324 19:12:27.508606 18607 master.cpp:149] assign tag 57 to work 0x6e447c0
+I0324 19:12:27.508666 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:27.508671 18607 master.cpp:97] worker has load 49, mem_load 0
+I0324 19:12:27.508677 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:27.508682 18607 master.cpp:176] cannot find best worker
+I0324 19:12:27.508685 18607 master.cpp:184] Not requesting because <= CPU_TH
+I0324 19:12:27.563441 18607 master.cpp:297] Received request: cmd=countprimes;n=830237
+I0324 19:12:27.652245 18607 master.cpp:297] Received request: cmd=countprimes;n=830251
+I0324 19:12:27.652261 18607 master.cpp:149] assign tag 58 to work 0x6e44cc0
+I0324 19:12:27.652268 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:27.652273 18607 master.cpp:97] worker has load 49, mem_load 0
+I0324 19:12:27.652277 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:27.652282 18607 master.cpp:176] cannot find best worker
+I0324 19:12:27.652287 18607 master.cpp:184] Not requesting because <= CPU_TH
+I0324 19:12:27.687239 18607 master.cpp:249] Master received a response from a worker: [7:74977]
+I0324 19:12:27.687258 18607 master.cpp:252] Found tag 7 work 0x6e3c830
+I0324 19:12:27.687293 18607 master.cpp:293] Master received a response from a worker: [7:74977]
+I0324 19:12:27.687343 18607 master.cpp:297] Received request: cmd=countprimes;n=950923
+I0324 19:12:27.708434 18607 master.cpp:297] Received request: cmd=countprimes;n=883266
+I0324 19:12:27.708449 18607 master.cpp:149] assign tag 59 to work 0x6e44fe0
+I0324 19:12:27.708456 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:27.708461 18607 master.cpp:97] worker has load 48, mem_load 0
+I0324 19:12:27.708466 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:27.708469 18607 master.cpp:176] cannot find best worker
+I0324 19:12:27.708474 18607 master.cpp:188] Not requesting because size
+I0324 19:12:27.713938 18607 master.cpp:249] Master received a response from a worker: [12:62402]
+I0324 19:12:27.713948 18607 master.cpp:252] Found tag 12 work 0x6e3d380
+I0324 19:12:27.713978 18607 master.cpp:293] Master received a response from a worker: [12:62402]
+I0324 19:12:27.758424 18607 master.cpp:297] Received request: cmd=countprimes;n=929777
+I0324 19:12:27.758436 18607 master.cpp:149] assign tag 60 to work 0x6e45100
+I0324 19:12:27.758443 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:27.758447 18607 master.cpp:97] worker has load 47, mem_load 0
+I0324 19:12:27.758452 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:27.758456 18607 master.cpp:193] let you go first
+I0324 19:12:27.758462 18607 master.cpp:129] Sending request 56to worker.
+I0324 19:12:27.848232 18607 master.cpp:297] Received request: cmd=countprimes;n=973904
+I0324 19:12:27.848243 18607 master.cpp:149] assign tag 61 to work 0x6e452d0
+I0324 19:12:27.848250 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:27.848254 18607 master.cpp:97] worker has load 48, mem_load 0
+I0324 19:12:27.848259 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:27.848264 18607 master.cpp:176] cannot find best worker
+I0324 19:12:27.848268 18607 master.cpp:188] Not requesting because size
+I0324 19:12:27.861615 18607 master.cpp:297] Received request: cmd=countprimes;n=709907
+I0324 19:12:27.948235 18607 master.cpp:297] Received request: cmd=countprimes;n=989982
+I0324 19:12:27.948251 18607 master.cpp:149] assign tag 62 to work 0x6e3e9e0
+I0324 19:12:27.948258 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:27.948263 18607 master.cpp:97] worker has load 48, mem_load 0
+I0324 19:12:27.948268 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:27.948272 18607 master.cpp:176] cannot find best worker
+I0324 19:12:27.948277 18607 master.cpp:188] Not requesting because size
+I0324 19:12:27.948290 18607 master.cpp:249] Master received a response from a worker: [10:67497]
+I0324 19:12:27.948297 18607 master.cpp:252] Found tag 10 work 0x6e3cee0
+I0324 19:12:27.948396 18607 master.cpp:293] Master received a response from a worker: [10:67497]
+I0324 19:12:27.966220 18607 master.cpp:249] Master received a response from a worker: [17:62294]
+I0324 19:12:27.966234 18607 master.cpp:252] Found tag 17 work 0x6e3df10
+I0324 19:12:27.966267 18607 master.cpp:293] Master received a response from a worker: [17:62294]
+I0324 19:12:27.966295 18607 master.cpp:297] Received request: cmd=countprimes;n=848393
+I0324 19:12:28.046247 18607 master.cpp:297] Received request: cmd=countprimes;n=843103
+I0324 19:12:28.046260 18607 master.cpp:149] assign tag 63 to work 0x6e459f0
+I0324 19:12:28.046267 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:28.046272 18607 master.cpp:97] worker has load 46, mem_load 0
+I0324 19:12:28.046277 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:28.046282 18607 master.cpp:193] let you go first
+I0324 19:12:28.046286 18607 master.cpp:129] Sending request 57to worker.
+I0324 19:12:28.059420 18607 master.cpp:297] Received request: cmd=countprimes;n=779069
+I0324 19:12:28.148233 18607 master.cpp:297] Received request: cmd=countprimes;n=959593
+I0324 19:12:28.148247 18607 master.cpp:149] assign tag 64 to work 0x6e45ba0
+I0324 19:12:28.148253 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:28.148258 18607 master.cpp:97] worker has load 47, mem_load 0
+I0324 19:12:28.148263 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:28.148267 18607 master.cpp:193] let you go first
+I0324 19:12:28.148273 18607 master.cpp:129] Sending request 58to worker.
+I0324 19:12:28.158540 18607 master.cpp:297] Received request: cmd=countprimes;n=1000011
+I0324 19:12:28.158551 18607 master.cpp:149] assign tag 65 to work 0x6e45f70
+I0324 19:12:28.158557 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:28.158562 18607 master.cpp:97] worker has load 48, mem_load 0
+I0324 19:12:28.158567 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:28.158571 18607 master.cpp:176] cannot find best worker
+I0324 19:12:28.158576 18607 master.cpp:188] Not requesting because size
+I0324 19:12:28.209534 18607 master.cpp:297] Received request: cmd=countprimes;n=778147
+I0324 19:12:28.209547 18607 master.cpp:149] assign tag 66 to work 0x6e462a0
+I0324 19:12:28.209553 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:28.209558 18607 master.cpp:97] worker has load 48, mem_load 0
+I0324 19:12:28.209561 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:28.209566 18607 master.cpp:176] cannot find best worker
+I0324 19:12:28.209570 18607 master.cpp:188] Not requesting because size
+I0324 19:12:28.258556 18607 master.cpp:297] Received request: cmd=countprimes;n=834567
+I0324 19:12:28.258771 18607 master.cpp:249] Master received a response from a worker: [5:77823]
+I0324 19:12:28.258783 18607 master.cpp:252] Found tag 5 work 0x6e3c370
+I0324 19:12:28.258813 18607 master.cpp:293] Master received a response from a worker: [5:77823]
+I0324 19:12:28.277565 18607 master.cpp:249] Master received a response from a worker: [8:73458]
+I0324 19:12:28.277576 18607 master.cpp:252] Found tag 8 work 0x6e3ca80
+I0324 19:12:28.277607 18607 master.cpp:293] Master received a response from a worker: [8:73458]
+I0324 19:12:28.308398 18607 master.cpp:297] Received request: cmd=countprimes;n=941509
+I0324 19:12:28.308411 18607 master.cpp:149] assign tag 67 to work 0x6e46460
+I0324 19:12:28.308418 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:28.308423 18607 master.cpp:97] worker has load 46, mem_load 0
+I0324 19:12:28.308428 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:28.308432 18607 master.cpp:193] let you go first
+I0324 19:12:28.308437 18607 master.cpp:129] Sending request 59to worker.
+I0324 19:12:28.358392 18607 master.cpp:297] Received request: cmd=countprimes;n=780123
+I0324 19:12:28.448237 18607 master.cpp:297] Received request: cmd=countprimes;n=864610
+I0324 19:12:28.448249 18607 master.cpp:149] assign tag 68 to work 0x6e466d0
+I0324 19:12:28.448314 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:28.448320 18607 master.cpp:97] worker has load 47, mem_load 0
+I0324 19:12:28.448325 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:28.448330 18607 master.cpp:193] let you go first
+I0324 19:12:28.448335 18607 master.cpp:129] Sending request 60to worker.
+I0324 19:12:28.498232 18607 master.cpp:297] Received request: cmd=countprimes;n=990611
+I0324 19:12:28.498265 18607 master.cpp:380] ticker sending request
+I0324 19:12:28.498272 18607 master.cpp:129] Sending request 69to worker.
+I0324 19:12:28.551235 18607 master.cpp:297] Received request: cmd=countprimes;n=704212
+I0324 19:12:28.551249 18607 master.cpp:149] assign tag 70 to work 0x6e468d0
+I0324 19:12:28.551255 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:28.551260 18607 master.cpp:97] worker has load 49, mem_load 0
+I0324 19:12:28.551265 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:28.551270 18607 master.cpp:176] cannot find best worker
+I0324 19:12:28.551273 18607 master.cpp:188] Not requesting because size
+I0324 19:12:28.564463 18607 master.cpp:297] Received request: cmd=countprimes;n=830237
+I0324 19:12:28.648233 18607 master.cpp:297] Received request: cmd=countprimes;n=915912
+I0324 19:12:28.648247 18607 master.cpp:149] assign tag 71 to work 0x6e46ae0
+I0324 19:12:28.648252 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:28.648257 18607 master.cpp:97] worker has load 49, mem_load 0
+I0324 19:12:28.648262 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:28.648267 18607 master.cpp:176] cannot find best worker
+I0324 19:12:28.648270 18607 master.cpp:188] Not requesting because size
+I0324 19:12:28.661582 18607 master.cpp:297] Received request: cmd=countprimes;n=950923
+I0324 19:12:28.737231 18607 master.cpp:249] Master received a response from a worker: [15:65890]
+I0324 19:12:28.737241 18607 master.cpp:252] Found tag 15 work 0x6e3da70
+I0324 19:12:28.737287 18607 master.cpp:293] Master received a response from a worker: [15:65890]
+I0324 19:12:28.737303 18607 master.cpp:249] Master received a response from a worker: [11:75151]
+I0324 19:12:28.737313 18607 master.cpp:252] Found tag 11 work 0x6e3d130
+I0324 19:12:28.737346 18607 master.cpp:293] Master received a response from a worker: [11:75151]
+I0324 19:12:28.748248 18607 master.cpp:297] Received request: cmd=countprimes;n=819647
+I0324 19:12:28.748261 18607 master.cpp:149] assign tag 72 to work 0x6e46da0
+I0324 19:12:28.748268 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:28.748273 18607 master.cpp:97] worker has load 47, mem_load 0
+I0324 19:12:28.748278 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:28.748282 18607 master.cpp:193] let you go first
+I0324 19:12:28.748287 18607 master.cpp:129] Sending request 62to worker.
+I0324 19:12:28.748327 18607 master.cpp:249] Master received a response from a worker: [2:78499]
+I0324 19:12:28.748335 18607 master.cpp:252] Found tag 2 work 0x6e3bc30
+I0324 19:12:28.748365 18607 master.cpp:293] Master received a response from a worker: [2:78499]
+I0324 19:12:28.758417 18607 master.cpp:297] Received request: cmd=countprimes;n=929777
+I0324 19:12:28.851241 18607 master.cpp:297] Received request: cmd=countprimes;n=947454
+I0324 19:12:28.851254 18607 master.cpp:149] assign tag 73 to work 0x6e47060
+I0324 19:12:28.851261 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:28.851266 18607 master.cpp:97] worker has load 47, mem_load 0
+I0324 19:12:28.851270 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:28.851275 18607 master.cpp:193] let you go first
+I0324 19:12:28.851280 18607 master.cpp:129] Sending request 63to worker.
+I0324 19:12:28.851351 18607 master.cpp:249] Master received a response from a worker: [18:62475]
+I0324 19:12:28.851359 18607 master.cpp:252] Found tag 18 work 0x6e3e160
+I0324 19:12:28.851388 18607 master.cpp:293] Master received a response from a worker: [18:62475]
+I0324 19:12:28.858404 18607 master.cpp:297] Received request: cmd=countprimes;n=709907
+I0324 19:12:28.951242 18607 master.cpp:297] Received request: cmd=countprimes;n=900446
+I0324 19:12:28.951256 18607 master.cpp:149] assign tag 74 to work 0x6e47220
+I0324 19:12:28.951262 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:28.951267 18607 master.cpp:97] worker has load 47, mem_load 0
+I0324 19:12:28.951272 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:28.951277 18607 master.cpp:193] let you go first
+I0324 19:12:28.951282 18607 master.cpp:129] Sending request 64to worker.
+I0324 19:12:28.966265 18607 master.cpp:297] Received request: cmd=countprimes;n=848393
+I0324 19:12:29.048234 18607 master.cpp:297] Received request: cmd=countprimes;n=700342
+I0324 19:12:29.048248 18607 master.cpp:149] assign tag 75 to work 0x6e3a700
+I0324 19:12:29.048254 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:29.048259 18607 master.cpp:97] worker has load 48, mem_load 0
+I0324 19:12:29.048264 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:29.048269 18607 master.cpp:176] cannot find best worker
+I0324 19:12:29.048274 18607 master.cpp:188] Not requesting because size
+I0324 19:12:29.093245 18607 master.cpp:249] Master received a response from a worker: [27:67109]
+I0324 19:12:29.093269 18607 master.cpp:252] Found tag 27 work 0x6e3f750
+I0324 19:12:29.093307 18607 master.cpp:293] Master received a response from a worker: [27:67109]
+I0324 19:12:29.093343 18607 master.cpp:297] Received request: cmd=countprimes;n=779069
+I0324 19:12:29.116236 18607 master.cpp:249] Master received a response from a worker: [16:66499]
+I0324 19:12:29.116247 18607 master.cpp:252] Found tag 16 work 0x6e3dcc0
+I0324 19:12:29.116278 18607 master.cpp:293] Master received a response from a worker: [16:66499]
+I0324 19:12:29.116303 18607 master.cpp:297] Received request: cmd=countprimes;n=848073
+I0324 19:12:29.116313 18607 master.cpp:149] assign tag 76 to work 0x6e47360
+I0324 19:12:29.116320 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:29.116324 18607 master.cpp:97] worker has load 46, mem_load 0
+I0324 19:12:29.116329 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:29.116334 18607 master.cpp:193] let you go first
+I0324 19:12:29.116339 18607 master.cpp:129] Sending request 65to worker.
+I0324 19:12:29.158439 18607 master.cpp:297] Received request: cmd=countprimes;n=1000011
+I0324 19:12:29.248241 18607 master.cpp:297] Received request: cmd=countprimes;n=960281
+I0324 19:12:29.248257 18607 master.cpp:149] assign tag 77 to work 0x6e47570
+I0324 19:12:29.248265 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:29.248270 18607 master.cpp:97] worker has load 47, mem_load 0
+I0324 19:12:29.248275 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:29.248278 18607 master.cpp:193] let you go first
+I0324 19:12:29.248284 18607 master.cpp:129] Sending request 66to worker.
+I0324 19:12:29.248353 18607 master.cpp:249] Master received a response from a worker: [19:67860]
+I0324 19:12:29.248361 18607 master.cpp:252] Found tag 19 work 0x6e3e3b0
+I0324 19:12:29.248392 18607 master.cpp:293] Master received a response from a worker: [19:67860]
+I0324 19:12:29.261420 18607 master.cpp:297] Received request: cmd=countprimes;n=834567
+I0324 19:12:29.354234 18607 master.cpp:297] Received request: cmd=countprimes;n=773173
+I0324 19:12:29.354246 18607 master.cpp:149] assign tag 78 to work 0x6e477a0
+I0324 19:12:29.354254 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:29.354259 18607 master.cpp:97] worker has load 47, mem_load 0
+I0324 19:12:29.354264 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:29.354267 18607 master.cpp:193] let you go first
+I0324 19:12:29.354274 18607 master.cpp:129] Sending request 67to worker.
+I0324 19:12:29.394234 18607 master.cpp:297] Received request: cmd=countprimes;n=780123
+I0324 19:12:29.447232 18607 master.cpp:297] Received request: cmd=countprimes;n=797561
+I0324 19:12:29.447244 18607 master.cpp:149] assign tag 79 to work 0x6e47950
+I0324 19:12:29.447252 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:29.447257 18607 master.cpp:97] worker has load 48, mem_load 0
+I0324 19:12:29.447262 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:29.447265 18607 master.cpp:176] cannot find best worker
+I0324 19:12:29.447269 18607 master.cpp:188] Not requesting because size
+I0324 19:12:29.460439 18607 master.cpp:380] ticker sending request
+I0324 19:12:29.460448 18607 master.cpp:129] Sending request 80to worker.
+I0324 19:12:29.460656 18607 master.cpp:297] Received request: cmd=countprimes;n=990611
+I0324 19:12:29.548230 18607 master.cpp:297] Received request: cmd=countprimes;n=961142
+I0324 19:12:29.548243 18607 master.cpp:149] assign tag 81 to work 0x6e47b90
+I0324 19:12:29.548250 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:29.548255 18607 master.cpp:97] worker has load 49, mem_load 0
+I0324 19:12:29.548260 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:29.548264 18607 master.cpp:176] cannot find best worker
+I0324 19:12:29.548269 18607 master.cpp:188] Not requesting because size
+I0324 19:12:29.550232 18607 master.cpp:249] Master received a response from a worker: [21:65528]
+I0324 19:12:29.550242 18607 master.cpp:252] Found tag 21 work 0x6e3e770
+I0324 19:12:29.550272 18607 master.cpp:293] Master received a response from a worker: [21:65528]
+I0324 19:12:29.563473 18607 master.cpp:297] Received request: cmd=countprimes;n=830237
+I0324 19:12:29.643232 18607 master.cpp:297] Received request: cmd=countprimes;n=757320
+I0324 19:12:29.643245 18607 master.cpp:149] assign tag 82 to work 0x6e47d90
+I0324 19:12:29.643252 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:29.643257 18607 master.cpp:97] worker has load 48, mem_load 0
+I0324 19:12:29.643262 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:29.643266 18607 master.cpp:176] cannot find best worker
+I0324 19:12:29.643270 18607 master.cpp:188] Not requesting because size
+I0324 19:12:29.649267 18607 master.cpp:249] Master received a response from a worker: [28:57297]
+I0324 19:12:29.649279 18607 master.cpp:252] Found tag 28 work 0x6e3f9a0
+I0324 19:12:29.649310 18607 master.cpp:293] Master received a response from a worker: [28:57297]
+I0324 19:12:29.662422 18607 master.cpp:297] Received request: cmd=countprimes;n=950923
+I0324 19:12:29.748242 18607 master.cpp:297] Received request: cmd=countprimes;n=870253
+I0324 19:12:29.748257 18607 master.cpp:149] assign tag 83 to work 0x6e47f40
+I0324 19:12:29.748265 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:29.748270 18607 master.cpp:97] worker has load 47, mem_load 0
+I0324 19:12:29.748275 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:29.748280 18607 master.cpp:193] let you go first
+I0324 19:12:29.748284 18607 master.cpp:129] Sending request 70to worker.
+I0324 19:12:29.748327 18607 master.cpp:249] Master received a response from a worker: [13:73285]
+I0324 19:12:29.748337 18607 master.cpp:252] Found tag 13 work 0x6e3d5d0
+I0324 19:12:29.748368 18607 master.cpp:293] Master received a response from a worker: [13:73285]
+I0324 19:12:29.761453 18607 master.cpp:297] Received request: cmd=countprimes;n=929777
+I0324 19:12:29.843237 18607 master.cpp:297] Received request: cmd=countprimes;n=771585
+I0324 19:12:29.843251 18607 master.cpp:149] assign tag 84 to work 0x6e48170
+I0324 19:12:29.843258 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:29.843262 18607 master.cpp:97] worker has load 47, mem_load 0
+I0324 19:12:29.843267 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:29.843272 18607 master.cpp:193] let you go first
+I0324 19:12:29.843277 18607 master.cpp:129] Sending request 71to worker.
+I0324 19:12:29.858582 18607 master.cpp:297] Received request: cmd=countprimes;n=709907
+I0324 19:12:29.905230 18607 master.cpp:249] Master received a response from a worker: [14:78499]
+I0324 19:12:29.905241 18607 master.cpp:252] Found tag 14 work 0x6e3d820
+I0324 19:12:29.905272 18607 master.cpp:293] Master received a response from a worker: [14:78499]
+I0324 19:12:29.908411 18607 master.cpp:297] Received request: cmd=countprimes;n=990263
+I0324 19:12:29.908424 18607 master.cpp:149] assign tag 85 to work 0x6e48420
+I0324 19:12:29.908431 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:29.908435 18607 master.cpp:97] worker has load 47, mem_load 0
+I0324 19:12:29.908440 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:29.908444 18607 master.cpp:193] let you go first
+I0324 19:12:29.908449 18607 master.cpp:129] Sending request 72to worker.
+I0324 19:12:29.998237 18607 master.cpp:297] Received request: cmd=countprimes;n=848393
+I0324 19:12:30.021230 18607 master.cpp:249] Master received a response from a worker: [29:69449]
+I0324 19:12:30.021241 18607 master.cpp:252] Found tag 29 work 0x6e3fbf0
+I0324 19:12:30.021273 18607 master.cpp:293] Master received a response from a worker: [29:69449]
+I0324 19:12:30.051241 18607 master.cpp:297] Received request: cmd=countprimes;n=940954
+I0324 19:12:30.051254 18607 master.cpp:149] assign tag 86 to work 0x6e48640
+I0324 19:12:30.051261 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:30.051265 18607 master.cpp:97] worker has load 47, mem_load 0
+I0324 19:12:30.051270 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:30.051275 18607 master.cpp:193] let you go first
+I0324 19:12:30.051280 18607 master.cpp:129] Sending request 73to worker.
+I0324 19:12:30.058413 18607 master.cpp:297] Received request: cmd=countprimes;n=779069
+I0324 19:12:30.129228 18607 master.cpp:249] Master received a response from a worker: [25:63283]
+I0324 19:12:30.129240 18607 master.cpp:252] Found tag 25 work 0x6e3f2b0
+I0324 19:12:30.129271 18607 master.cpp:293] Master received a response from a worker: [25:63283]
+I0324 19:12:30.150245 18607 master.cpp:297] Received request: cmd=countprimes;n=834391
+I0324 19:12:30.150262 18607 master.cpp:149] assign tag 87 to work 0x6e48850
+I0324 19:12:30.150269 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:30.150274 18607 master.cpp:97] worker has load 47, mem_load 0
+I0324 19:12:30.150279 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:30.150282 18607 master.cpp:193] let you go first
+I0324 19:12:30.150288 18607 master.cpp:129] Sending request 74to worker.
+I0324 19:12:30.150362 18607 master.cpp:249] Master received a response from a worker: [22:66175]
+I0324 19:12:30.150372 18607 master.cpp:252] Found tag 22 work 0x6e3ebc0
+I0324 19:12:30.150401 18607 master.cpp:293] Master received a response from a worker: [22:66175]
+I0324 19:12:30.158452 18607 master.cpp:297] Received request: cmd=countprimes;n=1000011
+I0324 19:12:30.251235 18607 master.cpp:297] Received request: cmd=countprimes;n=724133
+I0324 19:12:30.251248 18607 master.cpp:149] assign tag 88 to work 0x6e48990
+I0324 19:12:30.251255 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:30.251260 18607 master.cpp:97] worker has load 47, mem_load 0
+I0324 19:12:30.251266 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:30.251269 18607 master.cpp:193] let you go first
+I0324 19:12:30.251274 18607 master.cpp:129] Sending request 75to worker.
+I0324 19:12:30.262424 18607 master.cpp:297] Received request: cmd=countprimes;n=834567
+I0324 19:12:30.348235 18607 master.cpp:297] Received request: cmd=countprimes;n=796016
+I0324 19:12:30.348248 18607 master.cpp:149] assign tag 89 to work 0x6e48b40
+I0324 19:12:30.348255 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:30.348260 18607 master.cpp:97] worker has load 48, mem_load 0
+I0324 19:12:30.348265 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:30.348269 18607 master.cpp:176] cannot find best worker
+I0324 19:12:30.348273 18607 master.cpp:188] Not requesting because size
+I0324 19:12:30.375216 18607 master.cpp:249] Master received a response from a worker: [34:62810]
+I0324 19:12:30.375227 18607 master.cpp:252] Found tag 34 work 0x6e40170
+I0324 19:12:30.375262 18607 master.cpp:293] Master received a response from a worker: [34:62810]
+I0324 19:12:30.375290 18607 master.cpp:249] Master received a response from a worker: [30:67497]
+I0324 19:12:30.375298 18607 master.cpp:252] Found tag 30 work 0x6e3fe40
+I0324 19:12:30.375327 18607 master.cpp:293] Master received a response from a worker: [30:67497]
+I0324 19:12:30.375361 18607 master.cpp:297] Received request: cmd=countprimes;n=780123
+I0324 19:12:30.409404 18607 master.cpp:297] Received request: cmd=countprimes;n=852382
+I0324 19:12:30.409417 18607 master.cpp:149] assign tag 90 to work 0x6e48de0
+I0324 19:12:30.409425 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:30.409428 18607 master.cpp:97] worker has load 46, mem_load 0
+I0324 19:12:30.409433 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:30.409437 18607 master.cpp:193] let you go first
+I0324 19:12:30.409443 18607 master.cpp:129] Sending request 76to worker.
+I0324 19:12:30.443536 18607 master.cpp:380] ticker sending request
+I0324 19:12:30.443544 18607 master.cpp:129] Sending request 91to worker.
+I0324 19:12:30.498240 18607 master.cpp:297] Received request: cmd=countprimes;n=990611
+I0324 19:12:30.548238 18607 master.cpp:297] Received request: cmd=countprimes;n=979851
+I0324 19:12:30.548251 18607 master.cpp:149] assign tag 92 to work 0x6e48f90
+I0324 19:12:30.548259 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:30.548264 18607 master.cpp:97] worker has load 48, mem_load 0
+I0324 19:12:30.548269 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:30.548272 18607 master.cpp:176] cannot find best worker
+I0324 19:12:30.548277 18607 master.cpp:188] Not requesting because size
+I0324 19:12:30.584214 18607 master.cpp:249] Master received a response from a worker: [23:73846]
+I0324 19:12:30.584225 18607 master.cpp:252] Found tag 23 work 0x6e3ee10
+I0324 19:12:30.584259 18607 master.cpp:293] Master received a response from a worker: [23:73846]
+I0324 19:12:30.584273 18607 master.cpp:249] Master received a response from a worker: [37:62475]
+I0324 19:12:30.584280 18607 master.cpp:252] Found tag 37 work 0x6e40cb0
+I0324 19:12:30.584308 18607 master.cpp:293] Master received a response from a worker: [37:62475]
+I0324 19:12:30.584327 18607 master.cpp:297] Received request: cmd=countprimes;n=830237
+I0324 19:12:30.584369 18607 master.cpp:249] Master received a response from a worker: [47:57297]
+I0324 19:12:30.584378 18607 master.cpp:252] Found tag 47 work 0x6e42460
+I0324 19:12:30.584404 18607 master.cpp:293] Master received a response from a worker: [47:57297]
+I0324 19:12:30.609410 18607 master.cpp:297] Received request: cmd=countprimes;n=732717
+I0324 19:12:30.609422 18607 master.cpp:149] assign tag 93 to work 0x6e49130
+I0324 19:12:30.609428 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:30.609433 18607 master.cpp:97] worker has load 45, mem_load 0
+I0324 19:12:30.609438 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:30.609442 18607 master.cpp:193] let you go first
+I0324 19:12:30.609447 18607 master.cpp:129] Sending request 78to worker.
+I0324 19:12:30.658414 18607 master.cpp:297] Received request: cmd=countprimes;n=950923
+I0324 19:12:30.708231 18607 master.cpp:249] Master received a response from a worker: [26:73458]
+I0324 19:12:30.708242 18607 master.cpp:252] Found tag 26 work 0x6e3f500
+I0324 19:12:30.708274 18607 master.cpp:293] Master received a response from a worker: [26:73458]
+I0324 19:12:30.711416 18607 master.cpp:297] Received request: cmd=countprimes;n=865380
+I0324 19:12:30.711429 18607 master.cpp:149] assign tag 94 to work 0x6e493d0
+I0324 19:12:30.711436 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:30.711441 18607 master.cpp:97] worker has load 45, mem_load 0
+I0324 19:12:30.711493 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:30.711500 18607 master.cpp:193] let you go first
+I0324 19:12:30.711506 18607 master.cpp:129] Sending request 79to worker.
+I0324 19:12:30.798233 18607 master.cpp:297] Received request: cmd=countprimes;n=929777
+I0324 19:12:30.851233 18607 master.cpp:297] Received request: cmd=countprimes;n=911969
+I0324 19:12:30.851246 18607 master.cpp:149] assign tag 95 to work 0x6e494e0
+I0324 19:12:30.851253 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:30.851258 18607 master.cpp:97] worker has load 46, mem_load 0
+I0324 19:12:30.851263 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:30.851268 18607 master.cpp:193] let you go first
+I0324 19:12:30.851272 18607 master.cpp:129] Sending request 81to worker.
+I0324 19:12:30.864414 18607 master.cpp:297] Received request: cmd=countprimes;n=709907
+I0324 19:12:30.948232 18607 master.cpp:297] Received request: cmd=countprimes;n=864232
+I0324 19:12:30.948246 18607 master.cpp:149] assign tag 96 to work 0x6e49690
+I0324 19:12:30.948252 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:30.948257 18607 master.cpp:97] worker has load 47, mem_load 0
+I0324 19:12:30.948261 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:30.948266 18607 master.cpp:193] let you go first
+I0324 19:12:30.948271 18607 master.cpp:129] Sending request 82to worker.
+I0324 19:12:30.997238 18607 master.cpp:297] Received request: cmd=countprimes;n=848393
+I0324 19:12:31.049235 18607 master.cpp:297] Received request: cmd=countprimes;n=944340
+I0324 19:12:31.049249 18607 master.cpp:149] assign tag 97 to work 0x6e49840
+I0324 19:12:31.049257 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:31.049262 18607 master.cpp:97] worker has load 48, mem_load 0
+I0324 19:12:31.049266 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:31.049270 18607 master.cpp:176] cannot find best worker
+I0324 19:12:31.049274 18607 master.cpp:188] Not requesting because size
+I0324 19:12:31.069229 18607 master.cpp:249] Master received a response from a worker: [40:62114]
+I0324 19:12:31.069238 18607 master.cpp:252] Found tag 40 work 0x6e413d0
+I0324 19:12:31.069269 18607 master.cpp:293] Master received a response from a worker: [40:62114]
+I0324 19:12:31.069303 18607 master.cpp:297] Received request: cmd=countprimes;n=779069
+I0324 19:12:31.148233 18607 master.cpp:297] Received request: cmd=countprimes;n=862085
+I0324 19:12:31.148247 18607 master.cpp:149] assign tag 98 to work 0x6e49ad0
+I0324 19:12:31.148254 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:31.148259 18607 master.cpp:97] worker has load 47, mem_load 0
+I0324 19:12:31.148264 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:31.148268 18607 master.cpp:193] let you go first
+I0324 19:12:31.148273 18607 master.cpp:129] Sending request 83to worker.
+I0324 19:12:31.158426 18607 master.cpp:297] Received request: cmd=countprimes;n=1000011
+I0324 19:12:31.167158 18607 master.cpp:249] Master received a response from a worker: [24:74977]
+I0324 19:12:31.167170 18607 master.cpp:252] Found tag 24 work 0x6e3f060
+I0324 19:12:31.167207 18607 master.cpp:293] Master received a response from a worker: [24:74977]
+I0324 19:12:31.208447 18607 master.cpp:297] Received request: cmd=countprimes;n=989152
+I0324 19:12:31.208461 18607 master.cpp:149] assign tag 99 to work 0x6e49c40
+I0324 19:12:31.208467 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:31.208472 18607 master.cpp:97] worker has load 47, mem_load 0
+I0324 19:12:31.208477 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:31.208480 18607 master.cpp:193] let you go first
+I0324 19:12:31.208485 18607 master.cpp:129] Sending request 84to worker.
+I0324 19:12:31.280233 18607 master.cpp:249] Master received a response from a worker: [32:67723]
+I0324 19:12:31.280251 18607 master.cpp:252] Found tag 32 work 0x6e401e0
+I0324 19:12:31.280293 18607 master.cpp:293] Master received a response from a worker: [32:67723]
+I0324 19:12:31.298239 18607 master.cpp:297] Received request: cmd=countprimes;n=834567
+I0324 19:12:31.341243 18607 master.cpp:297] Received request: cmd=countprimes;n=880956
+I0324 19:12:31.341256 18607 master.cpp:149] assign tag 100 to work 0x6e49fd0
+I0324 19:12:31.341264 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:31.341270 18607 master.cpp:97] worker has load 47, mem_load 0
+I0324 19:12:31.341275 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:31.341280 18607 master.cpp:193] let you go first
+I0324 19:12:31.341285 18607 master.cpp:129] Sending request 85to worker.
+I0324 19:12:31.397218 18607 master.cpp:249] Master received a response from a worker: [46:74418]
+I0324 19:12:31.397229 18607 master.cpp:252] Found tag 46 work 0x6e421f0
+I0324 19:12:31.397260 18607 master.cpp:293] Master received a response from a worker: [46:74418]
+I0324 19:12:31.397279 18607 master.cpp:249] Master received a response from a worker: [41:66175]
+I0324 19:12:31.397287 18607 master.cpp:252] Found tag 41 work 0x6e41580
+I0324 19:12:31.397320 18607 master.cpp:293] Master received a response from a worker: [41:66175]
+I0324 19:12:31.397343 18607 master.cpp:297] Received request: cmd=countprimes;n=780123
+I0324 19:12:31.406618 18607 master.cpp:297] Received request: cmd=countprimes;n=876285
+I0324 19:12:31.406631 18607 master.cpp:149] assign tag 101 to work 0x6e4a1c0
+I0324 19:12:31.406638 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:31.406643 18607 master.cpp:97] worker has load 46, mem_load 0
+I0324 19:12:31.406648 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:31.406652 18607 master.cpp:193] let you go first
+I0324 19:12:31.406657 18607 master.cpp:129] Sending request 86to worker.
+I0324 19:12:31.460222 18607 master.cpp:249] Master received a response from a worker: [20:77823]
+I0324 19:12:31.460232 18607 master.cpp:252] Found tag 20 work 0x6e3e600
+I0324 19:12:31.460263 18607 master.cpp:293] Master received a response from a worker: [20:77823]
+I0324 19:12:31.460286 18607 master.cpp:297] Received request: cmd=countprimes;n=990611
+I0324 19:12:31.460315 18607 master.cpp:380] ticker sending request
+I0324 19:12:31.460322 18607 master.cpp:129] Sending request 102to worker.
+I0324 19:12:31.566237 18607 master.cpp:297] Received request: cmd=countprimes;n=833497
+I0324 19:12:31.566251 18607 master.cpp:149] assign tag 103 to work 0x6e49f40
+I0324 19:12:31.566256 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:31.566262 18607 master.cpp:97] worker has load 47, mem_load 0
+I0324 19:12:31.566267 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:31.566270 18607 master.cpp:193] let you go first
+I0324 19:12:31.566277 18607 master.cpp:129] Sending request 88to worker.
+I0324 19:12:31.566321 18607 master.cpp:297] Received request: cmd=countprimes;n=830237
+I0324 19:12:31.643237 18607 master.cpp:297] Received request: cmd=countprimes;n=878886
+I0324 19:12:31.643251 18607 master.cpp:149] assign tag 104 to work 0x6e4a500
+I0324 19:12:31.643259 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:31.643262 18607 master.cpp:97] worker has load 48, mem_load 0
+I0324 19:12:31.643267 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:31.643271 18607 master.cpp:176] cannot find best worker
+I0324 19:12:31.643276 18607 master.cpp:188] Not requesting because size
+I0324 19:12:31.656419 18607 master.cpp:297] Received request: cmd=countprimes;n=950923
+I0324 19:12:31.717226 18607 master.cpp:249] Master received a response from a worker: [31:76542]
+I0324 19:12:31.717237 18607 master.cpp:252] Found tag 31 work 0x6e40090
+I0324 19:12:31.717267 18607 master.cpp:293] Master received a response from a worker: [31:76542]
+I0324 19:12:31.748237 18607 master.cpp:297] Received request: cmd=countprimes;n=815470
+I0324 19:12:31.748250 18607 master.cpp:149] assign tag 105 to work 0x6e4a790
+I0324 19:12:31.748257 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:31.748317 18607 master.cpp:97] worker has load 47, mem_load 0
+I0324 19:12:31.748323 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:31.748328 18607 master.cpp:193] let you go first
+I0324 19:12:31.748333 18607 master.cpp:129] Sending request 89to worker.
+I0324 19:12:31.748394 18607 master.cpp:249] Master received a response from a worker: [44:78124]
+I0324 19:12:31.748404 18607 master.cpp:252] Found tag 44 work 0x6e41d10
+I0324 19:12:31.748432 18607 master.cpp:293] Master received a response from a worker: [44:78124]
+I0324 19:12:31.759435 18607 master.cpp:297] Received request: cmd=countprimes;n=929777
+I0324 19:12:31.804236 18607 master.cpp:249] Master received a response from a worker: [35:66499]
+I0324 19:12:31.804251 18607 master.cpp:252] Found tag 35 work 0x6e40850
+I0324 19:12:31.804286 18607 master.cpp:293] Master received a response from a worker: [35:66499]
+I0324 19:12:31.814362 18607 master.cpp:297] Received request: cmd=countprimes;n=872695
+I0324 19:12:31.814375 18607 master.cpp:149] assign tag 106 to work 0x6e4a960
+I0324 19:12:31.814383 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:31.814386 18607 master.cpp:97] worker has load 46, mem_load 0
+I0324 19:12:31.814391 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:31.814395 18607 master.cpp:193] let you go first
+I0324 19:12:31.814401 18607 master.cpp:129] Sending request 90to worker.
+I0324 19:12:31.900243 18607 master.cpp:297] Received request: cmd=countprimes;n=709907
+I0324 19:12:31.948230 18607 master.cpp:297] Received request: cmd=countprimes;n=787099
+I0324 19:12:31.948245 18607 master.cpp:149] assign tag 107 to work 0x6e4aab0
+I0324 19:12:31.948251 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:31.948256 18607 master.cpp:97] worker has load 47, mem_load 0
+I0324 19:12:31.948261 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:31.948264 18607 master.cpp:193] let you go first
+I0324 19:12:31.948271 18607 master.cpp:129] Sending request 92to worker.
+I0324 19:12:31.948341 18607 master.cpp:249] Master received a response from a worker: [38:70225]
+I0324 19:12:31.948351 18607 master.cpp:252] Found tag 38 work 0x6e40f60
+I0324 19:12:31.948380 18607 master.cpp:293] Master received a response from a worker: [38:70225]
+I0324 19:12:31.964284 18607 master.cpp:297] Received request: cmd=countprimes;n=848393
+I0324 19:12:32.048236 18607 master.cpp:297] Received request: cmd=countprimes;n=756817
+I0324 19:12:32.048249 18607 master.cpp:149] assign tag 108 to work 0x6e4ace0
+I0324 19:12:32.048256 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:32.048261 18607 master.cpp:97] worker has load 47, mem_load 0
+I0324 19:12:32.048266 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:32.048270 18607 master.cpp:193] let you go first
+I0324 19:12:32.048275 18607 master.cpp:129] Sending request 93to worker.
+I0324 19:12:32.061420 18607 master.cpp:297] Received request: cmd=countprimes;n=779069
+I0324 19:12:32.148236 18607 master.cpp:297] Received request: cmd=countprimes;n=756019
+I0324 19:12:32.148248 18607 master.cpp:149] assign tag 109 to work 0x6e4ae90
+I0324 19:12:32.148255 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:32.148260 18607 master.cpp:97] worker has load 48, mem_load 0
+I0324 19:12:32.148265 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:32.148269 18607 master.cpp:176] cannot find best worker
+I0324 19:12:32.148274 18607 master.cpp:188] Not requesting because size
+I0324 19:12:32.161584 18607 master.cpp:297] Received request: cmd=countprimes;n=1000011
+I0324 19:12:32.248236 18607 master.cpp:297] Received request: cmd=countprimes;n=883832
+I0324 19:12:32.248250 18607 master.cpp:149] assign tag 110 to work 0x6e4b100
+I0324 19:12:32.248256 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:32.248261 18607 master.cpp:97] worker has load 48, mem_load 0
+I0324 19:12:32.248314 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:32.248322 18607 master.cpp:176] cannot find best worker
+I0324 19:12:32.248327 18607 master.cpp:188] Not requesting because size
+I0324 19:12:32.248342 18607 master.cpp:249] Master received a response from a worker: [49:63438]
+I0324 19:12:32.248349 18607 master.cpp:252] Found tag 49 work 0x6e43ad0
+I0324 19:12:32.248381 18607 master.cpp:293] Master received a response from a worker: [49:63438]
+I0324 19:12:32.261415 18607 master.cpp:297] Received request: cmd=countprimes;n=834567
+I0324 19:12:32.285738 18607 master.cpp:249] Master received a response from a worker: [36:73243]
+I0324 19:12:32.285748 18607 master.cpp:252] Found tag 36 work 0x6e40af0
+I0324 19:12:32.285779 18607 master.cpp:293] Master received a response from a worker: [36:73243]
+I0324 19:12:32.341231 18607 master.cpp:297] Received request: cmd=countprimes;n=896998
+I0324 19:12:32.341244 18607 master.cpp:149] assign tag 111 to work 0x6e4b390
+I0324 19:12:32.341251 18607 master.cpp:95] ---------------------workers--------------
+I0324 19:12:32.341256 18607 master.cpp:97] worker has load 46, mem_load 0
+I0324 19:12:32.341261 18607 master.cpp:99] ---------------------workers--------------
+I0324 19:12:32.341265 18607 master.cpp:193] let you go first
+I0324 19:12:32.341270 18607 master.cpp:129] Sending request 94to worker.
+I0324 19:12:32.364282 18607 master.cpp:297] Received request: cmd=countprimes;n=780123
+I0324 19:12:32.376493 18607 master.cpp:249] Master received a response from a worker: [55:67007]
