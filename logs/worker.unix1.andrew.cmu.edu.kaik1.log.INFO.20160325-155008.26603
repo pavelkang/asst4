@@ -1,0 +1,32 @@
+Log file created at: 2016/03/25 15:50:08
+Running on machine: unix1.andrew.cmu.edu
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0325 15:50:08.823912 26603 main.cpp:49] Booting worker. Hostname: unix1.andrew.cmu.edu
+I0325 15:50:09.840865 26603 main.cpp:62] Connected to master unix1.andrew.cmu.edu:15419
+I0325 15:50:09.840904 26603 worker.cpp:46] **** Initializing worker:  ****
+I0325 15:50:09.862035 26603 worker.cpp:62] Worker got request: [345:cmd=countprimes;n=846586]
+I0325 15:50:09.862068 26603 worker.cpp:62] Worker got request: [346:cmd=countprimes;n=875467]
+I0325 15:50:09.862100 26603 worker.cpp:62] Worker got request: [347:cmd=countprimes;n=903791]
+I0325 15:50:09.926982 26603 worker.cpp:62] Worker got request: [348:cmd=countprimes;n=826911]
+I0325 15:50:10.029036 26603 worker.cpp:62] Worker got request: [349:cmd=countprimes;n=810499]
+I0325 15:50:10.163997 26603 worker.cpp:62] Worker got request: [350:cmd=countprimes;n=996538]
+I0325 15:50:10.264979 26603 worker.cpp:62] Worker got request: [351:cmd=countprimes;n=778275]
+I0325 15:50:10.564981 26603 worker.cpp:62] Worker got request: [354:cmd=countprimes;n=807556]
+I0325 15:50:10.668990 26603 worker.cpp:62] Worker got request: [355:cmd=countprimes;n=719157]
+I0325 15:50:10.779990 26603 worker.cpp:62] Worker got request: [356:cmd=countprimes;n=959074]
+I0325 15:50:10.864975 26603 worker.cpp:62] Worker got request: [357:cmd=countprimes;n=910601]
+I0325 15:50:10.934034 26603 worker.cpp:62] Worker got request: [358:cmd=countprimes;n=970904]
+I0325 15:50:11.067988 26603 worker.cpp:62] Worker got request: [359:cmd=countprimes;n=835483]
+I0325 15:50:11.372980 26603 worker.cpp:62] Worker got request: [362:cmd=countprimes;n=819386]
+I0325 15:50:11.468978 26603 worker.cpp:62] Worker got request: [363:cmd=countprimes;n=762169]
+I0325 15:50:11.872978 26603 worker.cpp:62] Worker got request: [367:cmd=countprimes;n=743906]
+I0325 15:50:11.966979 26603 worker.cpp:62] Worker got request: [368:cmd=countprimes;n=759391]
+I0325 15:50:12.470999 26603 worker.cpp:62] Worker got request: [373:cmd=countprimes;n=994897]
+I0325 15:50:12.567988 26603 worker.cpp:62] Worker got request: [374:cmd=countprimes;n=744520]
+I0325 15:50:12.740203 26603 worker.cpp:62] Worker got request: [376:cmd=countprimes;n=903979]
+I0325 15:50:12.973984 26603 worker.cpp:62] Worker got request: [378:cmd=countprimes;n=848622]
+I0325 15:50:13.177979 26603 worker.cpp:62] Worker got request: [380:cmd=countprimes;n=796738]
+I0325 15:50:13.273980 26603 worker.cpp:62] Worker got request: [381:cmd=countprimes;n=849532]
+I0325 15:50:15.376179 26603 worker.cpp:62] Worker got request: [402:cmd=countprimes;n=711824]
+I0325 15:50:17.737066 26603 worker.cpp:62] Worker got request: [426:cmd=countprimes;n=844664]
+I0325 15:50:24.177426 26603 main.cpp:103] Worker on unix1.andrew.cmu.edu is shutting down (master terminated connection)

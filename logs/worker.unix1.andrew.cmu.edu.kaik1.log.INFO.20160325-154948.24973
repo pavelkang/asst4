@@ -1,0 +1,7 @@
+Log file created at: 2016/03/25 15:49:48
+Running on machine: unix1.andrew.cmu.edu
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0325 15:49:48.803760 24973 main.cpp:49] Booting worker. Hostname: unix1.andrew.cmu.edu
+I0325 15:49:49.820868 24973 main.cpp:62] Connected to master unix1.andrew.cmu.edu:15419
+I0325 15:49:49.820914 24973 worker.cpp:46] **** Initializing worker:  ****
+I0325 15:50:24.177042 24973 main.cpp:103] Worker on unix1.andrew.cmu.edu is shutting down (master terminated connection)
