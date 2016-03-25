@@ -1,9 +1,0 @@
-Log file created at: 2016/03/24 19:27:50
-Running on machine: unix3.andrew.cmu.edu
-Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
-I0324 19:27:50.148511 12570 main.cpp:49] Booting worker. Hostname: unix3.andrew.cmu.edu
-I0324 19:27:51.153264 12570 main.cpp:62] Connected to master unix3.andrew.cmu.edu:19808
-I0324 19:27:51.153306 12570 worker.cpp:46] **** Initializing worker:  ****
-I0324 19:27:51.154245 12570 worker.cpp:62] Worker got request: [77:cmd=countprimes;n=724133]
-I0324 19:27:51.154276 12570 worker.cpp:62] Worker got request: [78:cmd=countprimes;n=796016]
-I0324 19:27:53.755089 12570 main.cpp:103] Worker on unix3.andrew.cmu.edu is shutting down (master terminated connection)

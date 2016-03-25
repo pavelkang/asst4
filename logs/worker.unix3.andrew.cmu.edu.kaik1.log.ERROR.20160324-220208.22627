@@ -1,4 +1,0 @@
-Log file created at: 2016/03/24 22:02:08
-Running on machine: unix3.andrew.cmu.edu
-Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
-F0324 22:02:08.048662 22627 main.cpp:61] Check failed: master_fd >= 0 (-1 vs. 0) Worker could not connect to masterunix3.andrew.cmu.edu:15419
