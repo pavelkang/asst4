@@ -438,22 +438,22 @@ void assign_work(Work *work) {
 //   }
 // }
 
-// void master_node_init(int max_workers, int& tick_period) {
+void master_node_init(int max_workers, int& tick_period) {
 
-//   // set up tick handler to fire every 1 seconds.
-//   tick_period = 1;
+  // set up tick handler to fire every 1 seconds.
+  tick_period = 1;
 
-//   mstate.next_tag = 0;
-//   mstate.max_num_workers = max_workers;
-//   mstate.requesting_worker = false;
-//   // don't mark the server as ready until the server is ready to go.
-//   // This is actually when the first worker is up and running, not
-//   // when 'master_node_init' returnes
-//   mstate.server_ready = false;
+  mstate.next_tag = 0;
+  mstate.max_num_workers = max_workers;
+  mstate.requesting_worker = false;
+  // don't mark the server as ready until the server is ready to go.
+  // This is actually when the first worker is up and running, not
+  // when 'master_node_init' returnes
+  mstate.server_ready = false;
 
-//   // fire off a request for a new worker
-//   Request_Worker();
-// }
+  // fire off a request for a new worker
+  Request_Worker();
+}
 
 void handle_new_worker_online(Worker_handle worker_handle, int tag) {
   mstate.requesting_worker = false;
