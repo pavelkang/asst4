@@ -1,0 +1,11 @@
+Log file created at: 2016/03/26 14:30:28
+Running on machine: compute-0-11.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0326 14:30:28.297088 58129 main.cpp:49] Booting worker. Hostname: compute-0-11.local
+I0326 14:30:29.300374 58129 main.cpp:62] Connected to master compute-0-15.local:15418
+I0326 14:30:29.300389 58129 worker.cpp:46] **** Initializing worker:  ****
+I0326 14:30:29.335000 58129 worker.cpp:62] Worker got request: [2523:cmd=418wisdom;x=87261]
+I0326 14:30:29.373968 58129 worker.cpp:62] Worker got request: [2524:cmd=418wisdom;x=21300]
+I0326 14:30:29.434224 58129 worker.cpp:62] Worker got request: [2525:cmd=418wisdom;x=31968]
+I0326 14:30:29.451967 58129 worker.cpp:62] Worker got request: [2526:cmd=418wisdom;x=87473]
+I0326 14:30:30.952957 58129 main.cpp:103] Worker on compute-0-11.local is shutting down (master terminated connection)

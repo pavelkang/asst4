@@ -1,0 +1,37 @@
+Log file created at: 2016/03/26 15:41:02
+Running on machine: compute-0-35.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0326 15:41:02.156139 139671 main.cpp:49] Booting worker. Hostname: compute-0-35.local
+I0326 15:41:03.159292 139671 main.cpp:62] Connected to master compute-0-37.local:15418
+I0326 15:41:03.159304 139671 worker.cpp:46] **** Initializing worker:  ****
+I0326 15:41:03.216749 139671 worker.cpp:62] Worker got request: [904:cmd=tellmenow;x=695]
+I0326 15:41:03.434479 139671 worker.cpp:62] Worker got request: [911:cmd=tellmenow;x=2808]
+I0326 15:41:03.492552 139671 worker.cpp:62] Worker got request: [861:cmd=projectidea;x=174614]
+I0326 15:41:03.539890 139671 worker.cpp:62] Worker got request: [919:cmd=tellmenow;x=2227]
+I0326 15:41:03.785536 139671 worker.cpp:62] Worker got request: [923:cmd=tellmenow;x=1443]
+I0326 15:41:03.916496 139671 worker.cpp:62] Worker got request: [929:cmd=tellmenow;x=2642]
+I0326 15:41:04.085515 139671 worker.cpp:62] Worker got request: [934:cmd=tellmenow;x=1077]
+I0326 15:41:04.252539 139671 worker.cpp:62] Worker got request: [941:cmd=tellmenow;x=1153]
+I0326 15:41:04.451479 139671 worker.cpp:62] Worker got request: [946:cmd=tellmenow;x=388]
+I0326 15:41:04.587538 139671 worker.cpp:62] Worker got request: [953:cmd=tellmenow;x=2336]
+I0326 15:41:04.753520 139671 worker.cpp:62] Worker got request: [958:cmd=tellmenow;x=1203]
+I0326 15:41:04.919535 139671 worker.cpp:62] Worker got request: [966:cmd=tellmenow;x=1501]
+I0326 15:41:05.085557 139671 worker.cpp:62] Worker got request: [972:cmd=tellmenow;x=1413]
+I0326 15:41:05.250553 139671 worker.cpp:62] Worker got request: [978:cmd=tellmenow;x=1969]
+I0326 15:41:05.415549 139671 worker.cpp:62] Worker got request: [985:cmd=tellmenow;x=1122]
+I0326 15:41:05.580550 139671 worker.cpp:62] Worker got request: [990:cmd=tellmenow;x=2748]
+I0326 15:41:05.744515 139671 worker.cpp:62] Worker got request: [997:cmd=tellmenow;x=1296]
+I0326 15:41:05.907536 139671 worker.cpp:62] Worker got request: [1003:cmd=tellmenow;x=1078]
+I0326 15:41:06.071530 139671 worker.cpp:62] Worker got request: [1010:cmd=tellmenow;x=1203]
+I0326 15:41:06.234499 139671 worker.cpp:62] Worker got request: [1014:cmd=tellmenow;x=2299]
+I0326 15:41:06.396533 139671 worker.cpp:62] Worker got request: [1023:cmd=tellmenow;x=2980]
+I0326 15:41:06.495476 139671 worker.cpp:62] Worker got request: [1002:cmd=projectidea;x=878897]
+I0326 15:41:06.519861 139671 worker.cpp:62] Worker got request: [1028:cmd=tellmenow;x=2600]
+I0326 15:41:06.721532 139671 worker.cpp:62] Worker got request: [1033:cmd=tellmenow;x=1439]
+I0326 15:41:06.894534 139671 worker.cpp:62] Worker got request: [1042:cmd=tellmenow;x=874]
+I0326 15:41:07.044530 139671 worker.cpp:62] Worker got request: [1050:cmd=tellmenow;x=1338]
+I0326 15:41:07.205534 139671 worker.cpp:62] Worker got request: [1053:cmd=tellmenow;x=1032]
+I0326 15:41:07.365496 139671 worker.cpp:62] Worker got request: [1060:cmd=tellmenow;x=730]
+I0326 15:41:07.526528 139671 worker.cpp:62] Worker got request: [1066:cmd=tellmenow;x=561]
+I0326 15:41:07.686537 139671 worker.cpp:62] Worker got request: [1072:cmd=tellmenow;x=2868]
+I0326 15:41:07.794965 139671 main.cpp:103] Worker on compute-0-35.local is shutting down (master terminated connection)

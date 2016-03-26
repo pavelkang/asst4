@@ -1,0 +1,7 @@
+Log file created at: 2016/03/26 14:29:08
+Running on machine: compute-0-7.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0326 14:29:08.686632 112849 main.cpp:49] Booting worker. Hostname: compute-0-7.local
+I0326 14:29:09.690407 112849 main.cpp:62] Connected to master compute-0-15.local:15418
+I0326 14:29:09.690436 112849 worker.cpp:46] **** Initializing worker:  ****
+I0326 14:29:09.952920 112849 main.cpp:103] Worker on compute-0-7.local is shutting down (master terminated connection)

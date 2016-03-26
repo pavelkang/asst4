@@ -1,0 +1,17 @@
+Log file created at: 2016/03/26 15:05:15
+Running on machine: compute-0-11.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0326 15:05:15.799420 64334 main.cpp:49] Booting worker. Hostname: compute-0-11.local
+I0326 15:05:16.803606 64334 main.cpp:62] Connected to master compute-0-37.local:15418
+I0326 15:05:16.803637 64334 worker.cpp:46] **** Initializing worker:  ****
+I0326 15:05:16.936820 64334 worker.cpp:62] Worker got request: [1023:cmd=tellmenow;x=2980]
+I0326 15:05:17.107655 64334 worker.cpp:62] Worker got request: [965:cmd=projectidea;x=242581]
+I0326 15:05:17.115960 64334 worker.cpp:62] Worker got request: [1028:cmd=tellmenow;x=2600]
+I0326 15:05:17.313690 64334 worker.cpp:62] Worker got request: [1033:cmd=tellmenow;x=1439]
+I0326 15:05:17.462646 64334 worker.cpp:62] Worker got request: [1042:cmd=tellmenow;x=874]
+I0326 15:05:17.624661 64334 worker.cpp:62] Worker got request: [1050:cmd=tellmenow;x=1338]
+I0326 15:05:17.785675 64334 worker.cpp:62] Worker got request: [1053:cmd=tellmenow;x=1032]
+I0326 15:05:17.946688 64334 worker.cpp:62] Worker got request: [1060:cmd=tellmenow;x=730]
+I0326 15:05:18.106643 64334 worker.cpp:62] Worker got request: [1066:cmd=tellmenow;x=561]
+I0326 15:05:18.283632 64334 worker.cpp:62] Worker got request: [1072:cmd=tellmenow;x=2868]
+I0326 15:05:18.404561 64334 main.cpp:103] Worker on compute-0-11.local is shutting down (master terminated connection)
