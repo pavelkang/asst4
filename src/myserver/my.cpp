@@ -95,8 +95,8 @@ static struct Master_state {
 /* Find a worker with free power */
 Worker *find_worker(int required_cpu, int required_mem) {
   for (auto worker : mstate.my_workers) {
-    if ((worker->load + required_cpu <= MAX_CPU_POW) &&
-        (worker->mem_load + required_mem <= MAX_MEM_POW))
+    if ((worker->load + required_cpu < MAX_CPU_POW) &&
+        (worker->mem_load + required_mem < MAX_MEM_POW))
       return worker;
   }
   return NULL;
@@ -105,7 +105,7 @@ Worker *find_worker(int required_cpu, int required_mem) {
 /* Find a worker we can stuff things in */
 Worker *find_ok_worker(int required_cpu) {
   for (auto worker : mstate.my_workers) {
-    if (worker->load + required_cpu <= OK_CPU_POW)
+    if (worker->load + required_cpu < OK_CPU_POW)
       return worker;
   }
   return NULL;
@@ -137,7 +137,7 @@ Worker *locate_worker(Worker_handle handle) {
 
 /* Request a new worker wrapper */
 void Request_Worker() {
-  DLOG(INFO) << "Requesting a new worker" << endl;
+  //DLOG(INFO) << "Requesting a new worker" << endl;
   assert(mstate.my_workers.size() < mstate.max_num_workers);
   Request_msg req(0);
   request_new_worker_node(req);
@@ -146,7 +146,7 @@ void Request_Worker() {
 
 void Send_Request_To_Worker(Worker_handle handle, const Request_msg &req,
                             bool isMem = false) {
-  DLOG(INFO) << "Sending request " << req.get_tag() << "to worker." << endl;
+  //DLOG(INFO) << "Sending request " << req.get_tag() << "to worker." << endl;
   Worker *worker = locate_worker(handle);
   worker->load++;
   if (isMem)
@@ -188,272 +188,129 @@ void send_memjob() {
   }
 }
 
-int count_idle_threads() {
-  int count = 0;
-  for (auto& w: mstate.my_workers) {
-    if (w->load < 23) {
-      count += 23 - w->load;
-    }
-  }
-  return count;
-}
-
 void send_to_best(const Request_msg &req) {
-  int idle_count = count_idle_threads();
-  if (idle_count > 0) { // there is a idle threads
+  Worker *w = find_worker(1, 0);
+  if (w) {
     Worker_handle worker_handle = mstate.my_workers[0]->handle;
     int t_num = 0;
-    for (auto& w: mstate.my_workers) {
-      if (w->load < 23 && t_num < w->load) {
-        // send request to the worker with least idle threads
+    for (auto w: mstate.my_workers) {
+      if (w->load < MAX_CPU_POW && t_num < w->load) {
         worker_handle = w->handle;
         t_num = w->load;
       }
     }
     Send_Request_To_Worker(worker_handle, req);
-  } else { // there is no idle threads
-    // send request to the least busy worker
-    Worker_handle worker_handle = mstate.my_workers[0]->handle;
-    int t_num = MAX_INT; // big number
-    for (auto& w: mstate.my_workers) {
-      if (w->load < t_num) {
-        // send request to the worker with least idle threads
-        worker_handle = w->handle;
-        t_num = w->load;
-      }
-    }
-    Send_Request_To_Worker(worker_handle, req);
+  } else {
+    Worker *least_worker = find_least_busy_worker();
+    Send_Request_To_Worker(least_worker->handle, req);
   }
 }
 
-// void send_to_best(const Request_msg &req) {
-//   Worker *w = find_worker(1, 0);
-//   if (w) {
-//     Worker_handle worker_handle = mstate.my_workers[0]->handle;
-//     int t_num = 0;
-//     for (auto w: mstate.my_workers) {
-//       if (w->load < MAX_CPU_POW && t_num < w->load) {
-//         worker_handle = w->handle;
-//         t_num = w->load;
-//       }
-//     }
-//     Send_Request_To_Worker(worker_handle, req);
-//   } else {
-//     Worker *least_worker = find_least_busy_worker();
-//     Send_Request_To_Worker(least_worker->handle, req);
-//   }
-// }
 
-int count_avalible_queue() {
-  int count = 0;
-  for (auto& w: mstate.my_workers) {
-    if (w->load < 27) {
-      count += 27 - w->load;
-    }
-  }
-  return count;
-}
 void assign_work(Work *work) {
   int tag = mstate.next_tag++;
   mstate.wait_table[tag] = work;
-  Request_msg req(tag, work->client_req);
-  if (req.get_arg("cmd") == "tellmenow") { // fire instantly
-    auto w = mstate.my_workers[0];
-    send_request_to_worker(w->handle, req);
-    w->load++;
-  } else if (req.get_arg("cmd") == "projectidea"){
+  //DLOG(INFO) << "assign tag " << tag << " to work " << work << endl;
+  if (work->client_req.get_arg("cmd") == "tellmenow") { // assign to a random worker immediately
+    Request_msg worker_req(tag, work->client_req);
+    int rand_worker = rand() % (mstate.my_workers.size());
+    Send_Request_To_Worker(mstate.my_workers[rand_worker]->handle, worker_req);
+    return ;
+  } else if (work->client_req.get_arg("cmd") == "projectidea") { // bandwidth job
     mstate.pending_bandwidth_work.push(work);
     send_memjob();
     if (mstate.pending_bandwidth_work.size() > 3
-        && mstate.my_workers.size() < mstate.max_num_workers
+        && mstate.my_workers.size() < (size_t) mstate.max_num_workers
         && mstate.requesting_worker == false) {
-      int tag = random();
-      Request_msg req(tag);
-      req.set_arg("name", "my worker 0");
-      request_new_worker_node(req);
-      // increase number of pending worker
-      mstate.requesting_worker = true;
+      Request_Worker();
     }
-  } else {
-    // if workers' number is at max
-    if (mstate.my_workers.size() == mstate.max_num_workers) {
-      // fire request
-      send_to_best(req);
-    } else {
-      // decide whether to queue or fire
-      int idle_count = count_idle_threads();
-      // have avalible workers
-      if (idle_count > 0) {
-        // check if there is request in the holding queue
-        if (mstate.pending_work.size() > 0) {
-          // push the request into the back of the queue
-          mstate.pending_work.push(work);
-          while(idle_count > 0 && mstate.pending_work.size() > 0) {
-            // send queued reqs
-            Work *this_work = mstate.pending_work.front();
-            int this_tag = find_tag_by_work(this_work);
-            Request_msg this_req(this_tag, this_work->client_req);
-            send_to_best(this_req);
-            mstate.pending_work.pop();
-            idle_count--;
-          }
-        } else {
-          // fire instantly
-          send_to_best(req);
+  } else { // schedule a normal cpu job
+    if (mstate.my_workers.size() == (size_t) mstate.max_num_workers) {
+      Request_msg worker_req(tag, work->client_req);
+      send_to_best(worker_req);
+      return;
+    }
+    Worker *best_worker = find_worker(work->cpu_pow, work->mem_pow);
+    if (best_worker == NULL) {
+      //DLOG(INFO) << "cannot find best worker" << endl;
+
+      // time to request a new worker
+      if (mstate.requesting_worker == false)
+        Request_Worker();
+
+      Worker *ok_worker = find_ok_worker(work->cpu_pow);
+      if (ok_worker == NULL) {
+        // not even a ok worker
+        mstate.pending_work.push(work);
+        if (mstate.pending_work.size() > 25) {
+          // make this a function TODO
+          Work *this_job = mstate.pending_work.front();
+          int this_tag = find_tag_by_work(this_job);
+          Request_msg worker_req(this_tag, this_job->client_req);
+          send_to_best(worker_req);
+          // Worker *least_worker = find_least_busy_worker();
+          // Send_Request_To_Worker(least_worker->handle, worker_req);
+          mstate.pending_work.pop();
         }
       } else {
-        // !!!!! if overload too much should allow init more than one worker
-        // fire off a request for a new worker
-        if (mstate.requesting_worker == false) { // init a new worker
-          int tag = random();
-          Request_msg req(tag);
-          req.set_arg("name", "my worker 0");
-          request_new_worker_node(req);
-          // increase number of pending worker
-          mstate.requesting_worker = true;
+        // there is a ok worker
+        if (mstate.pending_work.size() == 0) {
+          Request_msg worker_req(tag, work->client_req);
+          send_to_best(worker_req);
+          // Send_Request_To_Worker(ok_worker->handle, worker_req);
+        } else {
+          mstate.pending_work.push(work);
+          while (ok_worker != NULL && mstate.pending_work.size() > 0) {
+            Work *this_job = mstate.pending_work.front();
+            int this_tag = find_tag_by_work(this_job);
+            Request_msg worker_req(this_tag, this_job->client_req);
+            send_to_best(worker_req);
+            // Worker *least_worker = find_least_busy_worker();
+            // Send_Request_To_Worker(least_worker->handle, worker_req);
+            mstate.pending_work.pop();
+            ok_worker = find_ok_worker(1);
+          }
         }
-
-        int avalible_queue = count_avalible_queue();
-        if (avalible_queue > 0) {
-          // check if there is request in the holding queue
-          if (mstate.pending_work.size() > 0) {
-            // push the request into the back of the queue
-            mstate.pending_work.push(work);
-            while(avalible_queue > 0 && mstate.pending_work.size() > 0) {
-              // send queued reqs
-              Work *this_work = mstate.pending_work.front();
-              int this_tag = find_tag_by_work(this_work);
-              Request_msg this_req(this_tag, this_work->client_req);
-              send_to_best(this_req);
-              mstate.pending_work.pop();
-              avalible_queue--;
-            }
-          } else {
-            // fire instantly
-            send_to_best(req);
-          }
-        } else { // workers are all overload
-          mstate.pending_work.push(work); // cache the request in queue
-          if (mstate.pending_work.size() > 25) {
-            // queue too long
-              Work *this_work = mstate.pending_work.front();
-              int this_tag = find_tag_by_work(this_work);
-              Request_msg this_req(this_tag, this_work->client_req);
-              send_to_best(this_req);
-              mstate.pending_work.pop();
-          }
+      }
+    } else { // there is a worker who can do this job right now
+      // if no other cpu jobs waiting
+      if (mstate.pending_work.size() == 0) {
+        Request_msg worker_req(tag, work->client_req);
+        send_to_best(worker_req);
+        // Send_Request_To_Worker(best_worker->handle, worker_req);
+      } else {
+        mstate.pending_work.push(work);
+        while (best_worker != NULL && mstate.pending_work.size() > 0) {
+           Work *this_job = mstate.pending_work.front();
+           int this_tag = find_tag_by_work(this_job);
+           Request_msg worker_req(this_tag, this_job->client_req);
+           send_to_best(worker_req);
+           //Send_Request_To_Worker(best_worker->handle, worker_req);
+          // mstate.pending_work.pop();
+           best_worker = find_worker(1, 0);
+           mstate.pending_work.pop();
         }
       }
     }
   }
 }
 
+void master_node_init(int max_workers, int& tick_period) {
 
-// void assign_work(Work *work) {
-//   int tag = mstate.next_tag++;
-//   mstate.wait_table[tag] = work;
-//   DLOG(INFO) << "assign tag " << tag << " to work " << work << endl;
-//   if (work->client_req.get_arg("cmd") == "tellmenow") { // assign to a random worker immediately
-//     Request_msg worker_req(tag, work->client_req);
-//     int rand_worker = rand() % (mstate.my_workers.size());
-//     Send_Request_To_Worker(mstate.my_workers[rand_worker]->handle, worker_req);
-//     return ;
-//   } else if (work->client_req.get_arg("cmd") == "projectidea") { // bandwidth job
-//     mstate.pending_bandwidth_work.push(work);
-//     send_memjob();
-//     if (mstate.pending_bandwidth_work.size() > 3
-//         && mstate.my_workers.size() < (size_t) mstate.max_num_workers
-//         && mstate.requesting_worker == false) {
-//       Request_Worker();
-//     }
-//   } else { // schedule a normal cpu job
-//     if (mstate.my_workers.size() == (size_t) mstate.max_num_workers) {
-//       Request_msg worker_req(tag, work->client_req);
-//       send_to_best(worker_req);
-//       return;
-//     }
-//     Worker *best_worker = find_worker(work->cpu_pow, work->mem_pow);
-//     if (best_worker == NULL) {
-//       DLOG(INFO) << "cannot find best worker" << endl;
+  // set up tick handler to fire every 1 seconds.
+  tick_period = 1;
 
-//       // time to request a new worker
-//       if (mstate.requesting_worker == false)
-//         Request_Worker();
+  mstate.next_tag = 0;
+  mstate.max_num_workers = max_workers;
+  mstate.requesting_worker = false;
+  // don't mark the server as ready until the server is ready to go.
+  // This is actually when the first worker is up and running, not
+  // when 'master_node_init' returnes
+  mstate.server_ready = false;
 
-//       Worker *ok_worker = find_ok_worker(work->cpu_pow);
-//       if (ok_worker == NULL) {
-//         // not even a ok worker
-//         mstate.pending_work.push(work);
-//         if (mstate.pending_work.size() > 25) {
-//           // make this a function TODO
-//           Work *this_job = mstate.pending_work.front();
-//           int this_tag = find_tag_by_work(this_job);
-//           Request_msg worker_req(this_tag, this_job->client_req);
-//           send_to_best(worker_req);
-//           // Worker *least_worker = find_least_busy_worker();
-//           // Send_Request_To_Worker(least_worker->handle, worker_req);
-//           mstate.pending_work.pop();
-//         }
-//       } else {
-//         // there is a ok worker
-//         if (mstate.pending_work.size() == 0) {
-//           Request_msg worker_req(tag, work->client_req);
-//           send_to_best(worker_req);
-//           // Send_Request_To_Worker(ok_worker->handle, worker_req);
-//         } else {
-
-//           mstate.pending_work.push(work);
-//           while (ok_worker != NULL && mstate.pending_work.size() > 0) {
-//             Work *this_job = mstate.pending_work.front();
-//             int this_tag = find_tag_by_work(this_job);
-//             Request_msg worker_req(this_tag, this_job->client_req);
-//             send_to_best(worker_req);
-//             // Worker *least_worker = find_least_busy_worker();
-//             // Send_Request_To_Worker(least_worker->handle, worker_req);
-//             mstate.pending_work.pop();
-//             ok_worker = find_ok_worker(1);
-//           }
-//         }
-//       }
-//     } else { // there is a worker who can do this job right now
-//       // if no other cpu jobs waiting
-//       if (mstate.pending_work.size() == 0) {
-//         Request_msg worker_req(tag, work->client_req);
-//         send_to_best(worker_req);
-//         // Send_Request_To_Worker(best_worker->handle, worker_req);
-//       } else {
-//         mstate.pending_work.push(work);
-//         while (best_worker != NULL && mstate.pending_work.size() > 0) {
-//            Work *this_job = mstate.pending_work.front();
-//            int this_tag = find_tag_by_work(this_job);
-//            Request_msg worker_req(this_tag, this_job->client_req);
-//            send_to_best(worker_req);
-//            //Send_Request_To_Worker(best_worker->handle, worker_req);
-//           // mstate.pending_work.pop();
-//            best_worker = find_worker(1, 0);
-//            mstate.pending_work.pop();
-//         }
-//       }
-//     }
-//   }
-// }
-
-// void master_node_init(int max_workers, int& tick_period) {
-
-//   // set up tick handler to fire every 1 seconds.
-//   tick_period = 1;
-
-//   mstate.next_tag = 0;
-//   mstate.max_num_workers = max_workers;
-//   mstate.requesting_worker = false;
-//   // don't mark the server as ready until the server is ready to go.
-//   // This is actually when the first worker is up and running, not
-//   // when 'master_node_init' returnes
-//   mstate.server_ready = false;
-
-//   // fire off a request for a new worker
-//   Request_Worker();
-// }
+  // fire off a request for a new worker
+  Request_Worker();
+}
 
 void handle_new_worker_online(Worker_handle worker_handle, int tag) {
   mstate.requesting_worker = false;
@@ -485,11 +342,11 @@ void Send_Client_Response(Client_handle handle, const Response_msg &resp) {
 }
 
 void handle_worker_response(Worker_handle worker_handle, const Response_msg& resp) {
-  DLOG(INFO) << "Master received a response from a worker: [" << resp.get_tag() << ":" << resp.get_response() << "]" << std::endl;
+  //DLOG(INFO) << "Master received a response from a worker: [" << resp.get_tag() << ":" << resp.get_response() << "]" << std::endl;
 
   int tag = resp.get_tag();
   Work waiting_work = *mstate.wait_table[tag];
-  DLOG(INFO) << "Found tag " << tag << " work " << mstate.wait_table[tag] << endl;
+  //DLOG(INFO) << "Found tag " << tag << " work " << mstate.wait_table[tag] << endl;
   Client_handle waiting_client = waiting_work.client_handle;
   Request_msg waiting_req = waiting_work.client_req;
 
@@ -507,7 +364,7 @@ void handle_worker_response(Worker_handle worker_handle, const Response_msg& res
       int i = tag - cpreq->tag_start;
       cpreq->counts[i] = atoi(resp.get_response().c_str());
       cpreq->count++;
-      DLOG(INFO) << cpreq->count << endl;
+      //DLOG(INFO) << cpreq->count << endl;
       mstate.cache[cpreq->params[i]] = cpreq->counts[i];
       if (cpreq->count == 4) {
         Response_msg resp(cpreq->tag_start);
@@ -515,7 +372,7 @@ void handle_worker_response(Worker_handle worker_handle, const Response_msg& res
           resp.set_response("There are more primes in first range.");
         else
           resp.set_response("There are more primes in second range.");
-        DLOG(INFO) << "Master sent response" << endl;
+        //DLOG(INFO) << "Master sent response" << endl;
         Send_Client_Response(waiting_client, resp);
       }
       return ;
@@ -529,7 +386,7 @@ void handle_worker_response(Worker_handle worker_handle, const Response_msg& res
 }
 
 void handle_client_request(Client_handle client_handle, const Request_msg& client_req) {
-  DLOG(INFO) << "Received request: " << client_req.get_request_string() << std::endl;
+  //DLOG(INFO) << "Received request: " << client_req.get_request_string() << std::endl;
 
   // You can assume that traces end with this special message.  It
   // exists because it might be useful for debugging to dump
