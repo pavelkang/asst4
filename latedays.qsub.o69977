@@ -1,0 +1,950 @@
+
+spawning master process on compute-0-37.local (0 of 5)
+compute-0-11 compute-0-35 compute-0-37 compute-0-7 compute-0-9
+Username is  kaik1
+command was: '/home/kaik1/assignment4/harness.sh 4 tests/grading_nonuniform3.txt'
+Waiting for server to initialize...
+Server ready, beginning trace...
+Request 2: req: "cmd=tellmenow;x=711", resp: "Re-watch the lecture on scaling a website", latency: 0 ms
+Request 6: req: "cmd=tellmenow;x=120", resp: "We recommend getting full credit on grading_wisdom.txt first", latency: 0 ms
+Request 10: req: "cmd=tellmenow;x=965", resp: "Figure out a way to understand the workload characteristics in each trace.", latency: 0 ms
+Request 15: req: "cmd=tellmenow;x=2395", resp: "Figure out a way to understand the workload characteristics in each trace.", latency: 0 ms
+Request 17: req: "cmd=tellmenow;x=2893", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 0 ms
+Request 20: req: "cmd=tellmenow;x=320", resp: "We recommend getting full credit on grading_wisdom.txt first", latency: 0 ms
+Request 24: req: "cmd=tellmenow;x=2633", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 0 ms
+Request 28: req: "cmd=tellmenow;x=146", resp: "There may be opportunities for caching in this assignment", latency: 0 ms
+Request 3: req: "cmd=418wisdom;x=758", resp: "Be careful not to optimize prematurely", latency: 2093 ms
+Request 0: req: "cmd=418wisdom;x=845", resp: "Be careful not to optimize prematurely", latency: 2416 ms
+Request 5: req: "cmd=418wisdom;x=420", resp: "You will perform amazingly on exam 2", latency: 2034 ms
+Request 32: req: "cmd=tellmenow;x=2141", resp: "Re-watch the lecture on scaling a website", latency: 40 ms
+Request 7: req: "cmd=countprimes;n=995726", resp: "78190", latency: 2089 ms
+Request 1: req: "cmd=countprimes;n=996786", resp: "78261", latency: 2786 ms
+Request 36: req: "cmd=tellmenow;x=80", resp: "We recommend getting full credit on grading_wisdom.txt first", latency: 40 ms
+Request 13: req: "cmd=418wisdom;x=405", resp: "Ask questions. Ask questions. Ask questions", latency: 1981 ms
+Request 9: req: "cmd=countprimes;n=996252", resp: "78225", latency: 2281 ms
+Request 8: req: "cmd=418wisdom;x=259", resp: "Bring out all the stops in assignment 4.", latency: 2469 ms
+Request 18: req: "cmd=418wisdom;x=303", resp: "You are going to do a great project", latency: 1708 ms
+Request 41: req: "cmd=tellmenow;x=1263", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 119 ms
+Request 4: req: "cmd=countprimes;n=996106", resp: "78213", latency: 3021 ms
+Request 11: req: "cmd=418wisdom;x=511", resp: "You are going to do a great project", latency: 2522 ms
+Request 45: req: "cmd=tellmenow;x=2611", resp: "Re-watch the lecture on scaling a website", latency: 40 ms
+Request 19: req: "cmd=418wisdom;x=477", resp: "Bring out all the stops in assignment 4.", latency: 1933 ms
+Request 16: req: "cmd=418wisdom;x=784", resp: "Bring out all the stops in assignment 4.", latency: 2401 ms
+Request 27: req: "cmd=418wisdom;x=505", resp: "Come to lecture, there might be donuts!", latency: 1507 ms
+Request 29: req: "cmd=countprimes;n=999939", resp: "78493", latency: 1408 ms
+Request 23: req: "cmd=countprimes;n=999406", resp: "78460", latency: 1858 ms
+Request 49: req: "cmd=tellmenow;x=1179", resp: "Re-watch the lecture on scaling a website", latency: 39 ms
+Request 22: req: "cmd=418wisdom;x=583", resp: "Worse is better. Keep it simple...", latency: 2055 ms
+Request 31: req: "cmd=countprimes;n=999339", resp: "78456", latency: 1393 ms
+Request 21: req: "cmd=countprimes;n=996216", resp: "78225", latency: 2315 ms
+Request 53: req: "cmd=tellmenow;x=2774", resp: "There may be opportunities for caching in this assignment", latency: 40 ms
+Request 25: req: "cmd=418wisdom;x=909", resp: "Laugh at Kayvon's jokes", latency: 2132 ms
+Request 12: req: "cmd=compareprimes;n1=961631;n2=991032;n3=970868;n4=994177", resp: "There are more primes in first range.", latency: 3419 ms
+Request 26: req: "cmd=countprimes;n=995840", resp: "78196", latency: 2223 ms
+Request 35: req: "cmd=418wisdom;x=618", resp: "You will PWN your classmates in the parallelism competition", latency: 1554 ms
+Request 55: req: "cmd=tellmenow;x=2140", resp: "We recommend getting full credit on grading_wisdom.txt first", latency: 79 ms
+Request 33: req: "cmd=418wisdom;x=756", resp: "Ask questions. Ask questions. Ask questions", latency: 2018 ms
+Request 58: req: "cmd=tellmenow;x=1813", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 80 ms
+Request 38: req: "cmd=418wisdom;x=250", resp: "Ask questions. Ask questions. Ask questions", latency: 1897 ms
+Request 30: req: "cmd=418wisdom;x=282", resp: "Flatter your TAs with compliments", latency: 2525 ms
+Request 62: req: "cmd=tellmenow;x=484", resp: "There may be opportunities for caching in this assignment", latency: 80 ms
+Request 47: req: "cmd=418wisdom;x=811", resp: "Do a great project, and it all works out in the end", latency: 1473 ms
+Request 43: req: "cmd=countprimes;n=997528", resp: "78322", latency: 1811 ms
+Request 46: req: "cmd=countprimes;n=997666", resp: "78335", latency: 1612 ms
+Request 40: req: "cmd=countprimes;n=995311", resp: "78154", latency: 2069 ms
+Request 37: req: "cmd=countprimes;n=998950", resp: "78428", latency: 2327 ms
+Request 50: req: "cmd=418wisdom;x=903", resp: "If all else fails... buy Kayvon donuts", latency: 1472 ms
+Request 42: req: "cmd=418wisdom;x=910", resp: "Laugh at Kayvon's jokes", latency: 2081 ms
+Request 34: req: "cmd=countprimes;n=998710", resp: "78409", latency: 2595 ms
+Request 67: req: "cmd=tellmenow;x=1021", resp: "Re-watch the lecture on scaling a website", latency: 80 ms
+Request 14: req: "cmd=projectidea;x=616014", resp: "Try and beat one of the solutions in Guy Blelloch's Problem-Based Benchmark Suite.", latency: 4337 ms
+Request 44: req: "cmd=418wisdom;x=983", resp: "If all else fails... buy Kayvon donuts", latency: 1947 ms
+Request 52: req: "cmd=418wisdom;x=310", resp: "You are going to do a great project", latency: 1420 ms
+Request 71: req: "cmd=tellmenow;x=1233", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 39 ms
+Request 48: req: "cmd=countprimes;n=995633", resp: "78182", latency: 1998 ms
+Request 54: req: "cmd=418wisdom;x=730", resp: "Do a great project, and it all works out in the end", latency: 1615 ms
+Request 51: req: "cmd=compareprimes;n1=950582;n2=991252;n3=954087;n4=998079", resp: "There are more primes in second range.", latency: 1919 ms
+Request 75: req: "cmd=tellmenow;x=1771", resp: "Re-watch the lecture on scaling a website", latency: 80 ms
+Request 56: req: "cmd=418wisdom;x=899", resp: "Worse is better. Keep it simple...", latency: 1588 ms
+Request 57: req: "cmd=418wisdom;x=684", resp: "Be careful not to optimize prematurely", latency: 1483 ms
+Request 78: req: "cmd=tellmenow;x=2989", resp: "Re-watch the lecture on scaling a website", latency: 39 ms
+Request 59: req: "cmd=countprimes;n=998729", resp: "78410", latency: 1504 ms
+Request 63: req: "cmd=418wisdom;x=100", resp: "Laugh at Kayvon's jokes", latency: 1481 ms
+Request 81: req: "cmd=tellmenow;x=851", resp: "Re-watch the lecture on scaling a website", latency: 79 ms
+Request 60: req: "cmd=418wisdom;x=472", resp: "Exams are all just fun and games", latency: 1747 ms
+Request 66: req: "cmd=418wisdom;x=434", resp: "Exams are all just fun and games", latency: 1537 ms
+Request 61: req: "cmd=countprimes;n=996379", resp: "78236", latency: 1863 ms
+Request 84: req: "cmd=tellmenow;x=1511", resp: "Re-watch the lecture on scaling a website", latency: 108 ms
+Request 65: req: "cmd=countprimes;n=996726", resp: "78258", latency: 1852 ms
+Request 39: req: "cmd=projectidea;x=653435", resp: "Try and beat one of the solutions in Guy Blelloch's Problem-Based Benchmark Suite.", latency: 4088 ms
+Request 89: req: "cmd=tellmenow;x=2801", resp: "Re-watch the lecture on scaling a website", latency: 76 ms
+Request 68: req: "cmd=countprimes;n=998631", resp: "78403", latency: 1851 ms
+Request 72: req: "cmd=418wisdom;x=913", resp: "Be careful not to optimize prematurely", latency: 1585 ms
+Request 69: req: "cmd=418wisdom;x=611", resp: "Exams are all just fun and games", latency: 1830 ms
+Request 93: req: "cmd=tellmenow;x=1036", resp: "There may be opportunities for caching in this assignment", latency: 40 ms
+Request 74: req: "cmd=418wisdom;x=967", resp: "You are going to do a great project", latency: 1811 ms
+Request 96: req: "cmd=tellmenow;x=1886", resp: "There may be opportunities for caching in this assignment", latency: 40 ms
+Request 70: req: "cmd=countprimes;n=995788", resp: "78193", latency: 2205 ms
+Request 79: req: "cmd=418wisdom;x=866", resp: "You will perform amazingly on exam 2", latency: 1557 ms
+Request 73: req: "cmd=countprimes;n=996049", resp: "78210", latency: 2173 ms
+Request 80: req: "cmd=418wisdom;x=260", resp: "Do a great project, and it all works out in the end", latency: 1506 ms
+Request 77: req: "cmd=418wisdom;x=477", resp: "Bring out all the stops in assignment 4.", latency: 1969 ms
+Request 98: req: "cmd=tellmenow;x=2299", resp: "Re-watch the lecture on scaling a website", latency: 79 ms
+Request 76: req: "cmd=compareprimes;n1=975564;n2=992710;n3=953351;n4=972313", resp: "There are more primes in second range.", latency: 2160 ms
+Request 102: req: "cmd=tellmenow;x=1891", resp: "Re-watch the lecture on scaling a website", latency: 0 ms
+Request 86: req: "cmd=countprimes;n=995672", resp: "78186", latency: 1442 ms
+Request 82: req: "cmd=418wisdom;x=805", resp: "Write a great lecture comment on your favorite idea in the class", latency: 1739 ms
+Request 90: req: "cmd=countprimes;n=997548", resp: "78324", latency: 1405 ms
+Request 83: req: "cmd=countprimes;n=998890", resp: "78422", latency: 1795 ms
+Request 85: req: "cmd=418wisdom;x=549", resp: "You will PWN your classmates in the parallelism competition", latency: 1740 ms
+Request 106: req: "cmd=tellmenow;x=2261", resp: "Re-watch the lecture on scaling a website", latency: 80 ms
+Request 87: req: "cmd=418wisdom;x=14", resp: "Do as best as you can and just have fun!", latency: 1689 ms
+Request 95: req: "cmd=418wisdom;x=825", resp: "OMG, 418 is so gr8!", latency: 1156 ms
+Request 91: req: "cmd=418wisdom;x=720", resp: "Do as best as you can and just have fun!", latency: 1631 ms
+Request 94: req: "cmd=418wisdom;x=399", resp: "Do a great project, and it all works out in the end", latency: 1454 ms
+Request 110: req: "cmd=tellmenow;x=587", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 80 ms
+Request 115: req: "cmd=tellmenow;x=2872", resp: "Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.", latency: 78 ms
+Request 64: req: "cmd=projectidea;x=13646", resp: "Check out last year's parallelism computation page for more ideas", latency: 4245 ms
+Request 97: req: "cmd=418wisdom;x=668", resp: "You are going to do a great project", latency: 1554 ms
+Request 119: req: "cmd=tellmenow;x=530", resp: "We recommend getting full credit on grading_wisdom.txt first", latency: 74 ms
+Request 99: req: "cmd=418wisdom;x=1", resp: "OMG, 418 is so gr8!", latency: 1517 ms
+Request 92: req: "cmd=compareprimes;n1=957386;n2=983343;n3=968351;n4=998185", resp: "There are more primes in second range.", latency: 2235 ms
+Request 101: req: "cmd=418wisdom;x=494", resp: "You will PWN your classmates in the parallelism competition", latency: 1562 ms
+Request 124: req: "cmd=tellmenow;x=1751", resp: "Re-watch the lecture on scaling a website", latency: 61 ms
+Request 100: req: "cmd=countprimes;n=998442", resp: "78391", latency: 1800 ms
+Request 104: req: "cmd=418wisdom;x=868", resp: "Laugh at Kayvon's jokes", latency: 1553 ms
+Request 128: req: "cmd=tellmenow;x=888", resp: "Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.", latency: 39 ms
+Request 107: req: "cmd=418wisdom;x=244", resp: "You are going to do a great project", latency: 1611 ms
+Request 103: req: "cmd=countprimes;n=997397", resp: "78316", latency: 1896 ms
+Request 105: req: "cmd=countprimes;n=999168", resp: "78444", latency: 1705 ms
+Request 109: req: "cmd=418wisdom;x=325", resp: "You will perform amazingly on exam 2", latency: 1490 ms
+Request 111: req: "cmd=countprimes;n=997202", resp: "78299", latency: 1430 ms
+Request 132: req: "cmd=tellmenow;x=1903", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 80 ms
+Request 112: req: "cmd=418wisdom;x=871", resp: "Flatter your TAs with compliments", latency: 1606 ms
+Request 108: req: "cmd=countprimes;n=996984", resp: "78276", latency: 1891 ms
+Request 116: req: "cmd=418wisdom;x=191", resp: "OMG, 418 is so gr8!", latency: 1495 ms
+Request 136: req: "cmd=tellmenow;x=873", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 79 ms
+Request 88: req: "cmd=projectidea;x=456476", resp: "Measure the energy consumption of a device when running an interesting workload", latency: 3666 ms
+Request 114: req: "cmd=countprimes;n=996479", resp: "78241", latency: 1790 ms
+Request 118: req: "cmd=418wisdom;x=568", resp: "You will perform amazingly on exam 2", latency: 1547 ms
+Request 140: req: "cmd=tellmenow;x=1294", resp: "There may be opportunities for caching in this assignment", latency: 79 ms
+Request 121: req: "cmd=418wisdom;x=238", resp: "Flatter your TAs with compliments", latency: 1597 ms
+Request 117: req: "cmd=countprimes;n=999566", resp: "78471", latency: 1971 ms
+Request 145: req: "cmd=tellmenow;x=2047", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 47 ms
+Request 120: req: "cmd=countprimes;n=998189", resp: "78372", latency: 1863 ms
+Request 123: req: "cmd=418wisdom;x=968", resp: "You will PWN your classmates in the parallelism competition", latency: 1581 ms
+Request 149: req: "cmd=tellmenow;x=807", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 59 ms
+Request 127: req: "cmd=countprimes;n=998786", resp: "78415", latency: 1507 ms
+Request 153: req: "cmd=tellmenow;x=2184", resp: "There may be opportunities for caching in this assignment", latency: 1 ms
+Request 122: req: "cmd=countprimes;n=997894", resp: "78352", latency: 2254 ms
+Request 126: req: "cmd=418wisdom;x=803", resp: "Do a great project, and it all works out in the end", latency: 2011 ms
+Request 131: req: "cmd=418wisdom;x=80", resp: "Do a great project, and it all works out in the end", latency: 1632 ms
+Request 156: req: "cmd=tellmenow;x=1040", resp: "We recommend getting full credit on grading_wisdom.txt first", latency: 0 ms
+Request 125: req: "cmd=countprimes;n=997508", resp: "78321", latency: 2216 ms
+Request 130: req: "cmd=countprimes;n=995944", resp: "78202", latency: 1871 ms
+Request 129: req: "cmd=418wisdom;x=448", resp: "Laugh at Kayvon's jokes", latency: 2027 ms
+Request 137: req: "cmd=418wisdom;x=508", resp: "Come to lecture, there might be donuts!", latency: 1622 ms
+Request 139: req: "cmd=418wisdom;x=933", resp: "Do a great project, and it all works out in the end", latency: 1490 ms
+Request 158: req: "cmd=tellmenow;x=396", resp: "There may be opportunities for caching in this assignment", latency: 79 ms
+Request 134: req: "cmd=418wisdom;x=320", resp: "Do as best as you can and just have fun!", latency: 1962 ms
+Request 138: req: "cmd=countprimes;n=999501", resp: "78466", latency: 1752 ms
+Request 135: req: "cmd=countprimes;n=999039", resp: "78436", latency: 1983 ms
+Request 143: req: "cmd=418wisdom;x=109", resp: "If all else fails... buy Kayvon donuts", latency: 1522 ms
+Request 162: req: "cmd=tellmenow;x=1839", resp: "Re-watch the lecture on scaling a website", latency: 79 ms
+Request 133: req: "cmd=countprimes;n=997572", resp: "78325", latency: 2400 ms
+Request 142: req: "cmd=countprimes;n=997532", resp: "78322", latency: 1884 ms
+Request 167: req: "cmd=tellmenow;x=497", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 40 ms
+Request 144: req: "cmd=countprimes;n=997379", resp: "78314", latency: 1786 ms
+Request 148: req: "cmd=418wisdom;x=707", resp: "Bring out all the stops in assignment 4.", latency: 1565 ms
+Request 146: req: "cmd=418wisdom;x=551", resp: "Come to lecture, there might be donuts!", latency: 1793 ms
+Request 154: req: "cmd=418wisdom;x=815", resp: "Bring out all the stops in assignment 4.", latency: 1283 ms
+Request 113: req: "cmd=projectidea;x=554053", resp: "Consider large-scale graph algorithms", latency: 4147 ms
+Request 147: req: "cmd=countprimes;n=997167", resp: "78298", latency: 1876 ms
+Request 170: req: "cmd=tellmenow;x=1292", resp: "Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.", latency: 79 ms
+Request 151: req: "cmd=418wisdom;x=547", resp: "Bring out all the stops in assignment 4.", latency: 1705 ms
+Request 172: req: "cmd=tellmenow;x=1195", resp: "Figure out a way to understand the workload characteristics in each trace.", latency: 47 ms
+Request 152: req: "cmd=compareprimes;n1=986476;n2=998412;n3=953438;n4=972941", resp: "There are more primes in second range.", latency: 1807 ms
+Request 155: req: "cmd=418wisdom;x=540", resp: "Write a great lecture comment on your favorite idea in the class", latency: 1580 ms
+Request 157: req: "cmd=418wisdom;x=964", resp: "Do as best as you can and just have fun!", latency: 1476 ms
+Request 141: req: "cmd=projectidea;x=871663", resp: "Use a modern parallel programming framework that we didn't teach in class.", latency: 2773 ms
+Request 150: req: "cmd=countprimes;n=998253", resp: "78378", latency: 2204 ms
+Request 159: req: "cmd=418wisdom;x=603", resp: "You will perform amazingly on exam 2", latency: 1462 ms
+Request 176: req: "cmd=tellmenow;x=228", resp: "Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.", latency: 119 ms
+Request 160: req: "cmd=countprimes;n=995516", resp: "78171", latency: 1539 ms
+Request 181: req: "cmd=tellmenow;x=2133", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 40 ms
+Request 161: req: "cmd=418wisdom;x=588", resp: "Bring out all the stops in assignment 4.", latency: 1687 ms
+Request 164: req: "cmd=418wisdom;x=445", resp: "You will perform amazingly on exam 2", latency: 1523 ms
+Request 163: req: "cmd=countprimes;n=998970", resp: "78431", latency: 1616 ms
+Request 185: req: "cmd=tellmenow;x=2043", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 40 ms
+Request 168: req: "cmd=418wisdom;x=596", resp: "You are going to do a great project", latency: 1492 ms
+Request 165: req: "cmd=compareprimes;n1=993679;n2=996978;n3=958679;n4=959250", resp: "There are more primes in first range.", latency: 1710 ms
+Request 169: req: "cmd=418wisdom;x=385", resp: "Write a great lecture comment on your favorite idea in the class", latency: 1517 ms
+Request 189: req: "cmd=tellmenow;x=2334", resp: "There may be opportunities for caching in this assignment", latency: 40 ms
+Request 194: req: "cmd=tellmenow;x=1635", resp: "Figure out a way to understand the workload characteristics in each trace.", latency: 39 ms
+Request 171: req: "cmd=418wisdom;x=576", resp: "Do a great project, and it all works out in the end", latency: 1665 ms
+Request 173: req: "cmd=418wisdom;x=290", resp: "Worse is better. Keep it simple...", latency: 1485 ms
+Request 175: req: "cmd=418wisdom;x=189", resp: "Write a great lecture comment on your favorite idea in the class", latency: 1470 ms
+Request 174: req: "cmd=countprimes;n=996802", resp: "78261", latency: 1595 ms
+Request 198: req: "cmd=tellmenow;x=1662", resp: "Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.", latency: 96 ms
+Request 177: req: "cmd=countprimes;n=995045", resp: "78140", latency: 1680 ms
+Request 202: req: "cmd=tellmenow;x=507", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 40 ms
+Request 183: req: "cmd=418wisdom;x=657", resp: "OMG, 418 is so gr8!", latency: 1461 ms
+Request 178: req: "cmd=418wisdom;x=186", resp: "Do a great project, and it all works out in the end", latency: 1918 ms
+Request 206: req: "cmd=tellmenow;x=622", resp: "Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.", latency: 49 ms
+Request 180: req: "cmd=418wisdom;x=613", resp: "Ask questions. Ask questions. Ask questions", latency: 1844 ms
+Request 186: req: "cmd=418wisdom;x=477", resp: "Bring out all the stops in assignment 4.", latency: 1600 ms
+Request 211: req: "cmd=tellmenow;x=684", resp: "There may be opportunities for caching in this assignment", latency: 39 ms
+Request 188: req: "cmd=418wisdom;x=89", resp: "Flatter your TAs with compliments", latency: 1554 ms
+Request 212: req: "cmd=countprimes;n=997528", resp: "78322", latency: 40 ms
+Request 182: req: "cmd=countprimes;n=999643", resp: "78476", latency: 2001 ms
+Request 179: req: "cmd=countprimes;n=995082", resp: "78143", latency: 2280 ms
+Request 184: req: "cmd=countprimes;n=996552", resp: "78246", latency: 1945 ms
+Request 190: req: "cmd=countprimes;n=996816", resp: "78263", latency: 1606 ms
+Request 215: req: "cmd=tellmenow;x=1576", resp: "There may be opportunities for caching in this assignment", latency: 39 ms
+Request 191: req: "cmd=418wisdom;x=758", resp: "Be careful not to optimize prematurely", latency: 1631 ms
+Request 195: req: "cmd=418wisdom;x=877", resp: "OMG, 418 is so gr8!", latency: 1627 ms
+Request 187: req: "cmd=countprimes;n=996965", resp: "78273", latency: 2128 ms
+Request 197: req: "cmd=418wisdom;x=924", resp: "OMG, 418 is so gr8!", latency: 1510 ms
+Request 219: req: "cmd=tellmenow;x=2457", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 78 ms
+Request 223: req: "cmd=tellmenow;x=1071", resp: "Re-watch the lecture on scaling a website", latency: 39 ms
+Request 166: req: "cmd=projectidea;x=496031", resp: "Measure the energy consumption of a device when running an interesting workload", latency: 4135 ms
+Request 193: req: "cmd=countprimes;n=997910", resp: "78353", latency: 2181 ms
+Request 196: req: "cmd=countprimes;n=998498", resp: "78394", latency: 2002 ms
+Request 226: req: "cmd=tellmenow;x=2646", resp: "There may be opportunities for caching in this assignment", latency: 39 ms
+Request 201: req: "cmd=countprimes;n=996764", resp: "78260", latency: 1842 ms
+Request 200: req: "cmd=418wisdom;x=843", resp: "Flatter your TAs with compliments", latency: 1980 ms
+Request 205: req: "cmd=418wisdom;x=924", resp: "OMG, 418 is so gr8!", latency: 1666 ms
+Request 203: req: "cmd=418wisdom;x=899", resp: "Worse is better. Keep it simple...", latency: 1883 ms
+Request 229: req: "cmd=tellmenow;x=2208", resp: "Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.", latency: 79 ms
+Request 204: req: "cmd=countprimes;n=999605", resp: "78472", latency: 1898 ms
+ Request 208: req: "cmd=418wisdom;x=541", resp: "Bring out all the stops in assignment 4.", latency: 1642 ms
+Request 210: req: "cmd=418wisdom;x=391", resp: "OMG, 418 is so gr8!", latency: 1505 ms
+Request 209: req: "cmd=countprimes;n=998291", resp: "78381", latency: 1686 ms
+Request 213: req: "cmd=418wisdom;x=705", resp: "Write a great lecture comment on your favorite idea in the class", latency: 1472 ms
+Request 192: req: "cmd=projectidea;x=80450", resp: "Check out last year's parallelism computation page for more ideas", latency: 2921 ms
+Request 199: req: "cmd=countprimes;n=995071", resp: "78142", latency: 2477 ms
+Request 233: req: "cmd=tellmenow;x=2150", resp: "We recommend getting full credit on grading_wisdom.txt first", latency: 80 ms
+Request 238: req: "cmd=tellmenow;x=1005", resp: "Figure out a way to understand the workload characteristics in each trace.", latency: 39 ms
+Request 214: req: "cmd=countprimes;n=999703", resp: "78480", latency: 1748 ms
+Request 207: req: "cmd=countprimes;n=995922", resp: "78200", latency: 2336 ms
+Request 224: req: "cmd=418wisdom;x=895", resp: "Flatter your TAs with compliments", latency: 1236 ms
+Request 216: req: "cmd=418wisdom;x=275", resp: "Bring out all the stops in assignment 4.", latency: 1775 ms
+Request 222: req: "cmd=418wisdom;x=850", resp: "You are going to do a great project", latency: 1477 ms
+Request 218: req: "cmd=418wisdom;x=812", resp: "Exams are all just fun and games", latency: 1691 ms
+Request 217: req: "cmd=countprimes;n=999530", resp: "78468", latency: 1805 ms
+Request 242: req: "cmd=tellmenow;x=355", resp: "Figure out a way to understand the workload characteristics in each trace.", latency: 80 ms
+Request 247: req: "cmd=tellmenow;x=2889", resp: "Re-watch the lecture on scaling a website", latency: 39 ms
+Request 225: req: "cmd=418wisdom;x=590", resp: "You are going to do a great project", latency: 1457 ms
+Request 227: req: "cmd=418wisdom;x=950", resp: "OMG, 418 is so gr8!", latency: 1509 ms
+Request 251: req: "cmd=tellmenow;x=2564", resp: "There may be opportunities for caching in this assignment", latency: 33 ms
+Request 230: req: "cmd=418wisdom;x=580", resp: "If all else fails... buy Kayvon donuts", latency: 1563 ms
+Request 221: req: "cmd=compareprimes;n1=951567;n2=994871;n3=982382;n4=996542", resp: "There are more primes in first range.", latency: 2331 ms
+Request 254: req: "cmd=tellmenow;x=1227", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 79 ms
+Request 232: req: "cmd=418wisdom;x=451", resp: "Bring out all the stops in assignment 4.", latency: 1694 ms
+Request 257: req: "cmd=tellmenow;x=2590", resp: "We recommend getting full credit on grading_wisdom.txt first", latency: 42 ms
+Request 235: req: "cmd=418wisdom;x=660", resp: "OMG, 418 is so gr8!", latency: 1742 ms
+Request 261: req: "cmd=tellmenow;x=2698", resp: "Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.", latency: 28 ms
+Request 228: req: "cmd=countprimes;n=997097", resp: "78286", latency: 2452 ms
+Request 234: req: "cmd=countprimes;n=998096", resp: "78367", latency: 2110 ms
+Request 240: req: "cmd=418wisdom;x=917", resp: "Worse is better. Keep it simple...", latency: 1723 ms
+Request 246: req: "cmd=418wisdom;x=82", resp: "Come to lecture, there might be donuts!", latency: 1385 ms
+Request 265: req: "cmd=tellmenow;x=1027", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 91 ms
+Request 231: req: "cmd=countprimes;n=999581", resp: "78471", latency: 2398 ms
+Request 243: req: "cmd=418wisdom;x=794", resp: "You are going to do a great project", latency: 1685 ms
+Request 237: req: "cmd=418wisdom;x=997", resp: "Do a great project, and it all works out in the end", latency: 2036 ms
+Request 220: req: "cmd=projectidea;x=51723", resp: "Parallelize an algorithm you are interested in on Latedays.", latency: 3337 ms
+Request 236: req: "cmd=countprimes;n=996695", resp: "78257", latency: 2203 ms
+Request 239: req: "cmd=countprimes;n=999895", resp: "78490", latency: 2079 ms
+Request 241: req: "cmd=countprimes;n=996372", resp: "78236", latency: 1954 ms
+Request 269: req: "cmd=tellmenow;x=1505", resp: "Figure out a way to understand the workload characteristics in each trace.", latency: 79 ms
+Request 248: req: "cmd=countprimes;n=999479", resp: "78464", latency: 1793 ms
+Request 249: req: "cmd=418wisdom;x=613", resp: "Ask questions. Ask questions. Ask questions", latency: 1746 ms
+Request 274: req: "cmd=tellmenow;x=995", resp: "Figure out a way to understand the workload characteristics in each trace.", latency: 40 ms
+Request 252: req: "cmd=418wisdom;x=486", resp: "Do as best as you can and just have fun!", latency: 1726 ms
+Request 253: req: "cmd=418wisdom;x=630", resp: "Bring out all the stops in assignment 4.", latency: 1580 ms
+Request 260: req: "cmd=countprimes;n=995795", resp: "78194", latency: 1107 ms
+Request 279: req: "cmd=tellmenow;x=2086", resp: "There may be opportunities for caching in this assignment", latency: 71 ms
+Request 244: req: "cmd=countprimes;n=998045", resp: "78363", latency: 2305 ms
+Request 255: req: "cmd=418wisdom;x=845", resp: "Be careful not to optimize prematurely", latency: 1709 ms
+Request 263: req: "cmd=countprimes;n=998832", resp: "78418", latency: 1116 ms
+Request 256: req: "cmd=418wisdom;x=243", resp: "You will PWN your classmates in the parallelism competition", latency: 1545 ms
+Request 250: req: "cmd=compareprimes;n1=957979;n2=990208;n3=955383;n4=962947", resp: "There are more primes in first range.", latency: 2136 ms
+Request 262: req: "cmd=418wisdom;x=117", resp: "You will perform amazingly on exam 2", latency: 1316 ms
+Request 283: req: "cmd=tellmenow;x=2737", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 100 ms
+Request 259: req: "cmd=418wisdom;x=732", resp: "OMG, 418 is so gr8!", latency: 1540 ms
+Request 287: req: "cmd=tellmenow;x=2954", resp: "There may be opportunities for caching in this assignment", latency: 39 ms
+Request 268: req: "cmd=countprimes;n=995562", resp: "78175", latency: 1376 ms
+ Request 264: req: "cmd=418wisdom;x=220", resp: "Come to lecture, there might be donuts!", latency: 1635 ms
+Request 258: req: "cmd=countprimes;n=998040", resp: "78363", latency: 2033 ms
+Request 290: req: "cmd=tellmenow;x=2232", resp: "Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.", latency: 24 ms
+Request 267: req: "cmd=418wisdom;x=795", resp: "Be careful not to optimize prematurely", latency: 1597 ms
+Request 270: req: "cmd=418wisdom;x=332", resp: "OMG, 418 is so gr8!", latency: 1476 ms
+Request 293: req: "cmd=tellmenow;x=916", resp: "There may be opportunities for caching in this assignment", latency: 40 ms
+Request 273: req: "cmd=418wisdom;x=816", resp: "Worse is better. Keep it simple...", latency: 1509 ms
+Request 245: req: "cmd=projectidea;x=862109", resp: "Investigate scale-out parallelism using Amazon web services", latency: 3359 ms
+Request 297: req: "cmd=tellmenow;x=2642", resp: "Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.", latency: 78 ms
+Request 278: req: "cmd=418wisdom;x=146", resp: "Exams are all just fun and games", latency: 1448 ms
+Request 275: req: "cmd=countprimes;n=997411", resp: "78316", latency: 1716 ms
+Request 266: req: "cmd=countprimes;n=999065", resp: "78438", latency: 2239 ms
+Request 302: req: "cmd=tellmenow;x=2978", resp: "Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.", latency: 40 ms
+Request 272: req: "cmd=countprimes;n=999194", resp: "78446", latency: 2082 ms
+Request 282: req: "cmd=countprimes;n=998177", resp: "78372", latency: 1542 ms
+Request 289: req: "cmd=418wisdom;x=910", resp: "Laugh at Kayvon's jokes", latency: 1162 ms
+Request 276: req: "cmd=418wisdom;x=100", resp: "Laugh at Kayvon's jokes", latency: 2038 ms
+Request 281: req: "cmd=418wisdom;x=698", resp: "Do a great project, and it all works out in the end", latency: 1716 ms
+Request 306: req: "cmd=tellmenow;x=1039", resp: "Re-watch the lecture on scaling a website", latency: 80 ms
+Request 284: req: "cmd=418wisdom;x=45", resp: "You will PWN your classmates in the parallelism competition", latency: 1717 ms
+Request 277: req: "cmd=countprimes;n=995500", resp: "78170", latency: 2113 ms
+Request 309: req: "cmd=tellmenow;x=2847", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 53 ms
+Request 286: req: "cmd=418wisdom;x=574", resp: "You will perform amazingly on exam 2", latency: 1653 ms
+Request 291: req: "cmd=418wisdom;x=534", resp: "Do a great project, and it all works out in the end", latency: 1461 ms
+Request 280: req: "cmd=countprimes;n=996311", resp: "78231", latency: 2232 ms
+Request 285: req: "cmd=countprimes;n=997680", resp: "78335", latency: 2021 ms
+Request 312: req: "cmd=tellmenow;x=1535", resp: "Figure out a way to understand the workload characteristics in each trace.", latency: 103 ms
+Request 316: req: "cmd=tellmenow;x=2894", resp: "There may be opportunities for caching in this assignment", latency: 39 ms
+Request 292: req: "cmd=418wisdom;x=681", resp: "Bring out all the stops in assignment 4.", latency: 1701 ms
+Request 294: req: "cmd=418wisdom;x=26", resp: "Laugh at Kayvon's jokes", latency: 1584 ms
+Request 299: req: "cmd=countprimes;n=999430", resp: "78460", latency: 1337 ms
+Request 271: req: "cmd=projectidea;x=790730", resp: "Computer vision is ripe for optimization these days", latency: 3140 ms
+Request 288: req: "cmd=compareprimes;n1=950741;n2=952044;n3=956924;n4=988777", resp: "There are more primes in second range.", latency: 2246 ms
+Request 296: req: "cmd=418wisdom;x=635", resp: "Be careful not to optimize prematurely", latency: 1634 ms
+Request 319: req: "cmd=tellmenow;x=2988", resp: "Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.", latency: 81 ms
+Request 300: req: "cmd=418wisdom;x=606", resp: "Bring out all the stops in assignment 4.", latency: 1557 ms
+Request 303: req: "cmd=418wisdom;x=576", resp: "Do a great project, and it all works out in the end", latency: 1483 ms
+Request 323: req: "cmd=tellmenow;x=2439", resp: "Re-watch the lecture on scaling a website", latency: 40 ms
+Request 295: req: "cmd=countprimes;n=996925", resp: "78272", latency: 1925 ms
+Request 305: req: "cmd=418wisdom;x=391", resp: "OMG, 418 is so gr8!", latency: 1513 ms
+Request 307: req: "cmd=418wisdom;x=370", resp: "OMG, 418 is so gr8!", latency: 1439 ms
+Request 301: req: "cmd=countprimes;n=999099", resp: "78441", latency: 1869 ms
+Request 327: req: "cmd=tellmenow;x=2050", resp: "We recommend getting full credit on grading_wisdom.txt first", latency: 101 ms
+Request 331: req: "cmd=tellmenow;x=462", resp: "Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.", latency: 13 ms
+Request 304: req: "cmd=compareprimes;n1=969602;n2=978960;n3=952435;n4=999313", resp: "There are more primes in second range.", latency: 1974 ms
+Request 310: req: "cmd=418wisdom;x=36", resp: "Flatter your TAs with compliments", latency: 1463 ms
+Request 313: req: "cmd=418wisdom;x=21", resp: "Bring out all the stops in assignment 4.", latency: 1458 ms
+Request 333: req: "cmd=tellmenow;x=14", resp: "There may be opportunities for caching in this assignment", latency: 79 ms
+Request 308: req: "cmd=418wisdom;x=981", resp: "Laugh at Kayvon's jokes", latency: 2034 ms
+Request 337: req: "cmd=tellmenow;x=1787", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 40 ms
+Request 317: req: "cmd=418wisdom;x=185", resp: "If all else fails... buy Kayvon donuts", latency: 1621 ms
+Request 342: req: "cmd=tellmenow;x=2114", resp: "There may be opportunities for caching in this assignment", latency: 39 ms
+Request 315: req: "cmd=418wisdom;x=961", resp: "Come to lecture, there might be donuts!", latency: 1920 ms
+Request 318: req: "cmd=418wisdom;x=124", resp: "Write a great lecture comment on your favorite idea in the class", latency: 1623 ms
+Request 311: req: "cmd=countprimes;n=999598", resp: "78471", latency: 2169 ms
+Request 298: req: "cmd=projectidea;x=858448", resp: "Use a modern parallel programming framework that we didn't teach in class.", latency: 3260 ms
+Request 346: req: "cmd=tellmenow;x=2807", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 42 ms
+Request 320: req: "cmd=418wisdom;x=210", resp: "Write a great lecture comment on your favorite idea in the class", latency: 1710 ms
+Request 324: req: "cmd=418wisdom;x=801", resp: "Be careful not to optimize prematurely", latency: 1560 ms
+Request 322: req: "cmd=countprimes;n=999461", resp: "78464", latency: 1638 ms
+Request 330: req: "cmd=418wisdom;x=426", resp: "Laugh at Kayvon's jokes", latency: 1165 ms
+Request 326: req: "cmd=418wisdom;x=937", resp: "Flatter your TAs with compliments", latency: 1474 ms
+Request 314: req: "cmd=compareprimes;n1=969970;n2=979954;n3=978013;n4=985168", resp: "There are more primes in first range.", latency: 2294 ms
+Request 350: req: "cmd=tellmenow;x=1551", resp: "Re-watch the lecture on scaling a website", latency: 40 ms
+Request 329: req: "cmd=418wisdom;x=22", resp: "You will PWN your classmates in the parallelism competition", latency: 1584 ms
+Request 353: req: "cmd=tellmenow;x=2091", resp: "Re-watch the lecture on scaling a website", latency: 39 ms
+Request 336: req: "cmd=418wisdom;x=221", resp: "If all else fails... buy Kayvon donuts", latency: 1248 ms
+Request 332: req: "cmd=418wisdom;x=101", resp: "You will PWN your classmates in the parallelism competition", latency: 1611 ms
+Request 357: req: "cmd=tellmenow;x=1942", resp: "Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.", latency: 15 ms
+Request 325: req: "cmd=countprimes;n=999926", resp: "78492", latency: 2211 ms
+Request 334: req: "cmd=418wisdom;x=260", resp: "Do a great project, and it all works out in the end", latency: 1712 ms
+Request 328: req: "cmd=compareprimes;n1=991842;n2=993919;n3=957270;n4=997072", resp: "There are more primes in second range.", latency: 2275 ms
+Request 359: req: "cmd=tellmenow;x=614", resp: "There may be opportunities for caching in this assignment", latency: 118 ms
+Request 339: req: "cmd=418wisdom;x=647", resp: "Bring out all the stops in assignment 4.", latency: 1536 ms
+Request 340: req: "cmd=countprimes;n=996439", resp: "78240", latency: 1482 ms
+Request 347: req: "cmd=418wisdom;x=504", resp: "Flatter your TAs with compliments", latency: 1257 ms
+Request 363: req: "cmd=tellmenow;x=1933", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 57 ms
+Request 335: req: "cmd=countprimes;n=996036", resp: "78210", latency: 1912 ms
+Request 366: req: "cmd=countprimes;n=995726", resp: "78190", latency: 0 ms
+Request 341: req: "cmd=418wisdom;x=350", resp: "Do a great project, and it all works out in the end", latency: 1788 ms
+Request 368: req: "cmd=tellmenow;x=2946", resp: "There may be opportunities for caching in this assignment", latency: 57 ms
+Request 338: req: "cmd=countprimes;n=999154", resp: "78444", latency: 2075 ms
+Request 343: req: "cmd=countprimes;n=997016", resp: "78278", latency: 1783 ms
+Request 321: req: "cmd=projectidea;x=262242", resp: "Use a modern parallel programming framework that we didn't teach in class.", latency: 3222 ms
+Request 373: req: "cmd=tellmenow;x=333", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 52 ms
+Request 355: req: "cmd=418wisdom;x=199", resp: "You will perform amazingly on exam 2", latency: 1178 ms
+Request 344: req: "cmd=418wisdom;x=180", resp: "You will PWN your classmates in the parallelism competition", latency: 1916 ms
+Request 351: req: "cmd=418wisdom;x=101", resp: "You will PWN your classmates in the parallelism competition", latency: 1511 ms
+Request 349: req: "cmd=418wisdom;x=39", resp: "Be careful not to optimize prematurely", latency: 1691 ms
+Request 345: req: "cmd=compareprimes;n1=952577;n2=981818;n3=953508;n4=988693", resp: "There are more primes in second range.", latency: 2040 ms
+Request 377: req: "cmd=tellmenow;x=2066", resp: "There may be opportunities for caching in this assignment", latency: 76 ms
+Request 352: req: "cmd=418wisdom;x=989", resp: "You will perform amazingly on exam 2", latency: 1725 ms
+Request 382: req: "cmd=tellmenow;x=1843", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 40 ms
+Request 356: req: "cmd=418wisdom;x=358", resp: "OMG, 418 is so gr8!", latency: 1493 ms
+Request 387: req: "cmd=tellmenow;x=1127", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 47 ms
+Request 358: req: "cmd=418wisdom;x=732", resp: "OMG, 418 is so gr8!", latency: 1618 ms
+Request 391: req: "cmd=tellmenow;x=2380", resp: "We recommend getting full credit on grading_wisdom.txt first", latency: 25 ms
+Request 360: req: "cmd=418wisdom;x=839", resp: "Worse is better. Keep it simple...", latency: 1745 ms
+Request 365: req: "cmd=418wisdom;x=169", resp: "Flatter your TAs with compliments", latency: 1478 ms
+Request 362: req: "cmd=418wisdom;x=919", resp: "You will PWN your classmates in the parallelism competition", latency: 1667 ms
+Request 354: req: "cmd=compareprimes;n1=964233;n2=988635;n3=975365;n4=991632", resp: "There are more primes in first range.", latency: 2295 ms
+Request 367: req: "cmd=418wisdom;x=673", resp: "Ask questions. Ask questions. Ask questions", latency: 1468 ms
+Request 348: req: "cmd=projectidea;x=647998", resp: "Cryptocurrencies!", latency: 2897 ms
+Request 395: req: "cmd=tellmenow;x=31", resp: "Re-watch the lecture on scaling a website", latency: 80 ms
+Request 400: req: "cmd=tellmenow;x=2678", resp: "Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.", latency: 79 ms
+Request 364: req: "cmd=countprimes;n=998702", resp: "78409", latency: 2052 msRequest 370: req: "cmd=418wisdom;x=967", resp: "You are going to do a great project", latency: 1735 ms
+
+Request 374: req: "cmd=418wisdom;x=58", resp: "OMG, 418 is so gr8!", latency: 1640 ms
+Request 406: req: "cmd=tellmenow;x=2452", resp: "Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.", latency: 51 ms
+Request 361: req: "cmd=countprimes;n=995572", resp: "78176", latency: 2301 ms
+Request 369: req: "cmd=countprimes;n=995312", resp: "78154", latency: 1922 ms
+Request 376: req: "cmd=418wisdom;x=676", resp: "Bring out all the stops in assignment 4.", latency: 1633 ms
+Request 379: req: "cmd=418wisdom;x=846", resp: "Do a great project, and it all works out in the end", latency: 1642 ms
+Request 386: req: "cmd=418wisdom;x=597", resp: "You will PWN your classmates in the parallelism competition", latency: 1233 ms
+Request 410: req: "cmd=tellmenow;x=1442", resp: "Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.", latency: 118 ms
+Request 390: req: "cmd=countprimes;n=997557", resp: "78325", latency: 1100 ms
+Request 372: req: "cmd=countprimes;n=996269", resp: "78228", latency: 2066 ms
+Request 383: req: "cmd=countprimes;n=997400", resp: "78316", latency: 1545 ms
+Request 381: req: "cmd=418wisdom;x=342", resp: "Laugh at Kayvon's jokes", latency: 1666 ms
+Request 375: req: "cmd=countprimes;n=997426", resp: "78316", latency: 2006 ms
+Request 392: req: "cmd=418wisdom;x=174", resp: "You will perform amazingly on exam 2", latency: 1155 ms
+Request 384: req: "cmd=418wisdom;x=250", resp: "Ask questions. Ask questions. Ask questions", latency: 1570 ms
+Request 414: req: "cmd=tellmenow;x=324", resp: "There may be opportunities for caching in this assignment", latency: 96 ms
+Request 380: req: "cmd=countprimes;n=996918", resp: "78272", latency: 1861 ms
+ Request 378: req: "cmd=countprimes;n=995421", resp: "78165", latency: 1998 ms
+Request 419: req: "cmd=tellmenow;x=1358", resp: "Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.", latency: 0 ms
+Request 388: req: "cmd=countprimes;n=998222", resp: "78376", latency: 1715 ms
+Request 402: req: "cmd=countprimes;n=997827", resp: "78348", latency: 1068 ms
+Request 422: req: "cmd=tellmenow;x=1753", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 80 ms
+Request 385: req: "cmd=countprimes;n=995370", resp: "78161", latency: 1989 ms
+Request 394: req: "cmd=418wisdom;x=472", resp: "Exams are all just fun and games", latency: 1582 ms
+Request 389: req: "cmd=418wisdom;x=442", resp: "Be careful not to optimize prematurely", latency: 1883 ms
+Request 403: req: "cmd=418wisdom;x=509", resp: "Do as best as you can and just have fun!", latency: 1362 ms
+Request 425: req: "cmd=tellmenow;x=761", resp: "Re-watch the lecture on scaling a website", latency: 71 ms
+Request 393: req: "cmd=countprimes;n=995352", resp: "78159", latency: 1948 ms
+Request 399: req: "cmd=418wisdom;x=569", resp: "Laugh at Kayvon's jokes", latency: 1645 ms
+Request 397: req: "cmd=418wisdom;x=410", resp: "Bring out all the stops in assignment 4.", latency: 1788 ms
+Request 371: req: "cmd=projectidea;x=95718", resp: "Cryptocurrencies!", latency: 3153 ms
+Request 430: req: "cmd=tellmenow;x=1460", resp: "We recommend getting full credit on grading_wisdom.txt first", latency: 79 ms
+Request 412: req: "cmd=countprimes;n=997334", resp: "78311", latency: 1117 ms
+Request 396: req: "cmd=countprimes;n=996920", resp: "78272", latency: 1914 ms
+Request 398: req: "cmd=countprimes;n=998321", resp: "78382", latency: 1911 ms
+Request 405: req: "cmd=418wisdom;x=311", resp: "Laugh at Kayvon's jokes", latency: 1645 ms
+Request 435: req: "cmd=tellmenow;x=2327", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 79 ms
+Request 408: req: "cmd=418wisdom;x=357", resp: "You will PWN your classmates in the parallelism competition", latency: 1568 ms
+Request 411: req: "cmd=418wisdom;x=838", resp: "Worse is better. Keep it simple...", latency: 1612 ms
+Request 439: req: "cmd=tellmenow;x=2769", resp: "Re-watch the lecture on scaling a website", latency: 37 ms
+Request 413: req: "cmd=418wisdom;x=251", resp: "Worse is better. Keep it simple...", latency: 1521 ms
+Request 418: req: "cmd=418wisdom;x=12", resp: "OMG, 418 is so gr8!", latency: 1271 ms
+Request 407: req: "cmd=countprimes;n=997011", resp: "78277", latency: 1918 ms
+Request 404: req: "cmd=countprimes;n=998328", resp: "78382", latency: 2094 ms
+Request 409: req: "cmd=countprimes;n=998720", resp: "78410", latency: 1871 ms
+Request 420: req: "cmd=418wisdom;x=742", resp: "Do a great project, and it all works out in the end", latency: 1345 ms
+Request 442: req: "cmd=tellmenow;x=1685", resp: "Figure out a way to understand the workload characteristics in each trace.", latency: 79 ms
+Request 416: req: "cmd=418wisdom;x=561", resp: "Flatter your TAs with compliments", latency: 1722 ms
+Request 446: req: "cmd=tellmenow;x=2482", resp: "Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.", latency: 43 ms
+Request 421: req: "cmd=418wisdom;x=336", resp: "Laugh at Kayvon's jokes", latency: 1429 ms
+Request 417: req: "cmd=compareprimes;n1=969194;n2=998860;n3=967113;n4=975616", resp: "There are more primes in first range.", latency: 1830 ms
+Request 427: req: "cmd=countprimes;n=997176", resp: "78298", latency: 1237 ms
+Request 423: req: "cmd=418wisdom;x=45", resp: "You will PWN your classmates in the parallelism competition", latency: 1470 ms
+Request 451: req: "cmd=tellmenow;x=233", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 39 ms
+Request 429: req: "cmd=418wisdom;x=240", resp: "Do a great project, and it all works out in the end", latency: 1300 ms
+Request 415: req: "cmd=countprimes;n=998886", resp: "78422", latency: 2176 ms
+Request 426: req: "cmd=418wisdom;x=281", resp: "You will perform amazingly on exam 2", latency: 1498 ms
+Request 456: req: "cmd=tellmenow;x=2569", resp: "Re-watch the lecture on scaling a website", latency: 60 ms
+Request 401: req: "cmd=projectidea;x=826573", resp: "Computer vision is ripe for optimization these days", latency: 3050 ms
+Request 461: req: "cmd=tellmenow;x=2763", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 0 ms
+Request 438: req: "cmd=418wisdom;x=359", resp: "You are going to do a great project", latency: 1288 ms
+Request 434: req: "cmd=418wisdom;x=352", resp: "Laugh at Kayvon's jokes", latency: 1538 ms
+Request 437: req: "cmd=418wisdom;x=288", resp: "Do a great project, and it all works out in the end", latency: 1534 ms
+Request 466: req: "cmd=tellmenow;x=504", resp: "There may be opportunities for caching in this assignment", latency: 40 ms
+Request 467: req: "cmd=countprimes;n=996439", resp: "78240", latency: 40 ms
+Request 424: req: "cmd=countprimes;n=995384", resp: "78163", latency: 2144 ms
+Request 432: req: "cmd=418wisdom;x=954", resp: "Write a great lecture comment on your favorite idea in the class", latency: 1899 ms
+Request 431: req: "cmd=countprimes;n=997729", resp: "78339", latency: 1931 ms
+Request 471: req: "cmd=tellmenow;x=2483", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 40 ms
+Request 441: req: "cmd=418wisdom;x=634", resp: "You are going to do a great project", latency: 1530 ms
+Request 475: req: "cmd=tellmenow;x=2549", resp: "Re-watch the lecture on scaling a website", latency: 40 ms
+Request 436: req: "cmd=compareprimes;n1=967935;n2=997125;n3=958991;n4=963463", resp: "There are more primes in first range.", latency: 2071 ms
+Request 440: req: "cmd=418wisdom;x=947", resp: "Flatter your TAs with compliments", latency: 1839 ms
+Request 447: req: "cmd=418wisdom;x=716", resp: "Do a great project, and it all works out in the end", latency: 1476 ms
+Request 480: req: "cmd=tellmenow;x=2636", resp: "There may be opportunities for caching in this assignment", latency: 0 ms
+Request 444: req: "cmd=418wisdom;x=621", resp: "Ask questions. Ask questions. Ask questions", latency: 1679 ms
+Request 433: req: "cmd=countprimes;n=995558", resp: "78175", latency: 2412 ms
+Request 443: req: "cmd=countprimes;n=999571", resp: "78471", latency: 1851 ms
+Request 449: req: "cmd=418wisdom;x=388", resp: "Write a great lecture comment on your favorite idea in the class", latency: 1619 ms
+Request 452: req: "cmd=418wisdom;x=414", resp: "Do as best as you can and just have fun!", latency: 1575 ms
+Request 484: req: "cmd=tellmenow;x=1551", resp: "Re-watch the lecture on scaling a website", latency: 80 ms
+Request 454: req: "cmd=418wisdom;x=651", resp: "Come to lecture, there might be donuts!", latency: 1524 ms
+Request 460: req: "cmd=418wisdom;x=192", resp: "Exams are all just fun and games", latency: 1298 ms
+Request 450: req: "cmd=countprimes;n=998714", resp: "78409", latency: 1690 ms
+Request 445: req: "cmd=countprimes;n=995006", resp: "78138", latency: 1935 ms
+Request 462: req: "cmd=countprimes;n=997630", resp: "78331", latency: 1208 ms
+Request 428: req: "cmd=projectidea;x=333613", resp: "Check out last year's parallelism computation page for more ideas", latency: 2999 ms
+Request 490: req: "cmd=tellmenow;x=1825", resp: "Figure out a way to understand the workload characteristics in each trace.", latency: 52 ms
+Request 463: req: "cmd=418wisdom;x=334", resp: "Be careful not to optimize prematurely", latency: 1343 ms
+Request 448: req: "cmd=countprimes;n=996181", resp: "78221", latency: 2064 ms
+Request 458: req: "cmd=418wisdom;x=1", resp: "OMG, 418 is so gr8!", latency: 1730 ms
+Request 453: req: "cmd=countprimes;n=998417", resp: "78388", latency: 1919 ms
+Request 457: req: "cmd=countprimes;n=998923", resp: "78425", latency: 1797 ms
+Request 495: req: "cmd=tellmenow;x=624", resp: "There may be opportunities for caching in this assignment", latency: 115 ms
+Request 472: req: "cmd=countprimes;n=998536", resp: "78396", latency: 1198 ms
+Request 465: req: "cmd=418wisdom;x=239", resp: "If all else fails... buy Kayvon donuts", latency: 1548 ms
+Request 473: req: "cmd=418wisdom;x=876", resp: "Do a great project, and it all works out in the end", latency: 1193 ms
+Request 500: req: "cmd=tellmenow;x=2125", resp: "Figure out a way to understand the workload characteristics in each trace.", latency: 81 ms
+Request 464: req: "cmd=countprimes;n=995824", resp: "78195", latency: 1698 ms
+Request 459: req: "cmd=countprimes;n=995218", resp: "78148", latency: 1956 ms
+Request 477: req: "cmd=countprimes;n=995867", resp: "78196", latency: 1137 ms
+Request 468: req: "cmd=418wisdom;x=638", resp: "You are going to do a great project", latency: 1599 ms
+Request 474: req: "cmd=countprimes;n=997999", resp: "78359", latency: 1280 ms
+Request 505: req: "cmd=tellmenow;x=1215", resp: "Figure out a way to understand the workload characteristics in each trace.", latency: 39 ms
+Request 470: req: "cmd=418wisdom;x=379", resp: "You are going to do a great project", latency: 1621 ms
+Request 510: req: "cmd=tellmenow;x=63", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 4 ms
+Request 478: req: "cmd=418wisdom;x=414", resp: "Do as best as you can and just have fun!", latency: 1590 ms
+Request 469: req: "cmd=countprimes;n=997418", resp: "78316", latency: 1971 ms
+Request 476: req: "cmd=418wisdom;x=568", resp: "You will perform amazingly on exam 2", latency: 1738 ms
+Request 514: req: "cmd=tellmenow;x=402", resp: "Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.", latency: 67 ms
+Request 483: req: "cmd=418wisdom;x=702", resp: "Worse is better. Keep it simple...", latency: 1480 ms
+Request 481: req: "cmd=418wisdom;x=402", resp: "If all else fails... buy Kayvon donuts", latency: 1635 ms
+Request 492: req: "cmd=418wisdom;x=46", resp: "If all else fails... buy Kayvon donuts", latency: 1179 ms
+Request 486: req: "cmd=418wisdom;x=418", resp: "You are going to do a great project", latency: 1522 ms
+Request 520: req: "cmd=tellmenow;x=1165", resp: "Figure out a way to understand the workload characteristics in each trace.", latency: 67 ms
+Request 489: req: "cmd=418wisdom;x=662", resp: "Be careful not to optimize prematurely", latency: 1475 ms
+Request 493: req: "cmd=countprimes;n=999813", resp: "78487", latency: 1295 ms
+Request 524: req: "cmd=tellmenow;x=2656", resp: "There may be opportunities for caching in this assignment", latency: 40 ms
+Request 485: req: "cmd=countprimes;n=998143", resp: "78369", latency: 1731 ms
+Request 527: req: "cmd=tellmenow;x=1695", resp: "Figure out a way to understand the workload characteristics in each trace.", latency: 0 ms
+Request 497: req: "cmd=418wisdom;x=259", resp: "Bring out all the stops in assignment 4.", latency: 1488 ms
+Request 502: req: "cmd=418wisdom;x=528", resp: "Come to lecture, there might be donuts!", latency: 1294 ms
+Request 491: req: "cmd=countprimes;n=996476", resp: "78241", latency: 1782 ms
+Request 479: req: "cmd=countprimes;n=997892", resp: "78352", latency: 2251 ms
+Request 488: req: "cmd=countprimes;n=996957", resp: "78273", latency: 2039 ms
+Request 499: req: "cmd=418wisdom;x=157", resp: "Worse is better. Keep it simple...", latency: 1555 ms
+Request 531: req: "cmd=tellmenow;x=2749", resp: "Re-watch the lecture on scaling a website", latency: 45 ms
+Request 494: req: "cmd=418wisdom;x=445", resp: "You will perform amazingly on exam 2", latency: 1794 ms
+Request 508: req: "cmd=countprimes;n=997683", resp: "78336", latency: 1222 ms
+Request 504: req: "cmd=418wisdom;x=487", resp: "You are going to do a great project", latency: 1451 ms
+Request 536: req: "cmd=tellmenow;x=2789", resp: "Re-watch the lecture on scaling a website", latency: 39 ms
+Request 511: req: "cmd=countprimes;n=995573", resp: "78176", latency: 1263 ms
+Request 501: req: "cmd=countprimes;n=996688", resp: "78256", latency: 1747 ms
+Request 509: req: "cmd=418wisdom;x=756", resp: "Ask questions. Ask questions. Ask questions", latency: 1384 ms
+Request 512: req: "cmd=418wisdom;x=884", resp: "Flatter your TAs with compliments", latency: 1378 ms
+Request 482: req: "cmd=countprimes;n=997839", resp: "78348", latency: 2664 ms
+Request 455: req: "cmd=projectidea;x=955148", resp: "Implement a parallelizing compiler.", latency: 3953 ms
+Request 541: req: "cmd=tellmenow;x=260", resp: "We recommend getting full credit on grading_wisdom.txt first", latency: 95 ms
+Request 506: req: "cmd=countprimes;n=998800", resp: "78415", latency: 1782 ms
+Request 496: req: "cmd=countprimes;n=999330", resp: "78455", latency: 2265 ms
+Request 503: req: "cmd=countprimes;n=996610", resp: "78250", latency: 1978 ms
+Request 521: req: "cmd=418wisdom;x=467", resp: "You will perform amazingly on exam 2", latency: 1300 ms
+Request 507: req: "cmd=418wisdom;x=561", resp: "Flatter your TAs with compliments", latency: 1859 ms
+Request 545: req: "cmd=tellmenow;x=1765", resp: "Figure out a way to understand the workload characteristics in each trace.", latency: 79 ms
+Request 515: req: "cmd=418wisdom;x=495", resp: "OMG, 418 is so gr8!", latency: 1548 ms
+Request 517: req: "cmd=418wisdom;x=312", resp: "You will perform amazingly on exam 2", latency: 1546 ms
+Request 498: req: "cmd=countprimes;n=999712", resp: "78480", latency: 2398 ms
+Request 513: req: "cmd=countprimes;n=997399", resp: "78316", latency: 1724 ms
+Request 549: req: "cmd=tellmenow;x=1003", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 119 ms
+Request 523: req: "cmd=418wisdom;x=809", resp: "Laugh at Kayvon's jokes", latency: 1451 ms
+Request 525: req: "cmd=418wisdom;x=875", resp: "Bring out all the stops in assignment 4.", latency: 1413 ms
+Request 554: req: "cmd=tellmenow;x=1520", resp: "We recommend getting full credit on grading_wisdom.txt first", latency: 79 ms
+Request 526: req: "cmd=418wisdom;x=813", resp: "Write a great lecture comment on your favorite idea in the class", latency: 1462 ms
+Request 528: req: "cmd=418wisdom;x=188", resp: "Exams are all just fun and games", latency: 1378 ms
+Request 522: req: "cmd=compareprimes;n1=960514;n2=974837;n3=969484;n4=975587", resp: "There are more primes in first range.", latency: 1730 ms
+Request 558: req: "cmd=tellmenow;x=1367", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 80 ms
+Request 537: req: "cmd=countprimes;n=997786", resp: "78344", latency: 1246 ms
+Request 561: req: "cmd=tellmenow;x=1440", resp: "We recommend getting full credit on grading_wisdom.txt first", latency: 40 ms
+Request 516: req: "cmd=countprimes;n=998002", resp: "78359", latency: 2233 ms
+Request 530: req: "cmd=418wisdom;x=1000", resp: "Bring out all the stops in assignment 4.", latency: 1553 ms
+Request 519: req: "cmd=countprimes;n=998550", resp: "78398", latency: 2156 ms
+Request 529: req: "cmd=countprimes;n=997033", resp: "78280", latency: 1611 ms
+Request 533: req: "cmd=418wisdom;x=633", resp: "Flatter your TAs with compliments", latency: 1495 ms
+Request 487: req: "cmd=projectidea;x=471383", resp: "Implement a cache simulator that supports invalidation-based coherence.", latency: 3610 ms
+Request 540: req: "cmd=418wisdom;x=987", resp: "Come to lecture, there might be donuts!", latency: 1221 ms
+Request 566: req: "cmd=tellmenow;x=305", resp: "Figure out a way to understand the workload characteristics in each trace.", latency: 80 ms
+Request 538: req: "cmd=418wisdom;x=726", resp: "Be careful not to optimize prematurely", latency: 1506 ms
+Request 532: req: "cmd=countprimes;n=995216", resp: "78148", latency: 1905 ms
+Request 571: req: "cmd=tellmenow;x=2500", resp: "We recommend getting full credit on grading_wisdom.txt first", latency: 81 ms
+Request 539: req: "cmd=compareprimes;n1=975074;n2=984432;n3=965709;n4=970989", resp: "There are more primes in first range.", latency: 1623 ms
+Request 534: req: "cmd=countprimes;n=998020", resp: "78361", latency: 1879 ms
+Request 535: req: "cmd=418wisdom;x=83", resp: "Bring out all the stops in assignment 4.", latency: 1897 ms
+Request 543: req: "cmd=418wisdom;x=679", resp: "Exams are all just fun and games", latency: 1485 ms
+Request 577: req: "cmd=tellmenow;x=1471", resp: "Re-watch the lecture on scaling a website", latency: 55 ms
+Request 542: req: "cmd=418wisdom;x=402", resp: "If all else fails... buy Kayvon donuts", latency: 1670 ms
+Request 546: req: "cmd=418wisdom;x=316", resp: "If all else fails... buy Kayvon donuts", latency: 1459 ms
+Request 582: req: "cmd=tellmenow;x=1935", resp: "Figure out a way to understand the workload characteristics in each trace.", latency: 7 ms
+Request 548: req: "cmd=418wisdom;x=213", resp: "Ask questions. Ask questions. Ask questions", latency: 1556 ms
+Request 556: req: "cmd=418wisdom;x=823", resp: "You will PWN your classmates in the parallelism competition", latency: 1356 ms
+Request 587: req: "cmd=tellmenow;x=1418", resp: "Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.", latency: 50 ms
+Request 553: req: "cmd=418wisdom;x=2", resp: "You are going to do a great project", latency: 1581 ms
+Request 547: req: "cmd=countprimes;n=999677", resp: "78479", latency: 1814 ms
+Request 551: req: "cmd=418wisdom;x=718", resp: "OMG, 418 is so gr8!", latency: 1743 ms
+Request 550: req: "cmd=countprimes;n=996927", resp: "78272", latency: 1849 ms
+Request 557: req: "cmd=418wisdom;x=528", resp: "Come to lecture, there might be donuts!", latency: 1519 ms
+Request 560: req: "cmd=418wisdom;x=119", resp: "Do as best as you can and just have fun!", latency: 1313 ms
+Request 559: req: "cmd=418wisdom;x=97", resp: "You are going to do a great project", latency: 1427 ms
+Request 590: req: "cmd=tellmenow;x=543", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 118 ms
+Request 592: req: "cmd=countprimes;n=996957", resp: "78273", latency: 40 ms
+Request 564: req: "cmd=countprimes;n=997409", resp: "78316", latency: 1279 ms
+Request 595: req: "cmd=countprimes;n=999461", resp: "78464", latency: 39 ms
+Request 594: req: "cmd=tellmenow;x=1623", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 120 ms
+Request 552: req: "cmd=countprimes;n=995575", resp: "78177", latency: 1996 ms
+Request 565: req: "cmd=418wisdom;x=874", resp: "You will perform amazingly on exam 2", latency: 1404 ms
+Request 555: req: "cmd=compareprimes;n1=988146;n2=999160;n3=977939;n4=980750", resp: "There are more primes in first range.", latency: 1976 ms
+Request 569: req: "cmd=countprimes;n=999978", resp: "78496", latency: 1301 ms
+Request 563: req: "cmd=418wisdom;x=649", resp: "Do a great project, and it all works out in the end", latency: 1623 ms
+Request 570: req: "cmd=418wisdom;x=979", resp: "Worse is better. Keep it simple...", latency: 1336 ms
+Request 568: req: "cmd=418wisdom;x=280", resp: "Exams are all just fun and games", latency: 1454 ms
+Request 599: req: "cmd=tellmenow;x=478", resp: "Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.", latency: 135 ms
+Request 605: req: "cmd=tellmenow;x=2557", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 39 ms
+Request 574: req: "cmd=418wisdom;x=100", resp: "Laugh at Kayvon's jokes", latency: 1477 ms
+Request 562: req: "cmd=countprimes;n=999496", resp: "78465", latency: 1938 ms
+Request 610: req: "cmd=tellmenow;x=2495", resp: "Figure out a way to understand the workload characteristics in each trace.", latency: 90 ms
+Request 518: req: "cmd=projectidea;x=33067", resp: "Play around with interesting hardware, like FPGAs, Raspberry PIs, Tegra K1, or Oculus Rift", latency: 4212 ms
+Request 567: req: "cmd=countprimes;n=998382", resp: "78386", latency: 1919 ms
+Request 583: req: "cmd=countprimes;n=997818", resp: "78348", latency: 1326 ms
+Request 581: req: "cmd=418wisdom;x=81", resp: "You will PWN your classmates in the parallelism competition", latency: 1410 ms
+Request 585: req: "cmd=compareprimes;n1=989435;n2=991180;n3=954574;n4=986506", resp: "There are more primes in second range.", latency: 1227 ms
+Request 575: req: "cmd=countprimes;n=999273", resp: "78452", latency: 1657 ms
+Request 586: req: "cmd=418wisdom;x=453", resp: "Write a great lecture comment on your favorite idea in the class", latency: 1318 ms
+Request 615: req: "cmd=tellmenow;x=431", resp: "Re-watch the lecture on scaling a website", latency: 119 ms
+Request 576: req: "cmd=418wisdom;x=854", resp: "Write a great lecture comment on your favorite idea in the class", latency: 1731 ms
+Request 579: req: "cmd=418wisdom;x=397", resp: "Do a great project, and it all works out in the end", latency: 1677 ms
+Request 588: req: "cmd=418wisdom;x=793", resp: "You are going to do a great project", latency: 1372 ms
+Request 620: req: "cmd=tellmenow;x=206", resp: "There may be opportunities for caching in this assignment", latency: 74 ms
+Request 584: req: "cmd=418wisdom;x=274", resp: "You will PWN your classmates in the parallelism competition", latency: 1589 ms
+Request 625: req: "cmd=tellmenow;x=205", resp: "Figure out a way to understand the workload characteristics in each trace.", latency: 40 ms
+Request 626: req: "cmd=countprimes;n=997399", resp: "78316", latency: 27 ms
+Request 578: req: "cmd=countprimes;n=996654", resp: "78256", latency: 2064 ms
+Request 589: req: "cmd=418wisdom;x=862", resp: "Come to lecture, there might be donuts!", latency: 1554 ms
+Request 573: req: "cmd=countprimes;n=995456", resp: "78168", latency: 2319 ms
+Request 630: req: "cmd=tellmenow;x=1180", resp: "We recommend getting full credit on grading_wisdom.txt first", latency: 54 ms
+Request 591: req: "cmd=418wisdom;x=133", resp: "Laugh at Kayvon's jokes", latency: 1648 ms
+Request 593: req: "cmd=418wisdom;x=521", resp: "Worse is better. Keep it simple...", latency: 1551 ms
+Request 637: req: "cmd=tellmenow;x=2860", resp: "We recommend getting full credit on grading_wisdom.txt first", latency: 40 ms
+Request 580: req: "cmd=countprimes;n=997983", resp: "78358", latency: 2258 ms
+Request 598: req: "cmd=418wisdom;x=347", resp: "Come to lecture, there might be donuts!", latency: 1493 ms
+Request 596: req: "cmd=418wisdom;x=651", resp: "Come to lecture, there might be donuts!", latency: 1602 ms
+Request 613: req: "cmd=countprimes;n=998672", resp: "78406", latency: 1063 ms
+Request 601: req: "cmd=418wisdom;x=872", resp: "Come to lecture, there might be donuts!", latency: 1533 ms
+Request 642: req: "cmd=tellmenow;x=1668", resp: "Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.", latency: 80 ms
+Request 607: req: "cmd=418wisdom;x=18", resp: "You will PWN your classmates in the parallelism competition", latency: 1453 ms
+Request 597: req: "cmd=countprimes;n=999612", resp: "78473", latency: 1795 ms
+Request 604: req: "cmd=418wisdom;x=278", resp: "You will PWN your classmates in the parallelism competition", latency: 1601 ms
+Request 648: req: "cmd=tellmenow;x=796", resp: "There may be opportunities for caching in this assignment", latency: 39 ms
+Request 572: req: "cmd=projectidea;x=625532", resp: "There are also great projects on parallelizing graphics, comptuer vision, or machine learning.", latency: 2972 ms
+Request 609: req: "cmd=418wisdom;x=40", resp: "Worse is better. Keep it simple...", latency: 1529 ms
+Request 614: req: "cmd=418wisdom;x=558", resp: "You will PWN your classmates in the parallelism competition", latency: 1388 ms
+Request 612: req: "cmd=418wisdom;x=681", resp: "Bring out all the stops in assignment 4.", latency: 1510 ms
+Request 600: req: "cmd=countprimes;n=999323", resp: "78454", latency: 1942 ms
+Request 603: req: "cmd=countprimes;n=996477", resp: "78241", latency: 1886 ms
+Request 652: req: "cmd=tellmenow;x=689", resp: "Re-watch the lecture on scaling a website", latency: 97 ms
+Request 606: req: "cmd=countprimes;n=997952", resp: "78355", latency: 1911 ms
+Request 655: req: "cmd=tellmenow;x=332", resp: "Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.", latency: 59 ms
+Request 617: req: "cmd=418wisdom;x=947", resp: "Flatter your TAs with compliments", latency: 1573 ms
+Request 627: req: "cmd=418wisdom;x=749", resp: "If all else fails... buy Kayvon donuts", latency: 1281 ms
+Request 622: req: "cmd=418wisdom;x=910", resp: "Laugh at Kayvon's jokes", latency: 1467 ms
+Request 624: req: "cmd=418wisdom;x=42", resp: "Do as best as you can and just have fun!", latency: 1441 ms
+Request 660: req: "cmd=tellmenow;x=423", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 79 ms
+Request 619: req: "cmd=418wisdom;x=939", resp: "Come to lecture, there might be donuts!", latency: 1723 ms
+Request 611: req: "cmd=countprimes;n=997480", resp: "78321", latency: 2018 ms
+Request 621: req: "cmd=countprimes;n=995910", resp: "78200", latency: 1695 ms
+Request 608: req: "cmd=countprimes;n=995650", resp: "78183", latency: 2190 ms
+Request 666: req: "cmd=tellmenow;x=2436", resp: "There may be opportunities for caching in this assignment", latency: 64 ms
+Request 616: req: "cmd=countprimes;n=995392", resp: "78164", latency: 2090 ms
+Request 671: req: "cmd=tellmenow;x=416", resp: "There may be opportunities for caching in this assignment", latency: 39 ms
+Request 634: req: "cmd=418wisdom;x=713", resp: "Flatter your TAs with compliments", latency: 1466 ms
+Request 632: req: "cmd=418wisdom;x=656", resp: "Come to lecture, there might be donuts!", latency: 1579 ms
+Request 640: req: "cmd=418wisdom;x=640", resp: "Ask questions. Ask questions. Ask questions", latency: 1408 ms
+Request 643: req: "cmd=418wisdom;x=372", resp: "If all else fails... buy Kayvon donuts", latency: 1340 ms
+Request 629: req: "cmd=418wisdom;x=702", resp: "Worse is better. Keep it simple...", latency: 1813 ms
+Request 675: req: "cmd=tellmenow;x=2593", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 40 ms
+Request 638: req: "cmd=418wisdom;x=903", resp: "If all else fails... buy Kayvon donuts", latency: 1544 ms
+Request 618: req: "cmd=countprimes;n=998319", resp: "78382", latency: 2229 ms
+Request 633: req: "cmd=countprimes;n=999262", resp: "78451", latency: 1690 ms
+Request 645: req: "cmd=418wisdom;x=538", resp: "Do a great project, and it all works out in the end", latency: 1401 ms
+Request 623: req: "cmd=countprimes;n=995085", resp: "78143", latency: 2165 ms
+Request 680: req: "cmd=tellmenow;x=2469", resp: "Re-watch the lecture on scaling a website", latency: 79 ms
+Request 646: req: "cmd=countprimes;n=997425", resp: "78316", latency: 1455 ms
+Request 685: req: "cmd=tellmenow;x=410", resp: "We recommend getting full credit on grading_wisdom.txt first", latency: 18 ms
+Request 647: req: "cmd=418wisdom;x=208", resp: "Worse is better. Keep it simple...", latency: 1581 ms
+Request 628: req: "cmd=countprimes;n=999076", resp: "78439", latency: 2233 ms
+Request 690: req: "cmd=tellmenow;x=1676", resp: "There may be opportunities for caching in this assignment", latency: 0 ms
+Request 650: req: "cmd=418wisdom;x=587", resp: "Write a great lecture comment on your favorite idea in the class", latency: 1609 ms
+Request 651: req: "cmd=418wisdom;x=8", resp: "Ask questions. Ask questions. Ask questions", latency: 1618 ms
+Request 649: req: "cmd=compareprimes;n1=960999;n2=965937;n3=958720;n4=965830", resp: "There are more primes in second range.", latency: 1776 ms
+Request 654: req: "cmd=418wisdom;x=333", resp: "You will perform amazingly on exam 2", latency: 1506 ms
+Request 653: req: "cmd=418wisdom;x=151", resp: "Do as best as you can and just have fun!", latency: 1635 ms
+Request 641: req: "cmd=countprimes;n=996035", resp: "78210", latency: 2110 ms
+Request 657: req: "cmd=418wisdom;x=790", resp: "Be careful not to optimize prematurely", latency: 1471 ms
+Request 658: req: "cmd=countprimes;n=998670", resp: "78406", latency: 1393 ms
+Request 631: req: "cmd=countprimes;n=999493", resp: "78465", latency: 2478 ms
+Request 659: req: "cmd=418wisdom;x=719", resp: "Write a great lecture comment on your favorite idea in the class", latency: 1408 ms
+Request 636: req: "cmd=countprimes;n=998959", resp: "78430", latency: 2332 ms
+Request 602: req: "cmd=projectidea;x=287081", resp: "Consider large-scale graph algorithms", latency: 3601 ms
+Request 696: req: "cmd=tellmenow;x=21", resp: "Re-watch the lecture on scaling a website", latency: 144 ms
+Request 661: req: "cmd=countprimes;n=995943", resp: "78202", latency: 1450 ms
+Request 644: req: "cmd=countprimes;n=995016", resp: "78139", latency: 2206 ms
+Request 639: req: "cmd=countprimes;n=995020", resp: "78139", latency: 2402 ms
+Request 701: req: "cmd=tellmenow;x=2586", resp: "There may be opportunities for caching in this assignment", latency: 80 ms
+Request 662: req: "cmd=418wisdom;x=338", resp: "You are going to do a great project", latency: 1560 ms
+Request 708: req: "cmd=tellmenow;x=1675", resp: "Figure out a way to understand the workload characteristics in each trace.", latency: 40 ms
+Request 670: req: "cmd=418wisdom;x=164", resp: "Ask questions. Ask questions. Ask questions", latency: 1444 ms
+Request 664: req: "cmd=418wisdom;x=621", resp: "Ask questions. Ask questions. Ask questions", latency: 1681 ms
+Request 668: req: "cmd=418wisdom;x=41", resp: "You are going to do a great project", latency: 1637 ms
+Request 711: req: "cmd=countprimes;n=996957", resp: "78273", latency: 40 ms
+Request 713: req: "cmd=tellmenow;x=2266", resp: "There may be opportunities for caching in this assignment", latency: 79 ms
+Request 669: req: "cmd=countprimes;n=997762", resp: "78342", latency: 1631 ms
+Request 674: req: "cmd=418wisdom;x=289", resp: "Exams are all just fun and games", latency: 1525 ms
+Request 676: req: "cmd=418wisdom;x=395", resp: "Write a great lecture comment on your favorite idea in the class", latency: 1468 ms
+Request 673: req: "cmd=418wisdom;x=982", resp: "Worse is better. Keep it simple...", latency: 1681 ms
+Request 717: req: "cmd=tellmenow;x=1471", resp: "Re-watch the lecture on scaling a website", latency: 84 ms
+Request 663: req: "cmd=countprimes;n=996361", resp: "78234", latency: 2027 ms
+Request 656: req: "cmd=countprimes;n=996157", resp: "78216", latency: 2355 ms
+Request 667: req: "cmd=countprimes;n=999846", resp: "78487", latency: 2042 ms
+Request 720: req: "cmd=tellmenow;x=2071", resp: "Re-watch the lecture on scaling a website", latency: 41 ms
+Request 682: req: "cmd=418wisdom;x=478", resp: "You are going to do a great project", latency: 1434 ms
+Request 679: req: "cmd=418wisdom;x=293", resp: "Flatter your TAs with compliments", latency: 1567 ms
+Request 677: req: "cmd=418wisdom;x=549", resp: "You will PWN your classmates in the parallelism competition", latency: 1653 ms
+Request 726: req: "cmd=tellmenow;x=2794", resp: "There may be opportunities for caching in this assignment", latency: 0 ms
+Request 684: req: "cmd=418wisdom;x=239", resp: "If all else fails... buy Kayvon donuts", latency: 1524 ms
+Request 683: req: "cmd=countprimes;n=999481", resp: "78464", latency: 1571 ms
+Request 693: req: "cmd=countprimes;n=996721", resp: "78258", latency: 1304 ms
+Request 689: req: "cmd=418wisdom;x=179", resp: "You will PWN your classmates in the parallelism competition", latency: 1483 ms
+Request 687: req: "cmd=418wisdom;x=48", resp: "Be careful not to optimize prematurely", latency: 1567 ms
+Request 733: req: "cmd=tellmenow;x=1679", resp: "Re-watch the lecture on scaling a website", latency: 69 ms
+Request 672: req: "cmd=compareprimes;n1=968778;n2=997709;n3=954760;n4=995424", resp: "There are more primes in second range.", latency: 2298 ms
+Request 681: req: "cmd=countprimes;n=997304", resp: "78306", latency: 1883 ms
+Request 694: req: "cmd=418wisdom;x=70", resp: "You will perform amazingly on exam 2", latency: 1544 ms
+Request 738: req: "cmd=tellmenow;x=2624", resp: "There may be opportunities for caching in this assignment", latency: 79 ms
+Request 698: req: "cmd=418wisdom;x=403", resp: "Do a great project, and it all works out in the end", latency: 1539 ms
+Request 678: req: "cmd=countprimes;n=998579", resp: "78400", latency: 2242 ms
+Request 700: req: "cmd=418wisdom;x=328", resp: "Laugh at Kayvon's jokes", latency: 1576 ms
+Request 743: req: "cmd=tellmenow;x=1029", resp: "Re-watch the lecture on scaling a website", latency: 59 ms
+Request 705: req: "cmd=418wisdom;x=99", resp: "Do as best as you can and just have fun!", latency: 1451 ms
+Request 703: req: "cmd=418wisdom;x=415", resp: "Bring out all the stops in assignment 4.", latency: 1563 ms
+Request 692: req: "cmd=418wisdom;x=523", resp: "Be careful not to optimize prematurely", latency: 1908 ms
+Request 710: req: "cmd=418wisdom;x=474", resp: "Do a great project, and it all works out in the end", latency: 1382 ms
+Request 750: req: "cmd=tellmenow;x=292", resp: "Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.", latency: 59 ms
+Request 686: req: "cmd=countprimes;n=998807", resp: "78415", latency: 2211 ms
+Request 697: req: "cmd=countprimes;n=998678", resp: "78406", latency: 1942 ms
+Request 665: req: "cmd=projectidea;x=376686", resp: "Computer vision is ripe for optimization these days", latency: 3162 ms
+Request 691: req: "cmd=countprimes;n=996635", resp: "78253", latency: 2170 ms
+Request 755: req: "cmd=tellmenow;x=15", resp: "Figure out a way to understand the workload characteristics in each trace.", latency: 102 ms
+Request 712: req: "cmd=418wisdom;x=841", resp: "You are going to do a great project", latency: 1562 ms
+Request 707: req: "cmd=418wisdom;x=909", resp: "Laugh at Kayvon's jokes", latency: 1802 ms
+Request 715: req: "cmd=418wisdom;x=977", resp: "Come to lecture, there might be donuts!", latency: 1555 ms
+Request 706: req: "cmd=countprimes;n=997581", resp: "78326", latency: 1838 ms
+Request 716: req: "cmd=418wisdom;x=343", resp: "If all else fails... buy Kayvon donuts", latency: 1505 ms
+Request 760: req: "cmd=tellmenow;x=680", resp: "We recommend getting full credit on grading_wisdom.txt first", latency: 31 ms
+Request 718: req: "cmd=418wisdom;x=479", resp: "Be careful not to optimize prematurely", latency: 1583 ms
+Request 699: req: "cmd=countprimes;n=995629", resp: "78182", latency: 2249 ms
+Request 688: req: "cmd=countprimes;n=995342", resp: "78158", latency: 2586 ms
+Request 719: req: "cmd=418wisdom;x=700", resp: "Come to lecture, there might be donuts!", latency: 1552 ms
+Request 702: req: "cmd=countprimes;n=997705", resp: "78338", latency: 2235 ms
+Request 765: req: "cmd=tellmenow;x=2516", resp: "There may be opportunities for caching in this assignment", latency: 94 ms
+Request 709: req: "cmd=countprimes;n=997079", resp: "78284", latency: 2038 ms
+Request 770: req: "cmd=tellmenow;x=934", resp: "There may be opportunities for caching in this assignment", latency: 40 ms
+Request 728: req: "cmd=418wisdom;x=735", resp: "Be careful not to optimize prematurely", latency: 1465 ms
+Request 704: req: "cmd=countprimes;n=995173", resp: "78147", latency: 2336 ms
+Request 775: req: "cmd=tellmenow;x=674", resp: "There may be opportunities for caching in this assignment", latency: 20 ms
+Request 722: req: "cmd=418wisdom;x=426", resp: "Laugh at Kayvon's jokes", latency: 1781 ms
+Request 724: req: "cmd=418wisdom;x=302", resp: "Ask questions. Ask questions. Ask questions", latency: 1738 ms
+Request 739: req: "cmd=countprimes;n=998195", resp: "78372", latency: 1322 ms
+ Request 725: req: "cmd=countprimes;n=999438", resp: "78463", latency: 1720 ms
+Request 714: req: "cmd=compareprimes;n1=956080;n2=976765;n3=983675;n4=987471", resp: "There are more primes in first range.", latency: 2208 ms
+Request 732: req: "cmd=418wisdom;x=920", resp: "Flatter your TAs with compliments", latency: 1557 ms
+Request 735: req: "cmd=418wisdom;x=627", resp: "Worse is better. Keep it simple...", latency: 1503 ms
+Request 731: req: "cmd=countprimes;n=995454", resp: "78168", latency: 1600 ms
+Request 730: req: "cmd=418wisdom;x=895", resp: "Flatter your TAs with compliments", latency: 1764 ms
+Request 744: req: "cmd=countprimes;n=996310", resp: "78231", latency: 1294 ms
+Request 779: req: "cmd=tellmenow;x=1487", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 81 ms
+Request 723: req: "cmd=countprimes;n=997993", resp: "78359", latency: 1971 ms
+Request 737: req: "cmd=418wisdom;x=375", resp: "Do as best as you can and just have fun!", latency: 1583 ms
+Request 741: req: "cmd=countprimes;n=996974", resp: "78275", latency: 1435 ms
+Request 784: req: "cmd=tellmenow;x=2841", resp: "Re-watch the lecture on scaling a website", latency: 20 ms
+Request 742: req: "cmd=418wisdom;x=639", resp: "Be careful not to optimize prematurely", latency: 1605 ms
+Request 745: req: "cmd=418wisdom;x=65", resp: "You are going to do a great project", latency: 1539 ms
+Request 747: req: "cmd=418wisdom;x=84", resp: "Bring out all the stops in assignment 4.", latency: 1489 ms
+Request 721: req: "cmd=countprimes;n=996007", resp: "78208", latency: 2302 ms
+Request 789: req: "cmd=tellmenow;x=1527", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 81 ms
+Request 752: req: "cmd=418wisdom;x=61", resp: "If all else fails... buy Kayvon donuts", latency: 1452 ms
+Request 758: req: "cmd=countprimes;n=996060", resp: "78211", latency: 1271 ms
+Request 740: req: "cmd=418wisdom;x=975", resp: "Laugh at Kayvon's jokes", latency: 1935 ms
+Request 793: req: "cmd=tellmenow;x=1022", resp: "Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.", latency: 39 ms
+Request 736: req: "cmd=countprimes;n=995976", resp: "78204", latency: 2024 ms
+Request 729: req: "cmd=countprimes;n=997628", resp: "78331", latency: 2283 ms
+Request 754: req: "cmd=418wisdom;x=7", resp: "Write a great lecture comment on your favorite idea in the class", latency: 1617 ms
+Request 749: req: "cmd=418wisdom;x=750", resp: "Do a great project, and it all works out in the end", latency: 1773 ms
+Request 757: req: "cmd=418wisdom;x=394", resp: "You will PWN your classmates in the parallelism competition", latency: 1580 ms
+Request 799: req: "cmd=tellmenow;x=232", resp: "Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.", latency: 56 ms
+Request 804: req: "cmd=tellmenow;x=1721", resp: "Re-watch the lecture on scaling a website", latency: 0 ms
+Request 746: req: "cmd=countprimes;n=998200", resp: "78373", latency: 2036 ms
+Request 759: req: "cmd=418wisdom;x=519", resp: "Be careful not to optimize prematurely", latency: 1677 ms
+Request 764: req: "cmd=418wisdom;x=489", resp: "Ask questions. Ask questions. Ask questions", latency: 1565 ms
+Request 763: req: "cmd=418wisdom;x=448", resp: "Laugh at Kayvon's jokes", latency: 1681 ms
+Request 811: req: "cmd=tellmenow;x=678", resp: "Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.", latency: 0 ms
+Request 767: req: "cmd=418wisdom;x=679", resp: "Exams are all just fun and games", latency: 1579 ms
+Request 751: req: "cmd=countprimes;n=998845", resp: "78420", latency: 2124 ms
+Request 753: req: "cmd=countprimes;n=998223", resp: "78376", latency: 2059 ms
+Request 695: req: "cmd=projectidea;x=156860", resp: "Implement a parallelizing compiler.", latency: 4073 ms
+Request 771: req: "cmd=countprimes;n=998322", resp: "78382", latency: 1517 ms
+Request 772: req: "cmd=418wisdom;x=368", resp: "You are going to do a great project", latency: 1565 ms
+Request 814: req: "cmd=tellmenow;x=1102", resp: "Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.", latency: 80 ms
+Request 756: req: "cmd=countprimes;n=997203", resp: "78299", latency: 2144 ms
+Request 769: req: "cmd=418wisdom;x=423", resp: "Exams are all just fun and games", latency: 1736 ms
+Request 778: req: "cmd=418wisdom;x=777", resp: "Flatter your TAs with compliments", latency: 1518 ms
+Request 774: req: "cmd=418wisdom;x=989", resp: "You will perform amazingly on exam 2", latency: 1686 ms
+Request 818: req: "cmd=tellmenow;x=1143", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 108 ms
+Request 748: req: "cmd=countprimes;n=995144", resp: "78145", latency: 2559 ms
+Request 777: req: "cmd=418wisdom;x=261", resp: "Write a great lecture comment on your favorite idea in the class", latency: 1638 ms
+Request 734: req: "cmd=countprimes;n=995498", resp: "78170", latency: 3096 ms
+Request 826: req: "cmd=tellmenow;x=2275", resp: "Figure out a way to understand the workload characteristics in each trace.", latency: 42 ms
+Request 783: req: "cmd=418wisdom;x=63", resp: "Bring out all the stops in assignment 4.", latency: 1467 ms
+Request 827: req: "cmd=countprimes;n=999581", resp: "78471", latency: 40 ms
+Request 780: req: "cmd=418wisdom;x=431", resp: "Be careful not to optimize prematurely", latency: 1673 ms
+Request 766: req: "cmd=418wisdom;x=585", resp: "Exams are all just fun and games", latency: 2297 ms
+Request 831: req: "cmd=tellmenow;x=695", resp: "Figure out a way to understand the workload characteristics in each trace.", latency: 77 ms
+Request 762: req: "cmd=compareprimes;n1=961830;n2=973592;n3=980214;n4=991797", resp: "There are more primes in first range.", latency: 2496 ms
+Request 768: req: "cmd=countprimes;n=996645", resp: "78254", latency: 2213 ms
+Request 785: req: "cmd=countprimes;n=996200", resp: "78223", latency: 1648 ms
+Request 786: req: "cmd=418wisdom;x=864", resp: "Exams are all just fun and games", latency: 1672 ms
+Request 788: req: "cmd=418wisdom;x=702", resp: "Worse is better. Keep it simple...", latency: 1645 ms
+Request 794: req: "cmd=418wisdom;x=677", resp: "Write a great lecture comment on your favorite idea in the class", latency: 1424 ms
+Request 838: req: "cmd=tellmenow;x=2808", resp: "Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.", latency: 57 ms
+Request 776: req: "cmd=compareprimes;n1=956224;n2=974817;n3=980630;n4=982704", resp: "There are more primes in first range.", latency: 2172 ms
+Request 781: req: "cmd=418wisdom;x=358", resp: "OMG, 418 is so gr8!", latency: 1982 ms
+Request 787: req: "cmd=compareprimes;n1=964145;n2=975860;n3=981668;n4=986961", resp: "There are more primes in first range.", latency: 1824 ms
+Request 843: req: "cmd=tellmenow;x=2227", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 103 ms
+Request 761: req: "cmd=projectidea;x=146883", resp: "Investigate scale-out parallelism using Amazon web services", latency: 2863 ms
+Request 791: req: "cmd=418wisdom;x=903", resp: "If all else fails... buy Kayvon donuts", latency: 1795 ms
+Request 796: req: "cmd=418wisdom;x=119", resp: "Do as best as you can and just have fun!", latency: 1638 ms
+Request 773: req: "cmd=countprimes;n=999387", resp: "78459", latency: 2478 ms
+Request 798: req: "cmd=418wisdom;x=398", resp: "If all else fails... buy Kayvon donuts", latency: 1592 ms
+Request 847: req: "cmd=tellmenow;x=1443", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 39 ms
+Request 806: req: "cmd=418wisdom;x=948", resp: "You will PWN your classmates in the parallelism competition", latency: 1478 ms
+Request 808: req: "cmd=418wisdom;x=216", resp: "Be careful not to optimize prematurely", latency: 1448 ms
+Request 853: req: "cmd=tellmenow;x=2642", resp: "Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.", latency: 40 ms
+Request 800: req: "cmd=countprimes;n=999056", resp: "78438", latency: 1706 ms
+Request 797: req: "cmd=countprimes;n=998624", resp: "78402", latency: 1909 ms
+Request 792: req: "cmd=418wisdom;x=452", resp: "Be careful not to optimize prematurely", latency: 2166 ms
+Request 782: req: "cmd=countprimes;n=995680", resp: "78187", latency: 2466 ms
+Request 858: req: "cmd=tellmenow;x=1077", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 90 ms
+Request 805: req: "cmd=countprimes;n=997119", resp: "78291", latency: 1779 ms
+Request 813: req: "cmd=418wisdom;x=378", resp: "Worse is better. Keep it simple...", latency: 1490 ms
+Request 817: req: "cmd=418wisdom;x=151", resp: "Do as best as you can and just have fun!", latency: 1397 ms
+Request 801: req: "cmd=418wisdom;x=207", resp: "Come to lecture, there might be donuts!", latency: 2004 ms
+Request 803: req: "cmd=418wisdom;x=42", resp: "Do as best as you can and just have fun!", latency: 1932 ms
+Request 865: req: "cmd=tellmenow;x=1153", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 77 ms
+Request 821: req: "cmd=418wisdom;x=989", resp: "You will perform amazingly on exam 2", latency: 1475 ms
+Request 810: req: "cmd=418wisdom;x=146", resp: "Exams are all just fun and games", latency: 1844 ms
+Request 802: req: "cmd=countprimes;n=999974", resp: "78496", latency: 2128 ms
+Request 870: req: "cmd=tellmenow;x=388", resp: "Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.", latency: 80 ms
+Request 823: req: "cmd=418wisdom;x=983", resp: "If all else fails... buy Kayvon donuts", latency: 1531 ms
+Request 825: req: "cmd=418wisdom;x=148", resp: "If all else fails... buy Kayvon donuts", latency: 1500 ms
+Request 815: req: "cmd=418wisdom;x=546", resp: "Come to lecture, there might be donuts!", latency: 1785 ms
+Request 816: req: "cmd=countprimes;n=997446", resp: "78319", latency: 1752 ms
+Request 809: req: "cmd=compareprimes;n1=964389;n2=972044;n3=976336;n4=983061", resp: "There are more primes in first range.", latency: 2071 ms
+Request 812: req: "cmd=418wisdom;x=198", resp: "Exams are all just fun and games", latency: 2001 ms
+Request 877: req: "cmd=tellmenow;x=2336", resp: "There may be opportunities for caching in this assignment", latency: 76 ms
+Request 795: req: "cmd=countprimes;n=997539", resp: "78322", latency: 2589 ms
+Request 830: req: "cmd=418wisdom;x=680", resp: "If all else fails... buy Kayvon donuts", latency: 1538 ms
+Request 820: req: "cmd=countprimes;n=995743", resp: "78191", latency: 1820 ms
+Request 807: req: "cmd=countprimes;n=996894", resp: "78271", latency: 2291 ms
+Request 839: req: "cmd=countprimes;n=996228", resp: "78225", latency: 1317 ms
+Request 882: req: "cmd=tellmenow;x=1203", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 79 ms
+Request 835: req: "cmd=418wisdom;x=495", resp: "OMG, 418 is so gr8!", latency: 1602 ms
+Request 828: req: "cmd=418wisdom;x=406", resp: "Laugh at Kayvon's jokes", latency: 1818 ms
+Request 840: req: "cmd=418wisdom;x=322", resp: "You will perform amazingly on exam 2", latency: 1508 ms
+Request 842: req: "cmd=418wisdom;x=498", resp: "Be careful not to optimize prematurely", latency: 1439 ms
+Request 890: req: "cmd=tellmenow;x=1501", resp: "Re-watch the lecture on scaling a website", latency: 58 ms
+Request 824: req: "cmd=countprimes;n=999709", resp: "78480", latency: 2040 ms
+Request 896: req: "cmd=tellmenow;x=1413", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 40 ms
+Request 833: req: "cmd=418wisdom;x=878", resp: "If all else fails... buy Kayvon donuts", latency: 1917 ms
+Request 832: req: "cmd=countprimes;n=996494", resp: "78242", latency: 1929 ms
+Request 845: req: "cmd=418wisdom;x=670", resp: "You are going to do a great project", latency: 1541 ms
+Request 829: req: "cmd=countprimes;n=999685", resp: "78480", latency: 2038 ms
+Request 836: req: "cmd=countprimes;n=999634", resp: "78476", latency: 1966 ms
+ Request 822: req: "cmd=countprimes;n=996324", resp: "78233", latency: 2386 ms
+Request 902: req: "cmd=tellmenow;x=1969", resp: "Re-watch the lecture on scaling a website", latency: 115 ms
+Request 850: req: "cmd=418wisdom;x=218", resp: "You are going to do a great project", latency: 1555 ms
+Request 837: req: "cmd=418wisdom;x=917", resp: "Worse is better. Keep it simple...", latency: 2038 ms
+Request 854: req: "cmd=418wisdom;x=340", resp: "Ask questions. Ask questions. Ask questions", latency: 1566 ms
+Request 909: req: "cmd=tellmenow;x=1122", resp: "Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.", latency: 101 ms
+Request 849: req: "cmd=countprimes;n=997929", resp: "78353", latency: 1742 ms
+Request 864: req: "cmd=countprimes;n=995065", resp: "78142", latency: 1348 ms
+Request 844: req: "cmd=418wisdom;x=499", resp: "Exams are all just fun and games", latency: 1963 ms
+Request 859: req: "cmd=418wisdom;x=899", resp: "Worse is better. Keep it simple...", latency: 1538 ms
+ Request 856: req: "cmd=418wisdom;x=963", resp: "Flatter your TAs with compliments", latency: 1606 ms
+Request 846: req: "cmd=418wisdom;x=202", resp: "Do a great project, and it all works out in the end", latency: 1879 ms
+Request 848: req: "cmd=418wisdom;x=610", resp: "Ask questions. Ask questions. Ask questions", latency: 1887 ms
+Request 834: req: "cmd=countprimes;n=995426", resp: "78165", latency: 2371 ms
+ Request 914: req: "cmd=tellmenow;x=2748", resp: "Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.", latency: 120 ms
+Request 861: req: "cmd=418wisdom;x=818", resp: "You are going to do a great project", latency: 1554 ms
+Request 855: req: "cmd=countprimes;n=998127", resp: "78369", latency: 1769 ms
+Request 851: req: "cmd=countprimes;n=998965", resp: "78430", latency: 1912 ms
+Request 841: req: "cmd=compareprimes;n1=984180;n2=993042;n3=973283;n4=979467", resp: "There are more primes in first range.", latency: 2270 ms
+Request 921: req: "cmd=tellmenow;x=1296", resp: "There may be opportunities for caching in this assignment", latency: 63 ms
+Request 863: req: "cmd=418wisdom;x=35", resp: "If all else fails... buy Kayvon donuts", latency: 1626 ms
+Request 866: req: "cmd=418wisdom;x=148", resp: "If all else fails... buy Kayvon donuts", latency: 1558 ms
+Request 819: req: "cmd=projectidea;x=920870", resp: "Implement a cache simulator that supports invalidation-based coherence.", latency: 2986 ms
+Request 868: req: "cmd=418wisdom;x=257", resp: "Be careful not to optimize prematurely", latency: 1576 ms
+Request 857: req: "cmd=countprimes;n=997906", resp: "78353", latency: 1936 ms
+Request 871: req: "cmd=418wisdom;x=784", resp: "Bring out all the stops in assignment 4.", latency: 1532 ms
+Request 867: req: "cmd=countprimes;n=998005", resp: "78359", latency: 1729 ms
+Request 927: req: "cmd=tellmenow;x=1078", resp: "Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.", latency: 112 ms
+Request 869: req: "cmd=countprimes;n=995721", resp: "78190", latency: 1715 ms
+Request 936: req: "cmd=countprimes;n=997119", resp: "78291", latency: 32 ms
+Request 934: req: "cmd=tellmenow;x=1203", resp: "The best performance may come from a particular mixture of jobs on a worker node.", latency: 73 ms
+Request 872: req: "cmd=countprimes;n=995771", resp: "78192", latency: 1749 ms
+Request 873: req: "cmd=418wisdom;x=843", resp: "Flatter your TAs with compliments", latency: 1693 ms
+Request 878: req: "cmd=418wisdom;x=718", resp: "OMG, 418 is so gr8!", latency: 1561 ms
+Request 879: req: "cmd=countprimes;n=996347", resp: "78234", latency: 1589 ms
+Request 875: req: "cmd=418wisdom;x=583", resp: "Worse is better. Keep it simple...", latency: 1656 ms
+Request 790: req: "cmd=projectidea;x=174614", resp: "Consider large-scale graph algorithms", latency: 4343 ms
+Request 874: req: "cmd=countprimes;n=999106", resp: "78442", latency: 1767 ms
+Request 885: req: "cmd=418wisdom;x=84", resp: "Bring out all the stops in assignment 4.", latency: 1476 ms
+Request 860: req: "cmd=countprimes;n=997589", resp: "78327", latency: 2238 ms
+Request 883: req: "cmd=418wisdom;x=66", resp: "You will PWN your classmates in the parallelism competition", latency: 1609 ms
+Request 939: req: "cmd=tellmenow;x=2299", resp: "Re-watch the lecture on scaling a website", latency: 131 ms
+Request 892: req: "cmd=countprimes;n=998186", resp: "78372", latency: 1468 ms
+Request 945: req: "cmd=tellmenow;x=2980", resp: "We recommend getting full credit on grading_wisdom.txt first", latency: 40 ms
+Request 891: req: "cmd=418wisdom;x=39", resp: "Be careful not to optimize prematurely", latency: 1553 ms
+Request 899: req: "cmd=countprimes;n=997963", resp: "78356", latency: 1367 ms
+Request 862: req: "cmd=countprimes;n=998251", resp: "78378", latency: 2412 ms
+Request 886: req: "cmd=countprimes;n=995706", resp: "78188", latency: 1752 ms
+Request 893: req: "cmd=418wisdom;x=225", resp: "Come to lecture, there might be donuts!", latency: 1587 ms
+Request 887: req: "cmd=418wisdom;x=869", resp: "Write a great lecture comment on your favorite idea in the class", latency: 1718 ms
+Request 950: req: "cmd=tellmenow;x=2600", resp: "We recommend getting full credit on grading_wisdom.txt first", latency: 47 ms
+Request 888: req: "cmd=countprimes;n=995293", resp: "78153", latency: 1748 ms
+Request 880: req: "cmd=418wisdom;x=807", resp: "Ask questions. Ask questions. Ask questions", latency: 1956 ms
+Request 897: req: "cmd=countprimes;n=996209", resp: "78223", latency: 1600 ms
+Request 898: req: "cmd=418wisdom;x=15", resp: "Be careful not to optimize prematurely", latency: 1623 ms
+Request 900: req: "cmd=418wisdom;x=844", resp: "Ask questions. Ask questions. Ask questions", latency: 1558 ms
+Request 876: req: "cmd=countprimes;n=995339", resp: "78156", latency: 2216 ms
+Request 903: req: "cmd=418wisdom;x=330", resp: "You will perform amazingly on exam 2", latency: 1528 ms
+Request 955: req: "cmd=tellmenow;x=1439", resp: "Re-watch the lecture on scaling a website", latency: 127 ms
+Request 852: req: "cmd=projectidea;x=640120", resp: "Implement a parallelizing compiler.", latency: 2932 ms
+Request 907: req: "cmd=418wisdom;x=148", resp: "If all else fails... buy Kayvon donuts", latency: 1468 ms
+Request 961: req: "cmd=tellmenow;x=874", resp: "There may be opportunities for caching in this assignment", latency: 80 ms
+Request 905: req: "cmd=418wisdom;x=160", resp: "Do a great project, and it all works out in the end", latency: 1625 ms
+Request 904: req: "cmd=countprimes;n=996598", resp: "78248", latency: 1691 ms
+Request 901: req: "cmd=countprimes;n=999363", resp: "78457", latency: 1794 ms
+Request 911: req: "cmd=countprimes;n=998554", resp: "78399", latency: 1539 ms
+Request 884: req: "cmd=countprimes;n=999960", resp: "78495", latency: 2266 ms
+Request 910: req: "cmd=418wisdom;x=656", resp: "Come to lecture, there might be donuts!", latency: 1589 ms
+Request 894: req: "cmd=countprimes;n=995110", resp: "78143", latency: 2064 ms
+Request 881: req: "cmd=countprimes;n=998901", resp: "78423", latency: 2394 ms
+Request 895: req: "cmd=418wisdom;x=40", resp: "Worse is better. Keep it simple...", latency: 2034 ms
+Request 917: req: "cmd=418wisdom;x=901", resp: "OMG, 418 is so gr8!", latency: 1479 ms
+Request 966: req: "cmd=tellmenow;x=1338", resp: "Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.", latency: 115 ms
+Request 912: req: "cmd=418wisdom;x=969", resp: "Bring out all the stops in assignment 4.", latency: 1621 ms
+Request 919: req: "cmd=418wisdom;x=502", resp: "Be careful not to optimize prematurely", latency: 1437 ms
+Request 906: req: "cmd=countprimes;n=998826", resp: "78417", latency: 1842 ms
+Request 915: req: "cmd=418wisdom;x=505", resp: "Come to lecture, there might be donuts!", latency: 1661 ms
+Request 969: req: "cmd=tellmenow;x=1032", resp: "Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.", latency: 80 ms
+Request 922: req: "cmd=418wisdom;x=574", resp: "You will perform amazingly on exam 2", latency: 1572 ms
+Request 908: req: "cmd=countprimes;n=997596", resp: "78328", latency: 1995 ms
+ Request 918: req: "cmd=countprimes;n=997226", resp: "78301", latency: 1738 msRequest 928: req: "cmd=418wisdom;x=805", resp: "Write a great lecture comment on your favorite idea in the class", latency: 1483 ms
+
+Request 976: req: "cmd=tellmenow;x=730", resp: "We recommend getting full credit on grading_wisdom.txt first", latency: 41 ms
+Request 924: req: "cmd=418wisdom;x=679", resp: "Exams are all just fun and games", latency: 1639 ms
+Request 982: req: "cmd=tellmenow;x=561", resp: "Re-watch the lecture on scaling a website", latency: 40 ms
+Request 935: req: "cmd=418wisdom;x=747", resp: "If all else fails... buy Kayvon donuts", latency: 1578 ms
+Request 930: req: "cmd=418wisdom;x=758", resp: "Be careful not to optimize prematurely", latency: 1712 ms
+Request 937: req: "cmd=418wisdom;x=906", resp: "Laugh at Kayvon's jokes", latency: 1523 ms
+Request 932: req: "cmd=418wisdom;x=991", resp: "Come to lecture, there might be donuts!", latency: 1695 ms
+Request 988: req: "cmd=tellmenow;x=2868", resp: "Yes, you can optimize for specific traces but you don't have to. A general schedule algorithm works.", latency: 57 ms
+Request 913: req: "cmd=countprimes;n=998279", resp: "78379", latency: 2289 ms
+Request 940: req: "cmd=418wisdom;x=206", resp: "Do as best as you can and just have fun!", latency: 1591 ms
+Request 995: req: "cmd=countprimes;n=998185", resp: "", latency: 30 ms
+ERROR: incorrect response to req 995: (req: cmd=countprimes;n=998185)
+       expected: '78372'
+       received: ''
+Request 944: req: "cmd=418wisdom;x=599", resp: "You are going to do a great project", latency: 1506 ms
+Cleaning up after a completed test...
