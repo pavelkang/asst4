@@ -1,0 +1,96 @@
+Waiting for server to initialize...
+Server ready, beginning trace...
+Request 0: req: "cmd=projectidea;x=84443", resp: "Implement a parallelizing compiler.", latency: 10163 ms
+Request 1: req: "cmd=projectidea;x=75796", resp: "Parallelize an algorithm you are working on for research.", latency: 18964 ms
+Request 3: req: "cmd=projectidea;x=25891", resp: "Investigate scale-out parallelism using Amazon web services", latency: 15658 ms
+Request 2: req: "cmd=projectidea;x=42057", resp: "Measure the energy consumption of a device when running an interesting workload", latency: 17722 ms
+Request 4: req: "cmd=projectidea;x=51127", resp: "Investigate scale-out parallelism using Amazon web services", latency: 18177 ms
+Request 5: req: "cmd=projectidea;x=40493", resp: "There are also great projects on parallelizing graphics, comptuer vision, or machine learning.", latency: 21665 ms
+Request 6: req: "cmd=projectidea;x=78380", resp: "Implement a cache simulator that supports invalidation-based coherence.", latency: 23428 ms
+Request 7: req: "cmd=projectidea;x=30331", resp: "Play around with interesting hardware, like FPGAs, Raspberry PIs, Tegra K1, or Oculus Rift", latency: 21923 ms
+Request 8: req: "cmd=projectidea;x=47660", resp: "Parallelize an algorithm you are interested in on Latedays.", latency: 25037 ms
+Request 9: req: "cmd=projectidea;x=58338", resp: "Parallelize an algorithm you are interested in on Latedays.", latency: 28186 ms
+Request 40: req: "cmd=lastrequest", resp: "ack", latency: 0 ms
+Request 10: req: "cmd=projectidea;x=90812", resp: "Measure the energy consumption of a device when running an interesting workload", latency: 30345 ms
+Request 11: req: "cmd=projectidea;x=50469", resp: "Consider large-scale graph algorithms", latency: 29339 ms
+Request 12: req: "cmd=projectidea;x=28184", resp: "Play around with interesting hardware, like FPGAs, Raspberry PIs, Tegra K1, or Oculus Rift", latency: 32024 ms
+Request 14: req: "cmd=projectidea;x=61837", resp: "Computer vision is ripe for optimization these days", latency: 32796 ms
+Request 13: req: "cmd=projectidea;x=75581", resp: "Measure the energy consumption of a device when running an interesting workload", latency: 34614 ms
+Request 15: req: "cmd=projectidea;x=25050", resp: "Measure the energy consumption of a device when running an interesting workload", latency: 36954 ms
+Request 16: req: "cmd=projectidea;x=90975", resp: "Parallelize an algorithm you are interested in on Latedays.", latency: 39489 ms
+Request 18: req: "cmd=projectidea;x=81022", resp: "There are also great projects on parallelizing graphics, comptuer vision, or machine learning.", latency: 37583 ms
+Request 17: req: "cmd=projectidea;x=98279", resp: "Investigate scale-out parallelism using Amazon web services", latency: 40832 ms
+Request 19: req: "cmd=projectidea;x=90217", resp: "Check out last year's parallelism computation page for more ideas", latency: 43610 ms
+Request 20: req: "cmd=projectidea;x=31015", resp: "Implement a parallelizing compiler.", latency: 45305 ms
+Request 21: req: "cmd=projectidea;x=72983", resp: "Consider large-scale graph algorithms", latency: 45951 ms
+Request 22: req: "cmd=projectidea;x=89884", resp: "Implement a cache simulator that supports invalidation-based coherence.", latency: 47669 ms
+Request 23: req: "cmd=projectidea;x=68399", resp: "Implement a parallelizing compiler.", latency: 51401 ms
+Request 24: req: "cmd=projectidea;x=47214", resp: "Play around with interesting hardware, like FPGAs, Raspberry PIs, Tegra K1, or Oculus Rift", latency: 51707 ms
+Request 25: req: "cmd=projectidea;x=10070", resp: "Check out last year's parallelism computation page for more ideas", latency: 55391 ms
+Request 26: req: "cmd=projectidea;x=43417", resp: "Implement a parallelizing compiler.", latency: 59068 ms
+Request 27: req: "cmd=projectidea;x=61089", resp: "Implement a parallelizing compiler.", latency: 60294 ms
+Request 28: req: "cmd=projectidea;x=91302", resp: "Consider large-scale graph algorithms", latency: 60077 ms
+Request 29: req: "cmd=projectidea;x=96661", resp: "Use a modern parallel programming framework that we didn't teach in class.", latency: 63224 ms
+Request 30: req: "cmd=projectidea;x=47701", resp: "Use a modern parallel programming framework that we didn't teach in class.", latency: 67690 ms
+Request 31: req: "cmd=projectidea;x=86531", resp: "Measure the energy consumption of a device when running an interesting workload", latency: 68226 ms
+Request 32: req: "cmd=projectidea;x=26049", resp: "Play around with interesting hardware, like FPGAs, Raspberry PIs, Tegra K1, or Oculus Rift", latency: 68708 ms
+Request 33: req: "cmd=projectidea;x=80503", resp: "There are also great projects on parallelizing graphics, comptuer vision, or machine learning.", latency: 68720 ms
+Request 36: req: "cmd=projectidea;x=71971", resp: "Computer vision is ripe for optimization these days", latency: 72958 ms
+Request 34: req: "cmd=projectidea;x=54870", resp: "Investigate scale-out parallelism using Amazon web services", latency: 76552 ms
+Request 37: req: "cmd=projectidea;x=39882", resp: "Implement a cache simulator that supports invalidation-based coherence.", latency: 75570 ms
+Request 35: req: "cmd=projectidea;x=1404", resp: "Computer vision is ripe for optimization these days", latency: 77534 ms
+Request 38: req: "cmd=projectidea;x=82485", resp: "Use a modern parallel programming framework that we didn't teach in class.", latency: 79271 ms
+Request 39: req: "cmd=projectidea;x=66815", resp: "Play around with interesting hardware, like FPGAs, Raspberry PIs, Tegra K1, or Oculus Rift", latency: 79597 ms
+
+--- Results Summary ---
+
+[0] Request: cmd=projectidea;x=84443, success: YES, latency: 10163
+[1] Request: cmd=projectidea;x=75796, success: YES, latency: 18964
+[2] Request: cmd=projectidea;x=42057, success: YES, latency: 17722
+[3] Request: cmd=projectidea;x=25891, success: YES, latency: 15658
+[4] Request: cmd=projectidea;x=51127, success: YES, latency: 18177
+[5] Request: cmd=projectidea;x=40493, success: YES, latency: 21665
+[6] Request: cmd=projectidea;x=78380, success: YES, latency: 23428
+[7] Request: cmd=projectidea;x=30331, success: YES, latency: 21923
+[8] Request: cmd=projectidea;x=47660, success: YES, latency: 25037
+[9] Request: cmd=projectidea;x=58338, success: YES, latency: 28186
+[10] Request: cmd=projectidea;x=90812, success: YES, latency: 30345
+[11] Request: cmd=projectidea;x=50469, success: YES, latency: 29339
+[12] Request: cmd=projectidea;x=28184, success: YES, latency: 32024
+[13] Request: cmd=projectidea;x=75581, success: YES, latency: 34614
+[14] Request: cmd=projectidea;x=61837, success: YES, latency: 32796
+[15] Request: cmd=projectidea;x=25050, success: YES, latency: 36954
+[16] Request: cmd=projectidea;x=90975, success: YES, latency: 39489
+[17] Request: cmd=projectidea;x=98279, success: YES, latency: 40832
+[18] Request: cmd=projectidea;x=81022, success: YES, latency: 37583
+[19] Request: cmd=projectidea;x=90217, success: YES, latency: 43610
+[20] Request: cmd=projectidea;x=31015, success: YES, latency: 45305
+[21] Request: cmd=projectidea;x=72983, success: YES, latency: 45951
+[22] Request: cmd=projectidea;x=89884, success: YES, latency: 47669
+[23] Request: cmd=projectidea;x=68399, success: YES, latency: 51401
+[24] Request: cmd=projectidea;x=47214, success: YES, latency: 51707
+[25] Request: cmd=projectidea;x=10070, success: YES, latency: 55391
+[26] Request: cmd=projectidea;x=43417, success: YES, latency: 59068
+[27] Request: cmd=projectidea;x=61089, success: YES, latency: 60294
+[28] Request: cmd=projectidea;x=91302, success: YES, latency: 60077
+[29] Request: cmd=projectidea;x=96661, success: YES, latency: 63224
+[30] Request: cmd=projectidea;x=47701, success: YES, latency: 67690
+[31] Request: cmd=projectidea;x=86531, success: YES, latency: 68226
+[32] Request: cmd=projectidea;x=26049, success: YES, latency: 68708
+[33] Request: cmd=projectidea;x=80503, success: YES, latency: 68720
+[34] Request: cmd=projectidea;x=54870, success: YES, latency: 76552
+[35] Request: cmd=projectidea;x=1404, success: YES, latency: 77534
+[36] Request: cmd=projectidea;x=71971, success: YES, latency: 72958
+[37] Request: cmd=projectidea;x=39882, success: YES, latency: 75570
+[38] Request: cmd=projectidea;x=82485, success: YES, latency: 79271
+[39] Request: cmd=projectidea;x=66815, success: YES, latency: 79597
+
+*** The results are correct! ***
+
+Avg request latency:  45836.06 ms
+Total test time:      124.14 sec
+Workers booted:       4
+Compute used:         463.54 sec
+
+No grading harness for this test
+

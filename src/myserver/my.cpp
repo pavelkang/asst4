@@ -171,12 +171,20 @@ void send_memjob() {
   }
   while (free_mems > 0 && mstate.pending_bandwidth_work.size() > 0) {
     free_mems--;
+    int t_num = MAX_INT;
+    Worker_handle worker_handle = mstate.my_workers[0]->handle;
+    // find the least busy worker
+    for (auto& w: mstate.my_workers) {
+      if (w->mem_load == 0 && w->load < t_num) {
+        worker_handle = w->handle;
+        t_num = w->load;
+      }
+    }
     Work *mem_job = mstate.pending_bandwidth_work.front();
-    mstate.pending_bandwidth_work.pop();
-    Worker *worker = find_worker(1, 1);
     int tag = find_tag_by_work(mem_job);
     Request_msg req(tag, mem_job->client_req);
-    Send_Request_To_Worker(worker->handle, req, 1);
+    Send_Request_To_Worker(worker_handle, req, true);
+    mstate.pending_bandwidth_work.pop();
   }
 }
 

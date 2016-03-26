@@ -1,0 +1,49 @@
+Log file created at: 2016/03/25 16:31:23
+Running on machine: unix1.andrew.cmu.edu
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0325 16:31:23.373674 25871 main_loop.cpp:73] Requesting worker name=my worker 0;tag=1804289383
+I0325 16:31:24.881935 25871 master.cpp:157] Received request: cmd=projectidea;x=84443
+I0325 16:31:26.881743 25871 master.cpp:157] Received request: cmd=projectidea;x=75796
+I0325 16:31:28.805743 25871 master.cpp:157] Received request: cmd=projectidea;x=42057
+I0325 16:31:30.654832 25871 master.cpp:157] Received request: cmd=projectidea;x=25891
+I0325 16:31:32.433794 25871 master.cpp:157] Received request: cmd=projectidea;x=51127
+I0325 16:31:32.433822 25871 main_loop.cpp:73] Requesting worker name=my worker 0;tag=846930886
+I0325 16:31:34.144443 25871 master.cpp:157] Received request: cmd=projectidea;x=40493
+I0325 16:31:35.789609 25871 master.cpp:157] Received request: cmd=projectidea;x=78380
+I0325 16:31:35.789638 25871 main_loop.cpp:73] Requesting worker name=my worker 0;tag=1681692777
+I0325 16:31:37.371481 25871 master.cpp:157] Received request: cmd=projectidea;x=30331
+I0325 16:31:37.371552 25871 main_loop.cpp:73] Requesting worker name=my worker 0;tag=1714636915
+I0325 16:31:38.892061 25871 master.cpp:157] Received request: cmd=projectidea;x=47660
+I0325 16:31:40.355240 25871 master.cpp:157] Received request: cmd=projectidea;x=58338
+I0325 16:31:41.762187 25871 master.cpp:157] Received request: cmd=projectidea;x=90812
+I0325 16:31:43.127341 25871 master.cpp:157] Received request: cmd=projectidea;x=50469
+I0325 16:31:44.415761 25871 master.cpp:157] Received request: cmd=projectidea;x=28184
+I0325 16:31:45.666779 25871 master.cpp:157] Received request: cmd=projectidea;x=75581
+I0325 16:31:46.869859 25871 master.cpp:157] Received request: cmd=projectidea;x=61837
+I0325 16:31:48.027221 25871 master.cpp:157] Received request: cmd=projectidea;x=25050
+I0325 16:31:49.139755 25871 master.cpp:157] Received request: cmd=projectidea;x=90975
+I0325 16:31:50.210024 25871 master.cpp:157] Received request: cmd=projectidea;x=98279
+I0325 16:31:51.239315 25871 master.cpp:157] Received request: cmd=projectidea;x=81022
+I0325 16:31:52.228699 25871 master.cpp:157] Received request: cmd=projectidea;x=90217
+I0325 16:31:53.180063 25871 master.cpp:157] Received request: cmd=projectidea;x=31015
+I0325 16:31:54.095469 25871 master.cpp:157] Received request: cmd=projectidea;x=72983
+I0325 16:31:54.976142 25871 master.cpp:157] Received request: cmd=projectidea;x=89884
+I0325 16:31:55.825812 25871 master.cpp:157] Received request: cmd=projectidea;x=68399
+I0325 16:31:56.675967 25871 master.cpp:157] Received request: cmd=projectidea;x=47214
+I0325 16:31:57.526008 25871 master.cpp:157] Received request: cmd=projectidea;x=10070
+I0325 16:31:58.375871 25871 master.cpp:157] Received request: cmd=projectidea;x=43417
+I0325 16:31:59.226150 25871 master.cpp:157] Received request: cmd=projectidea;x=61089
+I0325 16:32:00.076587 25871 master.cpp:157] Received request: cmd=projectidea;x=91302
+I0325 16:32:00.938632 25871 master.cpp:157] Received request: cmd=projectidea;x=96661
+I0325 16:32:01.782603 25871 master.cpp:157] Received request: cmd=projectidea;x=47701
+I0325 16:32:02.625908 25871 master.cpp:157] Received request: cmd=projectidea;x=86531
+I0325 16:32:03.475605 25871 master.cpp:157] Received request: cmd=projectidea;x=26049
+I0325 16:32:04.325870 25871 master.cpp:157] Received request: cmd=projectidea;x=80503
+I0325 16:32:05.175478 25871 master.cpp:157] Received request: cmd=projectidea;x=54870
+I0325 16:32:06.025858 25871 master.cpp:157] Received request: cmd=projectidea;x=1404
+I0325 16:32:06.875813 25871 master.cpp:157] Received request: cmd=projectidea;x=71971
+I0325 16:32:07.725527 25871 master.cpp:157] Received request: cmd=projectidea;x=39882
+I0325 16:32:08.575680 25871 master.cpp:157] Received request: cmd=projectidea;x=82485
+I0325 16:32:09.426116 25871 master.cpp:157] Received request: cmd=projectidea;x=66815
+I0325 16:32:09.925469 25871 master.cpp:157] Received request: cmd=lastrequest
+I0325 16:33:22.723667 25871 main_loop.cpp:138] Shutting down

@@ -1,0 +1,17 @@
+Log file created at: 2016/03/25 16:31:32
+Running on machine: unix1.andrew.cmu.edu
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0325 16:31:32.440553 26216 main.cpp:49] Booting worker. Hostname: unix1.andrew.cmu.edu
+I0325 16:31:33.443470 26216 main.cpp:62] Connected to master unix1.andrew.cmu.edu:15419
+I0325 16:31:33.443508 26216 worker.cpp:46] **** Initializing worker: my worker 0 ****
+I0325 16:31:34.144606 26216 worker.cpp:62] Worker got request: [5:cmd=projectidea;x=40493]
+I0325 16:31:41.762370 26216 worker.cpp:62] Worker got request: [10:cmd=projectidea;x=90812]
+I0325 16:31:55.826027 26216 worker.cpp:62] Worker got request: [23:cmd=projectidea;x=68399]
+I0325 16:32:08.377882 26216 worker.cpp:62] Worker got request: [37:cmd=projectidea;x=39882]
+I0325 16:32:19.377835 26216 worker.cpp:62] Worker got request: [34:cmd=projectidea;x=54870]
+I0325 16:32:31.378115 26216 worker.cpp:62] Worker got request: [28:cmd=projectidea;x=91302]
+I0325 16:32:42.377683 26216 worker.cpp:62] Worker got request: [24:cmd=projectidea;x=47214]
+I0325 16:32:52.378011 26216 worker.cpp:62] Worker got request: [17:cmd=projectidea;x=98279]
+I0325 16:33:02.377378 26216 worker.cpp:62] Worker got request: [12:cmd=projectidea;x=28184]
+I0325 16:33:13.378010 26216 worker.cpp:62] Worker got request: [1:cmd=projectidea;x=75796]
+I0325 16:33:22.725563 26216 main.cpp:103] Worker on unix1.andrew.cmu.edu is shutting down (master terminated connection)
